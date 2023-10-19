@@ -1,74 +1,73 @@
 ---
-description: Découvrez ce qu'est Dastra.
+beschrijving: Ontdek wat Dastra is.
 ---
 
-# Introduction à Dastra
+# Introductie tot Dastra
 
-**Dastra** est une solution de protection des données personnelles avec laquelle les équipes en charge de la protection des données peuvent piloter et gérer tous les cas d'utilisation du RGPD, de la gestion de l'enregistrement des activités de traitement à la mise en œuvre d'un widget de cookies sur leurs sites Web.
+**Dastra** is een gegevensbeschermingsoplossing waarmee gegevensbeschermingsteams alle RGPD-gebruiksgevallen kunnen aansturen en beheren, van het beheren van de registratie van verwerkingsactiviteiten tot het implementeren van een cookie-widget op hun websites.
 
-Nous voulons aider les équipes de protection des données à **sensibiliser** toute leur entreprise et **améliorer l'expérience** du RGPD à l'aide d'une solution  épurée apportant une réponse unique aux différents besoins RGPD des organisations, à travers  :
+Wij streven ernaar om gegevensbeschermingsteams te helpen bij het **vergroten van het bewustzijn** in hun bedrijf en **verbeteren van de RGPD-ervaring** met een gestroomlijnde oplossing die één antwoord biedt op de verschillende RGPD-behoeften van organisaties, door middel van:
 
-* Une **interface** rapide, intuitive et ergonomique&#x20;
-* Une **collaboration** fructueuse entre les différents acteurs concernés par la RGPD
-* Un **gain de temps** dans la gestion au quotidien de la conformité
-* De nouveaux **services** et fonctionnalités de mise en conformité et de pilotage
-* Une approche pédagogique **guidée** permettant de responsabiliser les non-experts pas à pas
+* Een snelle, intuïtieve en gebruiksvriendelijke **interface**;
+* vruchtbare **samenwerking** tussen de verschillende spelers die betrokken zijn bij RGPD.
+* Tijdsbesparingen** in het dagelijkse compliancebeheer
+* Nieuwe **diensten** en functionaliteiten** voor naleving en beheer
+* Een **begeleide** pedagogische aanpak waardoor niet-experts stap voor stap verantwoordelijkheid kunnen nemen.
 
-Chez Dastra, nous pensons que la protection des données n'est pas uniquement une affaire de juridique, c'est aussi **une affaire de code, d'expertise, de gestion de projet et d'opérationnel.**&#x20;
+Bij Dastra geloven we dat gegevensbescherming niet alleen een juridische kwestie is, maar ook **een kwestie van code, expertise, projectmanagement en operaties**&#x20;
 
-Pour plus d'informations, consultez notre [manifesto](https://www.dastra.eu/fr/mission).
+Zie voor meer informatie ons [manifest](https://www.dastra.eu/fr/mission).
 
-## Avec Dastra vous pouvez:
+## Met Dastra kunt u:
 
-* **Cartographier vos données personnelles** en créant et en conservant votre dossier de traitement grâce à une interface souple et intuitive, des référentiels, des bibliothèques et un questionnaire, et **constituer, partager** et **exporter** votre registre de traitement.
+* **Uw persoonlijke gegevens** in kaart brengen door uw Verwerkingsdossier aan te maken en te onderhouden met behulp van een flexibele en intuïtieve interface, repositories, bibliotheken en een vragenlijst, en **uw Verwerkingsdossier aanmaken, delen** en **exporteren**.
 
-![](<.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+(<.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
-* **Identifiez vos risques, et réalisez des audits** pour évaluer les priorités.
+* Identificeer uw risico's en voer audits** uit om prioriteiten te beoordelen.
 
-![](<.gitbook/assets/image (135).png>)
+(<.gitbook/assets/image (135).png>)
 
-* **Générez un plan d'action, allouez des tâches** et **collaborer avec votre réseau,** pour mieux protéger réellement vos données.
+* Stel een actieplan op, wijs taken toe** en **werk samen met uw netwerk,** om uw gegevens echt te beschermen.
 
-![](<.gitbook/assets/image (5) (1) (1).png>)
+(<.gitbook/assets/image (5) (1) (1).png>)
 
-* **Implémentez les processus internes** tels que la mise en place de la gestion des exercices de droits, la gestion des consentements de cookie ou la tenue d'un registre des violations de données:
+* **Implementeer interne processen** zoals het instellen van het beheer van uitoefening van rechten, het beheren van cookietoestemmingen of het bijhouden van een register van datalekken:
 
-![Le registre des demandes d'exercices de droit](<.gitbook/assets/image (142).png>)
+![Het aanvraagregister voor het uitoefenen van rechten](<.gitbook/assets/image (142).png>)
 
-![La création d'un widget de collecte des consentements cookies](<.gitbook/assets/image (144).png>)
+Het maken van een cookie toestemmingswidget](<.gitbook/assets/afbeelding (144).png>)
 
-![Le questionnaire de violation de données](<.gitbook/assets/image (143).png>)
+De vragenlijst over datalekken](<.gitbook/assets/image (143).png>)
 
-* **Centralisez la documentation** permettant de répondre à la conformité RGPD.
+* **Centraliseer de documentatie** waardoor aan de RGPD kan worden voldaan.
 
-![Le module de Référentiels, regroupant toutes les données et fichiers de votre espace de travail ](<.gitbook/assets/Capture web\_3-5-2022\_17525\_app.dastra.eu.jpeg>)
+De module Repositories, groepeert alle gegevens en bestanden in je werkruimte ](<.gitbook/assets/Capture web_3-5-2022_17525_app.dastra.eu.jpeg>)
 
-## Comment faire pour découvrir Dastra ?
+## Hoe kom ik meer te weten over Dastra?
 
-Commencez dès maintenant à découvrir Dastra, d'abord avec les fonctionnalités et mise en place, puis le tutoriel :
+Begin nu met het ontdekken van Dastra, eerst met de functies en de setup, daarna de tutorial :
 
 {% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+[Gebroken link](gebroken-verwijzing)
 {% endcontent-ref %}
 
-{% content-ref url="commencer/commencer/" %}
-[commencer](commencer/commencer/)
+{% content-ref url="start/start/" %}
+[start](start/start/)
 {% endcontent-ref %}
 
-{% content-ref url="commencer/tutoriel/" %}
-[tutoriel](commencer/tutoriel/)
+{% content-ref url="start/tutorial/" %}
+[tutorial](start/tutorial/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Dastra peut être testé gratuitement et sans carte bleue pendant 1 mois en s'inscrivant sur lien : [https://app.dastra.eu/signup](https://app.dastra.eu/signup) \
+Dastra kan gratis en zonder creditcard voor 1 maand worden getest door te registreren op link: [https://app.dastra.eu/signup](https://app.dastra.eu/signup) \
 \
-N'hésitez pas à vous inscrire, c'est immédiat et sans engagement !
+Aarzel niet om je aan te melden, het is direct en er is geen verplichting!
 {% endhint %}
 
-## Aller plus loin
+## Verder gaan
 
 {% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+[Gebroken link](gebroken-verwijzing)
 {% endcontent-ref %}
-
