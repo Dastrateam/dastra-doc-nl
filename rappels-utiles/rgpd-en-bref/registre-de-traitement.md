@@ -135,6 +135,3 @@ Dit bevat:&#x20;
 [manage-your-registry.md](../../features/edit-the-registry/manage-your-registry.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/edit-the-registry/fill-in-the-questionnaire/" %}
-[vul-in-de-vragenlijst](../../features/edit-the-registry/fill-in-the-questionnaire/)
-{% endcontent-ref %}

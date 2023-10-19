@@ -1,5 +1,5 @@
 ---
-description: Samenvatting van de belangrijkste concepten van de algemene verordening gegevensbescherming (AVG) of General Data Protection Regulation (RGPD).
+description: Samenvatting van de belangrijkste concepten van de algemene verordening gegevensbescherming (AVG) of General Data Protection Regulation (GDPR).
 ---
 
 # Belangrijkste concepten van de AVG / GDPR

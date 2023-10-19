@@ -126,15 +126,3 @@ Zo niet, stel dan **aanvullende maatregelen** voor en beoordeel het risiconiveau
 {% embed url="https://www.youtube.com/watch?v=yfaJC-YESPk" %}
 Webinar "Hoe benader je de PIA-fase met een tool?"
 {% endembed %}
-
-{% content-ref url="../../features/edit-the-record/complete-the-questionnaire/analyse-dimpact.md" %}
-[analyse-dimpact.md](../../features/edit-the-record/complete-the-questionnaire/analyse-dimpact.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../features/audit/" %}
-[audit](../../features/audit/)
-{% endcontent-ref %}
-
-{% content-ref url="../../features/risk-management/risks.md" %}
-[risks.md](../../features/risk-management/risks.md)
-{% endcontent-ref %}

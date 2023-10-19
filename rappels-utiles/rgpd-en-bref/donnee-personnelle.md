@@ -58,11 +58,3 @@ De Europese Verordening verbiedt het verzamelen of gebruiken van dergelijke gege
 * als ze betrekking hebben op leden of aanhangers van een **vereniging** of een **politieke, religieuze, filosofische of vakbondsorganisatie**.&#x20;
 
 ## Verdere informatie
-
-{% content-ref url="../../features/editing-the-registry/data-visualisation/view-data-map.md" %}
-[view-data-map.md](../../features/edit-the-record/view-data-map/view-data-map.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../features/edit-the-record/complete-the-questionnaire/data-category.md" %}
-[data-category.md](../../features/edit-the-registry/complete-the-questionnaire/data-category.md)
-{% endcontent-ref %}
