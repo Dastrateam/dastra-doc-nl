@@ -1,69 +1,68 @@
 ---
-description: Apprenez ce qu'est une donnée personnelle.
+description: Leer wat persoonlijke gegevens zijn.
 ---
 
-# Donnée personnelle
+# Persoonsgegevens
 
-## Définition d'une donnée personnelle
+## Definitie van persoonlijke gegevens
 
-D'après la CNIL, les données personnelles sont **toutes les informations relatives à une personne physique identifiée ou identifiable**.&#x20;
+Volgens de CNIL zijn persoonsgegevens **alle informatie betreffende een geïdentificeerde of identificeerbare natuurlijke persoon**.&#x20;
 
-Une personne physique peut être identifiée:&#x20;
+Een natuurlijke persoon kan worden geïdentificeerd:&#x20;
 
-* soit **directement** (exemple: nom et prénom)&#x20;
-* soit **indirectement** (exemple: numéro de téléphone, numéro de sécurité sociale, email ou adresse postale, mais aussi voix et image)&#x20;
+* hetzij **direct** (voorbeeld: naam en voornaam)&#x20;
+* of **indirect** (bijvoorbeeld: telefoonnummer, burgerservicenummer, e-mailadres of postadres, maar ook stem en afbeelding)&#x20;
 
-L'identification d'une personne physique peut être effectuée:&#x20;
+Een natuurlijke persoon kan worden geïdentificeerd:&#x20;
 
-* à partir d'**une seule donnée** (exemple: nom)&#x20;
-* à partir du **croisement d'un ensemble** de données (exemple: une femme vivant à telle adresse, née tel jour et membre d'une telle association)&#x20;
-
-{% hint style="info" %}
-les coordonnées d'une entreprise ne sont pas, en principe, des données personnelles (exemple: email générique company1@email.fr)
-{% endhint %}
-
-## Catégories de données personnelles
-
-les catégories de **données personnelles**  sont des groupements de données personnelles par nature.
-
-Il en existe de différentes natures : identité, situation familiale, économique ou financière, données bancaires, données de connexion, donnés de localisation, etc.
-
-![Les catégories de données personnelles ](<../../.gitbook/assets/image (193).png>)
-
-## Définition des données sensibles&#x20;
-
-Certaines **catégories de données personnelles** sont dites "sensibles". Ce sont des informations qui révèlent :
-
-* l'origine raciale ou ethnique alléguée,&#x20;
-* les opinions politiques,&#x20;
-* les convictions religieuses ou philosophiques&#x20;
-* ou l'appartenance à un syndicat,
-* &#x20;données génétiques,&#x20;
-* données biométriques
-* des données de santé
-* données reflétant l'orientation sexuelle d'une personne physique.
+* aan de hand van **een enkel gegeven** (voorbeeld: naam)&#x20;
+* uit **een reeks gegevens** (voorbeeld: een vrouw die op een dergelijk adres woont, op een dergelijke dag is geboren en lid is van een dergelijke vereniging)&#x20;
 
 {% hint style="info" %}
-Exemple de données sensibles : les empreintes digitales, qui relèvent de la catégorie "données biométriques".&#x20;
+de contactgegevens van een bedrijf zijn in principe geen persoonsgegevens (voorbeeld: algemene e-mail company1@email.fr)
 {% endhint %}
 
-#### Par principe, **le traitement de ces données est interdit, sauf exception**.&#x20;
+## Categorieën van persoonsgegevens
 
-Le règlement européen interdit de recueillir ou d’utiliser ces données, sauf, notamment, dans les cas suivants :
+Categorieën van **persoonsgegevens** zijn groepen van persoonsgegevens naar aard.
 
-* si la personne concernée a donné son **consentement** exprès (démarche active, explicite et de préférence écrite, qui doit être libre, spécifique, et informée) ;
-* si les informations sont manifestement rendues **publiques** par la personne concernée ;
-* si elles sont **nécessaires** à la **sauvegarde de la vie humaine** ;
-* si leur utilisation est justifiée par l'**intérêt public** et **autorisé par la CNIL** ;
-* si elles concernent les membres ou adhérents d'une **association** ou d'une **organisation politique, religieuse, philosophique ou syndicale**.&#x20;
+Er zijn verschillende soorten persoonsgegevens: identiteit, familie, economische of financiële situatie, bankgegevens, verbindingsgegevens, locatiegegevens, enz.
 
-## Pour aller plus loin
+[ Categorieën van persoonsgegevens ](<../../.gitbook/assets/image (193).png>) 
 
-{% content-ref url="../../features/editer-le-registre/la-visualisation-des-donnees/visualiser-la-cartographie-des-donnees.md" %}
-[visualiser-la-cartographie-des-donnees.md](../../features/editer-le-registre/la-visualisation-des-donnees/visualiser-la-cartographie-des-donnees.md)
+## Definitie van gevoelige gegevens&#x20;
+
+Bepaalde **categorieën van persoonlijke gegevens** staan bekend als "gevoelig". Dit is informatie die onthult :
+
+* vermeende raciale of etnische afkomst,&#x20;
+* politieke opvattingen,&#x20;
+* religieuze of filosofische overtuigingen,&#x20;
+* of lidmaatschap van een vakbond,
+* genetische gegevens,&#x20;
+* biometrische gegevens
+* gezondheidsgegevens
+* gegevens over iemands seksuele geaardheid.
+
+{% hint style="info" %}
+Een voorbeeld van gevoelige gegevens zijn vingerafdrukken, die in de categorie "biometrische gegevens" vallen &#x20;
+{% endhint %}
+
+#### In principe is **de verwerking van dergelijke gegevens verboden, met bepaalde uitzonderingen**.&#x20;
+
+De Europese Verordening verbiedt het verzamelen of gebruiken van dergelijke gegevens, met name in de volgende gevallen:
+
+* als de betrokkene zijn/haar uitdrukkelijke **toestemming** heeft gegeven (actieve, uitdrukkelijke en bij voorkeur schriftelijke toestemming, die vrij, specifiek en geïnformeerd moet zijn);
+* indien de informatie kennelijk **openbaar** is gemaakt door de betrokkene;
+* indien dit **noodzakelijk** is voor de **bescherming van mensenlevens**;
+* indien het gebruik ervan gerechtvaardigd is door het **algemeen belang** en **toegestaan is door de CNIL**;
+* als ze betrekking hebben op leden of aanhangers van een **vereniging** of een **politieke, religieuze, filosofische of vakbondsorganisatie**.&#x20;
+
+## Verdere informatie
+
+{% content-ref url="../../features/editing-the-registry/data-visualisation/view-data-map.md" %}
+[view-data-map.md](../../features/edit-the-record/view-data-map/view-data-map.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees.md" %}
-[categorie-de-donnees.md](../../features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees.md)
+{% content-ref url="../../features/edit-the-record/complete-the-questionnaire/data-category.md" %}
+[data-category.md](../../features/edit-the-registry/complete-the-questionnaire/data-category.md)
 {% endcontent-ref %}
-

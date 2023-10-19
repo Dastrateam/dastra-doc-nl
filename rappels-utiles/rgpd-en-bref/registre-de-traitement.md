@@ -1,143 +1,140 @@
 ---
-description: Apprenez ce qu'est un registre de traitement.
+description: Leer wat een Verwerkingsregister is.
 ---
 
-# Registre des traitements
+# Verwerkingsregister
 
-## Définition du registre de traitement
+## Definitie van een verwerkingsregister
 
-Le registre des activités de traitement des données cartographie de manière claire et structurée toutes les opérations de traitement des données personnelles et sera le point de départ des contrôles de l'Autorité de protection des données.&#x20;
+Het register van gegevensverwerking brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens &#x20;
 
-Le registre est prévu par [l’article 30 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Il participe à la documentation de la conformité.
+Het register is vastgelegd in [artikel 30 van de AVG] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Het helpt bij het documenteren van de naleving.
 
-Document de recensement et d’analyse, il doit refléter la réalité de vos traitements de données personnelles et vous permet d’identifier précisément :
+Als inventarisatie- en analysedocument moet het de realiteit van uw gegevensverwerking weerspiegelen en u in staat stellen om nauwkeurig vast te stellen :
 
-* **les parties prenantes** (représentant, sous-traitants, co-responsables, etc.) qui interviennent dans le traitement des données,
-* **les catégories de données traitées**,
-* **à quoi servent ces données** (ce que vous en faites), **qui accède** aux données et **à qui elles sont communiquées**,
-* **combien de temps vous les conservez**,
-* **comment elles sont sécurisées**.
+* de Stakeholders** (vertegenwoordiger, Verwerkers, Verwerkingsverantwoordelijken, etc.) die betrokken zijn bij de gegevensverwerking,
+* de categorieën gegevensverwerking**,
+* waarvoor de gegevens worden gebruikt** (wat u ermee doet), **wie toegang heeft** tot de gegevens en **aan wie ze worden meegedeeld**,
+* hoe lang u uw gegevens bewaart**,
+* hoe veilig ze zijn**.
 
 {% embed url="https://youtu.be/R_Z2m4sb-44" %}
-Comment passer en mode run sur la gestion des registres de traitements
+Hoe overschakelen naar de runstand voor logboekbeheer voor Verwerking
 {% endembed %}
 
-## Un registre, pourquoi faire ?
+## Waarom een register gebruiken?
 
-&#x20;Le registre est rendu **obligatoire** par [l’article 30 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Au-delà de la réponse à l’obligation prévue par l’article 30 du RGPD, le registre est un **outil de pilotage et de démonstration de votre conformité au RGPD**.&#x20;
+&#x20;Het register is **verplicht** gesteld door [artikel 30 van de AVG] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Naast het voldoen aan de verplichting van artikel 30 van de AVG, is het register een **hulpmiddel voor het controleren en aantonen van uw naleving van de AVG**. &#x20;
 
-Il vous permet de documenter vos traitements de données et de vous poser les bonnes questions : ai-je vraiment besoin de cette donnée dans le cadre de mon traitement ? Est-il pertinent de conserver toutes les données aussi longtemps ? Les données sont-elles suffisamment protégées ? Etc.
+Het stelt u in staat om uw gegevensverwerking te documenteren en uzelf de juiste vragen te stellen: heb ik deze gegevens echt nodig voor mijn verwerking? Heeft het zin om alle gegevens zo lang te bewaren? Zijn de gegevens voldoende beschermd? En ga zo maar door.
 
-Sa création et sa mise à jour sont ainsi l’occasion d’**identifier et de hiérarchiser les risques au regard du RGPD**. Cette **étape essentielle** vous permettra d’en déduire un plan d’**action de mise en conformité** de vos traitements aux règles de protection des données.
+Het opstellen en bijwerken van een gegevensbeschermingsplan biedt de mogelijkheid om **de risico's met betrekking tot de AVG te identificeren en te prioriteren**. Met deze **essentiële stap** kunt u een **actieplan** opstellen om ervoor te zorgen dat uw Verwerking voldoet aan de regels voor gegevensbescherming.
 
-## Quelles entreprises sont concernées par l'obligation de remplir un registre ?
+## Voor welke bedrijven geldt de verplichting om een register in te vullen?
 
-Toutes les entreprises traitant des données personnelles de citoyens européens sont concernées par l'obligation de remplir un registre.
+Alle bedrijven die persoonsgegevens van Europese burgers verwerken, moeten een register bijhouden.
 
 {% hint style="info" %}
-Les entreprises de moins de 250 salariés bénéficient d’une dérogation en ce qui concerne la tenue de registres. **Ils doivent inscrire au registre les seuls traitements de données suivants** :
+Voor bedrijven met minder dan 250 werknemers geldt een uitzondering voor het bijhouden van registers. **Zij hoeven alleen de volgende gegevensverwerking te registreren**:
 
-* les traitements non occasionnels (exemple : gestion de la paie, gestion des clients/prospects et des fournisseurs, etc.) ;
-* les traitements susceptibles de comporter un risque pour les droits et libertés des personnes (exemple : systèmes de géolocalisation, de vidéosurveillance, etc.)
-* les traitements qui portent sur des données sensibles (exemple : données de santé, infractions, etc.).
+* niet-incidentele verwerkingen (bijv. salarisbeheer, klanten-/prospect- en leveranciersbeheer, enz;)
+* Verwerkingen die waarschijnlijk een risico inhouden voor de rechten en vrijheden van personen (bijv. geolocatiesystemen, videobewaking, enz.)
+* Verwerking van gevoelige gegevens (bijv. gezondheidsgegevens, strafbare feiten, enz.).
 
-**En pratique, cette dérogation est donc limitée à des cas très particuliers de traitements,** mis en œuvre de manière occasionnelle et non routinière, comme par exemple une campagne de communication à l’occasion de l’ouverture d’un nouvel établissement, sous réserve que ces traitements ne soulèvent aucun risque pour les personnes concernées. En cas de doute sur l’application de cette dérogation à un traitement, la CNIL vous recommande de l’intégrer dans votre registre
+**In de praktijk is deze uitzondering dus beperkt tot zeer specifieke gevallen van Verwerking** die incidenteel en niet-routinematig worden uitgevoerd, zoals een communicatiecampagne ter gelegenheid van de opening van een nieuwe vestiging, op voorwaarde dat deze verwerking geen risico inhoudt voor de betrokkenen. Als er twijfel bestaat of deze vrijstelling van toepassing is op een Verwerking, raadt de CNIL u aan deze in uw register op te nemen.
 {% endhint %}
 
-## Contenu du registre de traitement
+## Inhoud van het register van verwerkingen
 
-L’article 30 du RGPD prévoit des obligations spécifiques pour le _registre du responsable de traitement_ de données personnelles et pour le _registre du sous-traitant_. Si votre organisme agit à la fois en tant que sous-traitant et responsable de traitement, votre registre doit donc clairement distinguer les deux catégories d’activités.
+Artikel 30 van de AVG bevat specifieke verplichtingen voor het register van de verwerkingsverantwoordelijke van persoonsgegevens en voor het register van de verwerker. Als uw organisatie zowel als verwerker als als verwerkingsverantwoordelijke optreedt, moet uw register duidelijk onderscheid maken tussen de twee categorieën activiteiten.
 
-**En pratique, dans cette hypothèse, la CNIL vous recommande de tenir 2 registres :**
+**In de praktijk adviseert de CNIL in dit geval om 2 registers bij te houden:**.
 
-1. un pour les traitements de données personnelles dont vous êtes vous-même responsable,
-2. un autre pour les traitements que vous opérez, en tant que sous-traitant, pour le compte de vos clients.
+1. één voor de gegevensverwerking waarvoor u zelf verantwoordelijk bent,
+2. een ander voor verwerkingen die u als subcontractant namens uw klanten uitvoert.
 
-## Le registre "Responsable de traitement" dans Dastra
+## Het "Verwerkingsverantwoordelijke" register in Dastra
 
-Pour chaque traitement, le registre d'un responsable de traitement indique au minima :
+Voor elke Verwerking vermeldt het register van de Verwerkingsverantwoordelijke ten minste :
 
-1. le cas échéant, **le nom et les coordonnées** du [responsable conjoint du traitement](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article26) mis en œuvre
-2. les **finalités** du traitement, l’objectif en vue duquel vous avez collecté ces données
-3. les catégories **de personnes concernées** (client, prospect, employé, etc.)
-4. les catégories de **données personnelles** (exemples : identité, situation familiale, économique ou financière, données bancaires, données de connexion, donnés de localisation, etc.)
-5. **les catégories de destinataires** auxquels les données à caractère personnel ont été ou seront communiquées, y compris les sous-traitants auxquels vous recourez
-6. les **transferts** de données à caractère personnel vers un pays tiers ou à une organisation internationale et, dans certains cas très particuliers, les garanties prévues pour ces transferts ;
-7. les **délais prévus pour l'effacement** des différentes catégories de données, c’est-à-dire la durée de conservation, ou à défaut les critères permettant de la déterminer
-8. dans la mesure du possible, une **description générale des mesures de sécurité** techniques et organisationnelles que vous mettez en œuvre
+1. indien van toepassing, **de naam en contactgegevens** van de [gezamenlijk verantwoordelijke voor de verwerking](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article26) die wordt uitgevoerd
+2. de **doeleinden** van de verwerking, het doel waarvoor u de gegevens hebt verzameld
+3. de **categorieën betrokkenen** (klant, prospect, werknemer, enz.)
+4. de **persoonlijke gegevens** (voorbeelden: identiteit, familie, economische of financiële situatie, bankgegevens, verbindingsgegevens, locatiegegevens, enz.)
+5. **de categorieën ontvangers** aan wie de persoonsgegevens zijn of zullen worden meegedeeld, Begrepen de Verwerkers die u gebruikt
+6. de **doorgifte** van persoonsgegevens naar een derde land of naar een internationale organisatie en, in bepaalde zeer specifieke gevallen, de garanties die voor dergelijke doorgiften worden gegeven;
+7. de **termijnen die zijn vastgesteld voor het wissen** van de verschillende categorieën gegevens, d.w.z. de bewaartermijn, of anders de criteria voor het bepalen daarvan
+8. voor zover mogelijk, een **algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen** die u toepast.
 
-![Un traitement "responsable de traitement" dans Dastra](<../../.gitbook/assets/image (194).png>)
+[Een "Verwerkingsverantwoordelijke" in Dastra](<../../.gitbook/assets/image (194).png>)
 
-### Les acteurs&#x20;
+### De actoren&#x20;
 
-* L'identité et les informations de contacts du responsable du traitement
-* L'identité et les informations de contacts du DPO le cas échéant
-* L'identité et les informations de contacts du représentant le cas échéant
-* Le ou les responsables de traitement conjoints, le cas échéant
+* De identiteit en contactgegevens van de Verwerkingsverantwoordelijke.
+* De identiteit en contactgegevens van de functionaris voor gegevensbescherming, indien van toepassing.
+* De identiteit en contactgegevens van de vertegenwoordiger, indien van toepassing
+* De gezamenlijke verwerkingsverantwoordelijke(n), indien van toepassing.
 
-### Les finalités
+### Doeleinden
 
-* Toutes les finalités liées à l'activité impliquant le traitement
+* Alle doeleinden die verband houden met de activiteit van de Verwerking.
 
-### La base légale
+### Rechtsgrondslag
 
-* Respect d'une obligation légale&#x20;
-* Exécution d'un contrat
-* Intérêt légitime de l'entreprise ou d'un tiers
-* Intérêt public
-* Consentement&#x20;
-* Sauvegarde des intérêts vitaux de la personne concernée ou d'une autre personne
+* Nakoming van een wettelijke verplichting&#x20;
+* Uitvoering van een contract
+* Gerechtvaardigd belang van het bedrijf of een derde
+* Algemeen belang
+* Toestemming&#x20;
+* Bescherming van de vitale belangen van de betrokkene of een andere persoon.
 
-### L'inventaire des données et des personnes concernées
+### Inventaris van gegevens en betrokkenen
 
-* Type de personnes concernées
-* Catégories de données&#x20;
-* Délais de suppression des données ou règle applicable
+* Type betrokkenen
+* Categorieën van gegevens&#x20;
+* Termijnen voor het wissen van gegevens of toepasselijke regel
 
-### Les destinataires et les transferts de données hors EEE&#x20;
+### Ontvangers en doorgiften van gegevens buiten de EER&#x20;
 
-* &#x20;Identification des destinataires comprenant les destinataires internes (service concerné par le traitement) ; organismes externes (partenaires commerciaux ou institutionnels) ; sous-traitants (hébergeur, fournisseur de solutions) ; personne concernée le cas échéant et responsables conjoints&#x20;
-* Pour chaque destinataire, identification des transferts en dehors de l'Espace économique européen (EEE) et les outils juridiques utilisés (Règles d'entreprise contraignantes en cas de transferts hors UE avec les filiales, clauses contractuelles types, pays reconnu adéquat...)
-
-
-
-### Les mesures de sécurité
-
-* Mesures techniques et organisationnelles mises en place pour sécuriser chaque traitement de données&#x20;
-* Par exemple, chiffrement des données, pseudonymisation, limitation des accès
+* &#x20;Identificatie van ontvangers inclusief interne ontvangers (afdeling betrokken bij de Verwerking); externe organen (commerciële of institutionele partners); subcontractanten (host, solution provider); betrokkene indien van toepassing en gezamenlijk verantwoordelijken voor de verwerking&#x20;
+* Voor elke ontvanger, identificatie van doorgiften buiten de Europese Economische Ruimte (EER) en de gebruikte juridische instrumenten (bindende bedrijfsregels in geval van doorgiften buiten de EU met dochterondernemingen, standaard contractuele clausules, land erkend als adequaat, enz.)
 
 
 
-## Le registre "sous-traitant" dans Dastra
+### Beveiligingsmaatregelen
 
-Chaque sous-traitant est tenu de renseigner un registre moins étendu.&#x20;
-
-Celui-ci contient :&#x20;
-
-* les **coordonnées du sous-traitant**, de son représentant le cas échéant et de son DPO&#x20;
-* les **coordonnées de tous les responsables de traitement pour le compte desquels le sous-traitant agit** (les clients généralement)
-* les **catégories de données** traitées
-* les **destinataires**&#x20;
-* les **transferts** hors EEE
-* les **mesures de sécurité**
+* Technische en organisatorische maatregelen ter beveiliging van elke gegevensverwerking&#x20;
+* Bijvoorbeeld gegevensversleuteling, pseudonimisering, toegangsbeperking, enz.
 
 
 
-![Un traitement "sous-traitant" dans Dastra](<../../.gitbook/assets/image (195).png>)
+## Het register "subcontractant" in Dastra
 
-## Pour aller plus loin
+Elke subcontractant moet een minder uitgebreid register &#x20; invullen;
+
+Dit bevat:&#x20;
+
+* de **contactgegevens** van de subcontractant, hun vertegenwoordiger indien van toepassing en hun DPO&#x20;
+* de **gegevens van alle Verwerkingsverantwoordelijken namens wie de subcontractant optreedt** (meestal de klanten)
+* de **categorieën gegevensverwerking**
+* ontvangers**&#x20;
+* doorgiften** buiten de EER
+* beveiligingsmaatregelen**.
+
+
+
+[Een "onderaannemer" verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
+
+## Om verder te gaan
 
 {% content-ref url="../../features/editer-le-registre/" %}
-[editer-le-registre](../../features/editer-le-registre/)
+[edit-the-record](../../features/editer-le-registre/)
 {% endcontent-ref %}
 
 {% content-ref url="../../features/editer-le-registre/gerer-votre-registre.md" %}
-[gerer-votre-registre.md](../../features/editer-le-registre/gerer-votre-registre.md)
+[manage-your-registry.md](../../features/edit-the-registry/manage-your-registry.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/" %}
-[remplir-le-questionnaire](../../features/editer-le-registre/remplir-le-questionnaire/)
+{% content-ref url="../../features/edit-the-registry/fill-in-the-questionnaire/" %}
+[vul-in-de-vragenlijst](../../features/edit-the-registry/fill-in-the-questionnaire/)
 {% endcontent-ref %}
-
-
-
