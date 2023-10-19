@@ -1,33 +1,30 @@
 ---
-description: Découvrez les nouveautés en termes de sécurité avec le RGPD.
+description: Ontdek wat er nieuw is op het gebied van beveiliging met de AVG.
 ---
 
-# Mesures de sécurité
+# Beveiligingsmaatregelen
 
-### Le RGPD renforce l'obligation de sécurité des données.&#x20;
+### De AVG versterkt de verplichting van gegevensbeveiliging &#x20;
 
-La sécurisation des données personnelles implique l'identification et la mise en œuvre d'exemples de mesures de sécurité proportionnées au risque identifié en agissant sur:&#x20;
+Het beveiligen van persoonsgegevens houdt in dat voorbeelden van beveiligingsmaatregelen worden geïdentificeerd en geïmplementeerd die in verhouding staan tot het geïdentificeerde risico door te handelen op basis van:&#x20;
 
-* les "éléments à protéger" (données): minimiser, chiffrer, anonymiser, etc.&#x20;
-* "Impacts potentiels" (effacement, violation de données): chiffrement, permettant de sauvegarder les données, retracer l'activité, gérer les violations de données etc.&#x20;
-* "Sources de risques" (accès non contrôlé, application de maintenance ...): contrôler les accès, gérer les tiers, lutter contre les codes malveillants etc.&#x20;
-* Les "supports" (serveurs, réseaux, poste de travail ...): pseudonymisation, anonymisation, réduction des vulnérabilités matérielles, logiciels, réseaux, documents papier etc.&#x20;
-* "Actions transversales" au niveau de l'entité, la politique de protection des données personnelles intègre la protection des données personnelles dans les projets
+* de "te beschermen elementen" (gegevens): minimaliseren, versleutelen, anonimiseren, enz.&#x20;
+* Potentiële gevolgen" (verwijdering, gegevensinbreuk): versleuteling, het mogelijk maken van back-ups van gegevens, het traceren van activiteiten, het beheren van gegevensinbreuken, enz.&#x20;
+* Risicobronnen" (ongecontroleerde toegang, onderhoudstoepassingen, enz.): toegang controleren, derden beheren, kwaadaardige code bestrijden, enz.&#x20;
+* "Media" (servers, netwerken, werkstations, enz.): pseudonimisering, anonimisering, verminderen van kwetsbaarheden in hardware, software, netwerken, papieren documenten, enz.&#x20;
+* "Cross-functional actions" op entiteitsniveau: het beleid voor de bescherming van persoonsgegevens integreert de bescherming van persoonsgegevens in projecten.
 
-### Exemples de mesures de sécurité:&#x20;
+### Voorbeelden van beveiligingsmaatregelen:&#x20;
 
-* Limitation des droits d'accès
-* Chiffrement&#x20;
-* Masquage des données&#x20;
-* Pseudonymisation
+* Beperking van toegangsrechten
+* Encryptie&#x20;
+* Maskeren van gegevens&#x20;
+* Pseudonimisering
 
-Pour plus d'information, consulter le [guide de la sécurité des données personnelles](https://www.cnil.fr/fr/principes-cles/guide-de-la-securite-des-donnees-personnelles) de la CNIL.
+Zie voor meer informatie de [gids voor de beveiliging van persoonsgegevens] van de gegevensbeschermingsautoriteit.
 
-## Pour aller plus loin
+## Meer informatie
 
-{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/mesures-de-securite.md" %}
-[mesures-de-securite.md](../../features/editer-le-registre/remplir-le-questionnaire/mesures-de-securite.md)
+{% content-ref url="../../features/edit-the-registry/complete-the-questionnaire/security-measures.md" %}
+[measures-of-security.md](../../features/edit-the-registry/complete-the-questionnaire/measures-of-security.md)
 {% endcontent-ref %}
-
-
-

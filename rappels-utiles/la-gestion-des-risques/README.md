@@ -1,8 +1,8 @@
 ---
-description: Résumé des notions clefs de gestion des risques
+description: Samenvatting van de belangrijkste risicomanagementconcepten
 ---
 
-# Gestion des risques
+# Risicomanagement
 
 {% content-ref url="definition-des-risques.md" %}
 [definition-des-risques.md](definition-des-risques.md)
@@ -12,13 +12,12 @@ description: Résumé des notions clefs de gestion des risques
 [evaluation-dun-risque.md](evaluation-dun-risque.md)
 {% endcontent-ref %}
 
-{% content-ref url="risques-sous-traitants.md" %}
-[risques-sous-traitants.md](risques-sous-traitants.md)
+{% content-ref url="risks-subcontractors.md" %}
+[risico's-subcontractanten.md](risico's-subcontractanten.md)
 {% endcontent-ref %}
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="../../features/la-gestion-des-risques/" %}
-[la-gestion-des-risques](../../features/la-gestion-des-risques/)
+{% content-ref url="../../features/risk-management/" %}
+[risicobeheer](../../features/risicobeheer/)
 {% endcontent-ref %}
-

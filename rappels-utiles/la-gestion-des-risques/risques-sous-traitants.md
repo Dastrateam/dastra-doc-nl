@@ -1,40 +1,37 @@
 ---
-description: Apprenez à gérer les risques de sous-traitance avec le RGPD.
+description: Leer hoe u risico's van onderaanneming onder de AVG kunt beheren.
 ---
 
-# Risques sous-traitants
+# Risico's van onderaannemers
 
-Les exigences du RGPD sont étendues aux sous-traitants.
+De vereisten van de RGPD worden uitgebreid naar onderaannemers.
 
-## Contrat
+## Contract
 
-Le contrat de sous-traitance doit préciser l'objet, la durée, la nature et la finalité du traitement, le type de données personnelles, les catégories de personnes concernées, les droits et obligations du responsable du traitement et les obligations de sous-traitance en matière de protection des données personnelles.
+In het onderaannemingscontract moeten het voorwerp, de duur, de aard en het doel van de verwerking, het type persoonsgegevens, de categorieën betrokkenen, de rechten en verplichtingen van de Verwerkingsverantwoordelijke en de verplichtingen van de subcontractant op het gebied van de bescherming van persoonsgegevens worden gespecificeerd.
 
 ## Audit
 
-Le sous-traitant doit permettre la réalisation d'audits par le responsable du traitement afin que ce dernier s'assure qu'il respecte les clauses contractuelles relatives à la protection des données personnelles et qu'il traite les données personnelles transférées uniquement aux fins prévues dans le contrat de sous-traitance et sur instruction documentée du responsable du traitement.
+De verwerker moet audits door de verwerkingsverantwoordelijke toestaan, zodat deze kan garanderen dat hij de contractbepalingen met betrekking tot de bescherming van persoonsgegevens naleeft en dat hij de doorgegeven persoonsgegevens alleen verwerkt voor de doeleinden die zijn vastgelegd in de onderaannemingsovereenkomst en op gedocumenteerde instructie van de verwerkingsverantwoordelijke.
 
-## Supervision de la chaîne de sous-traitance
+## Toezicht op de onderaannemingsketen
 
-Le sous-traitant ne recrute pas d'autre sous-traitant (sous-traitant de niveau 2) sans autorisation écrite préalable, spécifique ou générale, de la personne en charge du traitement. Tout contrat avec un sous-traitant de niveau 2 doit prévoir les mêmes obligations de protection des données prévues dans le contrat conclu avec le responsable du traitement.
+De verwerker werft geen andere verwerker (niveau 2-verwerker) aan zonder voorafgaande schriftelijke toestemming, specifiek of algemeen, van de verwerkingsverantwoordelijke. Elk contract met een verwerker van niveau 2 moet dezelfde verplichtingen inzake gegevensbescherming bevatten als het contract met de Verwerkingsverantwoordelijke.
 
-## Registre des sous-traitants
+## Register van verwerkers
 
-Chaque sous-traitant doit tenir un registre de tous les traitements effectués pour le compte de chaque responsable de traitement. Ce registre doit être articulé avec le registre du responsable du traitement des données et doit également être mis à la disposition de l'autorité de contrôle sur demande.
+Elke verwerker moet een register bijhouden van alle verwerkingen die namens elke Verwerkingsverantwoordelijke worden uitgevoerd. Dit register moet gekoppeld zijn aan het register van de Verwerkingsverantwoordelijke en moet op verzoek ook aan de toezichthoudende autoriteit ter beschikking worden gesteld.
 
-## Responsabilité du sous-traitant
+## Aansprakelijkheid van de verwerker
 
-Le sous-traitant n'est pas responsable des dommages matériels ou moraux causés par le traitement des données personnelles sauf s'il n'a pas respecté les obligations prévues par le RGPD qui lui incombent spécifiquement, ou s'il a agi en dehors des instructions légales du responsable du traitement. Le sous-traitant est soumis aux mêmes amendes et pénalités administratives que le responsable du traitement.
+De verwerker is niet aansprakelijk voor materiële of immateriële schade veroorzaakt door de gegevensverwerking, tenzij hij niet heeft voldaan aan de in de AVG vermelde verplichtingen die specifiek op hem rusten, of indien hij buiten de rechtmatige instructies van de Verwerkingsverantwoordelijke om heeft gehandeld. De verwerker is onderworpen aan dezelfde boetes en administratieve sancties als de Verwerkingsverantwoordelijke.
 
-## Pour aller plus loin
+## Voor meer informatie
 
-{% content-ref url="../../features/la-gestion-des-risques/risques.md" %}
-[risques.md](../../features/la-gestion-des-risques/risques.md)
+{% content-ref url="../../features/risk-management/risks.md" %}
+[risks.md](../../features/risk-management/risks.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../commencer/tutoriel/etape-4-gerer-les-risques.md" %}
+{% content-ref url="../../start/tutorial/step-4-risk-management/risks.md" %}
 [etape-4-gerer-les-risques.md](../../commencer/tutoriel/etape-4-gerer-les-risques.md)
 {% endcontent-ref %}
-
-
-

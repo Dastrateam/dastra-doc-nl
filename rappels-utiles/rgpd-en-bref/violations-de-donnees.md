@@ -1,39 +1,38 @@
 ---
-description: Découvrez comment suivre les notifications de violation de données.
+description: Ontdek hoe u meldingen van datalekken kunt bijhouden.
 ---
 
-# Violations de données
+# Datalekken
 
-## Qu'est-ce qu'une violation de données ?
+## Wat is een datalek?
 
-[L’article 4](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre1#Article4).12) du RGPD définit une violation de données à caractère personnel comme &#x20;
+[Artikel 4](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) van de AVG definieert een inbreuk in verband met persoonsgegevens als &#x20;
 
-_une violation de la sécurité entraînant, de manière accidentelle ou illicite, la destruction, la perte, l'altération, la divulgation non autorisée de données à caractère personnel transmises, conservées ou traitées d'une autre manière, ou l'accès non autorisé à de telles donnée_s.
+_een Inbreuk op de beveiliging die resulteert in een accidentele of onwettige vernietiging, verlies, wijziging, niet-geautoriseerde vrijgave van of toegang tot doorgezonden, opgeslagen of anderszins Verwerkte persoonsgegevens.
 
-Il s’agit de tout incident de sécurité, d’origine malveillante ou non et se produisant de manière intentionnelle ou non, ayant comme conséquence de compromettre l’intégrité, la confidentialité ou la disponibilité de données personnelles.
+Dit verwijst naar elk beveiligingsincident, al dan niet kwaadwillig en opzettelijk of onopzettelijk, dat tot gevolg heeft dat de integriteit, vertrouwelijkheid of beschikbaarheid van persoonsgegevens in gevaar wordt gebracht.
 
-Exemples :
+Voorbeelden zijn
 
-* suppression accidentelle de données médicales conservées par un établissement de santé et non sauvegardées par ailleurs ;
-* perte d’une clef USB non sécurisée contenant une copie de la base clients d’une société ;
-* introduction malveillante dans une base de données scolaires et modification des résultats obtenus par les élèves.
+* het per ongeluk wissen van medische gegevens die door een zorginstelling worden bewaard en waarvan geen back-up elders is gemaakt;
+* verlies van een onbeveiligde USB-sleutel met een kopie van de klantendatabase van een bedrijf;
+* kwaadwillige invoer in een schooldatabase en wijziging van de door leerlingen behaalde resultaten.
 
-Les obligations des responsables du traitement concernant les violations de données personnelles, et notamment leur notification à la CNIL et aux personnes concernées, sont définies aux [articles 33 et 34 ](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article33)du RGPD.
+De verplichtingen van Verwerkingsverantwoordelijken met betrekking tot inbreuken op persoonsgegevens, en in het bijzonder hun kennisgeving aan de gegevensbeschermingsautoriteit en aan de betrokkenen, zijn gedefinieerd in [Artikel 33 en 34 ](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) van de AVG.
 
-## Quelles obligations pour les entreprises ?
+## Welke verplichtingen hebben bedrijven?
 
-Le RGPD introduit des notifications de violation de données personnelles.
+De AVG voert kennisgevingen van inbreuken in verband met persoonsgegevens in.
 
-Une violation de données personnelles est une violation de la sécurité qui provoque accidentellement ou illégalement la destruction, la perte, la falsification, la divulgation non autorisée de données personnelles transmises, stockées ou autrement traitées, l'accès non autorisé à ces données qui, si elles ne sont pas correctement affectées en cas de violation de données personnelles , et à moins que la violation ne soit pas susceptible de créer un risque pour les droits et la liberté des personnes, le responsable du traitement a l'obligation de:&#x20;
+Een inbreuk in verband met persoonsgegevens is een inbreuk op de beveiliging die per ongeluk of op onrechtmatige wijze leidt tot de vernietiging, het verlies, de vervalsing of de ongeoorloofde verstrekking van doorgezonden, opgeslagen of anderszins verwerkte persoonsgegevens, ongeoorloofde toegang tot dergelijke gegevens die, tenzij de inbreuk waarschijnlijk geen risico inhoudt voor de rechten en de vrijheid van betrokkenen, de Verwerkingsverantwoordelijke verplicht is om:&#x20;
 
-* Signaler dans les 72 heures la violation en question à l'autorité locale de protection des données
-* Informer au plus vite toutes les personnes concernées par la violation de données (clients, prospects, collaborateurs, ...)&#x20;
+* De inbreuk in kwestie binnen 72 uur melden bij de lokale gegevensbeschermingsautoriteit.
+* Alle personen die door de gegevensinbreuk worden getroffen (klanten, prospects, werknemers, enz.) zo snel mogelijk op de hoogte te stellen &#x20;
 
-Toute violation de cette obligation est sanctionnée par les autorités de protection des données.
+Elke inbreuk op deze verplichting wordt bestraft door de gegevensbeschermingsautoriteiten.
 
-## Pour aller plus loin
+## Om verder te gaan
 
-{% content-ref url="../../features/documenter-les-violations-de-donnees/" %}
-[documenter-les-violations-de-donnees](../../features/documenter-les-violations-de-donnees/)
+{% content-ref url="../../features/document-data-breaches/" %}
+[Inbreuk](../../features/document-data-breaches/)
 {% endcontent-ref %}
-

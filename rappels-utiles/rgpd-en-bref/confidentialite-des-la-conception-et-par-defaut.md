@@ -49,7 +49,7 @@ Om privacy by design te implementeren, moet er **in elke fase van het creatiepro
 * Documenteer** alle elementen om bewijs te vormen van naleving van de principes van privacy by design & by default.
 
 {% hint style="info" %}
-Het beginsel van privacy by design vloeit rechtstreeks voort uit het [verantwoordingsbeginsel vastgelegd door de AVG](https://www.cnil.fr/en/definition/accountability) binnen zijn [artikel 5](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Verwerkingsverantwoordelijken zijn verplicht om :
+Het beginsel van privacy by design vloeit rechtstreeks voort uit het verantwoordingsbeginsel vastgelegd door de AVG binnen zijn [artikel 5](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Verwerkingsverantwoordelijken zijn verplicht om :
 
 * de overeenstemming van hun gegevensverwerking** met de AVG in twijfel te trekken
 * in staat zijn om deze naleving** te bewijzen.
@@ -67,15 +67,9 @@ Privacy by Design principes kunnen op verschillende manieren worden toegepast in
 
 * Identificeer en analyseer risico's** om de maatregelen te beoordelen die moeten worden geïmplementeerd om de uitdagingen aan te gaan&#x20;
 
-{% content-ref url="../../features/risk-management/" %}
-[risicobeheer](../../features/risicobeheer/)
-{% endcontent-ref %}
 
 * &#x20;**Identificeer, wijs toe en bewaak** **saneringstaken**
 
-{% content-ref url="../../features/plan/" %}
-[plan](../../features/plan/)
-{% endcontent-ref %}
 
 * **Documenteer** **het register** door de uitgevoerde maatregelen aan te geven in de verwerkingsbladen en zo een controlespoor te creëren.
 

@@ -1,73 +1,73 @@
 ---
-description: Apprenez à évaluer le niveau d'un risque avec Dastra.
+description: Leer hoe je het risiconiveau kunt beoordelen met Dastra.
 ---
 
-# Evaluation d'un risque
+# Risicobeoordeling
 
-## Evaluation d'un risque
+## Een risico beoordelen
 
-Un risque peut être évalué avec la formule suivante :
+Een risico kan worden beoordeeld met de volgende formule:
 
 $$
-Risque = Probabilité * Impact
+Risico = Waarschijnlijkheid * Gevolgen
 $$
 
-Où la **probabilité** est la fréquence d'occurence d'un évènement rédouté et/ou d'un élément dangereux,
+Waarbij de **waarschijnlijkheid** de frequentie is waarmee een gevreesde gebeurtenis en/of een gevaarlijk element zich voordoet,
 
-et l'**impact** est la gravité des effets et/ou la sévérité des conséquences de cet évènement redouté.
+en de **impact** de ernst van de effecten en/of de ernst van de gevolgen van de gevreesde gebeurtenis is.
 
-L'impact d'un risque est classé par défaut en 4 catégories :&#x20;
+De impact van een risico wordt standaard ingedeeld in 4 categorieën:&#x20;
 
-* Catastrophique,&#x20;
-* Important,
-* Moyen,
-* Faible.
+* Catastrofaal,&#x20;
+* Significant,
+* Medium
+* Laag.
 
-La probabilité d'un risque est classé par défaut en 4 catégories :
+De waarschijnlijkheid van een risico wordt standaard ingedeeld in 4 categorieën:
 
-* Très probable,
-* Probable,
-* Possible,
-* Peu probable.
+* Zeer waarschijnlijk,
+* Waarschijnlijk
+* Mogelijk
+* Onwaarschijnlijk.
 
 {% hint style="info" %}
-Il est possible de personnaliser les niveaux de risques dans Dastra.
+Risiconiveaus kunnen worden aangepast in Dastra.
 {% endhint %}
 
-## Classification des risques
+## Risicoclassificatie
 
-Selon leur niveau de probabilité et d'impact, les risques peuvent être classés en plusieurs catégories :
+Afhankelijk van hun waarschijnlijkheids- en impactniveau kunnen risico's in verschillende categorieën worden ingedeeld:
 
-* Les risques intolérables.
-* Les risques qui doivent être limités autant que possible.
-* Les risques acceptables soit parce que la probabilité et/ou la sévérité du risque est/sont négligeables en comparaisons d'autres risques.
+* Onaanvaardbare risico's.
+* Risico's die zoveel mogelijk beperkt moeten worden.
+* Risico's die aanvaardbaar zijn omdat de waarschijnlijkheid en/of de ernst van het risico verwaarloosbaar is/zijn in vergelijking met andere risico's.
 
-Les risques intolérables sont représentés en **rouge** dans Dastra.
+Onduldbare risico's worden in **rood** weergegeven in Dastra.
 
-Les risques qui doivent être limités autant que possible sont représentés en **orange** ou en **jaune** dans Dastra.
+Risico's die zoveel mogelijk beperkt moeten worden, worden in Dastra weergegeven in **oranje** of **geel**.
 
-Les risques acceptables sont représentés en **vert** dans Dastra.
+Aanvaardbare risico's worden in **groen** weergegeven in Dastra.
 
-## Risque brut vs. risque net (ou résiduel)
+## Brutorisico vs. nettorisico (of restrisico)
 
-Un risque « **brut** » est considéré sans l’ensemble des dispositifs de maîtrise et de contrôle qui l’entoure – organisation, contrôles divers, documentation, etc.&#x20;
+Een "**bruto**" risico wordt beschouwd zonder alle omringende controlemaatregelen - organisatie, verschillende controles, documentatie, enz.&#x20;
 
-Un risque « **net** » (ou résiduel) est, au contraire, évalué en prenant compte l’ensemble des dispositifs déjà en place et effectifs.
-
-
-
-## Visualisation d'un risque
+Een "netto" (of rest)risico wordt daarentegen beoordeeld door rekening te houden met alle systemen die al aanwezig en effectief zijn.
 
 
 
-![Exemple de visualisation de risques dans Dastra.](<../../.gitbook/assets/image (198).png>)
+## Visualisatie van een risico
 
-Aller plus loin
 
-{% content-ref url="../../features/la-gestion-des-risques/risques.md" %}
-[risques.md](../../features/la-gestion-des-risques/risques.md)
+
+Voorbeeld van risicovisualisatie in Dastra (<../../.gitbook/assets/image (198).png>)
+
+Verder gaan
+
+{% content-ref url="../../features/risk-management/risks.md" %}
+[risks.md](../../features/risk-management/risks.md)
 {% endcontent-ref %}
 
-{% content-ref url="risques-sous-traitants.md" %}
-[risques-sous-traitants.md](risques-sous-traitants.md)
+{% content-ref url="risks-subcontractors.md" %}
+[risico's-subcontractanten.md](risico's-subcontractanten.md)
 {% endcontent-ref %}
