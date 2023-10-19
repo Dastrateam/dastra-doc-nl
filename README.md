@@ -1,5 +1,5 @@
 ---
-beschrijving: Ontdek wat Dastra is.
+description: Ontdek wat Dastra is.
 ---
 
 # Introductie tot Dastra
@@ -10,7 +10,7 @@ Wij streven ernaar om gegevensbeschermingsteams te helpen bij het **vergroten va
 
 * Een snelle, intuïtieve en gebruiksvriendelijke **interface**;
 * vruchtbare **samenwerking** tussen de verschillende spelers die betrokken zijn bij RGPD.
-* Tijdsbesparingen** in het dagelijkse compliancebeheer
+* **Tijdsbesparingen** in het dagelijkse compliancebeheer
 * Nieuwe **diensten** en functionaliteiten** voor naleving en beheer
 * Een **begeleide** pedagogische aanpak waardoor niet-experts stap voor stap verantwoordelijkheid kunnen nemen.
 
