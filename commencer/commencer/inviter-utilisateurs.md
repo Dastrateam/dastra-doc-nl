@@ -1,128 +1,127 @@
 ---
-description: Découvrez comment le système d'invitation de Dastra fonctionne.
+description: Ontdek hoe het Dastra-uitnodigingssysteem werkt.
 ---
 
-# Inviter des utilisateurs
+# Gebruikers uitnodigen
 
-## Invitez un utilisateur
+## Een gebruiker uitnodigen
 
-Vous pouvez amener quelqu'un à collaborer sur vos espaces en l'invitant dans l'organisation à laquelle appartient l'espace.&#x20;
+U kunt iemand uitnodigen om samen te werken aan uw werkruimten door hem uit te nodigen voor de organisatie waartoe de werkruimte behoort &#x20;
 
-Vous pouvez inviter des utilisateurs à votre espace de travail en cliquant sur le bouton "réglages" en bas à gauche de l'écran, puis "gestion d'accès / utilisateurs" et enfin "inviter un utilisateur":
+Je kunt gebruikers uitnodigen voor je werkruimte door te klikken op de knop "instellingen" linksonder in het scherm, vervolgens op "toegangsbeheer / gebruikers" en ten slotte op "een gebruiker uitnodigen":
 
 <figure><img src="../../.gitbook/assets/image (12) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
-Rentrez l'adresse email de la personne que vous souhaitez inviter dans votre espace Dastra. Si cette adresse n'est pas déjà rattachée à l'organisation, cliquez sur celle-ci pour lui envoyer un lien d'invitation.
+Voer het e-mailadres in van de persoon die je wilt uitnodigen voor jouw Dastra ruimte. Als dit adres nog niet is gekoppeld aan de organisatie, klik er dan op om hem of haar een uitnodigingslink te sturen.
 
-![](<../../.gitbook/assets/image (130).png>)
 
-Un formulaire apparait. Rentrez son nom, son prénom, son rôle, son équipe puis cliquez sur le bouton "Envoyer une invitation". La personne invitée recevra un mail contenant un lien qui, une fois cliqué, permettra à cette personne d'accéder à l'espace.\
+Een formulier verschijnt. Voer je achternaam, voornaam, rol en team in en klik dan op de "Stuur een uitnodiging" knop. De uitgenodigde persoon zal een e-mail ontvangen met een link die, eenmaal geklikt, deze persoon toegang geeft tot de ruimte.
 \
-Ca y est, l'utilisateur a été invité !
+Dat is het, de gebruiker is uitgenodigd!
 
-### Retrouvez les invitations en cours
+### Huidige uitnodigingen bekijken
 
-Vous pouvez piloter les invitations en cours dans les réglages de l'espace de travail sur la section "Utilisateurs".&#x20;
+Je kunt de huidige uitnodigingen controleren in de werkruimte-instellingen in de sectie "Gebruikers".&#x20;
 
 <figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
-### Renvoyer un lien d'invitation
+### Een uitnodigingslink opnieuw versturen
 
-Si l'utilisateur invité n'a pas cliqué sur le lien d'invitation et que le lien a expiré (au bout de 10 jours), vous pouvez lui renvoyer le lien d'invitation en cliquant sur le bouton "Renvoyer l'invitation".&#x20;
+Als de uitgenodigde gebruiker niet op de uitnodigingslink heeft geklikt en de link is verlopen (na 10 dagen), kun je de uitnodigingslink opnieuw verzenden door op de knop "Uitnodiging opnieuw verzenden" te klikken.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
-### Créer puis affectez des équipes
+### Teams maken en toewijzen
 
-Dans Dastra, les utilisateurs sont regroupés par équipe, qui elles-mêmes sont affectées soit à des entités juridiques, soit à des départements. Ainsi, il est possible de gérer finement les rôles et responsabilités.
+In Dastra worden gebruikers gegroepeerd in teams, die op hun beurt worden toegewezen aan rechtspersonen of afdelingen. Op deze manier kunnen rollen en verantwoordelijkheden nauwkeurig worden beheerd.
 
 {% hint style="info" %}
-Il existe plusieurs rôles proposés par défaut dans Dastra, représentant des niveaux d'autorisation:
+Er zijn verschillende standaardrollen in Dastra, die verschillende autorisatieniveaus vertegenwoordigen:
 
-* **Administrateur**: Ils peuvent faire tout ce que les auteurs peuvent faire, en plus de modifier les paramètres d'organisation et d'espaces.
-* **Contributeur**: Ils peuvent lire et éditer des espaces. Ils peuvent voir les brouillons et les modifications qui ne sont pas encore publiés. Ils peuvent publier des modifications. Ils ne peuvent pas modifier les paramètres d'organisation ni les paramètres d'espaces.
-* **Lecteur**: peuvent uniquement visiter les espaces publiés dans l'organisation. Ils ne peuvent pas éditer et ne peuvent pas voir les modifications qui ne sont pas encore publiées.
+** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **: Zij kunnen alles doen wat auteurs kunnen doen, maar ook organisatie- en ruimte-instellingen wijzigen.
+*Bijdrager**: Zij kunnen ruimtes lezen en bewerken. Ze kunnen concepten en wijzigingen zien die nog niet gepubliceerd zijn. Ze kunnen wijzigingen publiceren. Ze kunnen geen organisatie- of ruimteparameters wijzigen.
+* Lezer**: kan alleen gepubliceerde ruimtes in de organisatie bezoeken. Ze kunnen niet bewerken en geen wijzigingen zien die nog niet gepubliceerd zijn.
 {% endhint %}
 
-## Importer une grande liste d'utilisateurs
+## Een grote lijst met gebruikers importeren
 
-Vous pouvez demander l'import d'une grande liste d'utilisateurs dans la plateforme. Pour cela il faut passer par les équipes de Dastra.&#x20;
+Je kunt het importeren van een grote lijst gebruikers in het platform aanvragen. Om dit te doen moet je de Dastra teams &#x20;
 
-**Les étapes à suivre :**&#x20;
+**De te volgen stappen:**&#x20;
 
-* rendez vous sur ce lien : [https://app.dastra.eu/general-settings/users](https://app.dastra.eu/general-settings/users)
-* Cliquez sur le bouton "contacter l'équipe de Dastra"
+* ga naar deze link: [https://app.dastra.eu/general-settings/users](https://app.dastra.eu/general-settings/users)
+* klik op de knop "contact opnemen met het Dastra-team
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-* Créez un fichier par espace de travail au format CSV comprenant les colonnes suivantes séparées par des , (virgule) :&#x20;
+* Maak een bestand per werkruimte in CSV-formaat met de volgende kolommen, gescheiden door , (komma):&#x20;
 
-De manière obligatoire : &#x20;
+Verplicht: &#x20;
 
-* Email (email de l'utilisateur)
-* GivenName (prénom de l'utilisateur)
-* FamilyName(nom de l'utilisateur)
+* E-mail (e-mailadres van de gebruiker)
+* Voornaam (voornaam van de gebruiker)
+* FamilyName (achternaam gebruiker)
 
-De manière optionnelle :&#x20;
+Optioneel: &#x20;
 
-* Roles (séparé par des |) > cela correspond aux rôles dans Dastra
-* Teams (séparé par des |) > cela correspond aux équipes dans Dastra
-* SsoConfigurationId > cela correspond à l'identifiant de login SSO le cas échéant
+* Rollen (gescheiden door |) > dit komt overeen met de rollen in Dastra
+* Teams (gescheiden door |) > dit komt overeen met de teams in Dastra
+* SsoConfigurationId > dit komt overeen met de SSO login identifier indien van toepassing.
 
-Voici un modèle de fichier à télécharger et à remplir :&#x20;
+Hier is een voorbeeldbestand om te downloaden en in te vullen:&#x20;
 
 {% file src="../../.gitbook/assets/Template_import_users (1).csv" %}
-Modèle de fichier d'import
+Sjabloon importbestand
 {% endfile %}
 
-**S'agissant des identifiants de rôles :**&#x20;
+**Voor rolidentificaties:**&#x20;
 
-Par défaut : les rôles de base ont les identifiants suivants :&#x20;
+Standaard: de basisrollen hebben de volgende identifiers:&#x20;
 
-* Administrateur = 1
-* Contributeur = 2
-* Lecteur = 3
+* Beheerder = 1
+* Medewerker = 2
+* Lezer = 3
 
-Pour les rôles personnalisés que vous avez créé, l'identifiant est visible depuis la console de développement de votre navigateur via l'onglet réseau.&#x20;
+Voor aangepaste rollen die u hebt gemaakt, is de identifier zichtbaar in de ontwikkelconsole van uw browser via de netwerktab &#x20;
 
 {% hint style="info" %}
-Pour ouvrir la console sur Chrome, utilisez le raccourci clavier suivant : Cmd + Option + C (sur Mac) ou Ctrl + Maj + J (sous Windows)
+Gebruik de volgende sneltoets om de console in Chrome te openen: Cmd + Option + C (op Mac) of Ctrl + Shift + J (op Windows).
 
-Pour ouvrir la console sur Firefox, utilisez le raccourci clavier suivant : Cmd + Option + K (sur Mac) ou Ctrl + Maj + J (sous Windows)
+Als u de console in Firefox wilt openen, gebruikt u de volgende sneltoets: Cmd + Option + K (op Mac) of Ctrl + Shift + J (onder Windows).
 
-Pour ouvrir la console, vous pouvez utiliser le raccourci clavier suivant : Cmd + Option + C
+Gebruik de volgende sneltoets om de console te openen Cmd + Optie + C
 
-Pour ouvrir la console sur Microsoft Edge, vous pouvez utiliser le raccourci suivant : Ctrl + Maj + I
+Als je de console wilt openen in Microsoft Edge, gebruik je de volgende sneltoets: Ctrl + Shift + I
 {% endhint %}
 
-Attention, les rôles doivent être créés préalablement.
+Houd er rekening mee dat de rollen vooraf moeten worden aangemaakt.
 
 
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Ici l'identifiant du rôle est le numéro 115</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Hier is de rol identifier nummer 115</p></figcaption></figure>
 
 
 
-**S'agissant des identifiants des équipes :**&#x20;
+**Team ID's:**&#x20;
 
-Ceux ci sont paramétrables lors de l'ajout d'une équipe
+Deze kunnen worden ingesteld bij het toevoegen van een team
 
 <figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Attention, les équipes doivent être crées préalablement dans l'espace de travail
+Houd er rekening mee dat teams eerst moeten worden gemaakt in de werkruimte.
 {% endhint %}
 
-Enregistrez votre fichier au format CSV UTF 8&#x20;
+Sla je bestand op in CSV UTF 8&#x20 formaat;
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-Une fois votre fichier prêt, indiquez nous dans quel espace de travail vous souhaitez importer les utilisateurs et déposez le fichier via l'interface de dépôt :&#x20;
+Als je bestand klaar is, vertel je ons in welke workspace je de gebruikers wilt importeren en upload je het bestand via de upload interface:&#x20;
 
 
 
 <figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-Nous recevrons la demande et nous reviendrons vers vous pour le suivi.
+We zullen het verzoek ontvangen en contact met je opnemen voor een vervolg.

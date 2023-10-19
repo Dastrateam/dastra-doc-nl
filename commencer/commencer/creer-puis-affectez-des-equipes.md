@@ -1,26 +1,21 @@
 ---
-description: Découvrez comment le système d'équipes de Dastra fonctionne.
+description: Ontdek hoe het Dastra-teamsysteem werkt.
 ---
 
-# Créer puis affecter des équipes
+# Creëer en wijs teams toe
 
-### Créer puis affectez des équipes
+### teams maken en toewijzen
 
-Dans Dastra, les utilisateurs sont regroupés par équipe, qui elles-mêmes sont affectées soit à des entités juridiques, soit à des départements. Ainsi, il est possible de gérer finement les rôles et responsabilités.
+In Dastra worden gebruikers gegroepeerd in teams, die op hun beurt worden toegewezen aan rechtspersonen of afdelingen. Dit maakt het mogelijk om rollen en verantwoordelijkheden tot in detail te beheren.
 
-### Créer une nouvelle équipe ou assigner un nouvel utilisateur à une équipe existante
+### Een nieuw team maken of een nieuwe gebruiker aan een bestaand team toewijzen
 
-Pour créer une nouvelle équipe ou assigner un nouvel utilisateur à une équipe existante, cliquer sur le bouton "Réglages" en bas à gauche de l'écran, puis le bouton "Equipes".
+Om een nieuw team aan te maken of een nieuwe gebruiker aan een bestaand team toe te wijzen, klikt u links onderaan op de knop 'Instellingen' en vervolgens op de knop 'Teams'.
 
-![Les boutons d'accès aux équipes](<../../.gitbook/assets/image (253) (1) (1) (1) (1).png>)
-
-
-
-Pour créer une équipe, cliquez sur le bouton "Ajouter une équipe".
-
-Pour ajouter un utilisateur à une équipe existante, cliquez sur les 3 points à droite de l'équipe puis sur modifier, ou directement sur le nom de l'équipe concernée. La liste des utilisateurs assignés à cette équipe s'affiche et vous pouvez ajouter les utilisateurs désirés, ou envoyer une invitation à un nouvel utilisateur.
+Team toegangsknoppen
 
 
 
+Om een team aan te maken, klik op de "Voeg een team toe" knop.
 
-
+Om een gebruiker aan een bestaand team toe te voegen, klik je op de 3 puntjes rechts van het team en dan op bewerken, of direct op de naam van het betreffende team. De lijst met gebruikers die zijn toegewezen aan dit team wordt weergegeven en je kunt de gewenste gebruikers toevoegen of een uitnodiging sturen naar een nieuwe gebruiker.

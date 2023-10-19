@@ -1,33 +1,33 @@
-# Désigner un DPO
+# Een DPO benoemen
 
-## Désigner un DPO
+## Een functionaris voor gegevensbescherming aanstellen
 
-Le délégué à la protection des données (ou data protection officer) est le chef d'orchestre de la conformité au RGPD.&#x20;
+De functionaris voor gegevensbescherming is de organisator van de naleving van de AVG &#x20;
 
-L’article 37.1 du RGPD (règlement général sur la protection des données) **impose la désignation d’un DPO** dans 3 situations :
+Artikel 37.1 van de AVG (Algemene Verordening Gegevensbescherming) **verplicht de aanstelling van een DPO** in 3 situaties:
 
-* Lorsque le traitement est effectué par une **autorité publique ou un organisme public**
-* Lorsque les **activités de base** du responsable du traitement ou du sous-traitant consistent en des opérations de traitement qui exigent un **suivi régulier et systématique à grande échelle des personnes concernées**
-* Lorsque les **activités de base** du responsable du traitement ou du sous-traitant consistent en un **traitement à grande échelle** de catégories particulières de données ou de données à caractère personnel relatives à des condamnations pénales et à des infractions
+* Wanneer de Verwerking wordt uitgevoerd door een **overheidsinstantie of overheidsorgaan**.
+* Wanneer de **kernactiviteiten** van de Verwerkingsverantwoordelijke of de subcontractant bestaan uit verwerkingen die **reguliere en systematische grootschalige monitoring van betrokkenen** vereisen.
+* wanneer de **kernactiviteiten** van de Verwerkingsverantwoordelijke of subcontractant bestaan uit de **grootschalige verwerking** van bijzondere categorieën van gegevens of van persoonsgegevens die verband houden met strafrechtelijke veroordelingen en strafbare feiten.
 
-Pour en savoir plus sur la désignation du DPO, rendez-vous sur l'article "[Dans quel cas la désignation du DPO est-elle obligatoire ?](https://www.dastra.eu/fr/guide/designation-obligatoire-ou-facultative-dun-dpo/48289)"
+Voor meer informatie over de aanstelling van een functionaris voor gegevensbescherming, zie het artikel "[Wanneer is de aanstelling van een functionaris voor gegevensbescherming verplicht?](https://www.dastra.eu/fr/guide/designation-obligatoire-ou-facultative-dun-dpo/48289)".
 
-Consultez également notre [article sur les modalités de désignation d'un DPO ](https://www.dastra.eu/fr/guide/les-modalites-de-designation-dun-delegue-a-la-protection-des-donnees/42392)pour vous assurer de désigner la bonne personne.
+Je kunt ook ons artikel [over de procedures voor het aanstellen van een functionaris voor gegevensbescherming](https://www.dastra.eu/fr/guide/les-modalites-de-designation-dun-delegue-a-la-protection-des-donnees/42392) lezen om er zeker van te zijn dat je de juiste persoon aanstelt.
 
 
 
-## Ajouter un DPO dans Dastra
+## Een DPO toevoegen in Dastra
 
-Pour ajouter un DPO, il faut se rendre dans la gestion de l'entité.
+Ga naar entiteitsbeheer om een DPO toe te voegen.
 
-_**A noter** : un seul DPO est attaché à une entité._&#x20;
+Let op**: er kan maar één DPO aan een entiteit worden gekoppeld&#x20;
 
-Ensuite, ajouter le DPO dans le champ prévu.
+Voeg vervolgens de DPO toe in het daarvoor bestemde veld.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Fenêtre de modification d'une entité</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Entiteit bewerken venster</p></figcaption></figure>
 
-Le DPO est ajouté en tant qu'acteur. Ainsi, si le DPO est une personne physique, ajoutez le en personne physique. S'il s'agit d'une société (un DPO externe par exemple), ajoutez le en tant que personne morale.&#x20;
+De DPO wordt toegevoegd als een actor. Dus als de DPO een natuurlijk persoon is, voeg hem dan toe als natuurlijk persoon. Als het een bedrijf is (bijvoorbeeld een externe DPO), voegt u deze toe als rechtspersoon.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Fenêtre d'ajout d'un acteur dans l'annuaire</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Venster voor het toevoegen van een actor aan de map</p></figcaption></figure>
 
-N'oubliez pas d'enregistrer et le tour est joué !
+Vergeet niet op te slaan en je bent klaar!

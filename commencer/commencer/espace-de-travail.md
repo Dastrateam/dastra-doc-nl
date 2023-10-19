@@ -1,88 +1,72 @@
 ---
-description: Apprenez à créer votre premier espace de travail dans Dastra.
+description: Leer hoe je je eerste werkruimte maakt in Dastra.
 ---
 
-# Créer et paramétrer un espace de travail
+# Een werkruimte maken en configureren
 
 
 
 {% embed url="https://www.youtube.com/watch?v=IJE5rzou-EM&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=1" %}
 
-## Connectez-vous à Dastra.eu&#x20;
+## Inloggen op Dastra.eu&#x20;
 
-Commencez par vous connecter à [Dastra.eu](https://www.dastra.eu/). Si vous n'avez pas encore de compte, [inscrivez-vous](https://app.dastra.eu/signup) et créez-en un nouveau.
+Begin met een verbinding met [Dastra.eu](https://www.dastra.eu/). Als je nog geen account hebt, [registreer](https://app.dastra.eu/signup) en maak een nieuwe aan.
 
 {% hint style="info" %}
-Vous pouvez accéder immédiatement à Dastra en ouvrant un compte "Essai gratuit" valide sur une période de 30 jours. Si vous souhaitez souscrire à une offre long terme,  merci de [nous contacter](https://www.dastra.eu/fr/contact?type=quote).
+Je kunt direct toegang krijgen tot Dastra door een "Gratis Proef" account te openen die 30 dagen geldig is. Als u zich wilt abonneren op een lange termijn aanbieding, neem dan [contact met ons op](https://www.dastra.eu/fr/contact?type=quote).
 {% endhint %}
 
-## Espace de travail
+## Werkruimte
 
-Un espace de travail est une organisation permettant d'accueillir un ou plusieurs registres des traitements. Vous pouvez créer un espace de travail par registre de traitement et/ou par entité légale ou succursale, selon votre choix.
+Een werkruimte is een organisatie die wordt gebruikt om een of meer registers voor Verwerking te hosten. U kunt naar wens een werkruimte aanmaken per behandelingsregister en/of per rechtspersoon of filiaal.
 
-### Créez un espace de travail
+### Een workspace aanmaken
 
-Vous avez besoin d'un espace de travail pour gérer votre entité. Vous pouvez créer un espace de travail en cliquant sur "Nouvel espace de travail" :
+U hebt een workspace nodig om uw entiteit te beheren. U kunt een werkruimte maken door op "Nieuwe werkruimte" te klikken:
 
 &#x20;
 
-![](<../../.gitbook/assets/image (181).png>)
+Vul de velden in en klik op "Doorgaan".
 
-Renseignez les champs, puis cliquez sur "Continuer".
+### Nodig de eerste gebruikers uit
 
-### Invitez les premiers utilisateurs
-
-Une fois l'espace de travail créé, vous pouvez inviter directement vos collaborateurs dans votre espace.&#x20;
-
-![](<../../.gitbook/assets/image (129).png>)
+Zodra de werkruimte is aangemaakt, kun je je collega's direct uitnodigen voor je ruimte. &#x20;
 
 {% hint style="info" %}
-Vous pouvez ajouter des utilisateurs existants à cet espace ou bien inviter des nouveaux utilisateurs, en cliquant sur le bouton "Inviter un utilisateur".
+Je kunt bestaande gebruikers aan deze ruimte toevoegen of nieuwe gebruikers uitnodigen, door op de "Nodig een gebruiker uit" knop te klikken.
 {% endhint %}
 
-Assignez-leur le rôle de votre choix et cliquez sur "Suivant".
+Wijs hen de rol van uw keuze toe en klik op "Volgende".
 
-### Créez la première entité&#x20;
+### Maak de eerste entiteit&#x20;
 
-Dans Dastra, la notion d'espace de travail est décorrélée de celle d'entité juridique. Ainsi, un espace de travail peut faire référence à plusieurs entités juridiques distinctes (comme dans un groupe par exemple). En revanche, il ne peut y avoir qu'un seul représentant légal par entité juridique.
+In Dastra staat het begrip werkruimte los van het begrip juridische entiteit. Een werkruimte kan dus verwijzen naar meerdere afzonderlijke juridische entiteiten (zoals in een groep bijvoorbeeld). Aan de andere kant kan er maar één wettelijke vertegenwoordiger per juridische entiteit zijn.
 
-Chaque entité est considérée comme un responsable de traitement.&#x20;
+Elke entiteit wordt beschouwd als een Verwerkingsverantwoordelijke&#x20;
 
-Pour créer la première entité juridique, il vous suffit d'indiquer son nom et d'y associer son responsable (le représentant légal) et s'il a été nommé, le délégué à la protection des données ou d'autres acteurs. Seul le nom de l'entité juridique est obligatoire.
+Om de eerste juridische entiteit aan te maken, hoeft u alleen maar de naam aan te geven en de verantwoordelijke voor de verwerking (de wettelijke vertegenwoordiger) en, indien aangewezen, de functionaris voor gegevensbescherming of andere partijen erbij te betrekken. Alleen de naam van de rechtspersoon is verplicht.
 
-![](<../../.gitbook/assets/image (126).png>)
+Vul de velden in en klik op "Doorgaan" om uw ruimte in te voeren.
 
-Renseignez les champs, puis cliquez sur "Continuer", pour entrer sur votre espace.
+### Maak andere entiteiten en afdelingen aan (optioneel)
 
-### Créer d'autres entités et des départements (optionnel)
+Zodra uw ruimte is geopend, is het een goede gewoonte om meteen **alle andere juridische entiteiten en eventuele afdelingen** aan te maken, om het latere beheer van Verwerkingen en de toewijzing van rechten aan gebruikers te vereenvoudigen.
 
-Une fois votre espace ouvert, il est une bonne pratique de **renseigner immédiatement l'ensemble des autres entités juridiques ainsi que les départements** éventuels, afin de simplifier par la suite la gestion des traitements et l'attribution des droits aux utilisateurs.
+Klik hiervoor op de naam van uw entiteit linksboven in het scherm (in dit geval op de knop "Test") om het vervolgkeuzemenu weer te geven en klik vervolgens op de knop "Uw werkruimte beheren".
 
-Pour cela, cliquez sur le nom de votre entité en haut à gauche de l'écran (dans ce cas, le bouton "Test") pour afficher le menu déroulant puis, cliquez sur le bouton "Gérer votre espace de travail".
 
-![](<../../.gitbook/assets/image (182).png>)
-
-Vous arriverez ainsi dans l'écran de configuration des entités et départements. Créez des départements en cliquant sur le bouton "Créer un département" ou une nouvelle entité juridique en cliquant sur le bouton "Créer une entité (responsable de traitement"), jusqu'à ce que le schéma organisationnel de votre structure soit représenté dans Dastra.
+Dit brengt je naar het configuratiescherm voor entiteiten en afdelingen. Creëer afdelingen door op de knop "Creëer een afdeling" te klikken of een nieuwe juridische entiteit door op de knop "Creëer een entiteit (Verwerking)" te klikken, totdat het organigram van uw structuur wordt weergegeven in Dastra.
 
 {% hint style="info" %}
-Vous pouvez également rajouter des sous-départements, en cliquant sur le bouton "ajouter un département enfant".
+U kunt ook subafdelingen toevoegen door op de knop "Voeg een kindafdeling toe" te klikken.
 {% endhint %}
 
-![La vision "Organigramme" générée dans Dastra.](<../../.gitbook/assets/image (128).png>)
+De "Organogram" weergave gegenereerd in Dastra (<../../.gitbook/assets/image (128).png>)
 
-Bravo, votre espace de travail dans Dastra est créé et paramétré !&#x20;
+Gefeliciteerd, je werkruimte in Dastra is gemaakt en ingesteld!&#x20;
 
-Suivez le tutoriel ci-dessous ou commencez à explorer Dastra par vous-même.&#x20;
+Volg de onderstaande tutorial of begin Dastra zelf te verkennen.&#x20;
 
-{% content-ref url="../tutoriel/" %}
-[tutoriel](../tutoriel/)
+{% content-ref url="../tutorial/" %}
+[tutorial](../tutorial/)
 {% endcontent-ref %}
-
-
-
-
-
-
-
-
-

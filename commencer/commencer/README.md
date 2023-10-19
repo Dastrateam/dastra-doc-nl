@@ -1,40 +1,35 @@
 ---
-description: Apprenez à bien commencer avec Dastra.
+description: Leer hoe u aan de slag kunt met Dastra.
 ---
 
-# Mise en place
+# Aan de slag
 
-Pour démarrer un projet, commencez ici:
+Begin hier om een project te starten:
 
-{% content-ref url="espace-de-travail.md" %}
-[espace-de-travail.md](espace-de-travail.md)
+{% content-ref url="workspace.md" %}
+[workspace.md](workspace.md)
 {% endcontent-ref %}
 
-Si vous voulez rejoindre un projet existant sur Dastra ou inviter un membre de votre réseau, commencez ici:
+Als je je wilt aansluiten bij een bestaand project op Dastra of een lid van je netwerk wilt uitnodigen, begin dan hier:
 
-{% content-ref url="inviter-utilisateurs.md" %}
-[inviter-utilisateurs.md](inviter-utilisateurs.md)
+{% content-ref url="invite-users.md" %}
+[invite-users.md](invite-users.md)
 {% endcontent-ref %}
 
-Pour apprendre à gérer les rôles et permissions ou créer de nouveaux rôles personnalisés, consultez la section ci-dessous :
+Om te leren hoe je rollen en rechten beheert of nieuwe aangepaste rollen maakt, zie de sectie hieronder:
 
-{% content-ref url="gerez-les-roles-et-permissions.md" %}
-[gerez-les-roles-et-permissions.md](gerez-les-roles-et-permissions.md)
+{% content-ref url="manage-roles-and-permissions.md" %}
+[manage-roles-and-permissions.md](manage-roles-and-permissions.md)
 {% endcontent-ref %}
 
-Puis constituez des équipes et affectez-les aux bonnes entités ou bons départements :
+Maak vervolgens teams en wijs ze toe aan de juiste entiteiten of afdelingen:
 
-{% content-ref url="creer-puis-affectez-des-equipes.md" %}
-[creer-puis-affectez-des-equipes.md](creer-puis-affectez-des-equipes.md)
+{% content-ref url="create-and-assign-teams.md" %}
+[create-then-assign-teams.md](create-then-assign-teams.md)
 {% endcontent-ref %}
 
-Ca y est, vous êtes prêt pour commencer un projet dans Dastra. Vous pouvez explorer par vous-même les fonctionnalités de Dastra ou suivre le tutoriel pour apprendre à travers un cas concret :
+Nu ben je klaar om een project te starten in Dastra. Je kunt de mogelijkheden van Dastra zelf verkennen of de tutorial volgen om al doende te leren:
 
-{% content-ref url="../tutoriel/" %}
-[tutoriel](../tutoriel/)
+{% content-ref url="../tutorial/" %}
+[tutorial](../tutorial/)
 {% endcontent-ref %}
-
-
-
-
-

@@ -1,31 +1,31 @@
 ---
-description: Découvrez comment gérer les rôles et permissions dans Dastra.
+beschrijving: Ontdek hoe je rollen en rechten beheert in Dastra.
 ---
 
-# Gérer les rôles et permissions
+# Rollen en rechten beheren
 
-Au moment d'inviter un utilisateur, Dastra propose, par défaut, **trois rôles** possibles :
+Bij het uitnodigen van een gebruiker biedt Dastra standaard **drie mogelijke** rollen:
 
-* **Administrateur** : Les administrateurs ont les droits des contributeurs et peuvent administrer les réglages d'espaces de travail. Les administrateurs sont les seuls à pouvoir passer un traitement en statut "publié", à créer des unités organisationnelles, à inviter des nouveaux utilisateurs dans l'espace de travail.&#x20;
-* **Contributeur** : Les contributeurs peuvent lire et éditer le contenu des espaces de travail. Ils peuvent créer des éléments, modifier les brouillons qui ne sont pas encore publiés. Ils ne peuvent pas modifier les paramètres des espaces de travail.
-* **Lecteur :** Les lecteurs peuvent uniquement visualiser le contenu de l'espace de travail. Ils ne peuvent pas éditer le contenu ni modifier les paramètres de l'espace de travail.
+* **Beheerder** : Beheerders hebben rechten als bijdrager en kunnen werkruimte-instellingen beheren. Administrators zijn de enigen die een Verwerking op de status "gepubliceerd" kunnen zetten, organisatorische eenheden kunnen creëren, nieuwe gebruikers kunnen uitnodigen voor de werkruimte, etc. 20;
+* **Contributor** : Contributors kunnen de inhoud van de werkruimte lezen en bewerken. Ze kunnen items maken en concepten wijzigen die nog niet zijn gepubliceerd. Ze kunnen de instellingen van de werkruimte niet wijzigen.
+* **Lezers** kunnen alleen werkruimte-inhoud bekijken. Ze kunnen geen inhoud bewerken of werkruimte-instellingen wijzigen.
 
 
 
 {% hint style="info" %}
-Seuls les **propriétaires** peuvent modifier les paramètres du compte d'organisation et créer des espaces de travail.
+Alleen **eigenaars** kunnen de accountinstellingen van de organisatie wijzigen en workspaces aanmaken.
 {% endhint %}
 
-### Attribuer un rôle à un utilisateur
+### Een rol toewijzen aan een gebruiker
 
-Dans Dastra, un utilisateur peut cumuler plusieurs rôles différents. Pour assigner plusieurs rôles à un utilisateur, rendez-vous dans la section "Utilisateurs" des réglages,&#x20;
+In Dastra kan een gebruiker verschillende rollen hebben. Om meerdere rollen aan een gebruiker toe te wijzen, gaat u naar de sectie "Gebruikers" van de instellingen,&#x20;
 
 {% hint style="info" %}
 <img src="../../.gitbook/assets/image (248) (1) (1).png" alt="" data-size="original">
 
 
 
-puis afficher les options liées à l'utilisateur&#x20;
+toon dan de opties gekoppeld aan de gebruiker&#x20;
 
 
 
@@ -33,38 +33,35 @@ puis afficher les options liées à l'utilisateur&#x20;
 
 
 
-et sélectionner le "rôle" correspondant à l'utilisateur en question.
+en selecteer de "rol" die overeenkomt met de gebruiker in kwestie.
 {% endhint %}
 
 
 
-Il est néanmoins possible de créer des rôles sur mesure, potentiellement plus adaptés à votre organisation.
+Het is echter mogelijk om aangepaste rollen aan te maken die meer geschikt zijn voor jouw organisatie.
 
-### Créer un rôle personnalisé
+### Een aangepaste rol maken
 
-Pour créer un rôle personnalisé, il faut être propriétaire de l'organisation. Il suffit de cliquer sur l'icône du profil en haut à droite de l'écran,  puis de cliquer sur l'onglet "Configuration" dans la liste déroulante.
+Om een aangepaste rol te maken, moet u de eigenaar van de organisatie zijn. Klik gewoon op het profielpictogram rechtsboven in het scherm en klik vervolgens op het tabblad 'Configuratie' in de vervolgkeuzelijst.
 
 ![](<../../.gitbook/assets/image (133).png>)
 
-Une fois dans le panneau de configuration, cliquez sur le bouton "Rôles et permissions" dans la section "Organisation". La liste des rôles et permissions s'affiche alors :
+Eenmaal in het configuratiescherm, klik je op de "Rollen en rechten" knop in de "Organisatie" sectie. De lijst met rollen en rechten wordt weergegeven:
 
-![Les rôles "Opérateur du registre RH" et "Assistante" sont des rôles personnalisés](<../../.gitbook/assets/image (134).png>)
-
-{% hint style="info" %}
-Seuls les propriétaires de l'organisation peuvent avoir accès à l'écran de gestion des rôles et permissions.
-{% endhint %}
-
-Pour créer un nouveau rôle, cliquez sur "Nouveau rôle", donnez lui un nom puis cochez les options "Lecture", "Modification", "Import" et "Export" liées à chaque fonctionnalité. Une fois terminé, cliquez sur le bouton "Enregistrer" en bas de l'écran.
+De rollen "HR Registry Operator" en "Assistant" zijn aangepaste rollen](<../../.gitbook/assets/image (134).png>)
 
 {% hint style="info" %}
-Pour qu'il soit effectif, le nouveau rôle doit être assigné à un ou des utilisateurs. Pour faire cela, rendez-vous dans la section "Utilisateur", puis cliquer sur le bouton "rôle" correspondant à l'utilisateur en question.
+Alleen eigenaren van de organisatie hebben toegang tot het rollen en rechten beheerscherm.
 {% endhint %}
 
-Ca y est, les rôles et permissions sont mis en place ! Vous pouvez maintenant consulter le tutoriel ou commencer à explorer les fonctionnalités de Dastra par vous-même.
+Om een nieuwe rol aan te maken, klik je op "Nieuwe rol", geef je hem een naam en vink je voor elke functie de opties "Lezen", "Bewerken", "Importeren" en "Exporteren" aan. Als je klaar bent, klik je op de knop "Opslaan" onderaan het scherm.
 
-{% content-ref url="../tutoriel/" %}
-[tutoriel](../tutoriel/)
+{% hint style="info" %}
+Om effectief te zijn, moet de nieuwe rol worden toegewezen aan een of meer gebruikers. Ga hiervoor naar de sectie "Gebruiker" en klik op de knop "rol" die bij de gebruiker in kwestie hoort.
+{% endhint %}
+
+Dat is het, de rollen en rechten zijn ingesteld! U kunt nu de tutorial bekijken of de mogelijkheden van Dastra zelf gaan verkennen.
+
+{% content-ref url="../tutorial/" %}
+[tutorial](../tutorial/)
 {% endcontent-ref %}
-
-
-
