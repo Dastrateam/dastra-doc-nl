@@ -1,32 +1,31 @@
 ---
-description: Apprenez ce qu'est le Règlement Général de la Protection des Données.
+description: Meer informatie over de Algemene Verordening Gegevensbescherming.
 ---
 
-# Introduction au RGPD
+# Inleiding tot de GDPR
 
-Le Règlement Général sur la Protection des Données (RGPD) est le règlement de l'Union européenne sur la protection des données et de la vie privée. Toutes les entreprises et administrations traitant des données personnelles de résidents européens sont concernées. Il est applicable depuis le 25 mai 2018.
+De General Data Protection Regulation (GDPR) is de verordening van de Europese Unie over gegevensbescherming en privacy. Alle bedrijven en overheden die persoonlijke gegevens van Europese ingezetenen verwerken, hebben hiermee te maken. Ze is van toepassing sinds 25 mei 2018.
 
-La nature extraterritoriale du RGPD étend son champ d'application à toutes les entreprises en dehors de l'Union européenne qui traitent les données des résidents de l'UE. Les organisations qui ne respectent pas le RGPD sont exposées à des risques de réputation ainsi qu'à des risques de sanctions (administratives, civiles ou pénales), avec des pénalités pouvant atteindre jusqu'à 4% du chiffre d'affaires annuel mondial de l'entreprise ou jusqu'à 20 M €.
+Het extraterritoriale karakter van de GDPR breidt het toepassingsgebied uit naar alle bedrijven buiten de Europese Unie die gegevens van inwoners van de EU verwerken. Organisaties die de GDPR niet naleven, worden blootgesteld aan reputatierisico's en het risico op sancties (administratief, civiel of strafrechtelijk), met boetes die kunnen oplopen tot 4% van de wereldwijde jaaromzet van het bedrijf of tot € 20 miljoen.
 
-Le texte intégral du règlement peut être téléchargé sur [ce lien](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32016R0679).
+De volledige tekst van de verordening kan worden gedownload van [deze link](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32016R0679).
 
-Son but est de standardiser et d'améliorer les règles de protection des données personnelles. Son premier objectif est de rendre le contrôle des données personnelles aux résidents de l'UE mais également de favoriser les échanges économiques au sein de l'Union en fournissant un cadre permettant la libre circulation des données. Le RGPD augmente considérablement les exigences existantes en matière de protection des données en étendant les droits des individus et les obligations spécifiques des organisations.
+Het doel is om de regels voor de bescherming van persoonsgegevens te standaardiseren en te verbeteren. Het belangrijkste doel is om de controle over persoonsgegevens terug te geven aan de inwoners van de EU, maar ook om economische uitwisselingen binnen de Unie te bevorderen door een kader te bieden voor het vrije verkeer van gegevens. De GDPR breidt de bestaande vereisten voor gegevensbescherming aanzienlijk uit door de rechten van individuen en de specifieke verplichtingen van organisaties te verruimen.
 
-## Quels enjeux pour les organisations?&#x20;
+## Wat staat er op het spel voor organisaties?
 
-D'un point de vue pratique, le RGPD oblige les organisations qui traitent les données des résidents européens à mettre en œuvre les obligations suivantes :
+Praktisch gezien verplicht de RGPD organisaties die gegevens van Europese ingezetenen verwerken om de volgende verplichtingen te implementeren:
 
-* Désignation d'un délégué à la protection des données (DPO)
-* Mise en place d'un registre des activités de traitement des données
-* Assurer les droits des personnes concernées
-* Signaler les violations de données aux régulateurs
-* Effectuer une analyse d'impact sur la protection des données (DPIA) pour les traitements les plus risqués pour les personnes concernées
+* Het aanstellen van een functionaris voor gegevensbescherming (Data Protection Officer, DPO).
+* Opzetten van een register van gegevensverwerkingsactiviteiten
+* Waarborgen van de rechten van betrokkenen
+* Rapporteren van datalekken aan regelgevende instanties
+* Uitvoeren van een gegevensbeschermingseffectbeoordeling (DPIA) voor verwerkingen die het grootste risico voor de betrokkenen inhouden.
 
-Les principes clés au cœur du RGPD incarnent l'esprit général du régime de protection des données. Le respect de ces principes clés est un élément fondamental.&#x20;
+De kernprincipes van de GDPR belichamen de algemene geest van het gegevensbeschermingsregime. Naleving van deze basisprincipes is van fundamenteel belang &#x20;
 
-Abordez les principales notions du RGPD en poursuivant sur :
+Leer de belangrijkste concepten van de RGPD kennen door verder te gaan:
 
 {% content-ref url="rgpd-en-bref/" %}
 [rgpd-en-bref](rgpd-en-bref/)
 {% endcontent-ref %}
-
