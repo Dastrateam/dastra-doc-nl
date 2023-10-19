@@ -1,18 +1,17 @@
-# Etape 4 : Prioriser les actions à mener
+# Stap 4: Prioriteer de te ondernemen acties
 
-Une fois le registre constitué et sur la base de celui-ci, vous vous attelez à [lister l'ensemble des tâches à réaliser](https://www.cnil.fr/fr/prioriser-les-actions-mener) pour vous conformer aux obligations actuelles et à venir du Règlement Général sur la Protection des Données (RGPD). Puis, vous priorisez ces actions au regard des risques que font peser vos traitements sur les droits et les libertés des personnes concernées.
+Zodra het register is samengesteld en op basis daarvan gaat u aan de slag met [het opsommen van alle uit te voeren taken](https://www.cnil.fr/fr/prioriser-les-actions-mener) om te voldoen aan de huidige en toekomstige verplichtingen onder de Algemene verordening gegevensbescherming (AVG). Vervolgens prioriteert u deze acties in het licht van de risico's die uw Verwerkingen met zich meebrengen voor de rechten en vrijheden van betrokkenen.
 
 {% hint style="info" %}
-Vous ne savez pas par quelles actions commencer ? Consultez le [guide de la sécurité des données personnelles](https://www.cnil.fr/fr/principes-cles/guide-de-la-securite-des-donnees-personnelles) édité par la CNIL qui constitue un bon point de départ.
+Weet u niet zeker waar u moet beginnen? De [gids voor de beveiliging van persoonlijke gegevens](https://www.cnil.fr/fr/principes-cles/guide-de-la-securite-des-donnees-personnelles) gepubliceerd door de CNIL is een goed startpunt.
 {% endhint %}
 
-Une fois les actions nécessaires pour réaliser votre projet de mise en conformité identifiées, vous créez les tâches associées et les allouez aux collaborateurs associés directement dans l'onglet "Planification" de l'outil Dastra :
+Zodra u de acties hebt geïdentificeerd die nodig zijn om uw complianceproject te voltooien, maakt u de bijbehorende taken en wijst u ze direct toe aan de bijbehorende medewerkers in het tabblad "Planning" van de Dastra-tool :
 
-![Exemple de plan d'action](<../../.gitbook/assets/image (19).png>)
+Voorbeeld van een actieplan
 
-Pour en savoir plus sur la fonctionnalité "Planification" de Dastra :
+Om meer te weten te komen over de "Planning" functionaliteit van Dastra:
 
 {% content-ref url="../../features/planifier/" %}
-[planifier](../../features/planifier/)
+[plan](../../features/planifier/)
 {% endcontent-ref %}
-

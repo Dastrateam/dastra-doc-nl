@@ -1,20 +1,20 @@
-# Etape 6 : Documenter la conformité
+# Stap 6: De naleving documenteren
 
-Pour prouver votre conformité au règlement, vous devez[ constituer et regrouper la documentation nécessaire](https://www.cnil.fr/fr/documenter-la-conformite). Les actions et documents réalisés à chaque étape doivent être réexaminés et actualisés régulièrement pour assurer une protection des données en continu.&#x20;
+Om aan te tonen dat u de verordening naleeft, moet u de nodige documentatie samenstellen en verzamelen. De acties en documenten die in elke fase worden uitgevoerd, moeten regelmatig worden herzien en bijgewerkt om een voortdurende gegevensbescherming te garanderen &#x20;
 
-#### Votre dossier devra notamment comporter les éléments suivants :
+#### Uw dossier moet in het bijzonder de volgende elementen bevatten:
 
-| Catégorie                                                             |  Documentation                                                                                                                                                                                                                                                                 |
+| Documentatie
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| LA DOCUMENTATION SUR VOS TRAITEMENTS DE DONNÉES PERSONNELLES          |  [**Le registre des traitements**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement) (pour les responsables de traitements)  ou des catégories d’activités de traitements (pour les sous-traitants)                                                         |
-| LA DOCUMENTATION SUR VOS TRAITEMENTS DE DONNÉES PERSONNELLES          |  [**Les analyses d’impact relatives à la protection des données**](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-aipd) (AIPD) pour les traitements susceptibles d'engendrer des risques élevés pour les droits et libertés des personnes                   |
-| LA DOCUMENTATION SUR VOS TRAITEMENTS DE DONNÉES PERSONNELLES          |  [**L'encadrement des transferts**](https://www.cnil.fr/fr/transferts-de-donnees-hors-ue-ce-qui-change-avec-le-reglement-general-sur-la-protection-des-donnees) de données hors de l'Union européenne (notamment, les clauses contractuelles types, les BCR et certifications) |
-| L'INFORMATION DES PERSONNES                                           |  [**Les mentions d’information**](https://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence)                                                                                                                                                            |
-| L'INFORMATION DES PERSONNES                                           |  ​Les modèles de **recueil du consentement des personnes concernées**                                                                                                                                                                                                          |
-| L'INFORMATION DES PERSONNES                                           |  Les procédures mises en place pour **l'exercice des droits**                                                                                                                                                                                                                  |
-| LES CONTRATS QUI DEFINISSENT LES RÔLES ET RESPONSABILITES DES ACTEURS |  [**Les contrats avec les sous-traitants**](https://www.cnil.fr/fr/sous-traitance-exemple-de-clauses)                                                                                                                                                                          |
-| LES CONTRATS QUI DEFINISSENT LES RÔLES ET RESPONSABILITES DES ACTEURS |  [Les procédures internes **en cas de violations de données**](https://www.cnil.fr/fr/les-violations-de-donnees-personnelles)                                                                                                                                                  |
-| LES DROITS DES PERSONNES ET L'EXERCICE DE LEURS DROITS                |  Les preuves que les personnes concernées **ont donné leur consentement** lorsque le traitement de leurs données repose sur cette base.                                                                                                                                        |
+| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [**Het register van de verwerkingsactiviteiten**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement) (voor verwerkingsverantwoordelijken) of categorieën van verwerkingsactiviteiten (voor subcontractanten).
+| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [Gegevensbeschermingseffectbeoordeling**](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-aipd) (DPIA) voor verwerkingen die waarschijnlijk grote risico's inhouden voor de rechten en vrijheden van betrokkenen.
+| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [**Het kader voor doorgifte van gegevens**](https://www.cnil.fr/fr/transferts-de-donnees-hors-ue-ce-qui-change-avec-le-reglement-general-sur-la-protection-des-donnees) buiten de Europese Unie (met name modelcontractbepalingen, BCR's en certificeringen).
+| INFORMATIE VOOR PERSONEN | [**Informatieberichten**]|
+| INFORMATIE VOOR GEGEVENSDELNEMERS | Modelformulieren voor **het verzamelen van toestemming van betrokkenen** | INFORMATIE VOOR GEGEVENSDELNEMERS
+| INFORMATIE VOOR GEGEVENSOVERLEGGERS Procedures voor **uitoefening van rechten** INFORMATIE VOOR GEGEVENSOVERLEGGERS
+| OVEREENKOMSTEN DIE DE ROLEN EN VERANTWOORDELIJKHEDEN VAN DE DEELNEMERS BEPALEN [**Overeenkomsten met Verwerkers**] |
+| OVEREENKOMSTEN DIE DE BEPALINGEN EN VERANTWOORDELIJKHEDEN VAN DE DEELNEMERS BEPALEN [Interne procedures **in geval van een datalek**]
 
-Si votre documentation démontre que vous respectez les obligations prévues par le règlement européen, alors vous aurez franchi cette étape. Bravo !
+| Rechten van betrokkenen en de uitoefening van hun rechten: bewijs dat betrokkenen **toestemming hebben gegeven** voor de verwerking van hun gegevens op deze basis.
 
+Als uit uw documentatie blijkt dat u voldoet aan de verplichtingen van de Europese Verordening, dan bent u door deze fase heen. Goed gedaan!

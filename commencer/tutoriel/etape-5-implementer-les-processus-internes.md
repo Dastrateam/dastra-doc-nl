@@ -1,28 +1,25 @@
-# Etape 5 :  Implémenter les processus internes
+# Stap 5: Interne processen implementeren
 
 
 
-Pour assurer un haut niveau de protection des données personnelles en permanence, vous devez [mettre en place des procédures internes](https://www.cnil.fr/fr/organiser-les-processus-internes) qui garantissent la prise en compte de la protection des données à tout moment, en prenant en compte l’ensemble des événements qui peuvent survenir au cours de la vie d’un traitement (ex : faille de sécurité, gestion des demande de rectification ou d’accès, modification des données collectées, changement de prestataire).
+Om te allen tijde een hoog niveau van bescherming van persoonsgegevens te garanderen, moet u interne procedures implementeren die ervoor zorgen dat te allen tijde rekening wordt gehouden met gegevensbescherming, rekening houdend met alle gebeurtenissen die zich tijdens de duur van een Verwerking kunnen voordoen (bijv. inbreuk op de beveiliging, beheer van rectificatie- of toegangsverzoeken, wijziging van verzamelde gegevens, verandering van dienstverlener).
 
-Dastra vous permets de digitaliser et d'automatiser au moins partiellement les processus internes ci-dessous:
+Met Dastra kunt u ten minste enkele van de volgende interne processen digitaliseren en automatiseren:
 
-* **La gestion des demandes d'exercice de droits :**
+* **Beheer van verzoeken om rechten uit te oefenen:**
 
-{% content-ref url="../../features/gerer-les-exercices-des-droits/" %}
-[gerer-les-exercices-des-droits](../../features/gerer-les-exercices-des-droits/)
+{% content-ref url="../../features/gerer-les-exercises-des-droits/" %}
+[manage-rights-exercises](../../features/gerer-les-exercises-des-droits/)
 {% endcontent-ref %}
 
-* **La gestion du consentement aux cookies :**
+* **Cookie toestemmingsbeheer :**
 
-{% content-ref url="../../features/gerer-le-consentement-aux-cookies/" %}
-[gerer-le-consentement-aux-cookies](../../features/gerer-le-consentement-aux-cookies/)
+{% content-ref url="../../features/gerer-le-instemming-aux-cookies/" %}
+[manage-cookie-consent](../../features/manage-cookie-consent/)
 {% endcontent-ref %}
 
-* **La gestion des notifications de violation de données :**
+* **Beheer meldingen datalekken :**
 
-{% content-ref url="../../features/documenter-les-violations-de-donnees/" %}
-[documenter-les-violations-de-donnees](../../features/documenter-les-violations-de-donnees/)
+{% content-ref url="../../features/document-data-breaches/" %}
+[Inbreuk](../../features/document-data-breaches/)
 {% endcontent-ref %}
-
-
-

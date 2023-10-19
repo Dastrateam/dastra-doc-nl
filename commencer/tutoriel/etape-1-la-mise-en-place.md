@@ -1,13 +1,13 @@
-# Etape 1 : La mise en place
+# Stap 1: Opzetten
 
-Tout d'abord, vous vous êtes renseigné sur le [rôle du DPO](https://www.cnil.fr/fr/designer-un-pilote) et les conditions à remplir pour nommer un DPO, puis vous vous décidez s'il y a lieu  de [désigner un DPO](https://www.cnil.fr/fr/designation-dpo) dans votre organisation, ou non.
+Eerst informeert u zich over de rol van de DPO en de vereisten voor het aanstellen van een DPO, en vervolgens beslist u of u al dan niet een DPO aanstellen in uw organisatie.
 
-Votre choix s'arrête sur un collaborateur (DPO ou non) qui, à son tour, définit et anime un réseau de correspondants RGPD au sein des différents métiers de l'entreprise.
+Uw keuze zal vallen op een medewerker (DPO of niet) die op zijn beurt een netwerk van AVG-correspondenten binnen de verschillende afdelingen van het bedrijf zal definiëren en leiden.
 
 {% hint style="info" %}
-La désignation d'un délégué à la protection des données (DPO) est **obligatoire** uniquement pour:
+De aanstelling van een functionaris voor gegevensbescherming (DPO) is **verplicht** voor:
 
-* Les organismes publics ;
-* Les entreprises dont l'activité de base les amène à réaliser un suivi régulier et systématique des personnes à grande échelle, ou à traiter à grande échelle des données dites "sensibles" ou relatives à des condamnations pénales et infractions.
+* Overheidsinstanties ;
+* Bedrijven waarvan de kernactiviteiten bestaan uit het regelmatig en systematisch controleren van personen op grote schaal, of de grootschalige verwerking van zogenaamde "gevoelige" gegevens of gegevens met betrekking tot strafrechtelijke veroordelingen en strafbare feiten.
 {% endhint %}
 

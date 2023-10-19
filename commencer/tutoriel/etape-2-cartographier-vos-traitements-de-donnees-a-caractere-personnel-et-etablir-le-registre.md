@@ -1,44 +1,44 @@
-# Etape 2 : Cartographier vos traitements de données à caractère personnel et établir le registre
+# Stap 2: Breng uw gegevensverwerking in kaart en stel het register op
 
-Après vous avoir [formés à la cartographie des traitements ](https://www.cnil.fr/fr/cartographier-vos-traitements-de-donnees-personnelles)et avoir interviewés les responsables de traitements, vous identifiez vos premiers traitements ci-dessous :
+Na training in het in kaart brengen van de gegevensverwerking en het interviewen van de Verwerkingsverantwoordelijken, identificeert u hieronder uw eerste gegevensverwerkingen:
 
-| #  | Département         | Traitement de données personnelles          | Support / application     | DPIA requis a priori ? |
+| Afdeling | Gegevensverwerking | Ondersteuning / aanvraag | DPIA a priori vereist ?
 | -- | ------------------- | ------------------------------------------- | ------------------------- | ---------------------- |
-| 1  | RH                  | Gestion du recrutement                      | Linkedin (externe)        | Non                    |
-| 2  | RH                  | Gestion de la paie                          | Payfit (externe)          | Non                    |
-| 3  | RH                  | Gestion du personnel                        | Microsoft Office          | Non                    |
-| 4  | Secrétariat Général | Gestion des données du Comité d'Entreprise  | Application interne       | Non                    |
-| 5  | Production          | Gestion de la qualité                       | Microsoft Office          | Non                    |
-| 6  | Marketing & Ventes  | Gestion des clients                         | Salesforce (externe)      | Non                    |
-| 7  | Marketing & Ventes  | Envoi d'emails promotionnels                | Mailjet (externe)         | Non                    |
-| 8  | Marketing & Ventes  | Profilage de prospects                      | Salesforce                | Oui                    |
-| 9  | Sécurité            | Gestion des entrées / sorties des bâtiments | IBM                       | Oui                    |
-| 10 | Sécurité            | Contrôle d'antériorité                      | Microsoft Office          | Non                    |
-| 11 | Informatique        | Développement d'application                 | Microsoft Azure (externe) | Non                    |
-| 12 | Informatique        | Maintenance d'application                   | CGI (externe)             | Non                    |
-| 13 | Juridique           | Gestion des contrats                        | Microsoft Office          | Non                    |
-| 14 | Achats              | Gestion des fournisseurs                    | SAP (externe)             | Non                    |
+| 1 | HR | Wervingsmanagement | Linkedin (extern) | Nee |
+| Payfit (extern) | Nee | 2
+| 3 | HR Management | Microsoft Office | Nee |
+| 4 | Secretariaat | Gegevensbeheer ondernemingsraad | Interne toepassing | Nee |
+| Productie | Kwaliteitsbeheer | Microsoft Office | Nee |
+| 6 | Marketing & Verkoop | Klantenbeheer | Salesforce (extern) | Nee |
+| Sales | Mailjet (extern) | Nee |
+| 8 | Marketing & Sales | Prospectprofilering | Salesforce | Ja |
+| 9 Beveiliging | Beheer van ingangen/uitgangen in gebouwen | IBM | Ja |
+| Beveiliging | Prioriteitscontrole | Microsoft Office | Nee |
+| 11 IT | Applicatieontwikkeling | Microsoft Azure (extern) | Nee |
+| 12 IT | Applicatieonderhoud | CGI (extern) | Nee |
+| 13 Juridisch | Contractbeheer | Microsoft Office | Nee |
+| 14 Inkoop | Leveranciersbeheer | SAP (extern) | Nee |
 
-Ensuite, vous complétez votre registre dans Dastra :
+Daarna voltooit u uw registratie in Dastra:
 
 {% content-ref url="../../features/editer-le-registre/" %}
-[editer-le-registre](../../features/editer-le-registre/)
+[edit-register](../../features/editer-le-register/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Une bonne façon de commencer la conception de votre registre est d'importer d'abord vos registres existants sous format excel s'il existe, ainsi que vos référentiels d'acteurs, d'applications, de sous-traitants, de données et de règles de conservation. Ainsi, une fois tous les référentiels intégrés, vous gagnerez du temps lors de la saisie.
+Een goede manier om te beginnen met het ontwerpen van je register is om eerst je bestaande registers in excel-formaat te importeren, als die bestaan, evenals je repositories van actoren, applicaties, onderaannemers, gegevens en bewaarregels. Op deze manier bespaart u tijd bij het invoeren van gegevens als alle registers zijn geïntegreerd.
 {% endhint %}
 
-Remplissez ensuite toutes les informations nécessaires à un traitement en suivant les étapes décrites dans le lien ci-dessous.
+Vul vervolgens alle informatie in die nodig is voor de Verwerking door de stappen te volgen die worden beschreven in de onderstaande link.
 
 {% content-ref url="../../features/editer-le-registre/gerer-votre-traitement.md" %}
 [gerer-votre-traitement.md](../../features/editer-le-registre/gerer-votre-traitement.md)
 {% endcontent-ref %}
 
-Vous partagez le registre avec l'ensemble des responsables de traitement ainsi que votre réseau de correspondants RGPD et demandez validation de toutes les parties prenantes.&#x20;
+U deelt het register met alle Verwerkingsverantwoordelijken en uw netwerk van RGPD-correspondenten en vraagt om validatie van alle belanghebbenden &#x20;
 
-{% content-ref url="../../features/editer-le-registre/partager-le-registre.md" %}
-[partager-le-registre.md](../../features/editer-le-registre/partager-le-registre.md)
+{% content-ref url="../../features/edit-the-registry/share-the-registry.md" %}
+[share-the-record.md](../../features/edit-the-record/share-the-record.md)
 {% endcontent-ref %}
 
-Ca y est, **votre registre est constitué** et vos traitements sont prêts à être protégés !
+Dat is het, **je register is ingesteld** en je Verwerking is klaar om beschermd te worden!

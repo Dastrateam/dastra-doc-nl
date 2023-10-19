@@ -1,74 +1,73 @@
-# Etape 3 : Gérer les risques
+# Stap 3: Risico's beheren
 
-La gestion des risques dans Dastra peut prendre plusieurs formes :
+Risicomanagement in Dastra kan verschillende vormen aannemen:
 
-* L'analyse d'impact relative à la protection des données (AIPD / PIA),
-* L'identification et l'évaluation des risques (grâce au module Risques),
-* Les audits.
+* Gegevensbeschermingseffectbeoordeling (DPIA),
+* Risico-identificatie en -beoordeling (met behulp van de Risicomodule),
+* Audits.
 
-### L'analyse d'impact
+### Effectbeoordeling
 
-Si vous avez identifié des traitements de données personnelles susceptibles d'engendrer des risques élevés pour les droits et libertés des personnes concernées, vous devrez mener, pour chacun de ces traitements, une [analyse d'impact relative à la protection des données ](https://www.cnil.fr/fr/gerer-les-risques)(AIPD).
+Als u gegevensverwerking hebt geïdentificeerd die waarschijnlijk hoge risico's voor de rechten en vrijheden van betrokkenen met zich meebrengen, moet u voor elk van deze gegevensverwerking een Gegevensbeschermingseffectbeoordeling (DPIA) uitvoeren.
 
 {% hint style="info" %}
-Mener une AIPD est obligatoire pour tout traitement susceptible d'engendrer des risques élevés pour les droits et libertés des personnes concernées (Article 35 du RGPD)
+Het uitvoeren van een DPIA is verplicht voor elke Verwerking die waarschijnlijk leidt tot hoge risico's voor de Rechten en Vrijheden van betrokkenen (Artikel 35 AVG).
 {% endhint %}
 
-Pour vous aider à déterminer si votre traitement est susceptible d’engendrer des risques élevés, les 9 critères suivants sont définis dans les lignes directrices du G29 :
+Om u te helpen bepalen of uw Verwerking waarschijnlijk hoge risico's met zich meebrengt, zijn de volgende 9 criteria vastgelegd in de G29-richtlijnen:
 
-1. Evaluation ou notation;
-2. Décision automatisée avec effet juridique ou effet similaire significatif;
-3. Surveillance systématique ;
-4. Données sensibles ou données à caractère hautement personnel ;
-5. Données personnelles traitées à grande échelle ;
-6. Croisement d’ensembles de données ;
-7. Données concernant des personnes vulnérables ;
-8. Usage innovant ou application de nouvelles solutions technologiques ou organisationnelles ;
-9. Exclusion du bénéfice d’un droit, d’un service ou contrat.
+1. Beoordeling of classificatie;
+2. Geautomatiseerd besluit met rechtsgevolgen of een aanzienlijk soortgelijk gevolg;
+3. Systematisch toezicht;
+4. Gevoelige gegevens of gegevens van zeer persoonlijke aard;
+5. Persoonsgegevensverwerking op grote schaal;
+6. Kruisverwijzingen tussen gegevensreeksen;
+7. Gegevens over kwetsbare personen;
+8. Innovatief gebruik of toepassing van nieuwe technologische of organisatorische oplossingen;
+9. Uitsluiting van een recht, dienst of contract.
 
-Ces critères sont directement intégrés à notre workflow de création de traitement de données, et vous pouvez renseigner pour chacun de vos traitements s'il y a eu de réaliser un PIA sur celui-ci ou non.
+Deze criteria zijn rechtstreeks geïntegreerd in onze workflow voor het maken van gegevensverwerking en u kunt voor elk van uw verwerkingen aangeven of er al dan niet een PIA voor is uitgevoerd.
 
-![Exemple de traitement nécessitant potentiellement un PIA.](<../../.gitbook/assets/image (23).png>)
+Voorbeeld van een Verwerking waarvoor mogelijk een PIA nodig is (<../../.gitbook/assets/image (23).png>)
 
-### L'identification et l'évaluation des risques
+### Risico's identificeren en beoordelen
 
-Le module Risques dans Dastra vous permet de gérer les risques au niveau de vos traitements, de vos acteurs (par exemple, les sous-traitants) et de vos actifs.&#x20;
+Met de module Risico's in Dastra kunt u risico's beheren op het niveau van uw verwerking, uw Actoren (bijvoorbeeld subcontractanten) en uw Activa.&#x20;
 
-La méthodologie de gestion des risques répond aux exigences standard de gestion des risques sur les systèmes d'information.&#x20;
+De risicobeheermethodologie voldoet aan de standaardeisen voor risicobeheer van informatiesystemen &#x20;
 
-4 étapes sont ainsi à suivre :&#x20;
+Er zijn 4 te volgen stappen:&#x20;
 
-1 : identification du risque
+1: risico-identificatie
 
-2 : évaluation du risque
+2: risicobeoordeling
 
-3 : réponse au risque
+3: risicorespons
 
-4 : surveillance du risque
+4: risicomonitoring
 
 
 
-Le risque d'une manière générale se mesure de la façon suivante :&#x20;
+Risico wordt over het algemeen als volgt gemeten:&#x20;
 
 $$
-Risque  = Probabilité  * Impact
+Risico = waarschijnlijkheid * impact
 $$
 
-{% content-ref url="../../features/la-gestion-des-risques/" %}
-[la-gestion-des-risques](../../features/la-gestion-des-risques/)
+{% content-ref url="../../features/risk-management/" %}
+[risicobeheer](../../features/risicobeheer/)
 {% endcontent-ref %}
 
-### Les audits
+### Audits
 
-Pour aller plus loin dans la gestion des risques, Dastra vous propose également de concevoir des audits, réaliser des campagnes et collecter les résultats sous forme de rapport d'audit exportable.
+Om het risicobeheer een stap verder te brengen, kan Dastra ook audits ontwerpen, campagnes uitvoeren en de resultaten verzamelen in de vorm van een exporteerbaar auditrapport.
 
 {% content-ref url="../../features/audit/" %}
 [audit](../../features/audit/)
 {% endcontent-ref %}
 
-Ca y est, vos risques sont identifiés et évalués ! Passez ensuite à l'étape 4, priorisation des tâches:
+Dat is het, je risico's zijn geïdentificeerd en beoordeeld! Ga dan verder met stap 4, het prioriteren van de taken:
 
 {% content-ref url="etape-3-prioriser-les-actions-a-mener.md" %}
 [etape-3-prioriser-les-actions-a-mener.md](etape-3-prioriser-les-actions-a-mener.md)
 {% endcontent-ref %}
-
