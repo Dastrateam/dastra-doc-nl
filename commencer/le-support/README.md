@@ -1,28 +1,26 @@
 ---
-description: Apprenez à utiliser le support proposé par Dastra.
+description: Leer hoe u de ondersteuning van Dastra kunt gebruiken.
 ---
 
-# Support
+# Ondersteuning
 
-Dans Dastra et au-delà de la présente documentation, le support est accessible de plusieurs manières différentes : l'assistant dastronaute, l'aide en ligne ou le formulaire de demande de support.
+In Dastra en buiten deze documentatie kan ondersteuning op verschillende manieren worden gebruikt: de dastronaut-assistent, online hulp of het ondersteuningsaanvraagformulier.
 
-### L'assistant dastronaute
+### De dastronaut-assistent
 
 {% content-ref url="lassistant-dastronaute.md" %}
 [lassistant-dastronaute.md](lassistant-dastronaute.md)
 {% endcontent-ref %}
 
-### L'aide en ligne
+### Online hulp
 
 {% content-ref url="laide-en-ligne.md" %}
 [laide-en-ligne.md](laide-en-ligne.md)
 {% endcontent-ref %}
 
-### Le formulaire de demande de support
+### Het aanvraagformulier voor ondersteuning
 
-{% content-ref url="faire-une-demande-de-support.md" %}
-[faire-une-demande-de-support.md](faire-une-demande-de-support.md)
+{% content-ref url="make-a-support-request.md" %}
+[make-a-support-request.md](make-a-support-request.md)
 {% endcontent-ref %}
-
-
 

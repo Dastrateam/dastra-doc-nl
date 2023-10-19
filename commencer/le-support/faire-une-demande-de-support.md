@@ -1,30 +1,29 @@
 ---
-description: Apprenez à faire une demande de support dans Dastra.
+description: Leer hoe je een ondersteuningsverzoek indient in Dastra.
 ---
 
-# Faire une demande de support
+# Een ondersteuningsverzoek indienen
 
-Parfois il est possible que le problème auquel vous êtes confronté ne puisse être résolu à travers cette documentation, l'assistant dastronaute ou l'aide en ligne.
+Soms kan het probleem waarmee u wordt geconfronteerd niet worden opgelost via deze documentatie, de dastronaute assistent of online help.
 
-Dans ce cas, Dastra vous donne la possibilité de nous contacter directement depuis l'application, soit à travers le bouton "Aide" en bas à gauche de l'écran, soit en accédant directement au questionnaire de demande de support en haut à droite de l'écran :
+In dit geval biedt Dastra u de mogelijkheid om direct vanuit de applicatie contact met ons op te nemen, via de knop "Help" linksonder in het scherm, of door direct naar de vragenlijst voor ondersteuning rechtsboven in het scherm te gaan:
 
-![Le bouton support en haut à droite de l'écran](<../../.gitbook/assets/image (152).png>)
+De ondersteuningsknop rechtsboven in het scherm
 
-### Le questionnaire de demande de support
+### De ondersteuningsverzoek vragenlijst
 
-Après avoir cliqué sur le bouton support, une fenêtre apparait dans l'application vous permettant de sélectionner l'objet de votre demande.
+Nadat je op de ondersteuningsknop hebt geklikt, verschijnt er een venster in de applicatie waarin je het onderwerp van je verzoek kunt selecteren.
 
-Choisissez une des cinq options possibles, détaillez votre réponse et cliquez sur le bouton "Envoyer la requête".&#x20;
+Kies een van de vijf mogelijke opties, geef details van je antwoord en klik op de knop "Aanvraag verzenden".&#x20;
 
-![Formulaire de demande de support](<../../.gitbook/assets/Capture web\_3-5-2022\_152923\_app.dastra.eu (1).jpeg>)
+[Ondersteuningsverzoek formulier](<../../.gitbook/assets/Capture web_3-5-2022\_152923\_app.dastra.eu (1).jpg>)
 
-Ca y est, votre demande de support a été envoyé ! notre équipe vous répondra dans les meilleurs délais.
+Dat is het, je supportverzoek is verzonden! Ons team neemt zo snel mogelijk contact met je op.
 
-### Le Chat
+### Chat
 
-Si votre problème est urgent ou que vous souhaitez discuter facilement avec nous, il vous est désormais possible de nous contacter directement via le chat Crisp. Cette application vous permet de discuter avec un des membres de notre équipe en direct. Vous y accédez par le panneau d'aide, ou en cliquant sur l'assistant dastronaute puis sur "discutez avec nous sur le chat".&#x20;
+Als uw probleem dringend is of u wilt gewoon met ons chatten, dan kunt u nu rechtstreeks contact met ons opnemen via Crisp chat. Met deze toepassing kun je live chatten met een van onze teamleden. Je krijgt er toegang toe via het helppaneel of door te klikken op de dastronaut-assistent en dan op "chat met ons";
 
-### Autres demandes
+### Andere verzoeken
 
-Si vous souhaitez réaliser un autre type de demande ou si vous n'avez pas encore créé un compte dans Dastra, il vous est possible de nous faire parvenir votre demande directement depuis le site [www.dastra.eu](https://www.dastra.eu), ou en cliquant sur [ce lien](https://www.dastra.eu/fr/contact?type=Demo).
-
+Als u een ander soort verzoek wilt indienen of als u nog geen account heeft aangemaakt in Dastra, kunt u ons uw verzoek rechtstreeks sturen vanaf de site [www.dastra.eu](https://www.dastra.eu), of door te klikken op [deze link](https://www.dastra.eu/en/contact?type=Demo).

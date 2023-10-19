@@ -1,14 +1,13 @@
 ---
-description: Apprenez à utiliser l'assistant dastronaute.
+beschrijving: Leer hoe je de astronautassistent gebruikt.
 ---
 
-# L'assistant dastronaute
+# De dastronaut-assistent
 
-Dans votre espace de travail, vous disposez d'un assistant dastronaute présent en permanence en bas à droite de votre écran:
+In je werkruimte, heb je een dastronaut assistent permanent aanwezig rechts onderaan je scherm:
 
-![L'assistant dastronaute](<../../.gitbook/assets/Capture web\_3-5-2022\_151716\_app.dastra.eu.jpeg>)
+De dastronaut assistent
 
-En cliquant sur cet assistant, une fenêtre apparait contenant des suggestions d'actions.&#x20;
+Als je op deze wizard klikt, verschijnt er een venster met voorgestelde acties &#x20;
 
-![Un exemple de suggestions d'actions](<../../.gitbook/assets/image (147).png>)
-
+Een voorbeeld van voorgestelde acties

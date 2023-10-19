@@ -1,22 +1,22 @@
-# L'aide en ligne
+# Online help
 
-L'aide en ligne de Dastra est accessible à tout moment dans votre espace de travail en cliquant sur le bouton "Aide" en bas à gauche de l'écran.
+Dastra's online help kan op elk moment in je werkruimte geopend worden door op de "Help" knop linksonder in het scherm te klikken.
 
-![](<../../.gitbook/assets/image (148).png>)
+(<../../.gitbook/assets/image (148).png>)
 
-Une fenêtre s'affiche, avec toutes les possibilités :
+Een venster verschijnt, met alle opties:
 
-![Ouverture du panneau d'aide](<../../.gitbook/assets/Capture web\_3-5-2022\_153323\_app.dastra.eu.jpeg>)
+[Het Help paneel openen](<../../.gitbook/assets/Capture web\_3-5-2022\_153323\_app.dastra.eu.jpeg>)
 
-### Le Guide de la première connexion
+### De eerste verbindingsgids
 
-A la première connexion dans votre espace de travail, Dastra vous propose un tutoriel permettant de balayer en quelques pages les principales fonctionnalités de Dastra.
+De eerste keer dat u inlogt op uw werkruimte, biedt Dastra een handleiding die u in een paar pagina's door de belangrijkste functies van Dastra leidt.
 
-Si vous souhaitez relancer ce guide, il vous suffit de cliquer sur le bouton "Aide" en bas à gauche de l'écran, puis de sélectionner l'option "**afficher le guide**" :&#x20;
+Als u deze handleiding opnieuw wilt starten, klikt u op de knop "Help" linksonder in het scherm en selecteert u de optie "**handleiding tonen**":&#x20;
 
-![](<../../.gitbook/assets/image (149).png>)
+(<../../.gitbook/assets/image (149).png>)
 
-Le guide de démarrage se relance alors et vous n'aurez plus qu'à suivre les étapes.
+De opstartgids zal dan opnieuw starten en alles wat je hoeft te doen is de stappen te volgen.
 
 {% content-ref url="laide-en-ligne.md" %}
 [laide-en-ligne.md](laide-en-ligne.md)
