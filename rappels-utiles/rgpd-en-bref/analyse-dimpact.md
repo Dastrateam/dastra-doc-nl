@@ -1,145 +1,140 @@
 ---
-description: Apprenez ce qu'est une analyse d'impact.
+description: Leer wat een Effectbeoordeling is.
 ---
 
-# Analyse d'impact
+# Effectbeoordeling
 
-## Qu'est-ce qu'un PIA ?
+## Wat is een PIA?
 
-**L’analyse d’impact sur la protection des données** est un mécanisme de conformité prévu par l’**article 35 du RGPD**.
+**Gegevensbeschermingseffectbeoordeling** is een nalevingsmechanisme waarin wordt voorzien door **Artikel 35 van de AVG**.
 
-Elle vise à assurer la conformité au RGPD et à en apporter la preuve !
+Het heeft als doel om naleving van de AVG te waarborgen en het bewijs hiervan te leveren!
 
-L’analyse consiste à **identifier et minimiser les risques** d'atteinte aux droits et libertés des personnes concernées dans un traitement de données à caractère personnel.
+De analyse bestaat uit het **vaststellen en minimaliseren** van de risico's van inbreuk op de rechten en vrijheden van betrokkenen bij een verwerking van persoonsgegevens.
 
-Il s'agit principalement d'une **étude des risques pour les personnes et non pour l’organisation** !
+Het is primair een **onderzoek naar de risico's voor individuen en niet voor de organisatie**!
 
-**PIA** = Privacy Impact Assessment = DPIA =AIPD = EIVP
+**PIA** = Privacy Impact Assessment
 
-Le PIA est un document décomposé en trois parties :
+De PIA is een driedelig document:
 
-* Une **description détaillée** du [traitement](https://www.dastra.eu/fr/article/traitement-donnees-personnelles/386) mis en œuvre, comprenant tant les aspects techniques qu’opérationnels ;
-* L’**évaluation**, de nature plus juridique, **de la nécessité et de la proportionnalité** concernant les principes et droits fondamentaux (finalité, données et durées de conservation, information et droits des personnes, etc.) non négociables, qui sont fixés par la loi et doivent être respectés, quels que soient les risques ;
-* L’**étude**, de nature plus technique, des **risques sur la sécurité des données** (confidentialité, intégrité et disponibilité) ainsi que leurs impacts potentiels sur la vie privée, qui permet de déterminer les mesures techniques et organisationnelles nécessaires pour protéger les données.
+* Een **gedetailleerde beschrijving** van de [Verwerking] die wordt uitgevoerd, inclusief zowel technische als operationele aspecten;
+* de **beoordeling**, van meer juridische aard, van de **noodzaak en evenredigheid** met betrekking tot de niet-onderhandelbare fundamentele beginselen en rechten (doel, gegevens en bewaartermijnen, informatie en rechten van personen, enz);
+* De **studie**, van meer technische aard, van de **risico's voor gegevensbeveiliging** (vertrouwelijkheid, integriteit en beschikbaarheid) en hun mogelijke impact op de privacy, die het mogelijk maakt om de technische en organisatorische maatregelen te bepalen die nodig zijn om de gegevens te beschermen.
 
-## Périmètre du PIA
+## Reikwijdte van de PIA
 
-Le PIA peut porter sur :
+De PIA kan betrekking hebben op :
 
-* **Un traitement unique**
-* **Des traitements similaires**
-* Traitements identiques mis en œuvre par plusieurs responsables de traitements
-* Traitements partagés par plusieurs responsables de traitement
-* Traitements similaires en termes de finalités, fonctionnalités, risques, technologies, etc.
-* **Un produit technologique (matériel ou logiciel)**
+* Eén enkele Verwerking
+* Vergelijkbare verwerkingen
+* Identieke Verwerkingen uitgevoerd door meerdere Verwerkingsverantwoordelijken
+* Verwerkingen die door verschillende Verwerkingsverantwoordelijken worden gedeeld
+* Verwerkingen die vergelijkbaar zijn wat betreft doeleinden, functionaliteiten, risico's, technologieën, enz.
+* Een technologisch product (hardware of software)**.
 
-Une analyse d’impact doit être obligatoirement réalisée lors que le traitement entraine un **risque élevé** pour les droits et libertés des personnes concernées.&#x20;
+Er moet een Effectbeoordeling worden uitgevoerd als de Verwerking een **hoog risico** inhoudt voor de Rechten en Vrijheden van betrokkenen &#x20;
 
-Par droits et libertés, il faut entendre non seulement le droit au respect de la vie privée mais également les autres droits fondamentaux, tels que la liberté de circulation, la non-discrimination, le droit à la vie etc.
+Rechten en vrijheden omvatten niet alleen het recht op privacy, maar ook andere grondrechten zoals bewegingsvrijheid, non-discriminatie, het recht op leven, enz.
 
 {% hint style="info" %}
-Les traitements à risques élevés peuvent être identifiés si ceux-ci correspondent à au moins 2 de ces critères ci-dessous (source : EDPD) :
+Verwerkingen met een hoog risico kunnen worden geïdentificeerd als ze aan ten minste 2 van de volgende criteria voldoen (bron: EDPD):
 
-* &#x20;Évaluation/notation (scoring)
-* Décision automatique avec effet juridique ou similaire
-* Surveillance systématique
-* [Données sensibles](https://www.dastra.eu/fr/article/donnee-sensible/401)
-* Large échelle
-* Croisement de données
-* Personnes vulnérables
-* Usage innovant
-* Blocage d’un droit/contrat
-* Transfert hors UE
+* &#x20;Beoordeling/notering (scoren)
+* Automatisch besluit met wettelijk of soortgelijk effect
+* Systematisch toezicht
+* Gevoelige gegevens
+* Grootschalig
+* Kruisverwijzingen van gegevens
+* Kwetsbare personen
+* Innovatief gebruik
+* Afscherming van een recht/contract
+* Doorgifte buiten de EU
 {% endhint %}
 
-## Quand dois-je faire un PIA ?
+## Wanneer moet ik een PIA uitvoeren?
 
-* Avant la mise en œuvre du traitement
-* Principe de Privacy by design
-* Outil d’aide à la décision sur la mise en œuvre du traitement
-* Permet d’anticiper les coûts de mise en conformité
-* Doit être fait pour les traitements existants
+* Voordat de Verwerking wordt uitgevoerd
+* Principe van ingebouwde privacy
+* Als besluitvormingshulpmiddel voor het implementeren van de verwerking
+* Hiermee kunt u anticiperen op nalevingskosten
+* Moet worden uitgevoerd voor bestaande Verwerkingen
 
-Le PIA est un processus continu :
+De PIA is een continu proces:
 
-* Les PIA doivent être révisés régulièrement
-* Une bonne pratique est de la mettre à jour tous les 3 à 5 ans
-* Dans tous les cas, dès lors qu’une modification intervient sur le traitement
+* PIA's moeten regelmatig worden herzien
+* De beste werkwijze is om de PIA elke 3 tot 5 jaar bij te werken.
+* In alle gevallen, zodra er een wijziging optreedt in de verwerking
 
-![Un processus itératif](<../../.gitbook/assets/image (188).png>)
+Een iteratief proces
 
-## Comment faire un PIA ?
+## Hoe maak je een PIA?
 
-#### En évaluant d'abord les **mesures de nécessité et de proportionnalité**. Il s'agit d'un examen en profondeur du traitement sous toutes ses coutures !
+#### Door eerst de **maatregelen van noodzakelijkheid en evenredigheid** te beoordelen. Dit is een grondig onderzoek van de Verwerking vanuit elke hoek!
 
-Il faut se poser les questions et expliquer ses choix sur les aspects suivants du traitement :
+Je moet vragen stellen en je keuzes uitleggen over de volgende aspecten van de Verwerking:
 
-* [Finalités](https://www.dastra.eu/fr/article/finalit%C3%A9-traitement-de-donn%C3%A9es/358) : déterminée, explicite et légitime
-* Fondement : licéité du traitement, interdiction du détournement de finalité
-* Minimisation des données : adéquates, pertinentes et limitées
-* Qualité des données : exactes et tenues à jour
-* [Durées de conservation](https://www.dastra.eu/fr/article/dur%C3%A9e-de-conservation-des-donn%C3%A9es-personnelles/364) : limitées
+* Doeleinden" (https://www.dastra.eu/fr/article/finalit%C3%A9-traitement-de-donn%C3%A9es/358): specifiek, expliciet en legitiem.
+* Grondslag: rechtmatigheid van de Verwerking, verbod op "purpose creep
+* Gegevensminimalisatie: adequaat, relevant en beperkt
+* Kwaliteit van de gegevens: nauwkeurig en actueel
+* [Bewaartermijnen](https://www.dastra.eu/fr/article/dur%C3%A9e-de-conservation-des-donn%C3%A9es-personnelles/364): beperkt
 
-#### Ensuite en détaillant les **mesures protectrices des droits des personnes :**
+#### Beschrijf vervolgens de **maatregelen om de rechten van personen te beschermen:**
 
-* Information des personnes concernées
-* recueil du consentement, le cas échéant
-* exercice des droits d’accès et à la portabilité
-* exercice des droits de rectification et d’effacement
-* exercice des droits de limitation du traitement et d’opposition
-* relations avec les [sous-traitants](https://www.dastra.eu/fr/article/sous-traitant/388)
-* garanties entourant le ou les [transferts internationaux](https://www.dastra.eu/fr/article/transfert-de-donnees-a-caractere-personnel/410)
+* Informatie voor betrokkenen
+* verkrijgen van toestemming, indien van toepassing
+* uitoefening van het recht op toegang en portabiliteit
+* uitoefening van het recht op rectificatie en uitwissing
+* uitoefening van het recht op beperking van de Verwerking en het recht om bezwaar te maken tegen de Verwerking
+* relaties met [subcontractanten](https://www.dastra.eu/fr/article/sous-traitant/388)
+* garanties rond [internationale doorgiften](https://www.dastra.eu/fr/article/transfert-de-donnees-a-caractere-personnel/410)
 
-Il faut s’aider des référentiels sectoriels, des codes de conduite, des labels et marques.
+Sectorspecifieke richtlijnen, gedragscodes, labels en merken moeten worden geraadpleegd.
 
-#### Et enfin **analyser les risques pour les personnes concernées** : les atteintes potentielles à la vie privée
+#### En tot slot **analyse van de risico's voor de betrokken personen**: mogelijke inbreuken op de privacy
 
-Pour chaque **événement redouté** (accès illégitime à des données, modification non désirée de données et disparition de données) :
+Voor elke **gevreesde gebeurtenis** (onrechtmatige toegang tot gegevens, ongewenste wijziging van gegevens en verdwijning van gegevens):
 
-* déterminer les **impacts** potentiels sur la vie privée des personnes concernées s’ils survenaient
-* estimer sa **gravité**, notamment en fonction du caractère préjudiciable des impacts potentiels et, le cas échéant, des mesures susceptibles de les modifier ;
-* identifier les **menaces** sur les supports des données qui pourraient mener à cet événement redouté et les sources de risques qui pourraient en être à l’origine ;
-* estimer sa **vraisemblance**, notamment en fonction des vulnérabilités des supports de données, des capacités des sources de risques à les exploiter et des mesures susceptibles de les modifier.
+* de mogelijke **gevolgen** voor de privacy van de betrokkenen bepalen, mochten ze zich voordoen
+* de **ernstigheid** ervan in te schatten, met name wat betreft de schadelijke aard van de potentiële gevolgen en, in voorkomend geval, de maatregelen die deze gevolgen kunnen wijzigen;
+* de **bedreigingen** voor gegevensdragers identificeren die tot deze gevreesde gebeurtenis zouden kunnen leiden en de risicobronnen die deze gebeurtenis zouden kunnen veroorzaken;
+* de **waarschijnlijkheid** ervan in te schatten, met name in termen van de kwetsbaarheden van de gegevensdragers, het vermogen van de risicobronnen om deze te exploiteren en de maatregelen die deze waarschijnlijk zullen wijzigen.
 
-Déterminer si les **risques initiaux** peuvent être jugés acceptables compte tenu des mesures existantes ou prévues.
+Bepaal of de initiële **risico's** als aanvaardbaar kunnen worden beschouwd gezien de bestaande of geplande maatregelen.
 
-Dans le cas contraire, proposer des **mesures complémentaires** et réévaluer le niveau des risques en tenant compte de celles-ci, afin de déterminer les **risques résiduels**.
+Zo niet, stel dan **aanvullende maatregelen** voor en beoordeel het risiconiveau opnieuw, rekening houdend met deze maatregelen, om het **resterende risico** te bepalen.
 
-## Qui est impliqué ?
+## Wie is erbij betrokken?
 
-* **Le** [**responsable du traitement**](https://www.dastra.eu/fr/article/responsable-de-traitement/392) (RT)
-  * Les équipes du RT dont les équipes du métier concerné (MOA, MOE), les responsables de la conformité, les équipes juridiques
-  * Le RT peut déléguer à des conseils extérieurs mais cela reste sous sa responsabilité
-* **Le DPO**
-  * Conseil et vérification d’exécution, évaluation des mesures et risques résiduels, suggère les PIA
-* **Les personnes concernées (ou leurs représentants), le cas échéant**
-  * Leur avis peut être pris et documenté
-* **Les** [**sous-traitants**](https://www.dastra.eu/fr/article/sous-traitant/388)
-  * Assistance et fourniture d’informations
-* **Le RSSI ou la direction informatique**
-  * Proposition de mener un DPIA, assistance
+* De** [**Verwerkingsverantwoordelijke**](https://www.dastra.eu/fr/article/responsable-de-traitement/392) (RT)
+  * De teams van de CPO, inclusief de teams van de betreffende business line (projecteigenaar, projectmanager), compliance officers, juridische teams, enz.
+  * De Data Controller kan delegeren aan externe consultants, maar dit blijft zijn verantwoordelijkheid.
+* De functionaris voor gegevensbescherming
+  * Advies en verificatie van de implementatie, beoordeling van maatregelen en restrisico's, stelt PIA's voor.
+* De betrokkenen (of hun vertegenwoordigers), indien van toepassing** * Hun mening kan worden gevraagd en gedocumenteerd door de functionaris voor gegevensbescherming.
+  * Hun mening kan worden gevraagd en gedocumenteerd
+* De** [**subcontractanten**](https://www.dastra.eu/fr/article/sous-traitant/388)
+  * Assistentie en informatieverstrekking
+* De CISO of IT-afdeling** * Voorstel voor het uitvoeren van een DPIA
+  * Voorstel tot het uitvoeren van een DPIA, assistentie
 
 
 
-## Pour aller plus loin
+## Om verder te gaan
 
 {% embed url="https://www.youtube.com/watch?v=yfaJC-YESPk" %}
-Webinar "Comment aborder l'étape PIA avec un outil ?"
+Webinar "Hoe benader je de PIA-fase met een tool?"
 {% endembed %}
 
-{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/analyse-dimpact.md" %}
-[analyse-dimpact.md](../../features/editer-le-registre/remplir-le-questionnaire/analyse-dimpact.md)
+{% content-ref url="../../features/edit-the-record/complete-the-questionnaire/analyse-dimpact.md" %}
+[analyse-dimpact.md](../../features/edit-the-record/complete-the-questionnaire/analyse-dimpact.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../features/audit/" %}
 [audit](../../features/audit/)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/la-gestion-des-risques/risques.md" %}
-[risques.md](../../features/la-gestion-des-risques/risques.md)
+{% content-ref url="../../features/risk-management/risks.md" %}
+[risks.md](../../features/risk-management/risks.md)
 {% endcontent-ref %}
-
-
-
-
-

@@ -1,22 +1,22 @@
 ---
-description: Leer wat een Verwerkingsregister is.
+description: Leer wat een register van de verwerkingsactiviteiten is.
 ---
 
 # Verwerkingsregister
 
 ## Definitie van een verwerkingsregister
 
-Het register van gegevensverwerking brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens &#x20;
+Het register van de verwerkingsactiviteiten brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens &#x20;
 
-Het register is vastgelegd in [artikel 30 van de AVG] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Het helpt bij het documenteren van de naleving.
+Het register is vastgelegd in [artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Het helpt bij het documenteren van de naleving.
 
 Als inventarisatie- en analysedocument moet het de realiteit van uw gegevensverwerking weerspiegelen en u in staat stellen om nauwkeurig vast te stellen :
 
-* de Stakeholders** (vertegenwoordiger, Verwerkers, Verwerkingsverantwoordelijken, etc.) die betrokken zijn bij de gegevensverwerking,
-* de categorieën gegevensverwerking**,
+* de **Stakeholders** (vertegenwoordiger, Verwerkers, Verwerkingsverantwoordelijken, etc.) die betrokken zijn bij de gegevensverwerking,
+* de categorieën **gegevensverwerking**,
 * waarvoor de gegevens worden gebruikt** (wat u ermee doet), **wie toegang heeft** tot de gegevens en **aan wie ze worden meegedeeld**,
-* hoe lang u uw gegevens bewaart**,
-* hoe veilig ze zijn**.
+* hoe lang u uw gegevens **bewaart**,
+* hoe veilig ze **zijn**.
 
 {% embed url="https://youtu.be/R_Z2m4sb-44" %}
 Hoe overschakelen naar de runstand voor logboekbeheer voor Verwerking
@@ -24,7 +24,7 @@ Hoe overschakelen naar de runstand voor logboekbeheer voor Verwerking
 
 ## Waarom een register gebruiken?
 
-&#x20;Het register is **verplicht** gesteld door [artikel 30 van de AVG] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article30). Naast het voldoen aan de verplichting van artikel 30 van de AVG, is het register een **hulpmiddel voor het controleren en aantonen van uw naleving van de AVG**. &#x20;
+&#x20;Het register is **verplicht** gesteld door [artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Naast het voldoen aan de verplichting van artikel 30 van de AVG, is het register een **hulpmiddel voor het controleren en aantonen van uw naleving van de AVG**. &#x20;
 
 Het stelt u in staat om uw gegevensverwerking te documenteren en uzelf de juiste vragen te stellen: heb ik deze gegevens echt nodig voor mijn verwerking? Heeft het zin om alle gegevens zo lang te bewaren? Zijn de gegevens voldoende beschermd? En ga zo maar door.
 
@@ -48,7 +48,7 @@ Voor bedrijven met minder dan 250 werknemers geldt een uitzondering voor het bij
 
 Artikel 30 van de AVG bevat specifieke verplichtingen voor het register van de verwerkingsverantwoordelijke van persoonsgegevens en voor het register van de verwerker. Als uw organisatie zowel als verwerker als als verwerkingsverantwoordelijke optreedt, moet uw register duidelijk onderscheid maken tussen de twee categorieën activiteiten.
 
-**In de praktijk adviseert de CNIL in dit geval om 2 registers bij te houden:**.
+**In de praktijk raadt de Gegevensbeschermingsautoriteit aan om in dit geval 2 registers bij te houden:**.
 
 1. één voor de gegevensverwerking waarvoor u zelf verantwoordelijk bent,
 2. een ander voor verwerkingen die u als subcontractant namens uw klanten uitvoert.
@@ -57,7 +57,7 @@ Artikel 30 van de AVG bevat specifieke verplichtingen voor het register van de v
 
 Voor elke Verwerking vermeldt het register van de Verwerkingsverantwoordelijke ten minste :
 
-1. indien van toepassing, **de naam en contactgegevens** van de [gezamenlijk verantwoordelijke voor de verwerking](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article26) die wordt uitgevoerd
+1. indien van toepassing, **de naam en contactgegevens** van de [gezamenlijk verantwoordelijke voor de verwerking](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) die wordt uitgevoerd
 2. de **doeleinden** van de verwerking, het doel waarvoor u de gegevens hebt verzameld
 3. de **categorieën betrokkenen** (klant, prospect, werknemer, enz.)
 4. de **persoonlijke gegevens** (voorbeelden: identiteit, familie, economische of financiële situatie, bankgegevens, verbindingsgegevens, locatiegegevens, enz.)
@@ -66,7 +66,7 @@ Voor elke Verwerking vermeldt het register van de Verwerkingsverantwoordelijke t
 7. de **termijnen die zijn vastgesteld voor het wissen** van de verschillende categorieën gegevens, d.w.z. de bewaartermijn, of anders de criteria voor het bepalen daarvan
 8. voor zover mogelijk, een **algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen** die u toepast.
 
-[Een "Verwerkingsverantwoordelijke" in Dastra](<../../.gitbook/assets/image (194).png>)
+[Een "Verwerkingsverantwoordelijke" in Dastra]
 
 ### De actoren&#x20;
 
@@ -117,13 +117,13 @@ Dit bevat:&#x20;
 * de **contactgegevens** van de subcontractant, hun vertegenwoordiger indien van toepassing en hun DPO&#x20;
 * de **gegevens van alle Verwerkingsverantwoordelijken namens wie de subcontractant optreedt** (meestal de klanten)
 * de **categorieën gegevensverwerking**
-* ontvangers**&#x20;
-* doorgiften** buiten de EER
-* beveiligingsmaatregelen**.
+* **ontvangers**&#x20;
+* **doorgiften** buiten de EER
+* **beveiligingsmaatregelen**.
 
 
 
-[Een "onderaannemer" verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
+[Een "onderaannemer" verwerking in Dastra]
 
 ## Om verder te gaan
 

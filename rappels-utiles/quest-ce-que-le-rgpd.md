@@ -4,7 +4,7 @@ description: Meer informatie over de Algemene Verordening Gegevensbescherming.
 
 # Inleiding tot de GDPR
 
-De General Data Protection Regulation (GDPR) is de verordening van de Europese Unie over gegevensbescherming en privacy. Alle bedrijven en overheden die persoonlijke gegevens van Europese ingezetenen verwerken, hebben hiermee te maken. Ze is van toepassing sinds 25 mei 2018.
+De Algemene Verordening Gegevensbescherming (AVG) of General Data Protection Regulation (GDPR) is de verordening van de Europese Unie over gegevensbescherming en privacy. Alle bedrijven en overheden die persoonlijke gegevens van Europese ingezetenen verwerken, hebben hiermee te maken. Ze is van toepassing sinds 25 mei 2018.
 
 Het extraterritoriale karakter van de GDPR breidt het toepassingsgebied uit naar alle bedrijven buiten de Europese Unie die gegevens van inwoners van de EU verwerken. Organisaties die de GDPR niet naleven, worden blootgesteld aan reputatierisico's en het risico op sancties (administratief, civiel of strafrechtelijk), met boetes die kunnen oplopen tot 4% van de wereldwijde jaaromzet van het bedrijf of tot € 20 miljoen.
 
@@ -14,7 +14,7 @@ Het doel is om de regels voor de bescherming van persoonsgegevens te standaardis
 
 ## Wat staat er op het spel voor organisaties?
 
-Praktisch gezien verplicht de RGPD organisaties die gegevens van Europese ingezetenen verwerken om de volgende verplichtingen te implementeren:
+Praktisch gezien verplicht de GDPR organisaties die gegevens van Europese ingezetenen verwerken om de volgende verplichtingen te implementeren:
 
 * Het aanstellen van een functionaris voor gegevensbescherming (Data Protection Officer, DPO).
 * Opzetten van een register van gegevensverwerkingsactiviteiten

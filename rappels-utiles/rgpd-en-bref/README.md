@@ -1,9 +1,8 @@
 ---
-description: Résumé des notions clefs du Règlement Général sur la Protection des Données.
+description: Samenvatting van de belangrijkste concepten van de algemene verordening gegevensbescherming (AVG) of General Data Protection Regulation (RGPD).
 ---
 
-# Notions clefs du RGPD
-
+# Belangrijkste concepten van de AVG / GDPR
 
 
 {% content-ref url="donnee-personnelle.md" %}
