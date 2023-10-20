@@ -1,33 +1,33 @@
 ---
-description: Apprenez à visualiser l'arborescence des traitements dans Dastra.
+description: Leer hoe u de boomstructuur van de Verwerking in Dastra kunt bekijken.
 ---
 
-# Visualiser l'arborescence des traitements
+# De boomstructuur van verwerkingen bekijken
 
-## Introduction
+## Inleiding
 
-Dans Dastra, les données peuvent être visualisées de plusieurs manières. Une d'entre elle est la visualisation de l'**arborescence des traitements** par entités et départements.
+In Dastra kunnen gegevens op verschillende manieren worden bekeken. Eén daarvan is het visualiseren van de Verwerkingsboom** per entiteit en afdeling.
 
-Cette visualisation permet en particulier de comprendre à quelles entités et/ou départements sont rattachés les traitements.
+Deze weergave maakt het met name mogelijk om te begrijpen aan welke entiteiten en/of afdelingen de Verwerkingen zijn gekoppeld.
 
-## Visualiser l'arborescence des traitements
+## Verwerkingsboom bekijken
 
-Pour visualiser l'arborescence des traitements, cliquer sur le module "Registres" puis  cliquez sur la flèche à droite du bouton, pour sélectionner l'option "**Arborescence**".
+Om de Verwerkingsboom te bekijken, klikt u op de module "Registers" en vervolgens op de pijl rechts van de knop om de optie "**Boomstructuur**" te selecteren.
 
-![Module "Registres"](<../../../.gitbook/assets/image (199).png>)
+[Module Registers](<../../..gitbook/assets/image (199).png>)
 
-![Flèche à droite du bouton & menu déroulant](<../../../.gitbook/assets/Capture web\_4-5-2022\_95947\_app.dastra.eu.jpeg>)
+[Pijltje rechts van de knop & uitklapmenu](<../../..gitbook/assets/Capture web_4-5-2022_95947\_app.dastra.eu.jpeg>)
 
-Ainsi, vous pourrez visualiser l'**arborescence des traitements**.
+Dit laat je de Verwerking zien.
 
-![L'arborescence des traitements dans Dastra](<../../../.gitbook/assets/image (211).png>)
+[De verwerkingsboom in Dastra](<../../../.gitbook/assets/image (211).png>)
 
 {% hint style="info" %}
-Les filtres et le bouton paramétrage vous permettront de modifier la visualisation de l'arborescence à votre convenance.
+Met filters en de instellingenknop kun je de boomstructuur naar wens aanpassen.
 {% endhint %}
 
-## Aller plus loin
+## Verder gaan
 
 {% content-ref url="../../../commencer/commencer/creer-et-parametrer-des-entites-et-departements.md" %}
-[creer-et-parametrer-des-entites-et-departements.md](../../../commencer/commencer/creer-et-parametrer-des-entites-et-departements.md)
+[create-and-parameterize-entitles-and-departments.md](../../../commence/create-and-parameterize-entitles-and-departments.md)
 {% endcontent-ref %}

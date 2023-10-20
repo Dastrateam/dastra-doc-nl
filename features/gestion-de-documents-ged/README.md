@@ -1,87 +1,87 @@
-# Gestion de documents (GED)
+# Documentbeheer 
 
-Dastra intègre nativement une fonctionnalité de gestion de documents.&#x20;
+Dastra integreert standaard een document management functie &#x20;
 
-Ce module permet de centraliser et mutualiser l'accès à tous les documents associés dans Dastra.
+Met deze module kunt u de toegang tot alle gerelateerde documenten in Dastra centraliseren en delen.
 
-C'est par exemple ici que vous pouvez stocker toute la documentation utile pour prouver votre conformité au RGPD.
+Hier kunt u bijvoorbeeld alle documentatie opslaan die u nodig hebt om aan te tonen dat u voldoet aan de GDPR.
 
 {% hint style="info" %}
-**Focus sur la documentation RGPD**
+**Focus op GDPR documentatie**
 
 &#x20;
 
-L’exigence de documentation découle du **principe de responsabilité** (accountability) rappelé à l’article 24 du RGPD.
+De documentatievereiste komt voort uit het verantwoordingsbeginsel van artikel 24 van de GDPR.
 
-Cette documentation se traduit en pratique en premier lieu par le registre des activités de traitement mais également à travers d’autres éléments de gestion des données et de la conformité au RGPD. **Il peut s’agir des éléments suivants (liste non exhaustive) :**
+In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de GDPR. **Deze kunnen het volgende omvatten (niet-limitatieve lijst):** * interne procedures voor het creëren van gegevensbestanden
 
-* procédures internes encadrant la création d’un nouveau traitement de données à caractère personnel (contrôle interne, évaluation des risques et de la proportionnalité, etc.)
-* procédure de réalisation des PIA
-* mise en place de politiques de protection des données écrites et contraignantes, à prendre en compte et à appliquer aux nouvelles opérations de traitement des données (par exemple, conformité aux critères de qualité des données, préavis, principes de sécurité, consultation, etc.), lesquelles devraient être mises à la disposition des personnes concernées
-* mappage des procédures en vue de veiller au bon recensement de toutes les opérations de traitement des données et gestion d’un inventaire de celles-ci
-* mise en place de programmes de formation pour les personnes en charge de la gestion des traitements de données
-* mise en place de procédures de gestion des demandes d'accès, de rectification et d'effacement et des droits détenus par les personnes concernées sur les données
-* mise sur pied d’un mécanisme interne de gestion des plaintes
-* élaboration de procédures internes pour une gestion et une notification efficaces des violations de données
-* réalisation d’évaluations d’impact sur la vie privée dans certaines circonstances
-* mise en œuvre et supervision de procédures de vérification afin de s’assurer que toutes les mesures n’existent pas seulement sur papier, mais qu’elles sont aussi mises en œuvre et fonctionnent dans la pratique (audits internes ou externes, etc.).
+* interne procedures voor het creëren van een nieuwe verwerking van persoonsgegevens (interne controle, risico- en evenredigheidsbeoordeling, enz.)
+* procedure voor het uitvoeren van PIA's
+* opstellen van een schriftelijk en bindend gegevensbeschermingsbeleid, waarmee rekening moet worden gehouden en dat moet worden toegepast op nieuwe gegevensverwerking (bijv. naleving van gegevenskwaliteitscriteria, voorafgaande kennisgeving, beveiligingsbeginselen, raadpleging, enz.)
+* in kaart brengen van procedures om ervoor te zorgen dat alle gegevensverwerking naar behoren wordt geïdentificeerd, en beheer van een inventaris van gegevensverwerking
+* het opzetten van opleidingsprogramma's voor mensen die verantwoordelijk zijn voor het beheer van gegevensverwerking
+* het opzetten van procedures voor het beheer van verzoeken om toegang, rectificatie en verwijdering van gegevens en de rechten van betrokkenen ten aanzien van hun gegevens
+* het opzetten van een intern klachtenbehandelingsmechanisme
+* het ontwikkelen van interne procedures voor het effectief beheren en melden van datalekken
+* het uitvoeren van privacyeffectbeoordelingen in bepaalde omstandigheden
+* implementatie van en toezicht op verificatieprocedures om ervoor te zorgen dat alle maatregelen niet alleen op papier bestaan, maar ook worden geïmplementeerd en in de praktijk werken (interne of externe audits, enz.).
 
-Vous pouvez également dans cet espace **stocker tout document utile à la compréhension des traitements, les notes de formation ainsi que les contrats encadrant le traitement le cas échéant**.
+U kunt deze ruimte ook gebruiken voor **het opslaan van documenten die nuttig kunnen zijn voor het begrijpen van de Verwerking, trainingsnotities en eventuele contracten die de Verwerking regelen**.
 {% endhint %}
 
-### Les formats acceptés
+### Geaccepteerde formaten
 
-De nombreux formats sont acceptés :
+Vele formaten worden geaccepteerd:
 
 * pdf
-* word
-* excel
+* Word
+* Excel
 * jpg
 * zip
 * etc
 
-Si un format n'est pas accepté, vous pouvez mettre le ficher dans une archive .zip pour l'intégrer dans la documentation.&#x20;
+Als een formaat niet wordt geaccepteerd, kun je het bestand in een .zip-archief plaatsen om het in de documentatie op te nemen &#x20;
 
-### Créer un document
+### Een document maken
 
-Avec Dastra, vous pouvez créer rapidement un document pour prise de note.&#x20;
+Met Dastra kunt u snel een document maken om aantekeningen te maken &#x20;
 
-Pour cela, allez dans la gestion de documents et cliquez sur "Ecrire un document"
+Ga hiervoor naar documentbeheer en klik op "Een document schrijven".
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>Ecrire un nouveau document</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>Schrijf een nieuw document</p></figcaption></figure>
 
-Le nouveau document est enregistré au format markdown (.md)
+Het nieuwe document wordt opgeslagen in markdown-indeling (.md)
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-### Créer un dossier
+### Een map maken
 
-Vous pouvez ranger vos documents dans des dossiers pour les retrouver facilement.&#x20;
+U kunt uw documenten in mappen opslaan zodat u ze gemakkelijk kunt terugvinden &#x20;
 
-Il est possible de créer des sous-dossiers.
+Het is mogelijk om submappen te maken.
 
 <figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
-### Gestion des droits
+### Rechtenbeheer
 
-Il est possible de rajouter des droits sur les dossiers et fichiers de la GED. Ces droits peuvent être affectés aux dossiers comme aux fichiers et peuvent être configurés par l'administrateur de l'espace de travail ou un utilisateur ayant la permission "Gestion des fichiers : gestion".
+Je kunt rechten toevoegen aan mappen en bestanden in het EDM. Deze rechten kunnen worden toegewezen aan zowel mappen als bestanden en kunnen worden geconfigureerd door de beheerder van de werkruimte of een gebruiker met de machtiging "Bestandsbeheer: beheer".
 
 {% hint style="info" %}
-Important : Par défaut, aucune restriction n'est appliquée sur l'arborescence des dossiers. Les permissions liées aux rôles de l'utilisateur sont toutefois appliquées !&#x20;
+Belangrijk: Standaard worden er geen beperkingen toegepast op de mappenstructuur. Machtigingen gekoppeld aan de rollen van de gebruiker worden echter toegepast !&#x20;
 {% endhint %}
 
-Le propriétaire de l'espace de travail (ou administrateur) peut configurer les droits d'accès en cliquant sur l'icône de configuration sur ligne correspondante. Il peut ensuite configurer les accès en ajoutant les équipes et utilisateur avec la permission d'exécution associée.
+De eigenaar van de werkruimte (of beheerder) kan toegangsrechten configureren door op het configuratiepictogram op de overeenkomstige regel te klikken. Ze kunnen dan toegang configureren door teams en gebruikers toe te voegen met de bijbehorende uitvoeringsrechten.
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/select-permission.gif" alt=""><figcaption><p>Interface de gestion des interfaces</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/select-permission.gif" alt=""><figcaption><p>Interface beheer interface</p></figcaption></figure>
 
-Ces permissions sont appliquées à tous les éléments "enfants" (c'est à dire tous les éléments contenus dans le dossier, ce qui implique donc les sous-dossiers).&#x20;
+Deze machtigingen worden toegepast op alle "kind"-items (d.w.z. alle items in de map, dus ook submappen).&#x20;
 
 {% hint style="info" %}
-Un dossier pour lequel aucune permission n'est défini est considéré comme accessible par l'ensemble des utilisateurs.
+Een map waarvoor geen rechten zijn gedefinieerd, wordt beschouwd als toegankelijk voor alle gebruikers.
 
-Si des permissions ont été définies ou sont héritées sur un élément, celui-ci sera caché pour les utilisateurs n'ayant pas les habilitations nécessaires.
+Als er permissies zijn gedefinieerd of geërfd op een item, wordt het verborgen voor gebruikers die niet de benodigde machtiging hebben.
 {% endhint %}

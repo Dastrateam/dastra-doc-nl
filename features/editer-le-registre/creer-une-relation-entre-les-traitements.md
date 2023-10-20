@@ -1,26 +1,26 @@
-# Créer une relation entre les traitements
+# Een relatie tussen Verwerkingen maken
 
-Dans Dastra vous avez la possibilité de créer des relations entre vos traitements afin de faciliter leur gestion.
+In Dastra kunt u relaties tussen uw Verwerkingen maken om ze gemakkelijker te beheren.
 
-Ces relations sont possibles entre des traitements situés dans un même espace de travail mais également au sein d'espaces de travail différents.
-
-
-
-### Ajouter une relation
-
-Pour ce faire, il faut aller sur une fiche de traitement et sélectionner l'onglet "Relations" situé en haut de la fiche.
+Deze relaties kunnen worden gemaakt tussen Verwerkingen in dezelfde werkruimte of in verschillende werkruimten.
 
 
 
-![L'onglet "Relations"](<../../.gitbook/assets/image (243).png>)
+### Een relatie toevoegen
+
+Ga hiervoor naar een Verwerkingsformulier en selecteer de tab "Relaties" bovenaan het formulier.
 
 
 
-Ensuite, il faudra sélectionner un type de relations.
+[De "Relaties" tab](<../../.gitbook/assets/image (243).png>)
 
-![](<../../.gitbook/assets/image (245).png>)
 
-Vous pouvez sélectionner le type de relation entre les traitements.
+
+Vervolgens moet je een type relatie selecteren.
+
+[](<../../.gitbook/assets/image (245).png>)
+
+Je kunt het type relatie tussen Verwerkingen selecteren.
 
 ![](<../../.gitbook/assets/image (246).png>)
 
@@ -28,53 +28,52 @@ Vous pouvez sélectionner le type de relation entre les traitements.
 
 
 
-### Détail des relations
+### Details relatie
 
-#### Est l'enfant de :&#x20;
+#### Is het kind van :&#x20;
 
-Relation hiérarchique permettant la visualisation graphique. Pas d’asservissement entre les champs.
+Hiërarchische relatie voor grafische weergave. Geen koppeling tussen velden.
 
-Le traitement A est hiérarchiquement sous le traitement B.
+Verwerking A staat hiërarchisch onder verwerking B.
 
-#### Est le parent de :&#x20;
+#### Is de ouder van :&#x20;
 
-Relation hiérarchique permettant la visualisation graphique. Pas d’asservissement entre les champs.
+Hiërarchische relatie voor grafische weergave. Geen koppeling tussen velden.
 
-Le traitement A est hiérarchiquement au dessus du traitement B.
+Verwerking A staat hiërarchisch boven verwerking B.
 
-#### Est relatif à :&#x20;
+#### Is gerelateerd aan :&#x20;
 
-Simple lien logique entre 2 traitements, aucun asservissement entre les deux ni de règle de contrôle.&#x20;
+Eenvoudige logische koppeling tussen 2 Verwerkingen, geen slavings tussen de twee of controleregels.&#x20;
 
-#### Est copié par :
+#### Wordt gekopieerd door :
 
-Cette relation permet de garder une trace des éléments dupliqués à partir de ce traitement. Un lien relationnel est créé automatiquement lorsqu’un traitement est dupliqué.&#x20;
+Deze relatie wordt gebruikt om elementen bij te houden die vanuit dit proces worden gedupliceerd. Er wordt automatisch een relationele link gemaakt wanneer een Verwerking wordt gedupliceerd.&#x20;
 
-#### Est une copie de :&#x20;
+#### Is een kopie van :&#x20;
 
-Cette relation permet de garder une trace de la source de duplication du traitement. Un lien relationnel est créé automatiquement lorsqu’un traitement est dupliqué.&#x20;
+Deze relatie wordt gebruikt om de bron van de gedupliceerde Verwerking bij te houden. Er wordt automatisch een relationele koppeling gemaakt wanneer een Verwerking wordt gedupliceerd.&#x20;
 
-#### Transmet strictement (Héritage fort) :
+#### Brengt strikt over (Sterke overerving):
 
-Les champs du traitement d'origine (A) remplacent les champs du traitement cible (B).&#x20;
+De velden van het oorspronkelijke proces (A) vervangen de velden van de doelverwerking (B).&#x20;
 
-Asservissement strict entre le traitement A et le traitement B. Les champs du traitement B préexistants sont supprimés au moment où le lien est mis en place. Les champs du traitement B asservis au traitement A ne sont pas modifiables dans le traitement B, et aucun nouveau champ ne peut être ajouté, supprimé ou modifié. Dans la mesure où les éléments de référentiels sont conservés, les champs préexistants au traitement B sont rétablis lorsque le lien est révoqué.
+Strikte overerving tussen Verwerking A en Verwerking B. De reeds bestaande velden van bewerking B worden verwijderd wanneer de koppeling wordt opgezet. De velden in Verwerking B die aan Verwerking A zijn gekoppeld, kunnen niet worden gewijzigd in Verwerking B en er kunnen geen nieuwe velden worden toegevoegd, verwijderd of gewijzigd. Voor zover de elementen van de bewaarplaatsen behouden blijven, worden de velden die al bestonden in Verwerking B opnieuw aangemaakt wanneer de koppeling wordt ingetrokken.
 
-#### Hérite strictement de (Héritage fort) :&#x20;
+#### Erft strikt over van (Sterke overerving) :&#x20;
 
-Les champs du traitement cible (B) remplacent les champs du traitement d'origine (A).&#x20;
+De velden in de doelverwerking (B) vervangen de velden in de oorspronkelijke verwerking (A) &#x20;
 
-Asservissement strict entre le traitement B et le traitement A. Les champs de A préexistants sont supprimés au moment où le lien est mis en place. Les champs de A asservis à B ne sont pas modifiables dans A, et aucun nouveau champ ne peut être ajouté, supprimé ou modifié. Dans la mesure où les éléments de référentiels sont conservés, les champs préexistants au traitement B sont rétablis lorsque le lien est révoqué.
+Strikte overerving tussen Verwerking B en Verwerking A. Reeds bestaande velden in A worden verwijderd bij het opzetten van de koppeling. De velden in A die slaaf zijn van B kunnen niet worden gewijzigd in A en er kunnen geen nieuwe velden worden toegevoegd, verwijderd of gewijzigd. Voor zover de elementen van de repositories behouden blijven, worden de velden die voorafgingen aan de Verwerking van B hersteld wanneer de koppeling wordt ingetrokken.
 
-#### Hérite de (Héritage faible) :&#x20;
+#### Erft over van (Zwakke overerving) :&#x20;
 
-Le traitement cible (B) hérite automatiquement des champs du traitement d'origine (A).&#x20;
+De doelverwerking (B) erft automatisch de velden van de oorspronkelijke verwerking (A) &#x20;
 
-Il est possible d'ajouter, de supprimer ou modifier des nouveaux champs dans le traitement B, mais ne peut pas modifier les champs hérités du traitement A. Toute modification dans les champs du traitement A est automatiquement répercutée dans les champs hérités du traitement B . Lorsque le lien est révoqué, les champs hérités du traitement A redeviennent modifiables dans le traitement B. Les champs préexistant dans le traitement B avant la mise en place du lien sont conservés une fois le lien créé.
+Nieuwe velden kunnen worden toegevoegd, verwijderd of gewijzigd in proces B, maar velden geërfd van proces A kunnen niet worden gewijzigd. Alle wijzigingen aan de velden in proces A worden automatisch weerspiegeld in de velden die worden geërfd van proces B. Als de koppeling wordt ingetrokken, kunnen de velden die zijn geërfd van proces A weer worden gewijzigd in proces B. Velden die al bestonden in proces B voordat de koppeling werd gemaakt, blijven behouden zodra de koppeling is gemaakt.
 
-#### Transmet (Héritage faible) :&#x20;
+#### Transmet (Zwakke overerving) :&#x20;
 
-Le traitement d'origine (A) transmet automatiquement ses champs au traitement cible (B).&#x20;
+Het oorspronkelijke proces (A) verzendt zijn velden automatisch naar de doelverwerking (B) &#x20;
 
-Le traitement cible B hérite automatiquement des champs du traitement d'origine A. Le traitement cible B peut ajouter, supprimer ou modifier des nouveaux champs, mais ne peut pas modifier les champs hérités du traitement A. Toute modification dans les champs du traitement A est automatiquement répercutée dans les champs hérités du traitement B. Lorsque le lien est révoqué, les champs hérités redeviennent modifiables dans le traitement B. Les champs préexistant à B avant la mise en place du lien sont conservés une fois le lien créé.
-
+Doelproces B erft automatisch velden van het oorspronkelijke proces A. Doelproces B kan nieuwe velden toevoegen, verwijderen of wijzigen, maar kan geen velden wijzigen die van proces A zijn geërfd. Elke wijziging aan de velden in Verwerking A wordt automatisch weerspiegeld in de velden die worden geërfd van Verwerking B. Wanneer de koppeling wordt ingetrokken, worden de geërfde velden weer bewerkbaar in proces B. Velden die in proces B bestonden voordat de koppeling werd gemaakt, blijven behouden nadat de koppeling is gemaakt.

@@ -1,49 +1,49 @@
 ---
-description: Apprenez à visualiser les données dans Dastra.
+description: Leer gegevens visualiseren in Dastra.
 ---
 
-# Visualisation des données
+# Gegevens visualiseren
 
-## Introduction
+## Inleiding
 
-Dans Dastra, les **données** peuvent être **visualisées** de plusieurs manières :&#x20;
+In Dastra kunnen **gegevens** op verschillende manieren worden weergegeven:&#x20;
 
-* L'**arborescence** organisationnelle des traitements,
-* La **cartographie** des données du registre de traitement,
-* Les **transferts** de données.
+* De **organisatieboom** van Verwerkingen,
+* Mapping** van gegevensverwerking,
+* Gegevensoverdrachten**.
 
-## Modifiez la visualisation du Registre
+## De registerweergave wijzigen
 
-Pour modifier la manière dont les traitements s'affichent dans votre registre, allez dans le module "Registres" dans le bandeau à gauche de l'écran. Par défaut, les traitements s'affichent en mode tableau. Cliquez sur la **flèche à droite** du bouton "Tableau".
+Om de manier waarop behandelingen in uw register worden weergegeven te wijzigen, gaat u naar de module "Registers" in de banner aan de linkerkant van het scherm. Verwerkingen worden standaard in tabelmodus weergegeven. Klik op de **pijl naar rechts** van de knop "Tabel".
 
-![Module "Registres"](<../../../.gitbook/assets/image (199).png>)
+[Module "Registers"](<../../../.gitbook/assets/image (199).png>)
 
-![Flèche à droite du bouton "Tableau" & menu déroulant](<../../../.gitbook/assets/Capture web\_4-5-2022\_95947\_app.dastra.eu.jpeg>)
+[Pijl rechts van de "Tabel" knop & uitklapmenu](<../../.gitbook/assets/Capture web_4-5-2022\_95947_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
-Le premier choix "Tableau" fait référence à la visualisation standard du **registre des traitements**.
+De eerste keuze "Tabel" verwijst naar de standaardweergave van de Verwerking**.
 {% endhint %}
 
-Outre la vue tableau, une vue liste et une vue arborescence sont également disponibles.&#x20;
+Naast de tabelweergave zijn er ook een lijstweergave en een boomweergave beschikbaar.&#x20;
 
 {% content-ref url="visualiser-larborescence-des-traitements.md" %}
-[visualiser-larborescence-des-traitements.md](visualiser-larborescence-des-traitements.md)
+[view-treatment-treeview.md](view-treatment-treeview.md)
 {% endcontent-ref %}
 
-## Visualisez la cartographie de votre registre et les transferts&#x20;
+## Bekijk de mapping van uw register en transfers&#x20;
 
-La cartographie des données du registre et la carte des transferts sont quant à elles disponibles dans les onglets en haut de votre écran, au dessus de votre liste&#x20;
+De kaart met registergegevens en de kaart met overdrachten zijn beschikbaar in de tabbladen bovenaan je scherm, boven je lijst&#x20;
 
 {% content-ref url="visualiser-la-cartographie-des-donnees.md" %}
-[visualiser-la-cartographie-des-donnees.md](visualiser-la-cartographie-des-donnees.md)
+[view-data-map.md](view-data-map.md)
 {% endcontent-ref %}
 
 {% content-ref url="visualiser-la-carte-des-transferts.md" %}
-[visualiser-la-carte-des-transferts.md](visualiser-la-carte-des-transferts.md)
+[doorgiften.md](doorgiften.md)
 {% endcontent-ref %}
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="../../la-gestion-des-risques/" %}
-[la-gestion-des-risques](../../la-gestion-des-risques/)
+{% content-ref url="../../risk-management/" %}
+[risicobeheer](../../risicobeheer/)
 {% endcontent-ref %}

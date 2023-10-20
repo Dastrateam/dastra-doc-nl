@@ -1,55 +1,50 @@
 ---
-description: Apprenez à partager votre registre.
+description: Leer hoe je je register kunt delen.
 ---
 
-# Partager le registre
+# Register delen
 
-## Partage de l'intégralité du registre
+## Het hele register delen
 
-Depuis la section "Registre" de DASTRA, cliquez sur la flèche en haut à droite du registre à côté du bouton de création d'un traitement, puis dans le menu déroulant, sur "partager".
+Klik in het gedeelte "Register" van DASTRA op de pijl in de rechterbovenhoek van het register naast de knop Verwerking maken en klik vervolgens in het vervolgkeuzemenu op "Delen".
 
-Une fois cliqué, une fenêtre apparaît sur l'écran vous demandant la date d'expiration du lien de partage, puis cliquez sur "créer un lien".
+Zodra u hebt geklikt, verschijnt er een venster op het scherm waarin u wordt gevraagd naar de vervaldatum van de link voor delen, klik vervolgens op "link maken".
 
 ![](<../../.gitbook/assets/image (180).png>)
 
 
 
-Le partage prendra en compte l'ensemble des traitements avec le statut "publié". Les traitements en brouillon ne sont pas partagés avec cette fonction. Pour partager un traitement, en brouillon, il faut le partager de manière individuelle.&#x20;
+Delen houdt rekening met alle Verwerkingen met de status "gepubliceerd". Verwerkingen in concept worden niet gedeeld met deze functie. Om een draft behandeling te delen, moet het individueel gedeeld worden &#x20;
 
-![Interface de configuration du partage](<../../.gitbook/assets/image (178).png>)
+[Sharing configuratie interface](<../../.gitbook/assets/image (178).png>)
 
-Les durées de vie des liens sont les suivantes :&#x20;
+Linklevensduren zijn als volgt:&#x20;
 
-* 2 jours&#x20;
-* 30 jours
-* 120 jours
-* illimité
+* 2 dagen &#x20;
+* 30 dagen
+* 120 dagen
+* onbeperkt
 
 {% hint style="info" %}
-Le lien de partage est un lien à durée de vie limitée que vous pouvez utiliser pour partager le registre avec des utilisateurs externes. Le lien est publiquement visible, c'est pourquoi, il faut être vigilant sur son mode de diffusion. Pour des raisons de sécurité, il est recommandé de surveiller les liens de partage exposés sur votre projet.
+De share link is een tijdelijke link die je kunt gebruiken om het register te delen met externe gebruikers. De link is publiekelijk zichtbaar en daarom moet je voorzichtig zijn met hoe je hem verspreidt. Om veiligheidsredenen raden we je aan om de koppelingen voor delen op je project in de gaten te houden.
 {% endhint %}
 
-## **Génération d'un lien de partage pour un traitement de données**
+## **Een link voor delen genereren voor een gegevensverwerking** (in het Frans)
 
-Reproduisez le processus décrit ci-dessus, mais en allant à l'intérieur du traitement que vous souhaitez partager. Ensuite, cliquez sur la flèche à côté du bouton enregistrer, puis cliquez sur "partager".
+Herhaal de hierboven beschreven procedure, maar ga naar de Verwerking die je wilt delen. Klik dan op de pijl naast de knop Opslaan en klik op "Delen".
 
-Les traitements sont partageables quelque soit le statut (publié ou brouillon).
+Verwerkingen kunnen worden gedeeld ongeacht hun status (gepubliceerd of concept).
 
 ![](<../../.gitbook/assets/image (18) (1).png>)
 
-Il est également possible de partager plusieurs traitements en les sélectionnant dans le menu Registre et choisissant l'action groupée "partager".&#x20;
+Het is ook mogelijk om meerdere Verwerkingen te delen door ze in het Register menu te selecteren en de "share" gegroepeerde actie te kiezen.&#x20;
 
 
 
-## Gérer les liens de partage
+## Gedeelde links beheren
 
-L'ensemble des liens de partage créés sur votre espace de travail sont centralisés au niveau de la console de gestion (menu Réglages).&#x20;
+Alle deellinks die in je werkruimte zijn gemaakt, worden gecentraliseerd in de beheerconsole (menu Instellingen).&#x20;
 
-Vous pourrez les visualiser et les supprimer le cas échéant.
+Je kunt ze bekijken en indien nodig verwijderen.
 
-![Interface de gestion des liens de partage ](<../../.gitbook/assets/image (179).png>)
-
-
-
-
-
+[Share link beheer interface](<../../.gitbook/assets/image (179).png>)

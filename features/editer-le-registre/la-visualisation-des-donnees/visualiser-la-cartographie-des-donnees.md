@@ -1,37 +1,37 @@
 ---
-description: Apprenez à visualiser la cartographie des données dans Dastra.
+description: Leer hoe je datamapping visualiseert in Dastra.
 ---
 
-# Visualiser la cartographie des données du registre
+# De registergegevenskaart bekijken
 
-## Introduction
+## Inleiding
 
-Dans Dastra, les données peuvent être visualisées de plusieurs manières. Une d'entre elle est la **cartographie des données du registre** de traitement.
+In Dastra kunnen gegevens op verschillende manieren gevisualiseerd worden. Een daarvan is de **registergegevenskaart**.
 
-Cette visualisation permet en particulier d'explorer, analyser et de comprendre les liens entre les données du registre.
+Met deze visualisatie kunt u de verbanden tussen de gegevens in het register verkennen, analyseren en begrijpen.
 
-## Visualiser la cartographie des données du registre
+## De registergegevenskaart weergeven
 
-Pour visualiser la cartographie des données du registre, cliquer sur le module "Registres" puis  cliquez sur le bouton "**Cartographie**" au dessus de votre liste de traitements.&#x20;
+Om de registergegevenskaart te bekijken, klikt u op de module "Registers" en vervolgens op de knop "**Map**" boven uw lijst met behandelingen &#x20;
 
 
 
-![Module "Registres"](<../../../.gitbook/assets/image (199).png>)
+[Module "Registers"](<../../../.gitbook/assets/image (199).png>)
 
-![Onglet cartographie au dessus des traitements](<../../../.gitbook/assets/Capture web\_4-5-2022\_101143\_app.dastra.eu.jpeg>)
+[Mapping tab boven behandelingen](<../../..gitbook/assets/Capture web_4-5-2022_101143_app.dastra.eu.jpeg>)
 
-Ainsi, vous pourrez **visualiser la cartographie des données du registre**.
+Hiermee kun je **de mapping van de registergegevens** bekijken.
 
-![Exemple de cartographie](<../../../.gitbook/assets/image (168).png>)
+[Voorbeeld van mapping](<../../../.gitbook/assets/image (168).png>)
 
 {% hint style="info" %}
-Une fois la cartographie affichée, il est possible de la modifier en **double cliquant** sur les éléments pour ajouter des filtres.
+Zodra de mapping wordt weergegeven, kan het worden aangepast door **dubbel te klikken** op de elementen om filters toe te voegen.
 
-Une barre de recherche permet également des faire des filtres additionnels.
+Er is ook een zoekbalk beschikbaar voor extra filters.
 {% endhint %}
 
-## Aller plus loin
+## Verder gaan
 
 {% content-ref url="visualiser-la-carte-des-transferts.md" %}
-[visualiser-la-carte-des-transferts.md](visualiser-la-carte-des-transferts.md)
+[doorgiften.md](doorgiften.md)
 {% endcontent-ref %}

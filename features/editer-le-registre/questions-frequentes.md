@@ -1,87 +1,85 @@
 ---
 description: >-
-  Cette page présente les principales interrogations et les réponses que nous
-  vous proposons.
+  Op deze pagina staan de belangrijkste vragen en antwoorden die we bieden.
 ---
 
-# Questions fréquentes
+# Veelgestelde vragen
 
-## Comment afficher l'historique des modifications sur un traitement ?
+## Hoe kan ik de geschiedenis van wijzigingen in een Verwerking weergeven?
 
-Pour tous les traitements, vous pouvez afficher l'historique des modifications ainsi que le détail des changements.&#x20;
+Voor alle Verwerkingen kun je de geschiedenis van de wijzigingen en de details van de wijzigingen &#x20 weergeven;
 
-Il suffit de cliquer sur l'icone en haut de la page représentant une horloge.
+Klik gewoon op het pictogram boven aan de pagina dat een klok voorstelt.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p>Bouton d'accès à l'historique</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p>Toegangsknop geschiedenis</p></figcaption></figure>
 
-Attention, les modifications d'unités organisationnelles ne sont pas tracées.&#x20;
+Houd er rekening mee dat wijzigingen in organisatorische eenheden niet worden bijgehouden &#x20;
 
-## Est-il possible d'ajouter automatiquement des éléments dans le champ "parties prenantes" dans un nouveau traitement ?
+## Is het mogelijk om automatisch elementen toe te voegen aan het veld "belanghebbenden" in een nieuwe Verwerking?
 
-Non, on ne peut pas mettre à jour de parties prenantes de manière automatisée via les workflow automatisés.&#x20;
+Nee, belanghebbenden kunnen niet automatisch worden bijgewerkt via geautomatiseerde workflows &#x20;
 
-Par contre, il est possible de créer un champ personnalisé au niveau des parties prenantes qu'il est possible de modifier via le workflow automatisé.
+Het is echter wel mogelijk om een aangepast stakeholderveld te maken dat via de geautomatiseerde workflow kan worden gewijzigd.
 
-## Comment supprimer un traitement ?
+## Hoe verwijder ik een Verwerking?
 
-Pour supprimer un traitement, il y a nécessairement un passage par l’archivage du traitement via le bouton archiver et ensuite en affichant les archives depuis les filtres, il est possible de supprimer définitivement le traitement. Cela constitue un garde fou contre les suppressions hâtives.
+Om een Verwerking te verwijderen, moet je de Verwerking eerst archiveren met de archiefknop en vervolgens de archieven weergeven met behulp van de filters om de Verwerking definitief te verwijderen. Dit is een beveiliging tegen overhaaste verwijderingen.
 
-Pour archiver un traitement, il faut aller sur les trois petits points sur le traitement pour afficher le menu.
+Om een Verwerking te archiveren, ga je naar de drie kleine puntjes op de Verwerking om het menu weer te geven.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption></figcaption></figure>
 
-Et enfin, afficher les archives
+En tot slot, toon de archieven
 
 <figure><img src="../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-et supprimer&#x20;
+en verwijder&#x20;
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Comment utiliser les jeux de données sans pouvoir modifier les données ?
+## Hoe kan ik datasets gebruiken zonder de gegevens te kunnen wijzigen?
 
-Vous vous posez la question de savoir comment restreindre l'accès aux données (champs) des jeux de données pour éviter tout problème de liaison avec d'autres fiches de traitement.
+U vraagt zich af hoe u de toegang tot gegevens (velden) in datasets kunt beperken om problemen met koppelingen naar andere verwerkingsformulieren te voorkomen.
 
-En effet, il est possible que vos relais DPO doivent utiliser les jeux de données que vous leur proposez sans devoir en créer de nouveaux.&#x20;
+Uw DPO-relais moet mogelijk de datasets gebruiken die u hen aanbiedt zonder nieuwe te hoeven maken &#x20;
 
-Dans ce cas, il convient de faire un rôle personnalisé.&#x20;
+In dit geval moet u een aangepaste rol maken &#x20;
 
-Pour cela, il faut se rendre dans les rôles : [https://app.dastra.eu/general-settings/roles](https://app.dastra.eu/general-settings/roles)
+Ga hiervoor naar rollen: [https://app.dastra.eu/general-settings/roles](https://app.dastra.eu/general-settings/roles)
 
-Ensuite, créer un rôle personnalisé avec les permissions :&#x20;
+Maak vervolgens een aangepaste rol met de volgende rechten:&#x20;
 
-* Registre : lecture, écriture
-* Cartographie des données : lecture
+* Register: lezen, schrijven
+* Gegevensmapping: lezen
 
-<figure><img src="../../.gitbook/assets/image (2) (2) (3).png" alt=""><figcaption><p>Rôle permettant l'accès aux jeux de données sans pouvoir les modifier</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (3).png" alt=""><figcaption><p>Rol die toegang geeft tot datasets zonder deze te kunnen wijzigen</p></figcaption></fig>
 
-Ensuite, il faut attribuer ce rôle aux utilisateurs concernés.&#x20;
+Vervolgens moet je deze rol toewijzen aan de betrokken gebruikers &#x20;
 
-Ils ne pourront pas modifier les éléments de la cartographie.
+Ze kunnen de mappingelementen niet wijzigen.
 
 {% hint style="info" %}
-Si vous ne trouvez la réponse dans ce guide, vous pouvez nous [contacter via le support](../../commencer/le-support/faire-une-demande-de-support.md)
+Als je het antwoord niet kunt vinden in deze handleiding, kun je [contact met ons opnemen via support](../../commencer/le-support/make-a-support-request.md)
 
 
 {% endhint %}
 
-## Ajouter des parties prenantes ou des destinataires sur plusieurs traitements ?
+## Belanghebbenden of ontvangers aan meerdere Verwerkingen toevoegen?
 
-Vous pouvez ajouter des parties prenantes sur plusieurs traitements en masse en utilisant les modifications groupées.&#x20;
+Je kunt belanghebbenden massaal aan meerdere Verwerkingen toevoegen met behulp van gegroepeerde wijzigingen &#x20;
 
-Pour cela, il faut se mettre sur la vue tableau du registre et sélectionner les traitements avec les cases à cocher.&#x20;
+Ga hiervoor naar de tabelweergave van het register en selecteer de Verwerkingen met behulp van de selectievakjes &#x20;
 
-Ensuite, vous verrez le bouton "Choisir des actions groupées" apparaitre.&#x20;
+Vervolgens ziet u de knop "Choose grouped actions" verschijnen &#x20;
 
-Sélectionner l'option "Lier des acteurs" et ajoutez vos acteurs en tant que partie prenante.&#x20;
+Selecteer de optie "Koppel actoren" en voeg je actoren toe als belanghebbenden.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Obtenir la liste des actifs par unité organisationnelle (UO) ?
+## Activa opvragen per organisatorische eenheid (OU)?
 
-Vous pouvez obtenir la liste des actifs répartis par unité organisationnelle via les liens qu'ils ont avec les traitements.&#x20;
+Je kunt de lijst met Activa per organisatorische eenheid opvragen via de koppelingen die ze hebben met Verwerkingen &#x20;
 
-Vous pouvez utiliser l'export des traitements au format excel pour cela. En filtrant les traitements par UO et en exportant les traitements sélectionnés, vous pouvez choisir d'exporter uniquement le champ Actifs dans l'export. Ainsi vous avez l'export des actifs par UO. Vous pouvez aussi choisir d'exporter les UO et les actifs uniquement pour avoir tous les actifs de toutes les UO. En utilisant la vue cartographie du registre, vous trouvez également cette information en visualisation graphique.
-
+U kunt hiervoor de export van Verwerkingen in Excel-formaat gebruiken. Door de Verwerkingen te filteren op OU en de geselecteerde Verwerkingen te exporteren, kunt u ervoor kiezen om alleen het veld Activa te exporteren in de export. Je hebt dan de export van Activa per UO. Je kunt er ook voor kiezen om alleen de UO's en Activa te exporteren, zodat je alle Activa voor alle UO's hebt. Je kunt deze informatie ook grafisch weergeven in de mapping-weergave van het register.
 
 

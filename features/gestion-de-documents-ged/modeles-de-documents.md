@@ -1,17 +1,17 @@
-# Modèles de documents
+# Documentsjablonen
 
-Vous cherchez des modèles de documents ? C'est par ici ! :thumbsup:
+Op zoek naar documentsjablonen? Dit is de plek! :thumbsup:
 
-Pour accéder aux ressources documentaires, il faut se rendre dans le module "Veille et ressources" et cliquer sur "Ressources"
+Om toegang te krijgen tot de documentbronnen, ga je naar de module "Bewaking en bronnen" en klik je op "Bronnen".
 
-<figure><img src="../../.gitbook/assets/image (24) (2).png" alt=""><figcaption><p>Accès aux ressources</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (2).png" alt=""><figcaption><p>Toegang tot bronnen</p></figcaption></figure>
 
 
 
-Vous n'avez plus qu'à sélectionner les modèles
+Je hoeft nu alleen nog maar de sjablonen te selecteren
 
 <figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
-Les modèles sont disponibles en téléchargement au format Word.&#x20;
+De sjablonen zijn beschikbaar om te downloaden in Word formaat.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Exemples de modèles de documents</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Voorbeelden van documentsjablonen</p></figcaption></figure>
