@@ -1,22 +1,22 @@
 ---
-description: Apprenez comment fonctionne le processus de gestion des risques dans Dastra.
+description: Leer hoe het risicomanagementproces in Dastra werkt.
 ---
 
-# Le processus de gestion des risques
+# Het risicomanagementproces
 
 {% embed url="https://www.youtube.com/watch?v=sR_dFRc_4rc" %}
 
 \
-Le processus de gestion des risques dans Dastra est une **version simplifiée** du modèle **eBios Risk Manager** ainsi que de la **méthodologie d'évaluation des risques de la CNIL**.\
+Het risicomanagementproces in Dastra is een **gesimplificeerde versie** van het **eBios Risk Manager** model en de **CNIL risicobeoordelingsmethodologie**.
 \
-Celui-ci est composé de 4 étapes :&#x20;
+Het bestaat uit 4 stappen:&#x20;
 
-1. **Identifier** - les évènements redoutés, les objectifs visés, les menaces, les sources de risques, les points de contrôles et le journal des évènements passés, etc
-2. **Evaluer** - selon la méthode Probabilité x Impact
-3. **Maîtriser** - Donner une réponse aux risques
-4. **Contrôler** - via des points de contrôle, DMR, évaluation du risque courant etc.
+1. **Identificeer** - de gevreesde gebeurtenissen, de doelstellingen, de bedreigingen, de risicobronnen, de controlepunten en het logboek van eerdere gebeurtenissen, enz.
+2. **Beoordeel** - met behulp van de waarschijnlijkheid x impact methode
+3. **Control** - reageren op risico's
+4. **Controle** - via controlepunten, DMR's, huidige risicobeoordeling enz.
 
 {% hint style="info" %}
-La particularité du processus de gestion des risques Dastra est de permettre une mise à jour quasi-temps réel de l'évaluation du risque, en fonction des résultats des points de contrôle.
+Het speciale kenmerk van het Dastra risicomanagementproces is dat de risicobeoordeling in bijna realtime kan worden bijgewerkt op basis van de resultaten van de checkpoints.
 {% endhint %}
 

@@ -1,15 +1,15 @@
-# Glossaire
+# Woordenlijst
 
 
 
-Avant de commencer, voici quelques définitions importantes :
+Voordat we beginnen, volgen hier enkele belangrijke definities:
 
-* **La probabilité:** correspond à l'évaluation de la fréquence d'occurrences d'un risque. C'est un score évalué de manière empirique (note sur 5 traditionnellement). Chaque niveau de risque correspond à une fréquence d'apparition du risque.
-* **Impact:** correspond à l'évaluation de la conséquence d'un évènement redouté sur l'entreprise.
-* **Risque courant:** le niveau de risque tel qu'il est à l'instant T en fonction du niveau de remédiation de vos points de contrôles. Il est calculé de cette façon : {Risque courant} = {Risque résiduel} + ({Risque initial} - {Risque résiduel}) \* {Taux de remédiation du risque}.
-* **Risque résiduel:** c’est le risque subsistant après la mise en œuvre de dispositifs de maîtrise (contrôle interne).
-* **Risque initial (ou inhérent):** c’est le risque théorique lié à l’activité. On peut aussi le définir comme le risque initial, avant toute mesure de maîtrise (contrôle interne). Il est calculé avec la multiplication de l'impact brut x par la probabilité brute.
-* **Evènement redouté:** désigne l'événement incertain qu'on va caractériser en fréquence et gravité
-* **Risque:** la combinaison entre un évènement redouté et l'évaluation de l'impact et de la probabilité sur un objet (traitement, acteur (sous-traitant), application ou entité). D'autres critères peuvent entrer en ligne de compte tels que les menaces (les types de risque à l'origine du risque) ou les sources (les supports ou localisation du risque).
-* **Point de contrôle:** (ou dispositif de management des risques). La conformité aux points de contrôle est le moyen de remédier à 100% aux risques et donc de tendre vers un risque courant = risque résiduel. Dans Dastra, le listing des points de contrôle est managé au niveau de l'évènement redouté.
-* **Remédiation:** il s'agit du pourcentage de conformité du plan de contrôle d'un risque. Ex: si 2 points de contrôles conformes sur 3 = 66% de taux de remédiation.
+* **Waarschijnlijkheid:** komt overeen met de evaluatie van de frequentie waarmee een risico zich voordoet. Het is een score die empirisch wordt geëvalueerd (traditioneel een score op 5). Elk risiconiveau komt overeen met een frequentie van optreden.
+* **Impact:** komt overeen met de evaluatie van het gevolg van een gevreesde gebeurtenis voor het bedrijf.
+* **Huidig risico:** het risiconiveau zoals het is op een bepaald moment T, afhankelijk van het niveau van herstel van uw controlepunten. Het wordt als volgt berekend: {Current risk} = {Residual risk} + ({Initial risk} - {Residual risk}) * {Risk remediation rate}.
+**Residueel risico:** dit is het risico dat overblijft na de implementatie van controlemaatregelen (interne controle).
+* **Initieel (of inherent) risico:** dit is het theoretische risico verbonden aan de activiteit. Het kan ook worden gedefinieerd als het oorspronkelijke risico, vóór controlemaatregelen (interne controle). Het wordt berekend door de bruto impact x te vermenigvuldigen met de bruto waarschijnlijkheid.
+* **Gevreesde gebeurtenis:** verwijst naar de onzekere gebeurtenis die zal worden gekarakteriseerd in termen van frequentie en ernst.
+* **Risico:** de combinatie van een gevreesde gebeurtenis en de beoordeling van de impact en waarschijnlijkheid op een object (Verwerking, Actor (subcontractant), toepassing of entiteit). Er kan ook rekening worden gehouden met andere criteria, zoals bedreigingen (de soorten risico's die het risico veroorzaken) of bronnen (de media of locatie van het risico).
+* **Controlepunt:** (of risicobeheersysteem). Naleving van de controlepunten is het middel om 100% van de risico's te verhelpen en dus te evolueren naar een huidig risico = restrisico. In Dastra wordt de lijst met controlepunten beheerd op het niveau van de gevreesde gebeurtenis.
+* **Sanering:** Dit is het percentage van naleving van het controleplan voor een risico. Voorbeeld: als 2 van de 3 controlepunten voldoen = 66% saneringspercentage.

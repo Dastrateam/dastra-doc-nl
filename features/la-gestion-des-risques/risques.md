@@ -1,68 +1,67 @@
 ---
 description: >-
-  Dastra permet de cartographier les risques liés aux traitements afin d’évaluer
-  rapidement le niveau de priorité et les actions à mener sur un traitement de
-  données.
+  Met Dastra kunt u de risico's in verband met de Verwerking in kaart brengen om snel te kunnen beoordelen
+  het prioriteitsniveau en de te nemen maatregelen voor een bewerking van gegevens.
+  verwerking.
 ---
 
-# Associer un risque à un traitement
+# Een risico aan een Verwerking koppelen
 
-### Ajouter un risque dans un traitement&#x20;
+### Een risico aan een Verwerking toevoegen&#x20;
 
-Pour ajouter un risque sur un traitement, il faut aller dans l'onglet risques présent sur la page d'édition du traitement.
+Ga naar het tabblad Risico's op de pagina Verwerking bewerken om een risico aan een proces toe te voegen.
 
 ![](<../../.gitbook/assets/image (252) (1) (1) (1) (1).png>)
 
 
 
-et cliquer sur le bouton "Créer un risque".
+en klik op de "Creëer een risico" knop.
 
 ![](<../../.gitbook/assets/image (106).png>)
 
-Vous arrivez sur une page d'édition du risque et vous pouvez commencer à renseigner les informations concernant le risque que vous avez identifié.
+Dit brengt je naar een risicobewerkingspagina waar je informatie kunt invoeren over het risico dat je hebt geïdentificeerd.
 
-Vous pouvez ensuite retrouver tous les risques de votre registre dans le référentiel des risques.
+Je kunt vervolgens alle risico's in je register terugvinden in de risicorepository.
 
-![Détail de l'onglet Risques sur un traitement](<../../.gitbook/assets/image (251) (1) (1).png>)
+Detail van het tabblad Risico's verwerken](<../../.gitbook/assets/image (251) (1) (1).png>)
 
-Vous pouvez aussi attacher un risque à un traitement directement depuis le module de gestion des risques.&#x20;
+Je kunt een risico ook rechtstreeks vanuit de risicobeheermodule &#x20 aan een Verwerking koppelen;
 
-Pour ce faire, il vous suffit de vous placer dans l'onglet "Risques" et de "créer un risque"&#x20;
+Ga hiervoor naar het tabblad "Risico's" en "maak een risico" &#x20;
 
-### Visualiser les risques d'un traitement
+### Verwerkingsrisico's bekijken
 
-Pour visualiser les risques sur les traitements, il est nécessaire de vous rendre dans le module Risques de Dastra.&#x20;
-
-
-
-![](<../../.gitbook/assets/image (253) (1) (1) (1).png>)
-
-Vous devez vous rendre sur l'onglet "Risques" et vous aurez une visualisation de l'ensemble des risques triés selon les éléments liés à chaque risque.&#x20;
-
-### Evaluation du niveau de risque
-
-Le niveau de risque est calculé selon la formule suivante :
-
-`Niveau de risque = valeur de probabilité X valeur d'impact` \
+Om de risico's van een Verwerking te bekijken, gaat u naar de module Dastra Risks &#x20;
 
 
-Dans le tableau de bord, un module de risque présente le nombre de risques, les traitements avec les risques les plus élevés, le risque global et le niveau du traitement ayant le plus de risques.&#x20;
 
-Le risque global est calculé selon la formule suivante :\
+(<../../.gitbook/assets/image (253) (1) (1) (1).png>)
 
+Ga naar het tabblad "Risico's" en je ziet alle risico's gesorteerd op de elementen die aan elk risico zijn gekoppeld &#x20;
 
-`somme (probabilité* impact ) / nombre de risques`\
+### Beoordeling risiconiveau
 
+Het risiconiveau wordt berekend met de volgende formule:
 
-Le niveau du traitement ayant le plus de risque est calculé selon la formule suivante :\
-
-
-`((impact x probabilité) / 25)`\
+Risiconiveau = waarschijnlijkheidswaarde X impactwaarde'.
 
 
-## **Aller plus loin**
+In het dashboard toont een risicomodule het aantal risico's, de Verwerkingen met het hoogste risico, het totale risico en het niveau van de behandeling met het hoogste risico. &#x20;
 
-{% content-ref url="../planifier/" %}
-[planifier](../planifier/)
+Het totale risico wordt berekend met de volgende formule
+
+
+som (waarschijnlijkheid*impact ) / aantal risico's
+
+
+Het niveau van de Verwerking met het hoogste risico wordt berekend met de volgende formule
+
+
+`((impact x waarschijnlijkheid) / 25)`.
+
+
+**Ga verder**
+
+{% content-ref url="../plan/" %}
+[plan](../plan/)
 {% endcontent-ref %}
-

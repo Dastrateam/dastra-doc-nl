@@ -1,21 +1,21 @@
-# Comparaison Dastra / eBios RM
+# Vergelijking Dastra / eBios RM
 
 
 
-Retrouver la correspondance des éléments de eBios RM avec ceux du module Gestion des Risques de Dastra.
+Zoek de overeenkomst tussen de elementen van eBios RM en die van de Dastra-module voor risicobeheer.
 
-| EBios RM              | Dastra                                |
+| eBios RM | Dastra |
 | --------------------- | ------------------------------------- |
-| Objectif Visé (OV)    | Evènement Redouté                     |
-| Source de Risque (SR) | Menace                                |
-| Couple OV/SR          | Type de risque                        |
-| Contexte              | Objet sur lequel le risque est évalué |
-| Gravité               | Impact                                |
+| Doelstelling (TO) | Gevreesde gebeurtenis | Risicobron (RS)
+| Risicobron (SR) Bedreiging.
+| Koppel OV/SR | Type risico |
+| Context | Object waarop het risico wordt beoordeeld.
+| Ernst | Impact |
 
 
 
 {% hint style="info" %}
-Les éléments manquant à cette liste ont la même définition.
+Elementen die ontbreken in deze lijst hebben dezelfde definitie.
 {% endhint %}
 
 \

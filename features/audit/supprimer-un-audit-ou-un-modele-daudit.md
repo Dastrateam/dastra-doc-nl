@@ -1,39 +1,39 @@
 ---
-description: Comment supprimer un audit ? Comment supprimer un modèle d'audit ?
+beschrijving: Hoe verwijder ik een audit? Hoe verwijder ik een auditmodel?
 ---
 
-# Supprimer un audit ou un modèle d'audit
+# Een audit of auditsjabloon verwijderen
 
-## Supprimer un audit
+## Een audit verwijderen
 
-Avant de supprimer un audit, nous avons mis en place un garde-fou : une phase d'archive. Cette phase permet de conserver le document supprimer avant suppression définitive. Cela fonctionne comme une corbeille.&#x20;
+Voordat we een audit verwijderen, hebben we een beveiliging ingesteld: een archieffase. Deze fase wordt gebruikt om het verwijderde document op te slaan voordat het definitief wordt verwijderd. Het werkt als een prullenbak &#x20;
 
-### Archivage
+### Archiveren
 
-Tout d'abord, vous devez archiver l'audit via le bouton **Archiver** présent dans le menu de l'audit. Pour afficher le menu, il faut se rendre sur les trois petits points dans la liste des audits.
+Allereerst moet je de audit archiveren met de knop **Archief** in het auditmenu. Om het menu weer te geven, ga je naar de drie kleine puntjes in de auditlijst.
 
 
 
-<figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption><p>Le bouton Archiver est en bas de la liste</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption><p>De Archiveer knop staat onderaan de lijst</p></figcaption></figure>
 
-Cliquez sur **Archiver** et votre audit passera en archive.
+Klik op **Opslaan** en je audit wordt gearchiveerd.
 
-### Suppression définitive d'un audit
+### Een audit permanent verwijderen
 
-Pour **supprimer définitivement** un audit, il faut afficher les archives et procéder à sa suppression.&#x20;
+Als je een audit permanent wilt **verwijderen**, geef je het archief weer en ga je verder met verwijderen.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Coche pour afficher les archives</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Check to display archives</p></figcaption></figure>
 
-Ensuite, il faut suffit de supprimer l'audit via le menu de l'audit
+Verwijder vervolgens de audit via het auditmenu
 
-<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p>Vous pouvez également restaurer votre audit si besoin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p>Je kunt je audit ook herstellen als dat nodig is</p></figcaption></figure>
 
-## Supprimer un modèle d'audit
+## Een auditsjabloon verwijderen
 
-Pour supprimer un modèle d'audit, il faut aller sur la liste des modèles et sélectionner dans le menu du modèle le bouton **supprimer**.&#x20;
+Als je een auditsjabloon wilt verwijderen, ga je naar de sjabloonlijst en selecteer je de knop **verwijderen**.&#x20 in het sjabloonmenu;
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Attention, il n'y a pas d'archivage des modèles d'audit. Pensez à le télécharger en format JSON si vous souhaitez en conserver une copie à réimporter.&#x20;
+Houd er rekening mee dat auditmodellen niet worden gearchiveerd. Vergeet niet om het in JSON-formaat te downloaden als je een kopie wilt bewaren om opnieuw te importeren &#x20;
 {% endhint %}

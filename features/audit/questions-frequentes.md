@@ -1,18 +1,18 @@
-# Questions fréquentes
+# Veelgestelde vragen
 
-## Est ce que je peux faire un PIA sur plusieurs traitements ?&#x20;
+## Kan ik een PIA uitvoeren op meerdere verwerkingen? &#x20;
 
-Une analyse d'impact sur la protection des données peut porter sur un traitement ou un ensemble de traitements similaires. **Une seule et même AIPD peut être utilisée pour évaluer plusieurs opérations de traitement similaires en termes de nature, de portée, de contexte, de finalités et de risques.**
+Een gegevensbeschermingseffectbeoordeling kan betrekking hebben op één verwerking of op een reeks soortgelijke verwerkingen. **Een enkele DPIA kan worden gebruikt om meerdere verwerkingen te beoordelen die vergelijkbaar zijn wat betreft hun aard, reikwijdte, context, doeleinden en risico's.
 
-Par exemple :&#x20;
+Bijvoorbeeld:&#x20;
 
-* des collectivités qui mettent chacune en place un système de vidéosurveillance similaire pourraient effectuer une seule analyse qui porterait sur ce système bien que celui-ci soit ultérieurement mis en œuvre par des responsables de traitements distincts ;
-* un opérateur ferroviaire (responsable de traitement unique) pourrait effectuer une seule analyse d’impact sur le dispositif de la surveillance vidéo déployé dans plusieurs gares.
+Bijvoorbeeld:&#x20; * lokale autoriteiten die elk een soortgelijk videobewakingssysteem opzetten, kunnen één analyse uitvoeren met betrekking tot dit systeem, ook al wordt het vervolgens door verschillende Verwerkingsverantwoordelijken geïmplementeerd;
+* een spoorwegmaatschappij (één verantwoordelijke voor de verwerking) kan één effectbeoordeling uitvoeren voor het videobewakingssysteem dat op verschillende stations wordt gebruikt.
 
-Dans Dastra, le modèle par défaut de PIA est rattaché à un seul traitement. **Il est possible de modifier le modèle que le PIA ne soit pas attaché à un traitement**. Dans ce cas, vous pouvez réaliser le PIA, l'exporter et le placer dans la documentation des traitements concernés. &#x20;
+In Dastra is het standaard PIA-model gekoppeld aan één enkele Verwerking. **Het is mogelijk om het model aan te passen zodat de PIA niet gekoppeld is aan een Verwerking**. In dat geval kunt u de PIA aanmaken, exporteren en in de documentatie van de betreffende Verwerkingen plaatsen. &#x20;
 
-## Peut-on mettre en place un modèle de mail automatiquement à la création d'un audit ?
+## Kan er automatisch een e-mailsjabloon worden ingesteld wanneer er een audit wordt gemaakt?
 
-Vous pouvez créer un modèle de mail qui pourra être utilisé dans les invitations aux audits. Il n'est pas possible de réaliser des actions automatisées via les workflow par exemple. En effet, les audits ne peuvent pas être utilisés comme éléments déclencheurs.&#x20;
+Je kunt een e-mailsjabloon maken die kan worden gebruikt bij audituitnodigingen. Het is niet mogelijk om geautomatiseerde acties uit te voeren via bijvoorbeeld workflows. Audits kunnen niet worden gebruikt als triggers &#x20;
 
 &#x20;

@@ -1,116 +1,116 @@
 ---
-description: Apprenez à créer et modifier un modèle d'audit ou un PIA avec Dastra.
+description: Leer hoe je een auditmodel of een PIA maakt en aanpast met Dastra.
 ---
 
-# Créer ou modifier un modèle d'audit ou un PIA
+# Een auditmodel of PIA maken of wijzigen
 
-## Introduction
+## Introductie
 
-La création ou la modification d'un modèle d'audit ou d'un PIA dans Dastra est un jeu d'enfant. Pour ce faire, accédez à la fonctionnalité "Audit".
+Het aanmaken of wijzigen van een audit template of PIA in Dastra is eenvoudig. Ga hiervoor naar de "Audit" functionaliteit.
 
 
 
-## Créer ou modifier un modèle d'audit / PIA
+## Een auditsjabloon of PIA maken of wijzigen
 
-Pour créer un modèle d'audit ou de PIA, cliquez sur le bouton "Créer un modèle" dans l'onglet "Audit". Ensuite vous pouvez sélectionner un des 3 types de modèles d'audit existant dans Dastra : audit automatisé, combiné ou personnalisé.
+Om een audit of PIA sjabloon te maken, klik je op de "Maak een sjabloon" knop in de "Audit" tab. Vervolgens kun je een van de 3 soorten auditsjablonen selecteren die in Dastra bestaan: geautomatiseerde, gecombineerde of aangepaste audit.
 
 <figure><img src="../../.gitbook/assets/image (16) (3).png" alt=""><figcaption></figcaption></figure>
 
-Vous arrivez sur l'interface de sélection des types de modèles :&#x20;
+Dit brengt je naar de sjabloontype selectie interface:&#x20;
 
-![Choix des types de modèles](<../../.gitbook/assets/image (138).png>)
+[Template type selectie](<../../.gitbook/assets/image (138).png>)
 
-* En cliquant sur l'onglet "**Audit automatisé**", vous choisirez un modèle d'audit prédéfini existant en piochant dans la bibliothèque d'audits de Dastra.
-* En cliquant sur "**Audit combiné**", vous rassemblez plusieurs audits dans un seul.
-* En cliquant sur "**Audit personnalisé**", vous pouvez construire votre propre modèle d'audit.
-
-{% hint style="info" %}
-Contrairement aux audits automatisés, les audits personnalisés sont entièrement personnalisables. En fonction des réponses sélectionnées par les répondants, vous serez en mesure de générer automatiquement un plan d'actions ou de cartographier les risques associés au modèle.&#x20;
-{% endhint %}
-
-## Créer une modèle d'AIPD
-
-Les modèles de AIPD sont inclus dans les modèles d'audits automatisés et sont librement accessibles depuis la bibliothèque Dastra.  Pour créer ou modifier un modèle PIA, cliquez sur "Audit automatisé", puis sélectionner "PIA (CNIL) - analyse d'impact sur la vie privée" avant de cliquer sur "enregistrer".
+* Door te klikken op de "**Geautomatiseerde audit**" tab, kun je een bestaand voorgedefinieerd audit sjabloon kiezen uit de Dastra audit bibliotheek.
+* Door op "**Gecombineerde audit**" te klikken, kun je verschillende audits combineren tot één audit.
+* Door op "**Aangepaste audit**" te klikken, kun je je eigen auditmodel bouwen.
 
 {% hint style="info" %}
-Dans Dastra, les PIA sont un **modèle parmi d'autres d'audit automatisé.**
+In tegenstelling tot geautomatiseerde audits zijn aangepaste audits volledig aanpasbaar. Op basis van de antwoorden die respondenten hebben geselecteerd, kun je automatisch een actieplan genereren of de risico's van het model in kaart brengen;
 {% endhint %}
 
-![Bouton de sélection de bibliothèque](<../../.gitbook/assets/Capture web\_6-5-2022\_103438\_app.dastra.eu.jpeg>)
+## Een DPIA sjabloon maken
 
-![Modèle PIA](<../../.gitbook/assets/Capture web\_6-5-2022\_10342\_app.dastra.eu.jpeg>)
-
-Une fois le modèle sélectionné, vous accédez à l'écran de planification où vous pouvez réaliser l'une des 2 actions ci-dessous :
-
-* soit **modifier le modèle** en cliquant sur le bouton "Modifier le modèle"
-* soit planifier un audit en cliquant sur le bouton "Planifier un audit"&#x20;
+PIA sjablonen zijn opgenomen in de geautomatiseerde audit sjablonen en zijn vrij toegankelijk vanuit de Dastra bibliotheek.  Om een PIA sjabloon aan te maken of te wijzigen, klik op "Geautomatiseerde audit", selecteer dan "PIA (CNIL) - privacy effectbeoordeling" voordat je op "Opslaan" klikt.
 
 {% hint style="info" %}
-Pour les PIA, une option complémentaire est possible, le cas échéant :  **importer votre PIA provenant de l'outil de la CNIL**. Pour faire cela, cliquer sur le bouton "Importer votre PIA CNIL".&#x20;
-
-En effet, il est possible d'importer un PIA réalisé par l'outil de la CNIL. Il faut extraire le PIA de la CNIL au format .json pour l'importer dans Dastra.&#x20;
-
-Une très grande partie des éléments sera reprise dans le PIA de Dastra.
+In Dastra zijn PIA's één van de **modellen voor geautomatiseerde audits**.
 {% endhint %}
 
-![Les boutons ](<../../.gitbook/assets/image (216).png>)
+[Bibliotheek selectie knop](<../../.gitbook/assets/Capture web_6-5-2022_103438_app.dastra.eu.jpeg>)
 
-## Les modèles d'audit automatisés
+[PIA model] (<../../.gitbook/assets/Capture web\_6-5-2022\_10342_app.dastra.eu.jpeg>)
 
-Dastra propose de nombreux modèles d'audits automatisés permettant de documenter la conformité et de piloter les processus.&#x20;
+Als je de sjabloon hebt geselecteerd, kom je in het planningsscherm waar je één van de 2 onderstaande acties kunt uitvoeren:
 
-Par exemple, des modèles de tests de balance des intérêts (LIA ou legitimate interest assessment) ou de transferts hors UE (TIA) sont présents dans l'application.&#x20;
+* ofwel **het sjabloon wijzigen** door te klikken op de knop "Sjabloon wijzigen
+* een audit plannen door op de knop "Een audit plannen"&#x20. te klikken;
 
-## Les modèles d'audits personnalisés
+{% hint style="info" %}
+Voor PIA's is een extra optie beschikbaar, indien gewenst:  **importeer uw PIA vanuit de CNIL-tool**. Klik hiervoor op de knop "Importeer uw CNIL PIA" &#x20;
 
-Dans Dastra, il vous est possible de créer votre propre modèle d'audit personnalisé. Pour cela, cliquer sur l'option "Audit personnalisé". Vous accéderez ainsi à l'interface d'édition de modèle d'audit.&#x20;
+Het is mogelijk om een door de CNIL-tool geproduceerde PIA te importeren. U moet de CNIL PIA in .json formaat uitpakken om deze in Dastra te importeren &#x20;
 
-Construisez le modèle d'audit que vous souhaitez et cliquer sur "Enregistrer et continuer".
+De meeste elementen zullen worden opgenomen in de Dastra PIA.
+{% endhint %}
 
-![Exemple de modèle d'audit personnalisable.](<../../.gitbook/assets/Capture web\_6-5-2022\_103818\_app.dastra.eu.jpeg>)
+[Knoppen ](<../../.gitbook/assets/image (216).png>)
 
-### Elements audités
+## Geautomatiseerde audit sjablonen
 
-Vous pouvez lier des audits à des éléments dans Dastra. En choisissant le type d'élément audité, vous forcez toutes les réponses d'audit basées sur ce modèle à être liées à un objet du type choisi. Par exemple, vous pouvez choisir que ce modèle d'audit sera toujours lié à un traitement.&#x20;
+Dastra biedt een aantal geautomatiseerde auditsjablonen voor het documenteren van nalevings- en controleprocessen&#x20;
+
+Zo zijn er bijvoorbeeld sjablonen voor de beoordeling van legitieme belangen (LIA) en doorgift uit de EU (TIA) beschikbaar in de applicatie &#x20;
+
+## Aangepaste auditsjablonen
+
+In Dastra kunt u uw eigen gepersonaliseerde auditsjabloon maken. Klik hiervoor op de optie "Aangepaste audit". Dit brengt je naar de interface voor het bewerken van auditsjablonen &#x20;
+
+Stel de gewenste auditsjabloon samen en klik op "Opslaan en doorgaan".
+
+Voorbeeld van een aanpasbaar audit sjabloon (<../../.gitbook/assets/Capture web_6-5-2022_103818_app.dastra.eu.jpeg>)
+
+### Gecontroleerde elementen
+
+Je kunt audits koppelen aan elementen in Dastra. Door het type element te kiezen dat geaudit wordt, forceer je dat alle audit antwoorden gebaseerd op dit model gekoppeld worden aan een object van het gekozen type. Je kunt er bijvoorbeeld voor kiezen dat dit audittemplate altijd wordt gekoppeld aan een Verwerking.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
 
-Vous pouvez choisir de ne pas lier d'audit à un objet particulier. Dans ce cas, la réponse sera toujours liée à une unité organisationnelle. Cela peut être le cas pour des audits de conformité globaux par exemple.&#x20;
+Je kunt ervoor kiezen om een audit niet aan een bepaald object te binden. In dat geval wordt het antwoord altijd gekoppeld aan een organisatorische eenheid. Dit kan bijvoorbeeld het geval zijn voor wereldwijde nalevingsaudits.&#x20;
 
-### Les types de modèles&#x20;
+### Sjabloontypes&#x20;
 
-Lors de la création d'un modèle personnalisé, vous devrez choisir un type de modèle.
+Als je een aangepaste sjabloon maakt, moet je een sjabloontype kiezen.
 
 <figure><img src="../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
 
-Ces types permettent une certaine personnalisation des modèles d'audit.
+Deze typen staan enige aanpassing van audit modellen toe.
 
-* **Audit standard** : il s'agit d'un questionnaire classique
-* **Audit de conformité** : à l'heure actuelle, il s'agit d'un questionnaire classique
-* **Analyse d'impact** : ce modèle d'audit permet d'afficher une matrice des risques (avec la configuration requise) et d'être appelé lors de l'étape PIA d'un traitement
-* **Audit de sous-traitant** : ce modèle d'audit est appelé lors de l'étape destinataires sous-traitants d'un traitement
-* **Audit d'impact sur le transfert (TIA)** : audit permettant l'analyse des risques relatifs à un transfert de données hors UE
-* **Audit de base légale du registre (LIA)** : audit de la base légale des intérêts légitimes pour s'assurer que les intérêts n'outrepassent pas les droits et libertés des personnes
-* **Questionnaire de formation** : questionnaire permettant de réaliser des quizz de formation. Ce type de questionnaire permet de sélectionner une bonne réponse parmi les réponses et d'afficher les bonnes réponses en fin de questionnaire.
+* Standaard audit**: dit is een standaard vragenlijst.
+* Nalevingsaudit**: momenteel een standaardvragenlijst.
+* Effectbeoordeling**: dit auditmodel geeft een risicomatrix weer (met de vereiste configuratie) en wordt opgeroepen tijdens de PIA-fase van een Verwerking.
+* Subcontractor audit**: dit auditmodel wordt opgeroepen tijdens de Recipient Subcontractor fase van een verwerkingsoperatie.
+* Transfer Impact Assessment (TIA)**: een audit om de risico's met betrekking tot de doorgifte van gegevens buiten de EU te analyseren.
+* Register Audit Rechtsgrondslag (LIA)**: controle van de rechtsgrondslag van legitieme belangen om ervoor te zorgen dat de belangen niet zwaarder wegen dan de rechten en vrijheden van betrokkenen.
+* Trainingsvragenlijst**: vragenlijst die wordt gebruikt om trainingsquizzen te maken. Dit type vragenlijst maakt het mogelijk om een juist antwoord te selecteren uit de antwoorden en de juiste antwoorden weer te geven aan het einde van de vragenlijst.
 
-## Les modèles d'audit combiné
+## Gecombineerde auditsjablonen
 
-Dans Dastra, vous pouvez combiner plusieurs modèles d'audits existants pour n'en former plus qu'un. Pour faire cela, sélectionnez l'option "Audit combiné" et suivez les étapes.
+In Dastra kun je verschillende bestaande auditsjablonen combineren tot één audit. Om dit te doen, selecteer je de optie "Gecombineerde audit" en volg je de stappen.
 
-## Charger un modèle d'audit que vous possédez
+## Een bestaand auditsjabloon laden
 
-Il est enfin possible d'importer un de vos modèle d'audit, au format json. Pour cela, à la création de l'audit, sélectionnez l'option "Charger un modèle".&#x20;
+Tot slot kun je een van je audit sjablonen in json formaat importeren. Om dit te doen, selecteer je bij het aanmaken van de audit de optie "Een sjabloon laden" &#x20;
 
-## Pour aller plus loin
+## Om verder te gaan
 
-{% content-ref url="planifier-un-audit.md" %}
-[planifier-un-audit.md](planifier-un-audit.md)
+{% content-ref url="plan-an-audit.md" %}
+[plan-an-audit.md](plan-an-audit.md)
 {% endcontent-ref %}
 
-{% content-ref url="planifier-un-audit.md" %}
-[planifier-un-audit.md](planifier-un-audit.md)
+{% content-ref url="plan-an-audit.md" %}
+[plan-an-audit.md](plan-an-audit.md)
 {% endcontent-ref %}
 
 {% content-ref url="rapport-daudit.md" %}
-[rapport-daudit.md](rapport-daudit.md)
+[audit-report.md](audit-report.md)
 {% endcontent-ref %}

@@ -1,2 +1,1 @@
-# Questions fréquentes
-
+# Veelgestelde vragen

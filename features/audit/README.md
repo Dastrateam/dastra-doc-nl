@@ -1,58 +1,57 @@
 ---
-description: Apprenez à réaliser des audits et des PIA avec Dastra.
+description: Leer hoe je audits en PIA's uitvoert met Dastra.
 ---
 
-# Audits et PIA
+# Audits en PIA's
 
-## Introduction
+## Inleiding
 
-En tant qu'organisation, vous avez besoin de réaliser des analyses d'impacts relatives à la protection des données (AIPD ou PIA) et de vous assurer du niveau de conformité de vos traitements. Le module d’audit de Dastra vous permet de collecter toutes les informations nécessaires au pilotage de votre conformité : PIA, audits des sous-traitants, audits de conformité, audits de sécurité etc. &#x20;
+Als organisatie moet u Data Protection Effectbeoordelingen (DPIA's) uitvoeren en ervoor zorgen dat uw Verwerking compliant is. Met de auditmodule van Dastra kunt u alle informatie verzamelen die u nodig hebt om uw naleving te beheren: PIA's, audits van subcontractanten, nalevingsaudits, beveiligingsaudits, enz. &#x20;
 
-Avec le module "Audit" Dastra, vous pouvez :
+Met de auditmodule van Dastra kunt u :
 
-* Créer des questionnaires d'audits dont des AIPD/PIA
-* Lier vos audits à des actifs, des traitements, des acteurs, des mesures, violations, demandes d'exercice de droits et risques.
-* Notifier automatiquement les participants
-* Répondre à l’audit avec une interface simple et intuitive&#x20;
-* Suivre la validation des audits
-* Evaluer les risques
-* Générer un plan d’actions
+* Auditvragenlijsten maken, inclusief PIA's
+* Uw audits koppelen aan bedrijfsmiddelen, processen, actoren, maatregelen, Inbreuken, verzoeken om rechten uit te oefenen en risico's.
+* Deelnemers automatisch op de hoogte stellen
+* Reageren op audits met behulp van een eenvoudige, intuïtieve interface&#x20;
+* Monitor auditvalidatie
+* Beoordeel risico's
+* Genereer een actieplan
 
 {% hint style="info" %}
-Dans Dastra, les AIPD sont considérées comme **un modèle d'audit** particulier.
+In Dastra worden AIPD's beschouwd als **een specifiek auditmodel**.
 {% endhint %}
 
-## Tutoriel utilisateur : les questionnaires d'audit
+## Gebruikershandleiding: auditvragenlijsten
 
 {% embed url="https://www.youtube-nocookie.com/embed/IHevXHniVvk" %}
 
-## Comment accéder à la fonctionnalité "audit" de Dastra ?
+## Hoe krijg ik toegang tot Dastra's "audit" functionaliteit?
 
-&#x20;Pour accéder à la fonctionnalité "Audit", cliquer sur la fonctionnalité "Audit" à gauche de l'écran.
+&#x20;Om toegang te krijgen tot de "Audit" functionaliteit, klik op de "Audit" functionaliteit aan de linkerkant van het scherm.
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-## Créer ou modifier un modèle d'audit ou de PIA
+## Maak of wijzig een audit of PIA sjabloon
 
-{% content-ref url="creez-un-modele-daudit.md" %}
+{% content-ref url="create-an-audit-model.md" %}
 [creez-un-modele-daudit.md](creez-un-modele-daudit.md)
 {% endcontent-ref %}
 
-## Planifier un audit ou un PIA et lancer une campagne
+## Plan een audit of PIA en start een campagne
 
-{% content-ref url="planifier-un-audit.md" %}
-[planifier-un-audit.md](planifier-un-audit.md)
+{% content-ref url="plan-an-audit.md" %}
+[plan-an-audit.md](plan-an-audit.md)
 {% endcontent-ref %}
 
-## Consultez et partagez le rapport d'audit ou le PIA :
+## Bekijk en deel het auditrapport of de AIP:
 
 {% content-ref url="rapport-daudit.md" %}
-[rapport-daudit.md](rapport-daudit.md)
+[audit-report.md](audit-report.md)
 {% endcontent-ref %}
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="../la-gestion-des-risques/" %}
-[la-gestion-des-risques](../la-gestion-des-risques/)
+{% content-ref url="../risk-management/" %}
+[risicobeheer](../risicobeheer/)
 {% endcontent-ref %}
-

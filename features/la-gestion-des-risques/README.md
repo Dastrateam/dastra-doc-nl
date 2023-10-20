@@ -1,49 +1,48 @@
 ---
-description: Apprenez à gérer les risques avec Dastra.
+description: Leer risico's beheren met Dastra.
 ---
 
-# Gestion des risques
+# Risicobeheer
 
-## Introduction
+## Introductie
 
-Vie privée,  stratégiques, de non-conformité, opérationnels, financiers, sous-traitance... La gestion des risques est souvent complexe et peu efficiente. Supprimez la complexité et améliorez l’efficacité de vos plans de contrôle, d’audit et de conformité avec Dastra.
+Privacy, strategisch, niet-compliance, operationeel, financieel, uitbesteding... Risicomanagement is vaak complex en inefficiënt. Elimineer complexiteit en verbeter de effectiviteit van uw controle-, audit- en complianceplannen met Dastra.
 
-Obtenez une vision globale de vos risques pour alimenter vos plans de remédiation, étendre votre couverture et réduire votre exposition. Rationalisez vos opérations d’évaluation, de contrôle, de reporting et de suivi des tâches de remédiation. Assurez vous de la mise à jour, de la qualité et de la disponibilité des données risques.
+Krijg een globaal beeld van uw risico's om uw verbeterplannen te voeden, uw dekking uit te breiden en uw blootstelling te verminderen. Stroomlijn uw beoordelings-, controle-, rapportage- en saneringstaken. Ervoor zorgen dat risicogegevens up-to-date, van hoge kwaliteit en beschikbaar zijn.
 
-## La gestion des risques dans Dastra en quelques mots
+## Risicobeheer in Dastra in een oogopslag
 
-La fonctionnalité de gestion des risques de la solution Dastra permet d'identifier, évaluer, atténuer et piloter tous vos risques de manière visuelle & intégrée, et d'obtenir une vision globale de vos risques pour alimenter vos plans de remédiation, étendre votre couverture et réduire votre exposition.&#x20;
+Met de functionaliteit voor risicobeheer van Dastra kunt u al uw risico's op een visuele en geïntegreerde manier identificeren, beoordelen, beperken en bewaken. U krijgt een globaal beeld van uw risico's om uw saneringsplannen te voeden, uw dekking uit te breiden en uw blootstelling te verminderen &#x20;
 
-Avec Dastra, vous pourrez :
+Met Dastra kunt u :
 
-* **Visualiser vos risques** par traitement, actif ou acteur ;
-* **Rationaliser vos opérations** d’évaluation, de contrôle, de reporting et de suivi des tâches de remédiation ;
-* Vous assurer de la **mise à jour,** de la **qualité** et de la **disponibilité** des données risques.\
+* Uw risico's** visualiseren per Verwerking, Activa of speler;
+* Uw beoordelings-, controle-, rapportage- en saneringsactiviteiten stroomlijnen;
+De **update**, **kwaliteit** en **beschikbaarheid** van risicogegevens garanderen.
 
 
-![Tuile de synthèse des risques](<../../.gitbook/assets/Capture d’écran 2022-03-15 140621.png>)
+[Risico overzicht tegel](<../../.gitbook/assets/Screenshot 2022-03-15 140621.png>)
 
-## Associer un risque&#x20;
+## Een risico associëren&#x20;
 
-Dans Dastra, un risque peut être associé à **un ou plusieurs objets**, parmi lesquels se trouve les éléments suivants : &#x20;
+In Dastra kan een risico worden geassocieerd met **een of meer objecten**, waaronder de volgende: &#x20;
 
-* Traitement de donnée à caractère personnel
-* Acteur ou sous-traitant
-* Actif&#x20;
+* Verwerking van persoonsgegevens
+* Actor of verwerker
+* Activa&#x20;
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="../../rappels-utiles/la-gestion-des-risques/definition-des-risques.md" %}
-[definition-des-risques.md](../../rappels-utiles/la-gestion-des-risques/definition-des-risques.md)
+{% content-ref url="../../useful-reminders/risk-management/risk-definition.md" %}
+[definition-des-risques.md](../../useful-reminders/risk-management/risk-definition.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../rappels-utiles/la-gestion-des-risques/evaluation-dun-risque.md" %}
-[evaluation-dun-risque.md](../../rappels-utiles/la-gestion-des-risques/evaluation-dun-risque.md)
+{% content-ref url="../../useful-references/risk-management/risk-evaluation-dun-risk.md" %}
+[evaluation-dun-risque.md](../../reminders-utiles/risk-management/evaluation-dun-risque.md)
 {% endcontent-ref %}
 
 {% content-ref url="risques.md" %}
-[risques.md](risques.md)
+[risks.md](risks.md)
 {% endcontent-ref %}
-
 
 

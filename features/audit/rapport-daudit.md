@@ -1,14 +1,13 @@
 ---
-description: Apprenez à partager un rapport d'audit ou un PIA.
+description: Leer hoe je een auditrapport of een PIA deelt.
 ---
 
-# Partager un rapport d'audit ou PIA
+# Een auditrapport of PIA delen
 
-Une fois les réponses obtenues, vous pouvez consulter, valider, publier, revoir exporter ou archiver votre rapport d'audit.
+Zodra je de antwoorden hebt ontvangen, kun je je auditrapport raadplegen, valideren, publiceren, beoordelen, exporteren of archiveren.
 
-![Exemple de rapport d'audit](<../../.gitbook/assets/image (141).png>)
+[Voorbeeld audit rapport](<../../.gitbook/assets/image (141).png>)
 
 {% hint style="info" %}
-Vous pouvez également visualiser une note d'audit et de risque, ainsi que générer un plan d'action automatiquement construit sur la base des réponses fournies par les répondants.
+Je kunt ook een audit- en risicoscore bekijken en automatisch een actieplan genereren dat is gebaseerd op de antwoorden van de respondenten.
 {% endhint %}
-
