@@ -4,8 +4,8 @@
 
 ## 🇪🇺 Nuttige herinneringen
 
-* [Inleiding tot de AVG](reminders-utiles/quest-ce-que-le-rgpd.md)
-* [AVG kernbegrippen](reminders/rgpd-en-bref/README.md)
+* [Inleiding tot de GDPR](reminders-utiles/quest-ce-que-le-rgpd.md)
+* [GDPR kernbegrippen](reminders/rgpd-en-bref/README.md)
   * [Persoonsgegevens](nuttige reminders/rgpd-en-bref/personal-data.md)
   * [Register van verwerkingen](rappels-utiles/rgpd-en-bref/registre-de-traitement.md)
   * [Effectbeoordeling](useful-recalls/rgpd-en-bref/impact-analysis.md)
@@ -54,7 +54,7 @@
   * [Email templates](features/generalites/modeles-email.md)
 * [Data mapping](features/cartography/README.md)
   * [Repositories](features/cartography/referentials.md)
-* R[egister van verwerkingen](features/editer-le-registre/README.md)
+* [Register van verwerkingen](features/editer-le-registre/README.md)
   * [Register "Verwerkingsverantwoordelijke"](features/editer-le-registre/le-registre-responsable-de-traitement.md)
   * [Verwerker-register](functies/editer-le-register/sub-processor-register.md)
   * [Je register instellen](functies/edit-the-registry/keep-your-registry.md)
@@ -82,7 +82,7 @@
     * [De registergegevenskaart weergeven](features/edit-the-registry/data-viewer/view-data-map.md)
     * [Bekijk de overdrachtenkaart](functies/edit-the-registry/data-visualisation/view-the-transfers-map.md)
   * [Veelgestelde vragen](functies/edit-the-record/frequently-quested-questions.md)
-* [Documentbeheer (EDM) (functies/documentbeheer-ged/README.md)
+* [Documentbeheer] (functies/documentbeheer-ged/README.md)
   * [Documentsjablonen](features/document-management-ged/document-models.md)
 * [Audits en PIA's](features/audit/README.md)
   * [Een auditmodel of een AIP maken of wijzigen](features/audit/create-an-audit-model.md)
@@ -115,7 +115,7 @@
 * [Datalekken](features/document-data-breaches/README.md)
   * [Een nieuw datalek documenteren](features/document-data-breaches/document-a-data-breach.md)
   * [Exporteer je datalekken](features/document-data-breaches/export-your-data-breaches.md)
-* Cookies](functies/gerer-le-instemming-aux-cookies/README.md)
+* [Cookies](functies/gerer-le-instemming-aux-cookies/README.md)
   * [De widget instellen](features/gerer-le-consentement-aux-cookies/configuration-du-widget/README.md)
     * [Vooronderzoek](features/gerer-le-consentement-aux-cookies/configuration-du-widget/before-you-launch.md)
     * [Scan de cookies die op uw website zijn geplaatst](features/gerer-le-consentement-aux-cookies/configuration-du-widget/scan-the-cookies-deposited-on-your-website.md)
