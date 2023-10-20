@@ -1,136 +1,135 @@
-# Importer vos données (Excel, Csv)
+# Gegevens importeren (Excel, Csv)
 
-## L'import de données dans Dastra
+## Gegevens importeren in Dastra
 
-Dastra vous permet très facilement d'importer vos propres données sous format tableur directement dans l'application.
+Met Dastra is het heel eenvoudig om uw eigen gegevens in spreadsheetformaat rechtstreeks in de toepassing te importeren.
 
-Les imports sont possibles dans les modules suivants :&#x20;
+Importeren is mogelijk in de volgende modules:&#x20;
 
-* import du registre
-* import des acteurs
-* import des actifs
-* import des jeux de données
-* import des champs
-* import des mesures de sécurité
-* import des catégories de personnes concernées
-* import des réponses d'audit
-* import des modèles d'audit (à venir)
-* import des types de risques
-* import des demandes d'exercice de droits
-* import des violations de données
-* import des tâches
+* register importeren
+* actor importeren
+* Activa importeren
+* importeren van datasets
+* importeren van velden
+* invoer van beveiligingsmaatregelen
+* invoer van categorieën van betrokken personen
+* importeren van auditreacties
+* importeren van auditmodellen (binnenkort beschikbaar)
+* importeren van risicotypen
+* importeren van verzoeken om rechten uit te oefenen
+* importeren van datalekken
+* importeren van taken
 
-Dans chaque import, le processus est le même.&#x20;
+Het proces is hetzelfde voor elke import &#x20;
 
-Il s'effectue en 4 étapes :&#x20;
+Er zijn 4 stappen:&#x20;
 
-1. [Préparation du fichier de données](importer-vos-donnees-excel-csv.md#1.-preparation-du-fichier-de-donnees)
-2. [Téléchargement du fichier](importer-vos-donnees-excel-csv.md#2.-charger-le-fichier)
-3. [Vérification des données avant import](importer-vos-donnees-excel-csv.md#3.-verifiez-vos-donnees)
-4. [Import des données](importer-vos-donnees-excel-csv.md#4.-importez-les-donnees)
+1. [Bereid het gegevensbestand voor] (importeer-uw-gegevens-excel-csv.md#1.-bereid-het-gegevensbestand voor)
+2. [Bestand uploaden](import-uw-gegevens-excel-csv.md#2.-upload-bestand)
+3. [Controleer de gegevens voor het importeren](importeer-uw-gegevens-excel-csv.md#3.-controleer-uw-gegevens)
+4. [Gegevens importeren](import-je-gegevens-excel-csv.md#4.-import-gegevens)
 
 
 
-### 1. Préparation du fichier de données
+### 1. Het gegevensbestand voorbereiden
 
-Dastra supporte que les formats de données suivants :
+Dastra ondersteunt de volgende gegevensindelingen:
 
-* **Excel** (.xlsx)
-* **Fichiers plats** (.csv,.txt) avec séparateur ; et encodage UTF-8 (l'encodage est important pour avoir les accents)
-* **JSON** (Uniquement pour l'import du registre complet et les modèles de traitements)
+* Excel** (.xlsx)
+* Platte bestanden** (.csv, .txt) met scheidingsteken ; en UTF-8 codering (codering is belangrijk voor accenten)
+* JSON** (alleen voor het importeren van het volledige register en de modellen voor Verwerking)
 
-Pour accéder au menu d'import de données, cliquez sur le bouton "importer" sous chaque flèche du bouton de création.
+Om het menu voor het importeren van gegevens te openen, klikt u op de knop "importeren" onder elke pijl van de knop Maken.
 
 <figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
 
-Sélectionnez Excel si cela vous est demandé :&#x20;
+Selecteer Excel als daarom wordt gevraagd:&#x20;
 
 <figure><img src="../../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Téléchargement du modèle de fichier
+#### Het bestandssjabloon downloaden
 
-Ensuite, téléchargez un modèle de fichier en cliquant sur le bouton "Télécharger le modèle de fichier"
+Download vervolgens een bestandssjabloon door op de knop "Bestandssjabloon downloaden" te klikken
 
 <figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
-Le modèle de fichier est **un fichier au format CSV** que vous pouvez facilement éditer avec un tableau Libre Office, Wordpad, Excel ou Google Sheet.
+Het bestandssjabloon is **een CSV formaat bestand** dat je gemakkelijk kunt bewerken met een Libre Office, Wordpad, Excel of Google Sheet spreadsheet.
 
-Celui-ci contiendra toutes les colonnes nécessaires avec des exemples de données.
+Het bevat alle benodigde kolommen met voorbeeldgegevens.
 
-Exemple de fichier (pour le registre) : &#x20;
+Voorbeeldbestand (voor het register) : &#x20;
 
-<figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption><p>La ligne 2 contient des données d'exemple qu'il faut remplacer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption><p>Regel 2 bevat voorbeeldgegevens die vervangen moeten worden</p></figcaption></figure>
 
-#### Renseignement du modèle de fichier
+#### Vul de bestandssjabloon in
 
-Remplissez le fichier téléchargé avec vos données.
+Vul het gedownloade bestand in met je gegevens.
 
-Pour chaque fichier de données, vous pourrez afficher les valeurs attendues sur les colonnes :&#x20;
+Voor elk gegevensbestand kun je de verwachte waarden in de kolommen weergeven:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (262) (1).png" alt=""><figcaption><p>Valeurs attendues pour le fichier d'import du registre</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (262) (1).png" alt=""><figcaption><p>Verwachte waarden voor het registerimportbestand</p></figcaption></figure>
 
-Les imports contiennent des valeurs attendues en anglais. C'est tout à fait normal. En effet, il s'agit d'un import technique en base de données.&#x20;
+De imports bevatten verwachte waarden in het Engels. Dit is volkomen normaal. In feite is dit een technische database-import &#x20;
 
-Les valeurs en anglais correspondent aux listes déroulantes des boutons de sélection.&#x20;
+De waarden in het Engels komen overeen met de vervolgkeuzelijsten voor de selectieknoppen &#x20;
 
-Par exemple, dans l'import du registre, le champ "processing state" correspond au champ "état du traitement" dans Dastra. Il s'agit du champ indiqué dans la première étape "Généralités".
+Bijvoorbeeld, in de import van het register komt het veld "Verwerkingsstatus" overeen met het veld "Verwerkingsstatus" in Dastra. Dit is het veld dat wordt aangegeven in de eerste stap "Algemeen".
 
-Le champ "State" correspond au statut du traitement ("brouillon" pour "Draft" ou "publié" pour "Active").&#x20;
+Het veld "Verwerkingsstatus" komt overeen met de status van de Verwerking ("Concept" voor "Concept" of "Gepubliceerd" voor "Actief") &#x20;
 
-### 2. Charger le fichier
+### 2. Het bestand laden
 
-Une fois votre fichier de données prêt, vous devrez dans certains cas indiquer une unité organisationnelle. Tous les fichiers importés seront placés dans cette unité organisationnelle.&#x20;
+Als uw gegevensbestand klaar is, moet u mogelijk een organisatorische eenheid opgeven. Alle geïmporteerde bestanden worden in deze organisatorische eenheid geplaatst &#x20;
 
 {% hint style="info" %}
-Seuls les imports d'objets qui peuvent être attachés à des unités organisationnelles sont concernés. Par exemple, le registre des traitements ou les violations de données. Les acteurs, mesures ou jeux de données ne sont pas concernés.
+Dit geldt alleen voor import van objecten die aan organisatorische eenheden gekoppeld kunnen worden. Bijvoorbeeld het verwerkingsregister of datalekken. Actoren, maatregelen of datasets vallen hier niet onder.
 {% endhint %}
 
-#### Mettre à jour les données via l'import
+#### Gegevens bijwerken via import
 
-Il est proposé de cocher une case permettant de mettre à jour les données existantes.&#x20;
+Er wordt voorgesteld om een vakje aan te vinken waarmee bestaande gegevens kunnen worden bijgewerkt &#x20;
 
-Cette fonctionnalité permet de mettre à jour les données dans Dastra à partir des données du fichier Excel.&#x20;
+Met deze functie kunt u de gegevens in Dastra bijwerken vanuit de gegevens in het Excel-bestand &#x20;
 
-Par défaut, l'import va créer des nouveaux objets. Si l'objet existe déjà (un acteur par exemple), l'import ne créera pas de nouvel objet.&#x20;
+Het importeren maakt standaard nieuwe objecten aan. Als het object al bestaat (bijvoorbeeld een acteur), wordt er geen nieuw object gemaakt &#x20;
 
-Il est possible de mettre à jour un objet existant (par exemple un acteur).&#x20;
+Het is mogelijk om een bestaand object (bijvoorbeeld een actor) te updaten &#x20;
 
-Dans ce cas, il faut sélectionner la case "Mettre à jour à les données existantes" et choisir le champ de correspondance. Ce champ sera la clé permettant d'identifier les champs à mettre à jour.&#x20;
+Selecteer in dit geval het vakje "Bestaande gegevens bijwerken" en kies het overeenkomende veld. Dit veld wordt de sleutel die wordt gebruikt om de bij te werken velden te identificeren.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption><p>Mise à jour des données</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption><p>Gegevens bijwerken</p></figcaption></figure>
 
-En cliquant sur le bouton "Ecraser les données des lignes qui matchent", les données correspondantes seront remplacées par les données de l'import.
+Door op de knop "Overschrijf gegevens van overeenkomende regels" te klikken, worden de corresponderende gegevens vervangen door de gegevens van de import.
 
-#### Envoi du fichier
+#### Het bestand verzenden
 
-Envoyez le fichier en cliquant dans la zone
+Verzend het bestand door te klikken op de knop
 
 <figure><img src="../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Vous pouvez également envoyer vos fichiers en effectuant un glisser-déposer dans la zone d'envoi des fichiers
+Je kunt je bestanden ook uploaden door ze te slepen en neer te zetten in het gebied voor het uploaden van bestanden
 {% endhint %}
 
-### 3. Vérifiez vos données
+### 3. Controleer uw gegevens
 
-L'utilitaire suivant vous permet de valider et d'éventuellement choisir les colonnes de votre fichier Excel sur les colonnes attendues en format d'import.
+Met het volgende hulpprogramma kunt u de kolommen in uw Excel-bestand valideren en eventueel selecteren op de kolommen die worden verwacht in het importformaat.
 
 <figure><img src="../../.gitbook/assets/image (248) (1).png" alt=""><figcaption></figcaption></figure>
 
-Si tout vous semble conforme, vous pouvez lancer l'import des données.
+Als alles er goed uitziet, kun je beginnen met het importeren van de gegevens.
 
-### 4. Importez les données
+### 4. de gegevens importeren
 
-Lancez l'import des données en cliquant sur le bouton continuer. Le processus d'import va alors se déclencher.
+Start het importeren van de gegevens door op de knop Doorgaan te klikken. Het importproces wordt dan gestart.
 
 <figure><img src="../../.gitbook/assets/image (252) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### 5. C'est fini !
+### 5. Je bent klaar!
 
-Bravo ! vous êtes arrivé au bout de ce guide ! Nous vous recommandons de vérifier que les données ont bien été importés dans l'outil.
-
+Je hebt het einde van deze handleiding bereikt! We raden je aan om te controleren of de gegevens in de tool zijn geïmporteerd.
 
 
 

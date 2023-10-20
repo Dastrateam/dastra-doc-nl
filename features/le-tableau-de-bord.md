@@ -1,72 +1,64 @@
 ---
-description: Apprenez à utiliser le tableau de bord de Dastra.
+description: Leer het Dastra-dashboard te gebruiken.
 ---
 
-# Tableau de bord
+# Dashboard
 
-## Introduction
+## Introductie
 
-Le tableau de bord de Dastra est la première page auquel vous accédez au moment d'entrer dans votre espace de travail, et constitue une synthèse de votre conformité RGPD.
+Het dashboard van Dastra is de eerste pagina die u opent wanneer u uw werkruimte binnengaat en geeft een overzicht van de naleving van de AVG.
 
-Celui-ci est composé de 3 sections principales :
+Het bestaat uit 3 hoofdonderdelen:
 
-* La barre de fonctionnalités à gauche de l'écran,
-* L'onglet de la communauté à droite de l'écran,
-* La section au centre contenant les tuiles synthétisant l'actualité et la veille de votre espace, et les différentes fonctionnalités.
+* De eigenschappenbalk aan de linkerkant van het scherm,
+* Het gemeenschapstabblad aan de rechterkant van het scherm,
+* Het gedeelte in het midden met tegels die het laatste nieuws en de bewaking van je ruimte en de verschillende functies samenvatten.
 
-![La barre de fonctionnalités à gauche de l'écran](<../.gitbook/assets/Capture web\_3-5-2022\_154256\_app.dastra.eu.jpeg>)
+### Dashboard tegels
 
-![L'onglet de la communauté à droite de l'écran](<../.gitbook/assets/Capture web\_3-5-2022\_154626\_app.dastra.eu.jpeg>)
+In de sectie met de tegels kun je de volgorde van verschijnen van deze tegels veranderen door op de sleepknop te klikken om de volgorde van verschijnen van de tegel te verplaatsen.
 
-### Les tuiles du tableau de bord
+Er zijn verschillende **categorieën tegels** beschikbaar in het dashboard:
 
-Dans la section contenant les tuiles, vous pouvez modifier l'ordre d'apparence de ces tuiles en cliquant sur le bouton glisser / déposer permettant de déplacer l'ordre d'apparence de la tuile.
+* **Nieuws en bekijken**
+* Gegevensverwerking**&#x20;
+* Risicoanalyse
+* Uw audits
+* Deadline-taken
+* **Uitoefening van rechten van betrokkenen** *Widget voor toestemming voor gegevensverwerking** * *Widget voor bescherming persoonsgegevens** *Widget voor bescherming persoonsgegevens
+*Widget voor toestemming cookie
+* Laatste incidenten
 
-![Un exemple de tuile du tableau de bord](<../.gitbook/assets/image (160).png>)
+## Hoe deel ik het dashboard?
 
-Il existe plusieurs **catégories de tuiles** disponible dans le tableau de bord :
+Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op een van de knoppen rechtsboven in het gedeelte met de tegels te klikken.
 
-* **Actualité et veille**
-* **Traitements de données**&#x20;
-* **Analyse de risque**
-* **Vos audits**
-* **Tâches à échéance**
-* **Exercice des droits des personnes**
-* **Widget de consentement aux cookies**
-* **Derniers incidents**
+## Verder gaan
 
-## Comment partager le tableau de bord ?
+Verken de functies nu:
 
-Vous pouvez également imprimer le tableau de bord ou invitez directement en utilisateur en cliquant sur l'un des boutons disponibles en haut à droite de la section réservée aux tuiles.
-
-![Les boutons imprimer et inviter un utilisateur](<../.gitbook/assets/image (161).png>)
-
-## Aller plus loin
-
-Explorez dès maintenant les fonctionnalités :
-
-{% content-ref url="editer-le-registre/" %}
-[editer-le-registre](editer-le-registre/)
+{% content-ref url="edit-the-record/" %}
+[bewerk-het-record](bewerk-het-record/)
 {% endcontent-ref %}
 
-{% content-ref url="editer-le-registre/la-visualisation-des-donnees/" %}
-[la-visualisation-des-donnees](editer-le-registre/la-visualisation-des-donnees/)
+{% content-ref url="edit-the-record/data-viewing/" %}
+[the-data-viewer](edit-the-record/the-data-viewer/)
 {% endcontent-ref %}
 
-{% content-ref url="la-gestion-des-risques/" %}
-[la-gestion-des-risques](la-gestion-des-risques/)
+{% content-ref url="risk-management/" %}
+[risicobeheer](risicobeheer/)
 {% endcontent-ref %}
 
-{% content-ref url="planifier/" %}
-[planifier](planifier/)
+{% content-ref url="plan/" %}
+[plan](plan/)
 {% endcontent-ref %}
 
 {% content-ref url="gerer-les-exercices-des-droits/" %}
-[gerer-les-exercices-des-droits](gerer-les-exercices-des-droits/)
+[beheer-rechten-oefeningen](beheer-rechten-oefeningen/)
 {% endcontent-ref %}
 
 {% content-ref url="documenter-les-violations-de-donnees/" %}
-[documenter-les-violations-de-donnees](documenter-les-violations-de-donnees/)
+[documenting-data-violations](documenting-data-violations/)
 {% endcontent-ref %}
 
 {% content-ref url="gerer-le-consentement-aux-cookies/" %}
@@ -78,10 +70,5 @@ Explorez dès maintenant les fonctionnalités :
 {% endcontent-ref %}
 
 {% content-ref url="settings/" %}
-[settings](settings/)
+[instellingen](instellingen/)
 {% endcontent-ref %}
-
-
-
-
-

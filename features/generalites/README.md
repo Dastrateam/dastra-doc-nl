@@ -1,2 +1,1 @@
-# Généralités
-
+# Algemeenheden

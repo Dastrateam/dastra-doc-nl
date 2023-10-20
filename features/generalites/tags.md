@@ -1,27 +1,26 @@
 ---
 description: >-
-  Les tags vous permettent de classifier les informations dans Dastra de manière
-  simple et intuitive
+  Met tags kunt u informatie in Dastra op een eenvoudige, intuïtieve manier classificeren.
+  intuïtieve manier
 ---
 
-# Gestion des tags
+# Tagbeheer
 
-## A quoi servent les tags
+## Waar worden tags voor gebruikt?
 
-Les tags servent à classifier les informations selon votre propre méthodologie. Ils permettent de relever des traitements ou autre élément dans Dastra afin de les faire sortir du lot.&#x20;
+Tags worden gebruikt om informatie te classificeren volgens uw eigen methodologie. Ze kunnen worden gebruikt om processen of andere elementen in Dastra te identificeren, zodat ze zich van de massa onderscheiden &#x20;
 
-Ainsi, vous pouvez mettre un tag "prioritaire" ou "A vérifier" ou encore "traitement sensible" pour vous permettre de retrouver facilement les traitements ou autres éléments concernés. La liste de tags n'est pas limitée. Vous pouvez en mettre plusieurs sur un traitement par exemple. En cliquant sur un tag, vous allez filtrer automatiquement les traitements qui portent ce tag
+U kunt bijvoorbeeld een tag "Prioriteit" of "Te controleren" of "Gevoelige verwerking" plaatsen om de betreffende verwerking of andere elementen gemakkelijk terug te vinden. De lijst met tags is niet beperkt. Je kunt bijvoorbeeld meerdere tags aan een Verwerking toevoegen. Door op een tag te klikken, filtert u automatisch de Verwerkingen die deze tag dragen.
 
-## Comment créer des tags ?
+## Hoe maak ik tags aan?
 
-Dans le formulaire de saisie des tags, commencez à taper le nom de n'importe quel tag, il y a deux possibilités, soit le tag existe déjà, dans ce cas vous pouvez le sélectionner. Si il n'existe pas, vous pouvez appuyer sur **la touche entrée de votre clavier**, ce qui va créer le nouveau tag automatiquement pour l'ajouter à la liste de sélection
+Er zijn twee mogelijkheden. Ofwel bestaat de tag al, in dat geval kunt u hem selecteren. Als hij niet bestaat, kun je op **de enter-toets op je toetsenbord** drukken, waardoor de nieuwe tag automatisch wordt aangemaakt en aan de selectielijst wordt toegevoegd
 
 <figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## **Comment administrer tous les tags de l'application ?**
+## Hoe beheer ik alle tags in de applicatie?
 
-* Allez dans > **Réglages de l'espace de travail** ![](<../../.gitbook/assets/image (11) (1) (2).png>)&#x20;
-* Cliquez sur le menu **Gestion des tags**
-
+* Ga naar > **Werkruimte instellingen** ![](<../../.gitbook/assets/image (11) (1) (2).png>)&#x20;
+* Klik op het **Tag beheer** menu

@@ -1,116 +1,116 @@
 ---
-description: Dastra vous donne la possibilité de personnaliser à l'infini vos formulaires
+beschrijving: Dastra geeft u oneindig veel mogelijkheden om uw formulieren aan te passen
 ---
 
-# Champs personnalisés
+# Aangepaste velden
 
 {% hint style="warning" %}
-Cette fonctionnalité est encore en beta. Il se peut qu'elle comporte encore quelques instabilités.
+Deze functie is nog in bèta. Er kunnen nog enkele instabiliteiten zijn.
 {% endhint %}
 
 {% embed url="https://www.youtube-nocookie.com/embed/mDyJD-mnnL0" %}
-Comment utiliser les champs personnalisés dans Dastra
+Hoe aangepaste velden gebruiken in Dastra
 {% endembed %}
 
-## Dans quel cas utiliser les champs personnalisés ?
+## Wanneer moeten aangepaste velden gebruikt worden?
 
-Il se peut que certaines informations propres à votre secteur ne soient pas présentes dans les champs natifs du registre des traitements, les exercices de droits, les tâches...etc...
+Het is mogelijk dat bepaalde informatie die specifiek is voor uw sector niet aanwezig is in de standaardvelden van het Verwerkingsregister, de uitoefening van rechten, taken, enz.
 
-Dastra vous permettra de créer des champs de formulaire personnalisés que vous pouvez très facilement ajouter pour enrichir les données saisies.
+Met Dastra kunt u aangepaste formuliervelden maken die u eenvoudig kunt toevoegen om de ingevoerde gegevens te verrijken.
 
-Voici un exemple de configuration de champs pour l'acteur :
+Hier is een voorbeeld van een veldconfiguratie voor de acteur:
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (3) (1) (1).png" alt=""><figcaption><p>Configuration des champs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (3) (1) (1).png" alt=""><figcaption><p>Veldconfiguratie</p></figcaption></figure>
 
-Et voici le résultat dans le formulaire :
+En hier is het resultaat in het formulier:
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
-## Fonctionnalités concernées
+## Betrokken functies
 
-{% hint style="success" %}
-Attention ! Toutes les fonctionnalités ne sont pas concernées par les champs personnalisés
+{% hint style="succes" %}
+Let op! Niet alle functies worden beïnvloed door aangepaste velden
 {% endhint %}
 
-Vous pouvez personnaliser les formulaires suivants :&#x20;
+Je kunt de volgende formulieren aanpassen:&#x20;
 
-* [Fiches de traitement](../editer-le-registre/)
-* [Exercice de droits](../gerer-les-exercices-des-droits/)
-* [Tâches](../planifier/gerer-vos-taches.md)
-* [Actifs](../editer-le-registre/remplir-le-questionnaire/applications.md)
-* [Acteurs](../cartography/referentials.md)
-* Mesures
-* Jeux de données
-* Champs de données
-* [Violations](../../rappels-utiles/rgpd-en-bref/violations-de-donnees.md)
-* [Evaluations de risques](../la-gestion-des-risques/risques.md)
+* [Verwerking](../bewerken-register/)
+* [Uitoefenrechten](../gerer-les-exercices-des-droits/)
+* [Taken](../plan/gerer-vos-taches.md)
+* [Activa](../edit-register/fill-in-questionnaire/applications.md)
+* [Actoren](../cartografie/referenties.md)
+* Metingen
+* Gegevenssets
+* Gegevensvelden
+* [Inbreuken](../../useful-reminders/rgpd-en-bref/data-violations.md)
+* [Risicobeoordelingen](../risk-management/risks.md)
 
 {% hint style="danger" %}
-### Limitations du nombre de champs
+### Beperkingen op het aantal velden
 
-La quantité de champs personnalisés est limitée selon de plan que vous utilisez. Nous vous invitons à consulter l[a page des tarifs de l'application](https://www.dastra.eu/fr/pricing) pour plus d'informations à ce sujet
+Het aantal aangepaste velden is beperkt, afhankelijk van het abonnement dat u gebruikt. Raadpleeg de prijspagina van de applicatie (https://www.dastra.eu/fr/pricing) voor meer informatie over dit onderwerp.
 {% endhint %}
 
-## Types de champs disponibles
+## Beschikbare veldtypes
 
-Dastra vous propose plusieurs types de champs personnalisés possibles
+Dastra biedt verschillende soorten aangepaste velden
 
-* Texte simple
-* Texte long
-* Texte enrichi
-* Nombre entier
-* Nombre décimal
-* Date
-* Date et heure
-* Case à cocher (réponse multiple) (**non filtrable**)
-* Case à cocher (réponse unique)
-* Sélecteur simple
-* Sélecteur multiple
-* Case à cocher (Oui/Non)
+* Eenvoudige tekst
+* Lange tekst
+* Rijke tekst
+* Geheel getal
+* Decimaal getal
+* Datum en tijd
+* Datum en tijd
+* Aankruisvakje (meerdere antwoorden) (**niet filtreerbaar**)
+* Aankruisvakje (één antwoord)
+* Eenvoudige selector
+* Meervoudige selector
+* Aankruisvakje (Ja/Nee)
 
-## Utilisation des champs personnalisés
+## Aangepaste velden gebruiken
 
-Vous pouvez :
+Je kunt :
 
-* Afficher et modifier les données des champs personnalisés dans les formulaires de chaque module
-* Les champs personnalsiés peuvent s'afficher dans tous les tableaux de visualisation de l'application. Pour les afficher, cliquer sur le bouton de paramétrage des colonnes du tableau.
-* Les champs personnalisés sont **présents dans tous les exports Excel** de données. Pour plus d'informations sur les exports, [consultez la page sur les exports](../editer-le-registre/exporter-importer-le-registre.md)
-* Les champs personnalisés peuvent être présents dans les exports HTML, Word et PDF sur option (en cochant la case "Exportable dans les rapports" sur le champ en question)
-* **A l'exception des champs à réponses multiples**, les champs personnalisés sont tous filtrables via le système de [filtres avancés](advanced-filters.md).&#x20;
-* Les champs personnalisés peuvent être mis à jour en masse dans les tableaux de données
-* Les champs personnalisés peuvent être importés via fichiers plats [en utilisant le système d'import](importer-vos-donnees-excel-csv.md)
-* Les champs personnalisés sont **accessibles et modifiables via toutes les API**. Pour cela, il faudra utiliser le nom de variable attribué à chaque colonne. [Consultez la rubrique concernant les modifications via API des champs personnalisés](custom-fields.md#manipuler-les-champs-personnalises-dans-les-api).
+* Aangepaste veldgegevens weergeven en wijzigen in de formulieren van elke module.
+* Aangepaste velden kunnen worden weergegeven in alle weergavetabellen van de toepassing. Klik op de knop Instellingen tabelkolommen om ze weer te geven.
+* Aangepaste velden zijn **aanwezig in alle Excel** data-exports. Voor meer informatie over exports, [raadpleeg de pagina over exports](../editer-le-registre/export-import-le-registre.md)
+* Aangepaste velden kunnen optioneel worden opgenomen in HTML-, Word- en PDF-exports (door het vakje "Exporteerbaar in rapporten" aan te vinken bij het veld in kwestie).
+* Met uitzondering van meervoudige antwoordvelden**, kunnen alle aangepaste velden gefilterd worden met behulp van het [geavanceerde filters] systeem (geavanceerde-filters.md).&#x20;
+* Aangepaste velden kunnen massaal worden bijgewerkt in gegevenstabellen.
+* Aangepaste velden kunnen worden geïmporteerd via platte bestanden [met behulp van het importsysteem] (import-uw-gegevens-excel-csv.md)
+* Aangepaste velden zijn **toegankelijk en aanpasbaar via alle API's**. Gebruik hiervoor de variabelenaam die aan elke kolom is toegewezen. [Zie de sectie over het wijzigen van aangepaste velden via API](custom-fields.md#manipulate-custom-fields-in-api).
 
-## Mise en place des champs personnalisés
+## Aangepaste velden instellen
 
-* Allez dans votre **Espace de travail**
-* Cliquez sur le menu à gauche **Réglages de l'espace de travail**
-* Cliquez sur le menu **Champs personnalisés**
-* Choisissez le module dans lequel vous voulez ajouter un champ personnalisé
-* Les champs doivent être créés dans des groupes. Ces groupes peuvent être positionnés d'une certaine façon dans le formulaire Cliquez sur "**Ajouter un groupe de champs**"
+* Ga naar uw **Workspace**.
+* Klik links op het menu **Workspace-instellingen**.
+* Klik op het **Aangepaste velden** menu
+* Kies de module waarin je een aangepast veld wilt toevoegen.
+* Velden moeten in groepen worden gemaakt. Deze groepen kunnen op een bepaalde manier in het formulier worden geplaatst Klik op "**Een veldgroep toevoegen**".
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-* **Renseignez le nom et l'emplacement** dans le formulaire que vous souhaitez
+* **Vul de naam en locatie** in de gewenste vorm in
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-Pour certains éléments, il est possible de définir l'emplacement que vous souhaitez dans le formulaire !
+Voor sommige elementen kun je de gewenste locatie in het formulier definiëren!
 
-* Une fois le groupe créé, vous pouvez désormais **effectuer un glisser-déposer des types de champs** que vous souhaitez mettre en place !
+* Zodra de groep is gemaakt, kun je de veldtypen** die je wilt instellen **slepen en neerzetten!
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
-Renseignez toutes les informations !
+Vul alle informatie in!
 
-* Cliquez sur enregistrer et ça y est ! Votre premier champ de donnée personnelle est en place !
-* Vous pouvez effectuer des glisser déposer pour réordonner les champs comme bon vous semble.
+* Klik op Opslaan en dat is het! Je eerste persoonlijke gegevensveld is klaar!
+* Je kunt slepen en neerzetten om de volgorde van de velden aan te passen.
 
-## Manipuler les champs personnalisés dans les API
+## Omgaan met aangepaste velden in API's
 
-Dastra vous permet de récupérer, modifier et créer via l'[API Rest](../../api-references/configuration-api.md) toutes les valeurs des entités comprenant des champs personnalisés.
+Met Dastra kun je via de [API Rest](../../api-referenties/configuratie-api.md) alle waarden van entiteiten met aangepaste velden ophalen, wijzigen en aanmaken.
 
-Une propriété "**customFields**" sera disponible dans toutes les entités que vous récupérez en get dans Dastra.c
+Een "**customFields**" eigenschap zal beschikbaar zijn in alle entiteiten die u ophaalt in get in Dastra.c
 
 ```json
  {
@@ -118,28 +118,25 @@ Une propriété "**customFields**" sera disponible dans toutes les entités que 
    "label": "Test asset",
    etc...
    "customFields": {
-     "dpo_name":"jean-marc le dpo",
-     "dpo_email":"dpo@github.com",
-     "dpo_habilitations": ["Expert","Consulting","Data Mapping"],
+     "dpo_name": "jean-marc le dpo",
+     "dpo_email": "dpo@github.com",
+     "dpo_habilitations": ["Expert", "Consulting", "Data Mapping"],
      "has_large_dataset":false,
      etc...
    }
  }
 ```
 
-Pour modifier cette propriété, il suffit de poster (POST) ou modifier (PUT) l'élément en mettant à jour les éléments de la collection
+Als je deze eigenschap wilt wijzigen, post (POST) of wijzig (PUT) je gewoon het element en werk je de elementen in de verzameling bij.
 
-Pour collecter le nom des variables personnalisés, vous devez vous rendre dans la page de configuration des champs personnalisés.
+Om de namen van aangepaste variabelen te verzamelen, moet je naar de configuratiepagina voor aangepaste velden gaan.
 
 {% hint style="info" %}
-Attention, tous **les champs personnalisés seront validés par le serveur**. Si une colonen n'est pas présente dans la configuration, elle sera automatiquement supprimée.
+Houd er rekening mee dat alle **aangepaste velden worden gevalideerd door de server**. Als een colonen niet aanwezig is in de configuratie, wordt het automatisch verwijderd.
 
-Si un champ n'est pas valide (par exemple, si il n'est pas renseigné alors qu'il est marqué comme étant obligatoire), cela lèvera une exception avec le code 400
+Als een veld ongeldig is (bijvoorbeeld als het niet is ingevuld hoewel het is gemarkeerd als verplicht), zal dit een uitzondering opleveren met code 400
 {% endhint %}
 
-## Limitations
+## Beperkingen
 
-Vous ne pouvez **pas filtrer les champs personnalisés du type multiple (case à cocher (Multiple) et sélecteur (Multiple))**. C'est une limitation connue sur laquelle nous travaillons.&#x20;
-
-
-
+Je kunt **niet filteren op aangepaste velden van het meervoudige type (selectievakje (Meervoudig) en selector (Meervoudig))**. Dit is een bekende beperking waar we aan werken &#x20;

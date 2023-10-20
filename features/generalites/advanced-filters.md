@@ -1,50 +1,50 @@
 ---
 description: >-
-  Apprenez comment affiner l'affichage de vos rapport dans les tableaux de
-  données de tous les modules grâce aux filtres avancés
+  Leer hoe u de weergave van uw rapporten kunt verfijnen in de gegevenstabellen
+  in alle modules met geavanceerde filters
 ---
 
-# Filtres avancés
+# Geavanceerde filters
 
-## Utilisation
+## Gebruik
 
-Les filtres avancés permettent de filtrer vos données sur presque tous les champs de vos entités.
+Met geavanceerde filters kunt u uw gegevens filteren op bijna elk veld in uw entiteiten.
 
-* Allez dans un module de Dastra (par exemple, le module des exercices de droits
-* Cliquez sur le bouton "Filtres" en haut à droite de la table de données.&#x20;
+* Ga naar een Dastra-module (bijvoorbeeld de module Rechtenoefeningen).
+* Klik op de knop "Filters" rechtsboven in de gegevenstabel.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-* Une petite fenêtre s'affiche, elle vous présente une liste de filtres standards les plus utilisés, en appliquant un de ces filtres, le tableau se met à jour automatiquement.
+* Er verschijnt een klein venster met een lijst van de meest gebruikte standaard filters, door een van deze filters toe te passen wordt de tabel automatisch bijgewerkt.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption><p>Combo de filtres avancés des demandes d'exercices de droits</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption><p>Geavanceerde filter combo van rechten oefenverzoeken</p></figcaption></figure>
 
 {% hint style="info" %}
-La combinaison de ces filtres est cumuliative.&#x20;
+De combinatie van deze filters is cumulatief &#x20;
 
-_Par exemple : si je filtre sur un ou deux tags "complexe" et "en attente" + je sélectionne une unité organisationnelle "Contoso" : cela m'affichera toutes les lignes qui contiennent les 2 tags "complexe" et "en attente" **et** qui sont dans l'unité organisationnelle "Contoso"_
+Bijvoorbeeld: als ik filter op één of twee tags "complex" en "pending" + ik selecteer een organisatorische eenheid "Contoso": dan krijg ik alle regels te zien die de 2 tags "complex" en "pending" bevatten **en** die zich in de organisatorische eenheid "Contoso"_ bevinden.
 {% endhint %}
 
-* Si vous ne trouvez pas de filtres qui vous conviennent, vous pouvez cliquer sur le bouton "Ajouter un filtre". Là vous allez pouvoir éditer la combinaison de filtres qui correspondra le mieux à vos besoins
+* Als je geen filter kunt vinden die bij je past, kun je op de knop "Filter toevoegen" klikken. Daar kun je de combinatie van filters bewerken die het beste bij je past
 
 <figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
-Par défaut, Dastra fait persister les filtres que vous sélectionnez, ce qui signifie que si vous changez de page ou que vous rafraîchissez votre navigateur, les filtres sont conservés. Ces filtres sont propre à votre navigateur et votre espace de travail (Ils sont stockés en **LocalStorage**).&#x20;
+Standaard bewaart Dastra de filters die je selecteert, wat betekent dat als je van pagina verandert of je browser ververst, de filters bewaard blijven. Deze filters zijn specifiek voor uw browser en werkruimte (ze worden opgeslagen in **LocalStorage**).&#x20;
 
-## Enregistrer la vue
+## De weergave opslaan
 
-Vous pouvez enregistrer et partager les filtres que vous appliquez à vos données avec tous vos collaborateurs. Cliquez sur le bouton enregistrer, pour sauvegarder le filtre dans votre espace de travail
+Je kunt de filters die je toepast op je gegevens opslaan en delen met al je collega's. Klik op de knop Opslaan om het filter op te slaan in uw werkruimte
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Problèmes connues
+## Bekende problemen
 
-### Mes données ne s'affichent plus ?
+### Mijn gegevens worden niet meer weergegeven?
 
-Se vous rencontrez des difficultés avec les filtres : vous perdez l'affichage de vos données, nous vous recommandons de vider les données du navigateur (cookies, localstorage...). Cela réinitialisera le statut de vos filtres dans votre espace de travail.
+Als u problemen hebt met de filters: u verliest de weergave van uw gegevens, raden we u aan de browsergegevens (cookies, localstorage, enz.) te wissen. Hierdoor wordt de status van uw filters in uw werkruimte hersteld.
 
-### Certaines colonnes ne sont pas présentes dans les filtres avancées ?
+### Ontbreken er enkele kolommen in de geavanceerde filters?
 
-Ils se peut que techniquement, il ne soit pas possible de mettre en place ces filtres pour diverses raison. Nous vous recommandons dans ce cas, soit d'exporter de manière brute les données, et effectuer le rapport dans des outils comme Excel.
+Om verschillende redenen kan het technisch niet mogelijk zijn om deze filters in te stellen. In dit geval raden we u aan om de gegevens in ruwe vorm te exporteren en het rapport uit te voeren in tools zoals Excel.
 
-Si c'est un filtre qui est essentiel à votre activité, n'hésitez pas à nous faire une demande de nouvelle fonctionnalité [via la communauté Dastra ou le système de demandes](../../commencer/le-support/faire-une-demande-de-support.md)
+Als dit een filter is dat essentieel is voor uw bedrijf, aarzel dan niet om ons een verzoek te sturen voor nieuwe functionaliteit [via de Dastra community of het aanvraagsysteem](../../start/support/request-support.md).

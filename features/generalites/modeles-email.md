@@ -1,83 +1,83 @@
 ---
 description: >-
-  Apprenez à utiliser les modèles de mail et générez des e-mail au contenu
-  dynamique pour communiquer avec vos clients ou collaborateurs
+  Leer hoe u e-mailsjablonen gebruikt en e-mails met dynamische inhoud genereert
+  inhoud om te communiceren met uw klanten of collega's
 ---
 
-# Modèles email
+# E-mailsjablonen
 
-## Généralités
+## Algemeen
 
-Les modèles de mail sont une fonctionnalité présente dans les exercices de droit, les workflows personnalisés ainsi que les audits.
+E-mailsjablonen zijn een functie van wetoefeningen, aangepaste workflows en audits.
 
-Une fois enregistré, ils sont un moyen rapide pour communiquer avec les parties prenantes. L'ensemble de données d'un objet peut y être incorporé et il est même possible de mettre en place des conditions et des boucles pour récupérer plus d'informations.
+Eenmaal opgeslagen zijn ze een snelle manier om met belanghebbenden te communiceren. De gegevensset van een object kan erin worden opgenomen en het is zelfs mogelijk om voorwaarden en lussen in te stellen om meer informatie op te halen.
 
-## Utilisation
+## Gebruik
 
-Pour sélectionner ou créer un modèle, cliquez sur "Sélectionner ou créer un modèle "
+Om een model te selecteren of te maken, klik je op "Selecteer of maak een model".
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Sélection du modèle dans un exercice de droit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Het sjabloon selecteren in een rechter oefening</p></figcaption></figure>
 
-Vous pouvez ensuite chercher un modèle existant dans la liste ou la fonction rechercher, ou regarder les modèles disponibles dans les espaces de travail auquel vous avec accès ou encore les modèles créés par Dastra).
+Je kunt vervolgens een bestaand sjabloon zoeken in de lijst of de zoekfunctie, of kijken naar de sjablonen die beschikbaar zijn in de werkruimten waartoe je toegang hebt of de sjablonen die door Dastra zijn gemaakt.
 
-Si aucun modèle ne vous convient, cliquez sur "Créer modèle"
+Als er geen sjabloon voor u geschikt is, klikt u op "Sjabloon maken".
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Sélection ou création d'un modèle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Een sjabloon selecteren of maken</p></figcaption></figure>
 
-L'interface de création de modèle comprend 4 éléments&#x20;
+De interface voor het maken van sjablonen bestaat uit 4 elementen&#x20;
 
-* Le nom (permettra de retrouver le modèle plus tard)
-* La zone de saisie (Corps du modèle, encadrée en vert)
-* Un onglet Aperçu : permet d'afficher le rendu du mail en temps réel
-* Un onglet Input Data : vous permet de voir les données de l'objet concerné par le modèle
+* De naam (zodat de sjabloon later kan worden gevonden)
+* Het invoergebied (de body van het sjabloon, groen omkaderd)
+* Een voorbeeldtabblad: hiermee kunt u zien hoe de e-mail er in realtime uit komt te zien
+* Een tabblad Invoergegevens: hiermee kunt u de gegevens bekijken voor het object waarop de sjabloon betrekking heeft.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (3).png" alt=""><figcaption><p>Interface de création de modèle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (3).png" alt=""><figcaption><p>Interface voor het maken van sjablonen</p></figcaption></figure>
 
-## Personnalisez le modèle
+## De sjabloon aanpassen
 
-Vous pouvez éditer le modèle et appliquer des styles, insérer des images ou des tableaux selon vos besoins. Vous verrez le résultat dans l'onglet aperçu. Si vous cliquez sur "Champs personnalisés" vous aurez accès à une liste de champs à insérer. La valeur du champ sera insérée au niveau du curseur de la souris. Bien entendu, vous pouvez formatter le texte à votre convenance.
+Je kunt de sjabloon bewerken en naar wens stijlen toepassen, afbeeldingen of tabellen invoegen. Het resultaat zie je op het tabblad Voorbeeld. Als je op "Aangepaste velden" klikt, krijg je toegang tot een lijst met velden die je kunt invoegen. De waarde van het veld wordt ingevoegd ter hoogte van de muiscursor. Natuurlijk kun je de tekst opmaken zoals je wilt.
 
-<figure><img src="../../.gitbook/assets/select-field.gif" alt=""><figcaption><p>Utilisez les champs personnalisés</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/select-field.gif" alt=""><figcaption><p>Gebruik aangepaste velden</p></figcaption></figure>
 
-## Aller plus loin avec les champs personnalisés
+## Verder gaan met aangepaste velden
 
-Comme vous pouvez le voir sur l'animation ci-dessus, les champs entourés par des doubles accolades sont des "variables". C'est à dire qu'elles vont être remplacées par les valeurs de l'objet correspondant (ici une demande d'exercice de droit).
+Zoals je in de bovenstaande animatie kunt zien, zijn de velden met dubbele accolades "variabelen". Met andere woorden, ze worden vervangen door de waarden van het overeenkomstige object (in dit geval een verzoek voor het uitoefenen van rechten).
 
-### Créez de nouveau champs personnalisés à partir de l'Input Data
+### Nieuwe aangepaste velden maken van invoergegevens
 
-En cliquant sur l'onglet "Input Data", vous aurez accès à la liste des propriétés de l'objet lié. Dans l'exemple ci-dessous, je décide d'afficher le message lié la demande :&#x20;
+Door op het tabblad 'Invoergegevens' te klikken, krijg je toegang tot de lijst met eigenschappen van het gekoppelde object. In het onderstaande voorbeeld besluit ik het bericht weer te geven dat gekoppeld is aan de aanvraag:&#x20;
 
-* Je cherche le champ dans "Input Data"
-* Je saisie le nom du champ dans le Corps du message avec la syntaxe \{{message\}}
-* Je vérifie le résultat avec l'onglet "Aperçu"
+* Ik zoek het veld in "Invoergegevens".
+* Ik voer de naam van het veld in de body van het bericht in met de syntax {{message}}.
+* Ik controleer het resultaat met behulp van het tabblad "Voorbeeld".
 
-<figure><img src="../../.gitbook/assets/select-field-messsage.gif" alt=""><figcaption><p>Création d'un champ personnalisé à partir d'Input Data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/select-field-messsage.gif" alt=""><figcaption><p>Een aangepast veld maken van invoergegevens</p></figcaption></figure>
 
-Voilà ! Vous êtes maintenant capables de créer vos propres champs personnalisés. Mais ce n'est pas tout ! Vous pouvez également aller encore plus loin en créant les boucles, des conditions et en appliquant des format pour rendre les dates plus lisibles !
+Dat is het! Je kunt nu je eigen aangepaste velden maken. Maar dat is nog niet alles! Je kunt ook nog verder gaan door lussen en voorwaarden te maken en indelingen toe te passen om datums leesbaarder te maken!
 
-### Les conditions
+### Voorwaarden
 
-Il est également possible de créer des blocs conditionnels qi ne s'afficheront que dans certaines conditions.
+Je kunt ook voorwaardelijke blokken maken die alleen onder bepaalde voorwaarden worden weergegeven.
 
-Pour cela, il faut utiliser le système de balise conditionnelle qui commence avec \{% if qqch == true %\} et finit avec \{% endif %\}
+Om dit te doen, moet je het voorwaardelijke labelsysteem gebruiken dat begint met {% if qqch == true %} en eindigt met {% endif %}.
 
-&#x20;Ainsi, je peux écrire la condition suivante :&#x20;
+&#x20;Dus ik kan de volgende voorwaarde schrijven:&#x20;
 
-> \{% if attachments != blank %\}
+> \% if attachments != blank %}
 >
-> Vous avez une pièce jointe
+> Je hebt een bijlage
 >
-> \{% endif %\}
+> \{% endif %}}
 
-Le bloc ne s'affichera que si une pièce jointe est présente dans la demande
+Het blok wordt alleen weergegeven als er een bijlage aanwezig is in het verzoek.
 
-### Les boucles
+### Lussen
 
-Les boucles fonctionnent de la même manière, sauf que cette fois on va générer une variable interne à la boucle.
+Lussen werken op dezelfde manier, behalve dat we deze keer een variabele intern in de lus genereren.
 
-Ca fonctionne de la manière suivante :&#x20;
+Het werkt als volgt:&#x20;
 
-```liquid
+```vloeistof
 {% raw %}
 {% for purpose in purposes %}
   {{ purpose }}
@@ -85,25 +85,25 @@ Ca fonctionne de la manière suivante :&#x20;
 {% endraw %}i
 ```
 
-Dans l'exemple ci dessus, je déclare vouloir faire une boucle sur la liste "purposes" et affecter la variable "_purpose_" à chaque élément que j'affiche directement.
+In het bovenstaande voorbeeld verklaar ik dat ik door de lijst "purposes" wil lussen en de variabele "_purposes_" wil toewijzen aan elk item dat ik direct weergeef.
 
-### Format des dates
+### Datumnotatie
 
-Vous verrez rapidement que les dates que vous récupérez dans Input Data ne sont pas présentables en l'état. Pas de problèmes, il est possible d'affecter un format à la date.
+Je zult snel zien dat de datums die je uit Invoergegevens haalt, niet presenteerbaar zijn zoals ze zijn. Geen probleem, je kunt een formaat aan de datum toekennen.
 
 > \{{dateCreation | date: "%d-%m-%Y à %H:%M"\}}
 >
-> Sera transformé en 15-03-2023 à 15:40
+> Wordt omgezet in 15-03-2023 om 15:40
 
-### Un exemple plus complexe
+### Een complexer voorbeeld
 
-Le corps de texte ci-dessous utilise tous les éléments ci-dessus
+De onderstaande tekst gebruikt alle bovenstaande elementen
 
-> Bonjour,
+> Goedemorgen,
 >
-> Nous avons bien reçu votre demande d'exercice de droit le \{{dateCreation | date: "%d-%m-%Y à %H:%M"\}} concernant Monsieur ou Madame \{{givenName\}} \{{familyName\}}.
+> Wij hebben uw verzoek ontvangen om uw rechten uit te oefenen op \{{dateCreation | date: "%d-%m-%Y à %H:%M"\}} betreffende de heer of mevrouw \{{givenName\}} \{{familyName\}}.
 >
-> La demande porte sur les finalités suivantes :
+> Het verzoek heeft betrekking op de volgende doeleinden:
 >
 > \{% for purpose in purposes %\}
 >
@@ -113,7 +113,8 @@ Le corps de texte ci-dessous utilise tous les éléments ci-dessus
 >
 > \{% if attachments != blank %\}
 >
-> Nous avons bien reçu les pièces suivantes :
+>
+> Wij hebben de volgende documenten ontvangen:
 >
 > \{% for attachment in attachments %\}
 >
@@ -123,16 +124,16 @@ Le corps de texte ci-dessous utilise tous les éléments ci-dessus
 >
 > \{% endif %\}
 >
-> Je vous pris d'agréer mes plus sincères salutations et ne manquerais de vous tenir informé-e de la suite du traitement de votre demande.
+> Ik zal u op de hoogte houden van de voortgang van uw verzoek.
 >
-> Cordialement,
+> Hoogachtend
 >
 > \{{operator.displayName\}}
 
-Pour la demande en cours de traitement, il sera transformé de la manière suivante :&#x20;
+Het verzoek dat momenteel in Verwerking is, wordt als volgt omgezet:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Un exemple de modèle complet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>Een voorbeeld van een compleet sjabloon</p></figcaption></figure>
 
-### Vous avez encore des besoins ?
+### Hebt u nog vereisten?
 
-Vous pouvez consulter la documentation à l'adresse suivante : [https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
+U kunt de documentatie raadplegen op het volgende adres: [https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
