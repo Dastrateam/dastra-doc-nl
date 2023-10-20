@@ -6,8 +6,8 @@ description: Leer hoe u aan de slag kunt met Dastra.
 
 Begin hier om een project te starten:
 
-{% content-ref url="workspace.md" %}
-[workspace.md](workspace.md)
+{% content-ref url="workspace" %}
+[workspace](workspace)
 {% endcontent-ref %}
 
 Als je je wilt aansluiten bij een bestaand project op Dastra of een lid van je netwerk wilt uitnodigen, begin dan hier:
