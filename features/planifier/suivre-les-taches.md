@@ -1,75 +1,75 @@
 ---
-description: Apprenez à suivre vos tâches
+description: Leer hoe je je taken kunt bijhouden
 ---
 
-# Suivre, filtrer ou exporter les tâches
+# Taken volgen, filteren of exporteren
 
-## Introduction
+## Inleiding
 
-Dans Dastra,  l'ensemble des tâches du plan d'action peuvent faire l'objet d'un suivi depuis l'onglet "Statistiques", accessible dans le module "planification", et être exportées.
+In Dastra kunnen alle taken in het actieplan gevolgd worden vanaf het tabblad "Statistieken", dat toegankelijk is in de module "Planning", en geëxporteerd worden.
 
-![L'onglet "Statistiques"](<../../.gitbook/assets/Capture web\_4-5-2022\_15757\_app.dastra.eu.jpeg>)
+[Het tabblad "Statistieken"] (<../../.gitbook/assets/Capture web_4-5-2022_15757_app.dastra.eu.jpeg>)
 
-Cela permet notamment de piloter vos processus et réaliser des statistiques à l'aide de KPI dans un mode agile, pour _in fine_ démontrer la responsabilisation ("accountability") de votre entreprise vis-à-vis du RGPD.&#x20;
+Dit maakt het mogelijk om je processen te monitoren en statistieken te produceren met behulp van KPI's in een agile modus, om uiteindelijk de verantwoording van je bedrijf met betrekking tot de AVG aan te tonen.&#x20;
 
-## Suivi des tâches
+## Taken volgen
 
-#### Onglet tableau
+Tabblad ####
 
-L'onglet colonnes permet d'afficher une liste de l'ensemble des tâches.&#x20;
+Het tabblad Kolommen geeft een lijst weer van alle taken.&#x20;
 
-![Onglet tableau du module Planification](<../../.gitbook/assets/Capture web\_4-5-2022\_151055\_app.dastra.eu.jpeg>)
+[Tabblad Tabel van de Planningsmodule] (<../../.gitbook/assets/Capture web_4-5-2022_151055_app.dastra.eu.jpeg>)
 
-La visualisation peut être personnalisée grâce à l'interface de configuration dédiée (boutons "filtres" et "colonnes").
+De weergave kan worden aangepast met behulp van de speciale configuratie-interface ('filters' en 'kolommen' knoppen).
 
-![Ecran de personnalisation de l'onglet tableau](<../../.gitbook/assets/image (241).png>)
+[Tabel tab aanpassing scherm](<../../.gitbook/assets/image (241).png>)
 
-#### Onglet colonnes&#x20;
+#### Kolommen tab&#x20;
 
-L'onglet colonne permet d'accéder à une synthèse des tâches, qui vous permet de visualiser l'ensemble des tâches par statut de manière graphique.
+Het kolommen tabblad geeft je toegang tot een taakoverzicht, waarmee je alle taken per status grafisch kunt bekijken.
 
-![Exemple de tableau de synthèse des tâches](<../../.gitbook/assets/image (239).png>)
+[Voorbeeld van een overzichtstabel](<../../.gitbook/assets/image (239).png>)
 
-#### Graphique d'avancement
+#### Voortgangsgrafiek
 
-Le graphique d'avancement synthèse l'ensemble des informations concernant les progrès réalisés et l'avancement des tâches sur un périmètre temporel donné.
+De voortgangsgrafiek vat alle informatie over de voortgang en de voortgang van taken over een bepaalde periode samen.
 
-Ce graphique représente l’évolution de la quantité de travail restante pour une période donnée (correspondant à une itération).
+Deze grafiek geeft de evolutie weer van de hoeveelheid werk die overblijft voor een bepaalde periode (die overeenkomt met een iteratie).
 
-![Exemple de graphique d'avancement](<../../.gitbook/assets/image (234).png>)
+[Voorbeeld van een voortgangsgrafiek](<../../.gitbook/assets/image (234).png>)
 
-#### Diagramme de flux cumulatif
+#### Cumulatieve stroomgrafiek
 
-Ce graphique montre dans le temps la répartition des tâches dans les différents stades de vie d'une tâche.
+Deze grafiek toont in de loop van de tijd de verdeling van taken in de verschillende levensfasen van een taak.
 
-![Exemple de diagramme de flux cumulatif](<../../.gitbook/assets/image (235).png>)
+[Voorbeeld van een cumulatief stroomdiagram](<../../.gitbook/assets/image (235).png>)
 
-#### Diagramme de vélocité
+#### Snelheidsdiagram
 
-Le diagramme de vélocité montre l'évolution du nombre de tâches fermés par itération.
+Het snelheidsdiagram toont de evolutie van het aantal afgesloten taken per iteratie.
 
-![Exemple de diagramme de vélocité](<../../.gitbook/assets/image (236).png>)
+[Voorbeeld van een snelheidsdiagram](<../../.gitbook/assets/image (236).png>)
 
-## Filtrer les tâches
+## Taken filteren
 
-Il est possible de filtrer les tâches par ordre de priorité, tags, départements, types, utilisateurs ou itérations directement depuis les filtres disponible dans chaque onglet.
+Je kunt taken filteren op prioriteit, tags, afdelingen, typen, gebruikers of iteraties direct vanuit de filters die beschikbaar zijn in elk tabblad.
 
-![Filtre des tâches](<../../.gitbook/assets/image (163).png>)
+[Taken filter](<../../.gitbook/assets/image (163).png>)
 
-## Export des tâches
+## Taken exporteren
 
-Pour exporter les tâches, allez dans l'onglet "colonne" ou "tableau" du module "planification", puis cliquez sur la flèche à droite de l'écran, puis sur le bouton "Exportez les données".
+Om taken te exporteren, ga naar de "kolom" of "tabel" tab in de "planning" module, klik dan op de pijl aan de rechterkant van het scherm, en vervolgens op de "Exporteer gegevens" knop.
 
-![](<../../.gitbook/assets/image (66).png>)
+(<../../.gitbook/assets/image (66).png>)
 
-Une fenêtre apparaît avec un choix de formats possibles à l'export. Cliquez sur le format de votre choix puis sur le bouton "Télécharger le fichier".
+Een venster verschijnt met een keuze uit mogelijke export formaten. Klik op het formaat van je keuze en dan op de "Download bestand" knop.
 
 ![](<../../.gitbook/assets/image (64).png>)
 
-Ca y est, vos tâches sont exportées!
+Dat is het, je taken zijn geëxporteerd!
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="synchroniser-avec-dautres-calendriers.md" %}
-[synchroniser-avec-dautres-calendriers.md](synchroniser-avec-dautres-calendriers.md)
+{% content-ref url="synchronise-with-other-calendars.md" %}
+[synchroniseer-met-andere-kalenders.md](synchroniseer-met-andere-kalenders.md)
 {% endcontent-ref %}

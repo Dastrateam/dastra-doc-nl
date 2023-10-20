@@ -1,48 +1,48 @@
 ---
-description: Apprenez à créer ou modifier un projet ou une itération
+description: Leer hoe je een project of iteratie maakt of aanpast
 ---
 
-# Créer ou modifier un projet ou une itération
+# Een project of iteratie maken of wijzigen
 
-## Introduction
+## Introductie
 
-Dans Dastra,
+In Dastra,
 
-* &#x20;un projet fait référence à une liste de tâches correspondant usuellement à un périmètre fonctionnel.
-* une itération fait référence à une liste de tâches correspondant usuellement à du travail devant être réalisé sur une période donnée
+* een project een lijst van taken die gewoonlijk overeenkomt met een functionele scope.
+* een iteratie verwijst naar een lijst met taken die gewoonlijk overeenkomt met werk dat over een bepaalde periode moet worden uitgevoerd.
 
-## Créer ou modifier un projet
+## Een project maken of wijzigen
 
-Depuis le module "planification", cliquez sur l'onglet "Projets"
+Klik in de module "Planning" op het tabblad "Projecten
 
-![Onglet projets](<../../.gitbook/assets/image (225).png>)
+[Projecten tab](<../../.gitbook/assets/image (225).png>)
 
-Vous accéderez ainsi à l'interface projets où vous pourrez créer de nouveau projet en cliquant sur "créer un projet", ou en modifier un existant en cliquant sur les trois points à droite du projet, puis "modifier".
+Dit brengt je naar de projecten interface waar je een nieuw project kunt maken door op "maak een project" te klikken, of een bestaand project kunt wijzigen door op de drie puntjes rechts van het project te klikken, en dan op "wijzig".
 
-![Bouton "créer un projet"](<../../.gitbook/assets/image (226).png>)
+[Creëer een project" knop](<../../.gitbook/assets/image (226).png>)
 
-![Menu déroulant d'un projet](<../../.gitbook/assets/image (227).png>)
+[Project uitklapmenu](<../../.gitbook/assets/image (227).png>)
 
-## Créer ou modifier une itération
+## Een iteratie maken of wijzigen
 
-Depuis le module "planification", cliquez sur l'onglet "Itérations"
+Klik vanuit de "planning" module op de "Iteraties" tab.
 
-![Onglet "Itérations"](<../../.gitbook/assets/image (228).png>)
+[Tab "Iteraties"](<../../.gitbook/assets/image (228).png>)
 
-Vous accéderez ainsi à l'interface des itérations où vous pourrez créer de nouvelles itérations en cliquant sur "créer une itération", ou en modifier un existant en cliquant sur les trois points à droite de l'itération, puis "modifier".
+Dit brengt je naar de iteraties interface waar je nieuwe iteraties kunt maken door op "maak een iteratie" te klikken, of een bestaande iteratie kunt wijzigen door op de drie puntjes rechts van de iteratie te klikken, en dan op "wijzig".
 
-![Bouton " créer une itération"](<../../.gitbook/assets/image (229).png>)
+[Een iteratie maken knop](<../../.gitbook/assets/image (229).png>)
 
-![Menu déroulant d'une itération](<../../.gitbook/assets/image (230).png>)
+[Iteratie uitklapmenu](<../../.gitbook/assets/afbeelding (230).png>)
 
-Un second onglet, "itérations courantes", vous permet de voir toutes les tâches qui sont situées dans l'itération en cours.&#x20;
+Een tweede tab, "huidige iteraties", laat je alle taken zien die zich in de huidige iteratie bevinden.&#x20;
 
-![L'onglet itération courante dans le module de planification](<../../.gitbook/assets/Capture web\_4-5-2022\_15256\_app.dastra.eu (1).jpeg>)
+[De huidige iteratie tab in de planningsmodule](<../../.gitbook/assets/Capture web\_4-5-2022\_15256\_app.dastra.eu (1).jpg>)
 
-## Aller plus loin
+## Verder gaan
 
 {% content-ref url="suivre-les-taches.md" %}
-[suivre-les-taches.md](suivre-les-taches.md)
+[volg-de-caches.md](volg-de-caches.md)
 {% endcontent-ref %}
 
 

@@ -1,99 +1,99 @@
 ---
-description: Apprenez à concevoir et modifier vos tâches.
+description: Leer hoe je je taken ontwerpt en aanpast.
 ---
 
-# Créez ou modifier une tâche
+# Een taak maken of wijzigen
 
-## Introduction
+## Inleiding
 
-La création et le suivi d'une tâche de protection des données n'a jamais été plus simple grâce au module planification de Dastra.
+Het aanmaken en bewaken van een taak voor gegevensbeveiliging is nog nooit zo eenvoudig geweest dankzij de planningsmodule van Dastra.
 
-Dans Dastra, une tâche correspond à un travail qui doit être exécuté.
+In Dastra is een taak een taak die gedaan moet worden.
 
-## Création d'une tâche&#x20;
+## Een taak aanmaken&#x20;
 
-Pour créer une tâche, vous avez deux possibilités :
+Er zijn twee manieren om een taak aan te maken:
 
-* Soit vous créez une tâche directement dans le plan d'action
-* Soit vous créez une tâche directement dans un autre module de l'application (registres des traitements, violation de données, droits des personnes, audits, cookies)
+* Direct in het actieplan een taak aanmaken.
+* Of u kunt een taak rechtstreeks in een andere module van de toepassing aanmaken (verwerkingsregisters, gegevensverwerking, rechten van betrokkenen, audits, cookies).
 
-#### Créer une tâche dans le plan d'action
+#### Een taak aanmaken in het actieplan
 
-Dans la page principale du module "planification", cliquez sur "Nouvelle tâche". Une nouvelle fenêtre "Nouvelle tâche" apparaît à droite de l'écran vous permettant de décrire la tâche désirée. Une fois décrite, cliquez sur "Enregistrer".
+Klik op de hoofdpagina van de module "planning" op "Nieuwe taak". Aan de rechterkant van het scherm verschijnt een nieuw venster "Nieuwe taak" waarin u de gewenste taak kunt beschrijven. Zodra u de taak hebt beschreven, klikt u op "Opslaan".
 
-![Bouton de création d'une nouvelle tâche](<../../.gitbook/assets/image (177).png>)
+[Knop voor het maken van een nieuwe taak](<../../.gitbook/assets/image (177).png>)
 
-![Interface de documentation de la tâche](<../../.gitbook/assets/Capture web\_4-5-2022\_14206\_app.dastra.eu.jpeg>)
-
-{% hint style="info" %}
-Chaque tâche dans Dastra peut être affectée à un élément présent dans l'application,  par exemple :
-
-* Un traitement
-* Une application
-* Un acteur / sous-traitant
-* Un jeu de données
-* Une mesure de sécurité
-* Un audit / PIA
-* Un exercice de droit
-* Un incident&#x20;
-
-Une fois ces tâches créées et associées, vous pourrez les retrouver directement dans la fiche de chacun de ces éléments sous l'onglet "Tâches".
-{% endhint %}
-
-#### Créer une tâche directement depuis un autre module de Dastra
-
-Dastra vous permet de créer une tâche au moment où vous en avez besoin, directement au sein des processus opérationnels :
-
-* Edition d'un traitement de données
-
-![Tâches attachées à des traitements de données](<../../.gitbook/assets/image (26).png>)
-
-* Gestion d'une demande d'exercice de droits
-
-![Tâches attachées à des demandes d'exercice de droits](<../../.gitbook/assets/image (27).png>)
-
-* Violation de données
-
-![Tâches attachées à une notification de violation de données](<../../.gitbook/assets/image (28) (1).png>)
-
-* Génération de tâches depuis un audit
+[Task documentatie-interface](<../../.gitbook/assets/Capture web_4-5-2022_14206_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
-Un plan d'action peut également être généré automatiquement suite à la réalisation d'un audit. Pour en savoir plus, consultez la section "Planifiez un audit".
+Elke taak in Dastra kan worden toegewezen aan een element in de applicatie, bijvoorbeeld:
+
+* Een Verwerking
+* Een applicatie
+* Een actor / onderaannemer
+* Een gegevensset
+* Een beveiligingsmaatregel
+* Een audit / PIA
+* Een juridische procedure
+* Een incident&#x20;
+
+Zodra deze taken zijn aangemaakt en geassocieerd, kunt u ze direct vinden in het bestand voor elk van deze items onder het tabblad "Taken".
 {% endhint %}
 
-#### Création de sous-tâches
+#### Creëer een taak direct vanuit een andere Dastra module
 
-Il est possible de créer une liste de sous-tâches à chaque tâche dans Dastra. Pour cela, modifiez une tâche et cliquez sur le bouton "ajouter une sous-tâche".
+Met Dastra kunt u een taak aanmaken wanneer u die nodig hebt, direct binnen operationele processen:
 
-![Bouton "ajouter une sous-tâche"](<../../.gitbook/assets/image (223).png>)
+* Gegevensverwerking bewerken
 
-## Allouer une tâche
+[Taken gekoppeld aan gegevensverwerkingen](<../../.gitbook/assets/image (26).png>)
 
-Lors de la création de la tâche, vous aurez la possibilité d'allouer cette tâche à un utilisateur de Dastra, soit en tant que "propriétaire", soit en tant que "contributeur".
+* Beheer van een verzoek om rechten uit te oefenen
 
-Ces personnes seront notifiées par mail dès la modification d'une tâche.
+[Taken verbonden aan verzoeken tot uitoefening van rechten](<../../.gitbook/assets/image (27).png>)
 
-## Modifier une tâche
+* Datalek
 
-Pour modifier une tâche, il suffit de cliquer sur les trois points à droite d'une tâche, et de sélectionner "Modifier".
+[Taken verbonden aan een melding van een Inbreuk op gegevens](<../../.gitbook/assets/image (28) (1).png>)
 
-![Menu déroulant d'une tâche](<../../.gitbook/assets/image (222).png>)
+* Genereren van taken van een audit
 
 {% hint style="info" %}
-Pour modifier le statut d'une tâche encore plus simplement, vous pouvez "cliquer - déposer" celle-ci depuis l'onglet "tableau", qui permet une répartition des tâches entre 4 colonnes de statut : "nouveau", informations complémentaires requises", "en cours", "fait". Vous pouvez également personnaliser les colonnes de statut.&#x20;
+Een actieplan kan ook automatisch worden gegenereerd na een audit. Zie "Een audit plannen" voor meer informatie.
 {% endhint %}
 
-## Archiver ou supprimer une tâche
+#### Subtaken aanmaken
 
-Dans Dastra, il est possible d'archiver ou de supprimer une tâche depuis le menu déroulant de la tâche accessible en cliquant sur les trois points à droite.
+Je kunt een lijst met subtaken maken voor elke taak in Dastra. Bewerk hiervoor een taak en klik op de knop "subtaak toevoegen".
 
-Contrairement à la suppression, l'archivage d'une tâche ne la supprime pas dans Dastra. Une mention "archivée" apparaît dans la tâche. Pour faire disparaître de la visualisation une tâche, il suffit de désactiver le filtre "voir les tâches archivées
+[Voeg een subtaak toe" knop](<../../.gitbook/assets/image (223).png>)
 
-![Filtre "voir les tâches archivées" désactivé](<../../.gitbook/assets/image (224).png>)
+## Een taak toewijzen
 
-## Aller plus loin
+Bij het maken van de taak, heb je de optie om deze taak aan een Dastra gebruiker toe te wijzen, hetzij als een "eigenaar" of als een "bijdrager".
 
-{% content-ref url="creer-ou-modifier-un-projet-ou-une-iteration.md" %}
-[creer-ou-modifier-un-projet-ou-une-iteration.md](creer-ou-modifier-un-projet-ou-une-iteration.md)
+Deze personen worden per e-mail op de hoogte gesteld zodra een taak wordt gewijzigd.
+
+## Een taak wijzigen
+
+Om een taak te wijzigen, klikt u op de drie puntjes rechts van de taak en selecteert u "Wijzigen".
+
+[Taak uitklapmenu](<../../.gitbook/assets/image (222).png>)
+
+{% hint style="info" %}
+Om de status van een taak nog eenvoudiger te veranderen, kun je het "aanklikken" vanaf de "tabel" tab, die taken in 4 statuskolommen verdeelt: "nieuw", "aanvullende informatie vereist", "bezig", "gedaan". Je kunt de statuskolommen ook aanpassen &#x20;
+{% endhint %}
+
+## Een taak archiveren of verwijderen
+
+In Dastra kun je een taak archiveren of verwijderen vanuit het vervolgkeuzemenu van de taak, dat toegankelijk is door op de drie puntjes aan de rechterkant te klikken.
+
+In tegenstelling tot verwijderen, wordt een taak door archiveren niet verwijderd in Dastra. Een "gearchiveerd" bericht verschijnt in de taak. Om een taak uit de weergave te verwijderen, schakelt u gewoon de filter "gearchiveerde taken bekijken" uit.
+
+[Bekijk gearchiveerde taken" filter gedeactiveerd](<../../.gitbook/assets/image (224).png>)
+
+## Verder gaan
+
+{% content-ref url="create-or-modify-a-project-or-a-task.md" %}
+[create-or-modify-a-project-or-a-iteration.md](create-or-modify-a-project-or-a-iteration.md)
 {% endcontent-ref %}

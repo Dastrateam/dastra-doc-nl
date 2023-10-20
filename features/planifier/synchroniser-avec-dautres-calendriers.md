@@ -1,32 +1,31 @@
 ---
 description: >-
-  Apprenez à synchroniser le module planification de Dastra avec d'autres
-  calendriers.
+  Leer hoe u de Dastra-planningsmodule kunt synchroniseren met andere kalenders.
 ---
 
-# Synchroniser avec d'autres calendriers
+# Synchroniseren met andere kalenders
 
-## Introduction
+## Inleiding
 
-Dans Dastra, il est possible de synchroniser toutes les actions créées dans d'autres calendriers, comme par exemple des calendriers professionnels proposés par des messageries.
+In Dastra is het mogelijk om alle acties te synchroniseren die zijn aangemaakt in andere kalenders, zoals professionele kalenders die worden aangeboden door berichtendiensten.
 
-## Synchroniser avec d'autres calendrier
+## Synchroniseren met andere kalenders
 
-Pour cela, rendez-vous sur l'onglet "Colonnes" ou "Tableau" dans le module "Planification", puis cliquez sur la flèche en haut à droite de l'écran, à côté du bouton "nouvelle tâche". Cliquez ensuite sur "Synchronisez avec mon calendrier (Outlook...).
+Ga hiervoor naar het tabblad "Kolommen" of "Tabel" in de module "Agenda" en klik vervolgens op de pijl rechtsboven in het scherm, naast de knop "Nieuwe taak". Klik vervolgens op "Synchroniseren met mijn agenda (Outlook...).
 
-![Le menu déroulant des tâches](<../../.gitbook/assets/Capture web\_4-5-2022\_152356\_app.dastra.eu.jpeg>)
+[Het taak uitklapmenu] (<../../.gitbook/assets/Capture web\_4-5-2022\_152356\_app.dastra.eu.jpeg>)
 
-Cela permettra de générer un **lien** et/ou de télécharger un **fichier .ics** avec lequel il sera possible de synchroniser le calendrier des tâches qui vous sont assignées avec n'importe quelle application de calendrier (Outlook, Google…).
+Dit genereert een **link** en/of download een **.ics bestand** waarmee het mogelijk is om de kalender van de aan jou toegewezen taken te synchroniseren met elk willekeurig kalenderprogramma (Outlook, Google, etc.).
 
-* [Synchroniser un calendrier Outlook](https://support.microsoft.com/fr-fr/office/importer-des-calendriers-dans-outlook-8e8364e1-400e-4c0f-a573-fe76b5a2d379)
-* [Synchroniser un calendrier google agenda](https://support.google.com/calendar/answer/37118?hl=fr\&co=GENIE.Platform%3DDesktop)
+* [Outlook-kalender synchroniseren](https://support.microsoft.com/fr-fr/office/importer-des-calendriers-dans-outlook-8e8364e1-400e-4c0f-a573-fe76b5a2d379)
+* [Synchroniseer een Google-agenda](https://support.google.com/calendar/answer/37118?hl=fr&co=GENIE.Platform%3DDesktop)
 
 {% hint style="info" %}
-Pour des raisons de sécurité, il est recommandé de surveiller les liens de partage exposés sur votre projet dans l'interface de gestion des liens de partage (bouton "réglages").
+Om veiligheidsredenen raden we u aan de deellinks die worden weergegeven op uw project te controleren in de interface voor het beheer van de deellinks ("instellingen"-knop).
 {% endhint %}
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="allez-plus-loin-avec-la-planification.md" %}
-[allez-plus-loin-avec-la-planification.md](allez-plus-loin-avec-la-planification.md)
+{% content-ref url="ga-verder-met-planning.md" %}
+[ga-verder-met-planning.md](ga-verder-met-planning.md)
 {% endcontent-ref %}

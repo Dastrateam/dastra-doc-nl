@@ -1,58 +1,58 @@
-# Questions fréquentes
+# Veelgestelde vragen
 
-## Attacher plusieurs tâches à un projet
+## Meerdere taken aan een project koppelen
 
-Pour attacher plusieurs à un projet en une seule action, vous devez passer par les actions groupées et la modification des champs.
+Om meerdere taken in één actie aan een project te koppelen, moet je gegroepeerde acties gebruiken en velden wijzigen.
 
-Commencez par sélectionner les tâches que vous voulez attacher à un projet.
+Begin met het selecteren van de taken die je aan een project wilt koppelen.
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-Cliquez sur "Actions groupées"
+Klik op "Gegroepeerde acties
 
-Cliquez sur "Modifier les champs"
+Klik op "Velden wijzigen
 
-Sélectionnez "Projet" et le projet souhaité.&#x20;
+Selecteer "Project" en het gewenste project.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Validez les changements en enregistrant.
+Bevestig de veranderingen door ze op te slaan.
 
-## Comment supprimer une tache ?&#x20;
+## Hoe verwijder ik een spot? &#x20;
 
-Pour supprimer une tache, vous devez d'abord l'archiver puis la supprimer des archives.&#x20;
+Om een spot te verwijderen, moet je deze eerst archiveren en vervolgens uit de archieven verwijderen.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Bouton Archiver</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Archiveer knop</p></figcaption></figure>
 
-Ensuite, afficher les archives des tâches
+Geef vervolgens de taakarchieven weer
 
 <figure><img src="../../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-Et supprimer les tâches
+En verwijder de taken
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-Vous pouvez également supprimer la tache directement depuis la vue tableau
+Je kunt de plek ook rechtstreeks vanuit de tabelweergave verwijderen
 
 <figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Indiquer la charge de travail sur la tâche
+## Geef de werkbelasting van de taak op
 
-Vous pouvez indiquer la charge de travail estimée et réalisée sur Dastra. Cela peut être utile pour identifier dans votre bilan le temps passé à la réalisation des tâches.&#x20;
+Je kunt de geschatte en werkelijke werklast op Dastra aangeven. Dit kan handig zijn voor het identificeren van de tijd die aan taken is besteed in je balans &#x20;
 
-Pour ajouter la charge de travail, vous devrez ajouter des champs personnalisés sur les tâches.&#x20;
+Om de werklast toe te voegen, moet je aangepaste velden toevoegen aan de taken.&#x20;
 
 &#x20;
 
 <figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
-Vous pourrez ensuite exporter ces valeurs dans un classeur ou les retrouver via vos filtres de tâches.
+Je kunt deze waarden vervolgens exporteren naar een werkmap of ze ophalen via je taakfilters.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (6).png" alt=""><figcaption><p>Exemple de champs de charge de travail</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (6).png" alt=""><figcaption><p>Voorbeeld werklastvelden</p></figcaption></figure>
 
 
 
-## Comment relancer une tache ?
+## Hoe start ik een taak opnieuw?
 
-Vous pouvez renvoyer une notification de tache à un utilisateur en le mentionnant dans une discussion.&#x20;
+Je kunt een taakmelding opnieuw naar een gebruiker sturen door deze te vermelden in een discussie &#x20;
 

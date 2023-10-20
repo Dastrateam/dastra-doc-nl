@@ -1,47 +1,47 @@
 ---
-description: Apprenez à utiliser le module de planification et suivi de Dastra.
+description: Leer de Dastra plannings- en bewakingsmodule gebruiken.
 ---
 
-# Planification
+# Planning
 
-## Introduction
+## Inleiding
 
-La nécessité de démontrer la responsabilisation (ou "accountability") de son organisation vis-à-vis de la protection des données est au coeur de la philosophie du RGPD. L’article 24 résume ce concept :&#x20;
+Centraal in de filosofie van de AVG staat de noodzaak om aan te tonen dat de organisatie verantwoordelijk is voor gegevensbescherming. Artikel 24 vat dit concept samen:&#x20;
 
-> « (…) _le responsable du traitement met en œuvre des mesures techniques et organisationnelles appropriées pour s’assurer et être en mesure de démontrer que le traitement est effectué conformément au présent règlement_. ».
+> (...) _de voor de verwerking verantwoordelijke treft passende technische en organisatorische maatregelen om te waarborgen en aan te kunnen tonen dat de verwerking in overeenstemming met deze verordening wordt uitgevoerd_".
 
-Une fois leurs traitements de données cartographiés et évalués, les organisations sont tenues de mettre en oeuvre des mesures à la fois techniques et organisationnelles pour protéger ces traitements. Mais la mise en œuvre de ce principe de responsabilisation ("accountability") n’est pas toujours aisée pour les entreprises, car le règlement impose de “rendre compte” sans pour autant fournir des indicateurs précis et chiffrés.&#x20;
+Zodra hun gegevensverwerking in kaart is gebracht en beoordeeld, zijn organisaties verplicht om zowel technische als organisatorische maatregelen te implementeren om deze verwerking te beschermen. Maar het implementeren van dit principe van verantwoording is niet altijd gemakkelijk voor bedrijven, omdat de verordening van hen verlangt dat ze "rapporteren" zonder precieze, gekwantificeerde indicatoren te geven&#x20;
 
-Chez Dastra, nous pensons que la tenue d'un plan d'action **clair**, **collaboratif** et **auditable** permet de doter l'organisation à la fois de preuves tangibles de la responsabilisation de son entreprise vis-à-vis de la protection des données, mais aussi de faire gagner du temps à tous les acteurs concernés en supprimant les temps morts et réduire les risques de retard ou d'échec des projets en adoptant une démarche "agile".
+Bij Dastra geloven we dat het bijhouden van een **duidelijk**, **samenwerkend** en **controleerbaar** actieplan de organisatie niet alleen tastbaar bewijs geeft van het nemen van verantwoordelijkheid voor gegevensbescherming, maar ook tijd bespaart voor alle betrokkenen door het elimineren van dode tijd en het verminderen van het risico op vertraging of mislukking van projecten door een "agile" aanpak.
 
-## Accéder au module Planification
+## Toegang tot de planningsmodule
 
-Pour accéder au module planification, allez dans l'application et cliquez sur le module "planification" à gauche de l'écran
+Om toegang te krijgen tot de planningsmodule gaat u naar de toepassing en klikt u op de module "planning" aan de linkerkant van het scherm.
 
-![Bouton "planification"](<../../.gitbook/assets/image (220).png>)
+[Planning knop](<../../.gitbook/assets/image (220).png>)
 
-Vous accéderez ainsi au module de planification :
+Dit brengt je naar de planningsmodule:
 
-![Module de planification](<../../.gitbook/assets/image (221).png>)
+[Planning module](<../../.gitbook/assets/image (221).png>)
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="gerer-vos-taches.md" %}
-[gerer-vos-taches.md](gerer-vos-taches.md)
+{% content-ref url="manage-je-caches.md" %}
+[manage-your-caches.md](manage-your-caches.md)
 {% endcontent-ref %}
 
-{% content-ref url="creer-ou-modifier-un-projet-ou-une-iteration.md" %}
-[creer-ou-modifier-un-projet-ou-une-iteration.md](creer-ou-modifier-un-projet-ou-une-iteration.md)
+{% content-ref url="create-or-modify-a-project-or-a-iteration.md" %}
+[create-or-modify-a-project-or-a-iteration.md](create-or-modify-a-project-or-a-iteration.md)
 {% endcontent-ref %}
 
 {% content-ref url="suivre-les-taches.md" %}
-[suivre-les-taches.md](suivre-les-taches.md)
+[volg-de-caches.md](volg-de-caches.md)
 {% endcontent-ref %}
 
-{% content-ref url="synchroniser-avec-dautres-calendriers.md" %}
-[synchroniser-avec-dautres-calendriers.md](synchroniser-avec-dautres-calendriers.md)
+{% content-ref url="synchronise-with-other-calendars.md" %}
+[synchroniseer-met-andere-kalenders.md](synchroniseer-met-andere-kalenders.md)
 {% endcontent-ref %}
 
-{% content-ref url="allez-plus-loin-avec-la-planification.md" %}
-[allez-plus-loin-avec-la-planification.md](allez-plus-loin-avec-la-planification.md)
+{% content-ref url="ga-meer-weg-met-planning.md" %}
+[ga-verder-met-planning.md](ga-verder-met-planning.md)
 {% endcontent-ref %}
