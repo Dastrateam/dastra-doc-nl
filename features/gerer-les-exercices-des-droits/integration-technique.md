@@ -1,41 +1,41 @@
 ---
-description: >-
-  Cet article vous présente comment intégrer le widget d'exercice de droit dans
-  une page web
+beschrijving: >-
+  Dit artikel laat zien hoe je de widget voor het uitoefenen van rechten kunt integreren in
+  een webpagina
 ---
 
-# Intégration technique
+# Technische integratie
 
-### Objectifs
+### Doelstellingen
 
-Le widget d'exercice de droits vous permet de **collecter automatiquement depuis une page de votre site des demandes d'exercice de droit** de différents types (suppressions, modifications, rectifications...)
+Met de widget voor de uitoefening van rechten kunt u **automatisch vanaf een pagina op uw site verzoeken om de uitoefening van rechten** van verschillende typen (verwijderingen, wijzigingen, rectificaties, enz.) verzamelen.
 
-Le widget est intégré au **SDK javascript** de dastra.
+De widget is geïntegreerd in de dastra **SDK javascript**.
 
-### Prérequis
+### Vereisten
 
-Afin de mettre en place le widget d'exercice de droit, vous devez disposer d'**une clé publique d'API** : [lire la documentation](../settings/gestion-des-cles-dapi.md) ou[ accéder directement à la page de gestion des clés d'API](https://app.dasta.eu/general-settings/api)
+Om de widget voor het uitoefenen van rechten in te stellen, moet u een **openbare API-sleutel** hebben: [lees de documentatie](../settings/management-of-keys-dapi.md) of [ga direct naar de pagina voor het beheer van API-sleutels](https://app.dasta.eu/general-settings/api).
 
-### Mise en place du widget dans l'interface dédiée
+### De widget instellen in de speciale interface
 
-Pour commencer, vous devez **mettre en place le widget** dans[ le panel de gestion des widgets](https://app.dasta.eu/workspace/data-subject-request/integrations) d'exercice de droits :&#x20;
+Om te beginnen moet je de widget** instellen in [het widgetbeheerpaneel](https://app.dasta.eu/workspace/data-subject-request/integrations) :&#x20;
 
 ![](<../../.gitbook/assets/image (250) (1) (1) (1).png>)
 
-Voici un exemple simple d'intégration du widget (en mode popup avec un bouton d'ouverture) :
+Hier is een eenvoudig voorbeeld van widget integratie (in popup mode met een open knop):
 
-```html
+``html
 <div id="customer-subject-form-custom" ></div>
-<button id="customer-request-button">Open the widget</button>
-<script src="https://cdn.dastra.eu/sdk/dastra.js?key={YOUR PUBLIC KEY}" async></script>
+<button id="customer-request-button">Open de widget</button>
+<script src="https://cdn.dastra.eu/sdk/dastra.js?key={UW PUBLIC KEY}" async></script>
 <script>
   window.dastra = window.dastra || [];
   dastra.debug = true;
   window.dastra.push(function(){
     dastra.loadCustomerSubjectForm({
-      selector: '#customer-subject-form-custom',
-      widgetId: {your widget id},
-      onLoad: function (form) {
+      selector: '#klant-onderwerp-formulier-klant',
+      widgetId: {uw widget id},
+      onLoad: functie (form) {
         document.getElementById('customer-request-button').addEventListener('click',function () {
           form.open()
         })
@@ -45,19 +45,19 @@ Voici un exemple simple d'intégration du widget (en mode popup avec un bouton d
 </script>
 ```
 
-### Comment forcer la langue du formulaire ?
+### Hoe forceer ik de taal van het formulier?
 
-Par défaut, ce sera **la langue du navigateur** qui sera prise. Si la langue n'est pas disponible dans les traductions du widgets, la langue par défaut sera sélectionnée automatiquement. Vous pouvez forcer la langue courante du widget en ajoutant la propriété **data-lang** à la div où le formulaire s'affichera.
+Standaard wordt **de browsertaal** gebruikt. Als de taal niet beschikbaar is in de widgetvertalingen, wordt automatisch de standaardtaal geselecteerd. Je kunt de huidige taal van de widget afdwingen door de eigenschap **data-lang** toe te voegen aan de div waarin het formulier wordt weergegeven.
 
-_Dans cet exemple, la langue italienne sera sélectionnée par défaut (si elle est disponible)_
+In dit voorbeeld wordt standaard de Italiaanse taal geselecteerd (indien beschikbaar)_
 
-```html
+html
 <div id="customer-subject-popup" data-lang="it"></div>
 ```
 
 
 
-### Comment envoyer automatiquement des valeurs de formulaire au widget ?
+### Hoe stuur ik formulierwaarden automatisch naar de widget?
 
 ```html
 <script>
@@ -65,57 +65,57 @@ _Dans cet exemple, la langue italienne sera sélectionnée par défaut (si elle 
 </script>
 ```
 
-Vous pouvez remplacer le nom de la colonne **refId** par le nom de propriété suivante :&#x20;
+U kunt de kolomnaam **refId** vervangen door de volgende eigenschapsnaam:&#x20;
 
-* refId : the unique identifier of the user
+* refId : de unieke identifier van de gebruiker
 * familyName&#x20;
 * givenName
 * email
-* city
-* zipCode
-* countryCode
-* address
-* phoneNumber
-* message
+* stad
+* postcode
+* landcode
+* adres
+* telefoonnummer
+* bericht
 * additionalDatas**\***
 
-\*Pour le cas spécifique des champs personnalisés, vous devez faire référence au nom additionalDatas :
+\*In het specifieke geval van aangepaste velden, moet je verwijzen naar de naam additionalDatas :
 
 ```html
 <script>
   var payload = {
     customFieldSlug1: 'test', 
-    customFieldSlug2: 'test'
+    customFieldSlug2: 'test'.
   };
   
-  // You can use this synthax for setting global custom fields as an object
+  // U kunt deze synthax gebruiken voor het instellen van globale aangepaste velden als een object
   dastra.push(['set','dsr:additionalDatas', payload]);
   
-   // Or directly for a single field, use the prefix @
+   // Of direct voor een enkel veld, gebruik het voorvoegsel @
    dastra.push(['set','dsr:@customFieldSlug1', 'test']);
 </script>
 ```
 
-Les champs additionnels seront automatiquement fusionnés.
+Extra velden worden automatisch samengevoegd.
 
-### Envoi des paramètres en utilisant le mode page
+### Parameters verzenden met paginamodus
 
-Il est également possible de passer ces paramètres en utilisant les paramètres querystring, il suffit de préfixer le nom du paramètre par dsr\_ :&#x20;
+Het is ook mogelijk om deze parameters door te geven met querystringparameters. Zet voor de parameternaam dsr_ :&#x20;
 
 ```url
-https://api.dastra.eu/v1/client/customer-subject-form?id=<Your widget id>
-&key=<your public key>
+https://api.dastra.eu/v1/client/customer-subject-form?id=<uw widget id>
+&key=<uw publieke sleutel>
 &dsr_email=test@github.org
 &dsr_givenName=Dastonaute
 &dsr_refId=123456
 &...etc...
 ```
 
-### Fermer le widget en cliquant en dehors de la fenêtre
+### Sluit de widget door buiten het venster te klikken
 
-Si votre widget est configuré avec un **type d'affichage "Popup"**, nous n'avons pas mis en place le comportement de fermeture de la modal en cas de clic en dehors de la fenêtre, car les risques de perte de données saisies par l'utilisateur sont trop importants.
+Als je widget is geconfigureerd met een **"Popup"** weergavetype, hebben we het gedrag van het sluiten van het modale venster in het geval van een klik buiten het venster niet geïmplementeerd, omdat de risico's van het verlies van door de gebruiker ingevoerde gegevens te groot zijn.
 
-Cependant, si vous souhaitez que le widget se ferme lorsque l'utilisateur clique en dehors du widget, il est possible de le mettre en place à l'aide du code suivant :&#x20;
+Als je echter wilt dat de widget wordt gesloten wanneer de gebruiker buiten de widget klikt, kan dit worden geïmplementeerd met de volgende code:&#x20;
 
 ```javascript
 window.dastra.customerSubjectReady().then((form) => { 
@@ -124,5 +124,5 @@ window.dastra.customerSubjectReady().then((form) => {
 ```
 
 {% hint style="warning" %}
-Attention, cela aura pour effet de supprimer l'intégralité du texte saisi par l'utilisateur sans aucun avertissement ! Si le formulaire est long, cela peut se produire facilement lors d'une sélection dépassant un champ textuel long.
+Waarschuwing: hierdoor wordt alle door de gebruiker ingevoerde tekst verwijderd zonder waarschuwing! Als het formulier lang is, kan dit gemakkelijk gebeuren als een selectie verder gaat dan een lang tekstveld.
 {% endhint %}

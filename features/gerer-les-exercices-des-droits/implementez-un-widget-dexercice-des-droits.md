@@ -1,40 +1,39 @@
 ---
-description: Apprenez à mettre en place un widget d'exercice des droits sur votre site.
+description: Leer hoe je een widget met rechten op je site instelt.
 ---
 
-# Widget de collecte de demandes
+# widget voor het verzamelen van aanvragen
 
-## Processus
+# Proces
 
-Le processus de demande d'exercice de droits via le widget se déroule comme **sur le schéma ci-dessous** :
+Het proces voor het aanvragen van de uitoefening van rechten via de widget vindt plaats zoals **in het onderstaande diagram** :
 
-![Schéma du processus de gestion des exercices de droit](../../.gitbook/assets/Diapositive1.SVG)
+[Diagram van het beheerproces voor het uitoefenen van rechten](../../.gitbook/assets/Diapositive1.SVG)
 
-## Mise en place
+## Implementatie
 
-DASTRA vous permets de mettre un place un widget d'exercice des droits directement sur votre site, à l'instar de ce qui est fait sur sa [politique de confidentialité](https://www.dastra.eu/fr/privacy-policy) :&#x20;
+DASTRA staat u toe om een widget voor het uitoefenen van rechten direct op uw site in te stellen, vergelijkbaar met wat wordt gedaan op haar [privacybeleid](https://www.dastra.eu/fr/privacy-policy) :&#x20;
 
 ![](<../../.gitbook/assets/image (35) (1).png>)
 
-En cliquant sur le bouton "Accéder au service en ligne", une fenêtre apparaît, permettant à l'internaute le désirant d'effectuer sa demande :
+Door op de knop "Toegang tot de online service" te klikken, verschijnt er een venster waarin internetgebruikers hun verzoek kunnen indienen:
 
 ![](<../../.gitbook/assets/image (175).png>)
 
-Pour mettre en place un tel widget, il suffit de paramétrer votre widget en utilisant notre fonctionnalité d'intégration directement dans le module.&#x20;
+Om zo'n widget in te stellen, hoef je alleen maar je widget te configureren met behulp van onze integratie functionaliteit direct in de module &#x20;
 
-Un **extrait de code HTML** sera généré que vous aurez à placer à l'endroit où vous souhaitez voir le widget apparaître.&#x20;
+Er wordt een **HTML code-extract** gegenereerd dat je moet plaatsen waar je wilt dat de widget verschijnt &#x20;
 
-Pour en savoir plus sur comment implémenter un widget d'exercice des droits sur votre site internet, [contactez-nous](https://www.dastra.eu/fr/contact?type=quote).
-
-
-
-## Configurer un widget d'exercice des droits
+Voor meer informatie over het implementeren van een widget voor het uitoefenen van rechten op uw website, [neem contact met ons op](https://www.dastra.eu/fr/contact?type=quote).
 
 
 
-Voici un tutoriel vidéo vous permettant de suivre les étapes de configuration d'un widget d'exercice de droits.
+## Een widget voor uitoefening van rechten configureren
+
+
+
+Hier is een videotutorial die laat zien hoe je een widget voor het uitoefenen van rechten configureert.
 
 {% embed url="https://www.youtube-nocookie.com/embed/4B-ZtCuefgY" %}
-Tutoriel : configurer un widget d'exercice de droits
+Tutorial: een widget voor het uitoefenen van rechten configureren
 {% endembed %}
-

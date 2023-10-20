@@ -1,21 +1,21 @@
 ---
 description: >-
-  Apprenez comment importer, créer, modifier et supprimer une demande d'exercice
-  de droits via Dastra.
+  Leer hoe u een aanvraag voor het uitoefenen van rechten importeert, aanmaakt, wijzigt en verwijdert
+  verzoek via Dastra.
 ---
 
-# Gestion des demandes d'exercices de droits
+# Rechtenuitoefeningsverzoeken beheren
 
-## Création d'une demande
+## Een aanvraag aanmaken
 
-Cliquez sur le bouton "**Créer une demande**"
+Klik op de "**Maak een verzoek**" knop
 
 ![](<../../.gitbook/assets/image (253) (1) (1).png>)
 
 
 
-## Import des demandes
+## Verzoeken importeren
 
-Cliquez sur le menu en haut à droite et sur le bouton "Importer"
+Klik op het menu rechtsboven en op de "Import" knop.
 
-Suivez ensuite le guide sur l'i[mport de données dans Dastra](../generalites/importer-vos-donnees-excel-csv.md)
+Volg dan de handleiding op [gegevens importeren in Dastra](../generalites/import-your-data-excel-csv.md)
