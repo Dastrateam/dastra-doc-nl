@@ -1,22 +1,21 @@
 ---
 description: >-
-  Le registre est lié à de nombreux référentiels : sous-traitants, applications.
-  Dastra vous permet de gérer ces référentiels de manière indépendante du
-  registre de manière à limiter les erreurs.
+  Het register is gekoppeld aan een aantal repositories: onderaannemers, applicaties.
+  Met Dastra kun je deze opslagplaatsen onafhankelijk van het
+  register om fouten te beperken.
 ---
 
-# Référentiels
+# Repositories
 
-Dans le but de réduire les erreurs de saisies, le registre Dastra vous permet d'administrer un ou plusieurs référentiels de manière totalement autonomes et indépendamment du registre. Le schéma ci-dessous illustre ainsi la réutilisabilité du registre des traitements.
+Om fouten bij het invoeren van gegevens te beperken, kunt u met het Dastra-register één of meer opslagplaatsen volledig onafhankelijk van het register beheren. Het onderstaande diagram illustreert de herbruikbaarheid van het register voor Verwerking.
 
-![Schéma illustrant les relations entre traitements et référentiels (applicatifs et sous-traitance)](<../../.gitbook/assets/image (91).png>)
+Diagram ter illustratie van de relatie tussen Verwerkingen en repositories (toepassingen en uitbesteding)
 
-## Liste des référentiels proposés par Dastra
+## Lijst van repositories voorgesteld door Dastra
 
-* **Applications**
-* **Acteurs** (DPO, RP, resp conjoint...) : les acteurs sont différenciés des utilisateurs car ils n'ont pas nécessairement besoin de venir se connecter à la plateforme.
-* **Sous-traitants**
-* **Clients** (Registre en tant que sous traitant uniquement)
-* **Règles de conservation** des données (Avec le dataset et les types de données associé)
-* **Mesures de sécurité**
-
+* **Toepassingen**
+* Actoren** (DPO, PR, echtgenoot, etc.): actoren worden onderscheiden van gebruikers omdat ze niet per se verbinding hoeven te maken met het platform.
+* Onderaannemers
+* Klanten** (alleen registreren als onderaannemer)
+* Regels voor het bewaren van gegevens** (met dataset en bijbehorende gegevenstypen)
+* Beveiligingsmaatregelen

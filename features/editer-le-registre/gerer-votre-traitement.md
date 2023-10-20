@@ -1,42 +1,42 @@
 ---
-description: Apprenez à déclarer une activité de traitement de données.
+description: Leer hoe je gegevensverwerking declareert.
 ---
 
-# Déclarer un traitement
+# Verwerking declareren
 
-## Qu'est-ce qu'un traitement de données ?
+## Wat is gegevensverwerking?
 
-Une activité de traitement est une opération ou un ensemble d'opérations effectuées sur des données personnelles, telles que la gestion de la paie. Toutes les activités de traitement prises ensemble constituent le registre des traitements.
+Een verwerkingsactiviteit is een bewerking of reeks bewerkingen die wordt uitgevoerd op persoonsgegevens, zoals salarisadministratie. Alle verwerkingsactiviteiten samen vormen het register van de verwerkingen.
 
-## Créer une activité de traitement&#x20;
+## Een verwerkingsactiviteit aanmaken&#x20;
 
-Pour créer une activité de traitement, cliquez d'abord sur "Créer un traitement de données" dans la section Registre.
+Om een verwerkingsactiviteit aan te maken, klikt u eerst op "Een gegevensverwerking aanmaken" in de sectie Register.
 
-![Choix du nouveau traitement](<../../.gitbook/assets/image (185).png>)
+[Kies nieuwe Verwerking](<../../.gitbook/assets/image (185).png>)
 
-Choisissez le type de traitement&#x20;
+Kies het type Verwerking&#x20;
 
-Remplissez la description de l'activité de traitement et vous serez amené à la section du questionnaire où vous pourrez ajouter toutes les informations requises.
+Vul de beschrijving van de verwerkingsactiviteit in en je wordt naar de vragenlijstsectie geleid waar je alle benodigde informatie kunt toevoegen.
 
 
 
-## Créer un traitement en tant que sous-traitant
+## Verwerking als verwerker aanmaken
 
-Pour créer un traitement en tant que sous-traitant, c'est très simple. Il faut, au moment de la création d'un traitement, cocher la case&#x20;
+Het aanmaken van een Verwerking als verwerker is heel eenvoudig. Als u een Verwerking maakt, vinkt u het vakje&#x20;
 
 ![](<../../.gitbook/assets/image (186).png>)
 
-Vous arriverez ensuite automatiquement sur la phase de documentation d'un traitement en tant que sous-traitant et vous aurez la possibilité de déclarer vos responsables de traitements (généralement vos clients).
+Je komt dan automatisch in de documentatiefase van een Verwerking als een verwerker en je hebt de optie om je Verwerkingsverantwoordelijken (meestal je klanten) aan te geven.
 
-## Modifier un traitement de données
+## Een gegevensverwerking wijzigen
 
-Pour modifier une activité de traitement existante, cliquez sur le bouton "Modifier" lié au traitement ou allez directement dans les étapes figurant sur la gauche de l'écran :
+Om een bestaande verwerkingsactiviteit te wijzigen, klikt u op de knop "Wijzigen" die aan de verwerking is gekoppeld of gaat u rechtstreeks naar de stappen aan de linkerkant van het scherm:
 
 ![](<../../.gitbook/assets/image (187).png>)
 
-Ensuite, suivez chaque étape du questionnaire en commençant par la section suivante:
+Volg dan elke stap van de vragenlijst, te beginnen met de volgende sectie:
 
-{% content-ref url="remplir-le-questionnaire/" %}
-[remplir-le-questionnaire](remplir-le-questionnaire/)
+{% content-ref url="vul-in-de-vragenlijst/" %}
+[vul-in-de-vragenlijst](vul-in-de-vragenlijst/)
 {% endcontent-ref %}
 

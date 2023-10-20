@@ -1,104 +1,103 @@
 ---
-description: Apprenez à éditer votre registre de traitement avec Dastra.
+description: Leer hoe u met Dastra uw register voor verwerkingen kunt bewerken.
 ---
 
-# Registre des traitements
+# Verwerking register
 
-## Introduction
+## Inleiding
 
-Le registre de traitement vous permet de faire la cartographie de vos **traitements de données** et d'avoir une **vue d'ensemble** de ce que vous faites avec les données personnelles concernées. Disposer d'un registre complété est une **obligation** de l’article 30 du RGPD, mais au delà de l'aspect contraignant, c'est surtout un **outil pour mieux connaître ses données** et **maîtriser la chaîne de valeur** associée - depuis leur production jusqu'à l'usage qui en est fait. &#x20;
+Met het verwerkingsregister kunt u uw gegevensverwerking** in kaart brengen en heeft u een **overzicht** van wat u met de betreffende persoonsgegevens doet. Het hebben van een ingevuld register is een **verplichting** onder artikel 30 van de AVG, maar naast het bindende aspect is het vooral een **hulpmiddel om een beter inzicht te krijgen in uw gegevens** en **controle te hebben over de bijbehorende waardeketen** - van de productie tot het gebruik dat ervan wordt gemaakt. &#x20;
 
-Chez Dastra, nous pensons que notre rôle est de vous **faciliter le travail** de cartographie des traitements, pour vous permettre de vous concentrer sur votre métier. Pour cela, nous vous accompagnons à travers un registre **intelligent** et des **questionnaires** qui vous guident étape par étape dans la constitution de votre registre.
+Bij Dastra geloven we dat het onze rol is om het voor u **eenvoudiger** te maken om gegevensverwerkingen in kaart te brengen, zodat u zich kunt concentreren op uw kernactiviteiten. Om dit te doen, ondersteunen wij u met een **intelligent** register en **vragenlijsten** die u stap voor stap begeleiden bij het maken van uw register.
 
-## Le registre Dastra en quelques mots
+## Het Dastra register in een notendop
 
-La fonctionnalité de registres des activités de traitements Dastra répond à tous les attendus de la règlementation. Les registres, à la fois Responsable de Traitement et Sous traitant, reposent sur des référentiels (acteurs, actifs, jeux de données, données, risques et mesures de sécurité) permettant de **cartographier vos traitements** et **gagner du temps** dans la gestion au quotidien.
+De registers van de verwerkingsactiviteiten van Dastra voldoen aan alle wettelijke vereisten. Registers, voor zowel Data Processors als Subcontractors, zijn gebaseerd op repositories (actoren, assets, datasets, gegevens, risico's en beveiligingsmaatregelen) waardoor u **uw verwerking in kaart kunt brengen** en **tijd kunt besparen** in het dagelijks beheer.
 
-Les traitements sont duplicables et des modèles de traitement sont disponibles dans une bibliothèque librement accessible à tous nos utilisateurs. Un workflow est intégré, une fonction de recherche est présente nativement et il est possible d’importer / exporter des fiches de traitements sous différent formats ( pdf , word , html, excel , csv, json ). Il est possible d'attacher des pièces jointes, des violations ou encore des risques à ces traitements.&#x20;
+Verwerkingen kunnen worden gedupliceerd en behandelingsmodellen zijn beschikbaar in een bibliotheek die vrij toegankelijk is voor al onze gebruikers. Er is een workflow geïntegreerd, een zoekfunctie is aanwezig en het is mogelijk om verwerkingsbladen in verschillende formaten te importeren/exporteren ( pdf , word , html, excel , csv, json ). Het is mogelijk om bijlagen, overtredingen of zelfs risico's aan deze behandelingen toe te voegen.&#x20;
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-01-24 à 15.11.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-24 at 15.11.37.png" alt=""><figcaption></figcaption></figuur>
 
-## Registre "Responsable de traitement" versus "Sous-traitant"
+## Register Verwerkingsverantwoordelijke versus Subcontractant
 
-L’article 30 du RGPD prévoit des obligations spécifiques pour le _registre du responsable de traitement_ et pour le _registre du sous-traitant_. Si votre organisme agit à la fois en tant que sous-traitant et responsable de traitement, votre registre doit donc clairement distinguer les deux catégories d’activités.
+Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registrar van de verwerkingsverantwoordelijke_ en voor de _registrar van de verwerker_. Als uw organisatie zowel als verwerker als als verwerkingsverantwoordelijke optreedt, moet uw register dus een duidelijk onderscheid maken tussen beide categorieën activiteiten.
 
-**En pratique, dans cette hypothèse, la CNIL vous recommande de tenir 2 registres :**
+**In de praktijk adviseert de CNIL in dit geval om 2 registers bij te houden:**.
 
-1. un pour les traitements de données personnelles dont vous êtes vous-même responsable,
-2. un autre pour les traitements que vous opérez, en tant que sous-traitant, pour le compte de vos clients.
+1. één voor de gegevensverwerking waarvoor u zelf verantwoordelijk bent,
+2. een ander voor verwerkingen die u als subcontractant namens uw klanten uitvoert.
 
-{% content-ref url="le-registre-responsable-de-traitement.md" %}
-[le-registre-responsable-de-traitement.md](le-registre-responsable-de-traitement.md)
+{% content-ref url="le-registre-responsable-de-verwerking.md" %}
+[le-registre-responsable-de-processing.md](le-registre-responsable-de-processing.md)
 {% endcontent-ref %}
 
 {% content-ref url="le-registre-sous-traitant.md" %}
 [le-registre-sous-traitant.md](le-registre-sous-traitant.md)
 {% endcontent-ref %}
 
-## Les différentes méthodologies pour mettre en place le registre des traitements
+## De verschillende methoden voor het opzetten van het register voor gegevensverwerking
 
-Il existe deux méthodologies pour créer une fiche de traitement :&#x20;
+Er zijn twee methoden om een Verwerkingsregister aan te maken:&#x20;
 
-* **La conception en Top-Down (Descendante)** : on démarre le projet en établissant l'inventaire des traitements de données, et on collecte ensuite les informations propres à chaque traitement (les données, les sous-traitants...etc...).&#x20;
-* **La conception en Bottom-Up (Ascendante)** : on commence par faire l'inventaire des données (les logiciels, jeux de données et champs de données personnelles) et on créé les traitements à partir de celui-ci.
+* Top-Down" ontwerp: het project wordt gestart met het opstellen van een inventaris van gegevensverwerking en vervolgens wordt de specifieke informatie voor elke verwerking verzameld (gegevens, subcontractanten, enz.);
+* Bottom-Up ontwerp: we beginnen met het maken van een inventaris van de gegevens (software, gegevensverzamelingen en velden met persoonsgegevens) en vervolgens creëren we de processen op basis van deze inventaris.
 
-### Quelle méthodologie de mise en place de registre choisir ?
+### Welke methode voor registerimplementatie moet ik kiezen?
 
-Il n'y a pas de bonne ou de mauvaise méthode, tout va dépendre du contexte de votre organisation, des compétences de l'équipe DPO, de l'accessibilité des opérationnels de la donnée...
+Er is geen goede of foute methode, alles hangt af van de context van uw organisatie, de vaardigheden van het DPO-team, de toegankelijkheid van het operationele personeel voor gegevens, enz.
 
-Voici un tableau de comparaison des deux approches :
+Hier is een tabel waarin de twee benaderingen worden vergeleken:
 
-<table><thead><tr><th width="129">Méthodologie</th><th width="178">Cible</th><th>Bénéfices</th><th>Inconvénients</th></tr></thead><tbody><tr><td><strong>Top-Down (Descendante)</strong></td><td>Petites organisations ou collectivités<br>Entreprise avec une faible culture de la donnée<br>Equipe légale avec une faible affinité pour l'IT</td><td>Rapidité de mise en place<br>Moins de travail<br>Correspond bien aux attentes légales du RGPD<br></td><td>Peut engendrer des difficultés si l'équipe de mise en place du registre ne connaît pas les données de l'organisation<br>Plus contraignant pour les opérationnels<br>L'inventaire des données sera beaucoup moins valorisable car modelé pour des attentes légales uniquement<br>Plus complexe à maintenir sur le long terme<br></td></tr><tr><td><strong>Bottom-Up (Ascendante)</strong></td><td>Grandes ou moyennes organisations<br>Avec une forte culture de la donnée<br>Equipe légale avec forte affinité IT</td><td>Faire l'inventaire des données sera moins abstrait que de créer directement des traitements.<br>Le registre reflète la réalité de l'organisation<br>La tenue du registre sera plus aisée sur le long terme<br>Plus de membres de l'organisation sont impliqués<br>Création de fiche de traitement est plus automatisé</td><td>Globalement plus difficile et long à mettre en place<br>Projet nécessitant une bonne gouvernance</td></tr></tbody></table>
+<table><thead><tr><th width="129">Methodologie</th><th width="178">Doel</th><th>Voordelen</th><th>Achteraf</th></tr></thead><tbody><tr><td><strong>Top-. Down (Top-down)</strong></td><td>Kleine organisaties of lokale overheden<br>Bedrijf met een zwakke gegevenscultuur<br>Legaal team met weinig affiniteit met IT</td><td>Snel te implementeren<br>Minder werk<br>Klikt goed aan bij de wettelijke verwachtingen van de AVG<br></td><td>Kan problemen veroorzaken als het team dat het register opstelt niet bekend is met de gegevens van de organisatie<br>Meer belastend voor operationeel personeel<br>De gegevensinventaris zal veel minder waardevol zijn omdat deze alleen is gemodelleerd voor wettelijke verwachtingen<br>Meer complex om op de lange termijn te onderhouden<br></td></tr><td><strong>Bottom- Up (Bottom-up)</strong></td><td>Grote of middelgrote organisaties<br>Met een sterke gegevenscultuur<br>Legaal team met sterke IT-affiniteit</td><td>Het uitvoeren van de gegevensinventarisatie zal minder abstract zijn dan het direct creëren van gegevensverwerking. <br>Het register weerspiegelt de realiteit van de organisatie<br>Het bijhouden van het register is op de lange termijn eenvoudiger<br>Meer leden van de organisatie zijn betrokken<br>Het maken van verwerkingsrecords is meer geautomatiseerd</td><td>Al met al moeilijker en tijdrovender om op te zetten<br>Project vereist goede governance</td></tr></tbody></table>
 
-La bonne nouvelle, c'est que Dastra gère parfaitement les deux approches ! Vous pouvez soit créer une fiche en automatique [en prenant un modèle de traitement](utiliser-un-modele-de-traitement.md). Si vous préférez l'approche , il est possible de [créer sa cartographie de données](../cartography/) et créer un traitement directement à partir d'un actif (logiciel, base de données)
+Het goede nieuws is dat Dastra beide benaderingen perfect beheerst! Je kunt een formulier automatisch maken [met behulp van een verwerkingsmodel] (use-a-processing-model.md). Als u de voorkeur geeft aan de automatische aanpak, kunt u [uw gegevensverwerking maken](../cartografie/) en direct vanuit een Activa (software, database) een gegevensverwerking maken.
 
-## Comment établir son registre de traitement ?
+## Hoe stel je een register voor Verwerking in?
 
-Voici un tutoriel vidéo vous permettant de créer le registre.
+Hier is een instructievideo om je te helpen het register aan te maken.
 
 {% embed url="https://www.youtube-nocookie.com/embed/YFIj6Syl1Fw" %}
 
-Si vous souhaitez apprendre à concevoir et gérer votre registre de traitement de données, commencez ici:
+Als je wilt leren hoe je een register voor gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-registre.md" %}
-[gerer-votre-registre.md](gerer-votre-registre.md)
+{% content-ref url="manage-je-register.md" %}
+[manage-je-register.md](manage-je-register.md)
 {% endcontent-ref %}
 
-Si vous souhaitez apprendre à concevoir et à gérer un de vos traitements de données, commencez ici:
+Als je wilt leren hoe je een gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-traitement.md" %}
-[gerer-votre-traitement.md](gerer-votre-traitement.md)
+{% content-ref url="manage-je-verwerking.md" %}
+[manage-your-processing.md](manage-your-processing.md)
 {% endcontent-ref %}
 
-Si vous souhaitez comprendre les différentes étapes du questionnaire, cliquez ici :
+Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier :
 
-{% content-ref url="remplir-le-questionnaire/" %}
-[remplir-le-questionnaire](remplir-le-questionnaire/)
+{% content-ref url="vul-in-de-vragenlijst/" %}
+[vul-in-de-vragenlijst](vul-in-de-vragenlijst/)
 {% endcontent-ref %}
 
-Si vous souhaitez apprendre à partager le registre, cliquez ici :
+Als je wilt weten hoe je het register kunt delen, klik dan hier :
 
-{% content-ref url="partager-le-registre.md" %}
-[partager-le-registre.md](partager-le-registre.md)
+{% content-ref url="share-the-register.md" %}
+[deel-het-register.md](deel-het-register.md)
 {% endcontent-ref %}
 
-## Pour aller plus loin
+## Meer informatie
 
-Retrouvez notre webinar dédié au registre des traitements.&#x20;
+Bekijk ons webinar over het register voor gegevensverwerking &#x20;
 
 {% embed url="https://www.youtube.com/watch?v=R_Z2m4sb-44" %}
-Comment passer en mode run sur la gestion des registres de traitements
+Hoe over te schakelen naar de runstand voor het beheer van het verwerkingsregister
 {% endembed %}
 
-{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md" %}
-[registre-de-traitement.md](../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md)
+{% content-ref url="../../reminders-utiles/rgpd-en-bref/treatment-register.md" %}
+[register-van-verwerking.md](../../useful-recalls/rgpd-en-bref/register-van-verwerking.md)
 {% endcontent-ref %}
 
-{% content-ref url="../la-gestion-des-risques/risques.md" %}
-[risques.md](../la-gestion-des-risques/risques.md)
+{% content-ref url="../risk-management/risks.md" %}
+[risks.md](../risk-management/risks.md)
 {% endcontent-ref %}
 
 {% content-ref url="../planifier/" %}
-[planifier](../planifier/)
+[plan](../plan/)
 {% endcontent-ref %}
-

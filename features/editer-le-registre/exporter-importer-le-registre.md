@@ -1,137 +1,134 @@
 ---
-description: Apprenez à exporter et importer un registre existant complet dans Dastra.
+description: Leer hoe je een compleet bestaand register kunt exporteren en importeren in Dastra.
 ---
 
-# Exporter / importer le registre
+# Register exporteren / importeren
 
-## L'export de registre
+## Register exporteren
 
-Pour exporter l'ensemble du registre, il vous suffit de vous rendre dans le module "Registre", de cliquer sur la flèche en haut à droite à côté de la création d'un traitement, puis de sélectionner "exporter le registre".
+Om het hele register te exporteren, ga je naar de module "Register", klik je op het pijltje rechtsboven naast het aanmaken van een Verwerking en selecteer je "register exporteren".
 
-![Menu déroulant du registre comportant la fonctionnalité d'export](<../../.gitbook/assets/Capture web\_3-5-2022\_164438\_app.dastra.eu.jpeg>)
-
-Choisissez ensuite le format d'export ainsi que le type d'export désiré (complet ou format article 30), et cliquez sur "Télécharger le fichier". Ca y est, votre registre est exporté !
+Kies dan het export formaat en het type export dat je wilt (volledig of artikel 30 formaat), en klik op "Download het bestand". Dat is het, je register is geëxporteerd!
 
 
 
-### Format article 30/CNIL
+### Artikel 30/CNIL-formaat
 
-Le format dit article 30 correspond à ce qui est exigé par le RGPD. L'export prendra en compte les champs obligatoires au sens du RGPD. En effet, le RGPD oblige à la création du registre des activités de traitement. Les informations contenues sont :&#x20;
+Het zogenaamde artikel 30-formaat komt overeen met wat de AVG vereist. De export houdt rekening met de verplichte velden zoals gedefinieerd door de AVG. De AVG vereist de creatie van een register van de verwerkingsactiviteiten. De informatie die het bevat is:&#x20;
 
-* Nom du traitement
-* Finalités (sans les bases légales)
-* Données et conservation
-* Destinataires et transferts éventuels
-* Mesures de sécurité
+* Naam van de Verwerking
+* Doeleinden (zonder rechtsgrondslag)
+* Gegevens en opslag
+* Ontvangers en mogelijke doorgiften
+* Beveiligingsmaatregelen
 
 
 
-### Format complet
+### Volledig formaat
 
-Le format complet est le format natif de Dastra. Vous exportez l'ensemble des champs composant la fiche de traitement.&#x20;
+Het volledige formaat is het native formaat van Dastra. U exporteert alle velden waaruit het formulier voor de Verwerking bestaat &#x20;
 
 
 
 {% hint style="info" %}
-Il est également possible de n'exporter qu'un ou plusieurs traitements du registre, au lieu du registre entier. Pour cela, sélectionnez les traitements concernés manuellement en cochant les cases à gauche du registre, puis "Choisir une action groupée" et "Exporter".
+Het is ook mogelijk om alleen één of meer Verwerkingen uit het register te exporteren, in plaats van het hele register. Selecteer hiervoor handmatig de betreffende Verwerkingen door de vakjes links van het register aan te vinken, vervolgens "Kies een gegroepeerde actie" en "Exporteren".
 {% endhint %}
 
-## L'import de registre
+## Register importeren
 
-Pour éviter de remplir chaque traitement à la main et prendre en compte tous les formats possibles de registre, Dastra a conçu une méthodologie se reposant sur le principe de la **ségrégation du registre en domaines de données**. Ainsi, 7 étapes sont conseillées pour importer l’ensemble d’un registre existant dans Dastra.
+Om te voorkomen dat elke Verwerking handmatig moet worden ingevuld en om rekening te houden met alle mogelijke registerformaten, heeft Dastra een methodologie ontworpen die gebaseerd is op het principe **van het opsplitsen van het register in gegevensdomeinen**. Er zijn 7 aanbevolen stappen voor het importeren van een bestaand register in Dastra.
 
 {% hint style="info" %}
-Ces étapes, non obligatoires, sont néanmoins fortement conseillées notamment lorsque le registre de traitement contient de nombreux traitements.
+Deze stappen zijn niet verplicht, maar worden toch sterk aanbevolen, vooral als het register van de Verwerking een groot aantal processen bevat.
 {% endhint %}
 
-N'hésitez pas à consulter également notre bibliothèque de modèles de traitements de données : [https://www.dastra.eu/fr/data-processing/referentials](https://www.dastra.eu/fr/data-processing/referentials)
+U kunt ook onze bibliotheek met modellen voor gegevensverwerking raadplegen: [https://www.dastra.eu/fr/data-processing/referentials](https://www.dastra.eu/fr/data-processing/referentials)
 
-## Etape 1 : Import des labels de traitement
+## Stap 1: Verwerkingslabels importeren
 
-Pour importer vos labels de traitements existants, il faut cliquer sur l'onglet "importer vos données" dans la section Registre, onglet Registre:
+Om uw bestaande gegevensverwerkingslabels te importeren, klikt u op het tabblad "Uw gegevens importeren" in de sectie Register:
 
 ![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
-Ensuite, téléchargez un échantillon de notre fichier tel que présenté à l'écran.
+Download vervolgens een voorbeeld van ons bestand zoals op het scherm te zien is.
 
 ![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 
 
-Remplissez le fichier  téléchargé avec vos labels de traitements en respectant l'ordre suivant :
+Vul het gedownloade bestand in met je labels voor de Verwerking in de volgende volgorde:
 
-| Colonne          | Description                           | Valeurs possibles                                   |
+| Kolom Beschrijving Mogelijke waarden
 | ---------------- | ------------------------------------- | --------------------------------------------------- |
-| Ref              | Référence interne (string)            |                                                     |
-| Processing state | Etat du traitement (processing state) | "Study", "BeingDeployed", "InProduction", "Stopped" |
-| Label            | Nom (string)                          |                                                     |
-| Description      | Description (String)                  |                                                     |
+| Ref | Interne referentie (string) | Verwerkingstoestand | Verwerkingstoestand (string)
+| Verwerkingstoestand | "Studie", "Wordt geïmplementeerd", "In productie", "Gestopt" |
+| Label | Naam (tekenreeks) |
+| Beschrijving | Beschrijving (string) |
 
-Ci-dessous un exemple de fichier respectant le format demandé disponible à l'import et pouvant être importé en "glisser-déposer" dans Dastra :
+Hieronder staat een voorbeeld van een bestand in het vereiste formaat dat beschikbaar is voor import en in Dastra kan worden geïmporteerd met drag & drop:
 
 {% file src="../../.gitbook/assets/sample-DataProcessing (18).csv" %}
 
-Importez-le directement dans notre interface par glisser-déposer, puis cliquez sur Continuez.&#x20;
+Importeer het direct in onze interface met drag & drop, klik dan op Doorgaan &#x20;
 
-Ca y est, vos labels de traitements sont importés !
+Dat is het, uw labels voor de Verwerking zijn geïmporteerd!
 
-## Etape 2 : import du référentiel des actifs
+## Stap 2: Activa importeren
 
-Pour importer vos applications/actifs existantes, il faut cliquer sur l'onglet "importer" dans le module Référentiels, onglet Actifs :
+Om uw bestaande Activa te importeren, klikt u op het tabblad "importeren" in de module Repositories, tabblad Activa:
 
 ![](<../../.gitbook/assets/image (92).png>)
 
-Ensuite, téléchargez un échantillon de notre fichier tel que présenté à l'écran. Remplissez le fichier  téléchargé avec vos applications en respectant l'ordre suivant :
+Upload vervolgens een voorbeeld van ons bestand zoals op het scherm te zien is. Vul het gedownloade bestand in met uw toepassingen in de volgende volgorde:
 
-| Colonne                    | Description                             | Valeurs possibles                       |
+| Kolom | Beschrijving | Mogelijke waarden |
 | -------------------------- | --------------------------------------- | --------------------------------------- |
-| Description                | Description (string)                    |                                         |
-| Label                      | Nom (string)                            |                                         |
-| ApplicationState           | Application state (applicationstate)    | "InProduction""InDevelopment""Stopped"  |
-| ApplicationType            | Application type (applicationtype)      | "Software""WebApp""Saas""Module""Other" |
-| HostingType                | Hosting type (hostingtype)              | "InHouse""OutSourced"                   |
-| SupportType                | Support type (supporttype)              | "InHouse""OutSourced"                   |
-| DevelopmentType            | Development type (developmenttype)      | "InHouse""OutSourced"                   |
-| HostName                   | Host name (string)                      |                                         |
-| PrivacyByDesignImplemented | Privacy by design implemented (boolean) | "true""false"                           |
+| Beschrijving (tekenreeks)
+| Label Naam (string)
+| ApplicationState | Toestand van de toepassing (applicationstate) | "In productie""In ontwikkeling""Gestopt" |
+| ApplicationType | Type toepassing (toepassingstype) | "Software""WebApp""Saas""Module""Overige" |
+| HostingType | Type hosting (hostingtype) | "InHouse""OutSourced" |
+| SupportType | Type ondersteuning (supporttype) | "InHouse""OutSourced" |
+| DevelopmentType | Type ontwikkeling (developmenttype) | "InHouse""OutSourced" |
+| HostName | Hostnaam (string) |
+| PrivacyByDesignImplemented | Privacy by design geïmplementeerd (booleaans) | "true""false" |
 
-Ci-dessous un exemple de fichier respectant le format demandé disponible à l'import et pouvant être importé en "glisser-déposer" dans Dastra :
+Hieronder staat een voorbeeld van een bestand in het vereiste formaat dat beschikbaar is voor import en in Dastra kan worden geïmporteerd met drag & drop:
 
 {% file src="../../.gitbook/assets/sample-applications - EXAMPLE.xlsx" %}
 
-Importez-le directement dans notre interface par glisser-déposer, puis cliquez sur Continuez.&#x20;
+Importeer het direct in onze interface met drag & drop, klik dan op Doorgaan &#x20;
 
-Ca y est, vos applications sont importées !
+Dat is het, je applicaties zijn geïmporteerd!
 
-## Etape 3 : import du référentiel des acteurs
+## Stap 3: Importeer de speler-repository
 
-Recommencez la procédure similaire aux précédentes depuis le module Référentiels, onglet Acteurs. Ci-dessous un exemple:
+Herhaal de procedure vergelijkbaar met de vorige vanuit de module Repositories, tab Actors. Hieronder staat een voorbeeld:
 
 {% file src="../../.gitbook/assets/sample-Asset.csv" %}
 
-Votre référentiel des acteurs référence l'ensemble des parties prenantes à un traitement. Personnes morales telles que les sous-traitants, les clients ou les responsables conjoints ou les personnes physiques telles que les interlocuteurs des traitements.&#x20;
+Je stakeholder repository verwijst naar alle partijen die betrokken zijn bij een Verwerking. Juridische entiteiten zoals onderaannemers, klanten of gezamenlijke verwerkingsverantwoordelijken, of natuurlijke personen zoals verwerkingsverantwoordelijken&#x20;
 
-Ce référentiel sert d'annuaire interne dans l'espace de travail. Pour chaque acteur, vous pourrez définir un type le caractérisant. Par exemple, si vous souhaitez ajouter votre référentiel de sous-traitants, vous ajoutez tous les acteurs et chaque sous-traitant devra être associé à un traitement.&#x20;
+Dit archief dient als een interne map in de werkruimte. Je kunt voor elke Actor een type definiëren. Als u bijvoorbeeld uw archief van onderaannemers wilt toevoegen, voegt u alle actoren toe en moet elke onderaannemer aan een proces worden gekoppeld&#x20;
 
-## Etape 4 : import du référentiel des mesures de sécurité
+## Stap 4: Importeer de beveiligingsmaatregelen opslagplaats
 
-Recommencez la procédure similaire aux précédentes depuis le module Référentiels, onglet Mesures.
+Herhaal de procedure vergelijkbaar met de vorige vanuit de module Repositories, tabblad Measures.
 
-## Etape 5 : import du glossaire de données&#x20;
+## Stap 5: Importeer de data glossary &#x20;
 
-Recommencez la procédure similaire aux précédentes depuis le module Référentiels, onglet Glossaire de données.
+Herhaal de procedure zoals eerder beschreven in de module Repositories, tabblad Data glossary.
 
-## Etape 6 : import du référentiel des jeux de données&#x20;
+## Stap 6: Importeer de gegevensverzameling&#x20;
 
-Recommencez la procédure similaire aux précédentes depuis  la section Registre, onglet Règles de conservation.
+Herhaal de procedure zoals hierboven beschreven vanuit de sectie Register, tabblad Bewaarregels.
 
-## Etape 7 : Construction des liaisons&#x20;
+## Stap 7: Bouw koppelingen&#x20;
 
-Maintenant que les référentiels ont tous été importés, éditez chacun des traitements et remplissez les informations sur la bases des informations importées en suivant le guide ci-dessous:
+Nu alle repositories zijn geïmporteerd, bewerk je elk van de Verwerkingen en vul je de informatie in op basis van de geïmporteerde informatie volgens de onderstaande gids:
 
-{% content-ref url="remplir-le-questionnaire/" %}
-[remplir-le-questionnaire](remplir-le-questionnaire/)
+{% content-ref url="vul-in-de-vragenlijst/" %}
+[vul-in-de-vragenlijst](vul-in-de-vragenlijst/)
 {% endcontent-ref %}
 
-Ca y est, les liaisons sont construites !
-
+Dat is het, de links zijn gemaakt!

@@ -1,73 +1,73 @@
 ---
-description: Apprenez à utiliser le registre "Responsable de traitement" de Dastra.
+description: Leer hoe u het register "Verwerkingsverantwoordelijke" van Dastra kunt gebruiken.
 ---
 
-# Registre "Responsable de traitement"
+# Register "Verwerkingsverantwoordelijke
 
-## Introduction
+## Inleiding
 
-L’article 30 du RGPD prévoit des obligations spécifiques pour le _registre du responsable de traitement_ de données personnelles et pour le _registre du sous-traitant_. Si votre organisme agit à la fois en tant que sous-traitant et responsable de traitement, votre registre doit donc clairement distinguer les deux catégories d’activités.
+Artikel 30 van de GDPR bevat specifieke verplichtingen voor de _registratie van de verwerkingsverantwoordelijke_ van persoonsgegevens en voor de _registratie van de verwerker_. Als uw organisatie zowel als verwerker en als verwerkingsverantwoordelijke optreedt, moet uw register dus duidelijk onderscheid maken tussen de twee categorieën activiteiten.
 
-**En pratique, dans cette hypothèse, la CNIL vous recommande de tenir 2 registres :**
+**In de praktijk adviseert de gegevensbeschermingsautoriteit in dit geval om 2 registers bij te houden:**.
 
-1. un pour les traitements de données personnelles dont vous êtes vous-même responsable,
-2. un autre pour les traitements que vous opérez, en tant que sous-traitant, pour le compte de vos clients.
+1. één voor de gegevensverwerking waarvoor u zelf verantwoordelijk bent,
+2. een ander voor de Verwerkingen die u als subcontractant voor uw klanten uitvoert.
 
-La suite de cette page traite uniquement du registre "Responsable de traitement".
+De rest van deze pagina Verwerkt alleen het "Verwerkingsverantwoordelijke" register.
 
-## Le registre "Responsable de traitement"
+## Het register van de "verwerkingsverantwoordelijke
 
-Pour chaque traitement, le registre d'un responsable de traitement indique au minima :
+Voor elke Verwerking vermeldt het register van een Verwerkingsverantwoordelijke ten minste:
 
-1. le cas échéant, **le nom et les coordonnées** du [responsable conjoint du traitement](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4#Article26) mis en œuvre
-2. les **finalités** du traitement, l’objectif en vue duquel vous avez collecté ces données
-3. les catégories **de personnes concernées** (client, prospect, employé, etc.)
-4. les catégories de **données personnelles** (exemples : identité, situation familiale, économique ou financière, données bancaires, données de connexion, donnés de localisation, etc.)
-5. **les catégories de destinataires** auxquels les données à caractère personnel ont été ou seront communiquées, y compris les sous-traitants auxquels vous recourez
-6. les **transferts** de données à caractère personnel vers un pays tiers ou à une organisation internationale et, dans certains cas très particuliers, les garanties prévues pour ces transferts ;
-7. les **délais prévus pour l'effacement** des différentes catégories de données, c’est-à-dire la durée de conservation, ou à défaut les critères permettant de la déterminer
-8. dans la mesure du possible, une **description générale des mesures de sécurité** techniques et organisationnelles que vous mettez en œuvre
+1. indien van toepassing, **de naam en contactgegevens** van de [gezamenlijk voor de verwerking verantwoordelijke](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) die wordt uitgevoerd
+2. de **doeleinden** van de verwerking, het doel waarvoor u de gegevens hebt verzameld
+3. de **categorieën betrokkenen** (klant, prospect, werknemer, enz.)
+4. de **persoonlijke gegevens** (voorbeelden: identiteit, familie, economische of financiële situatie, bankgegevens, verbindingsgegevens, locatiegegevens, enz.)
+5. **de categorieën ontvangers** aan wie de persoonsgegevens zijn of zullen worden meegedeeld, Begrepen de Verwerkers die u gebruikt
+6. de **doorgifte** van persoonsgegevens naar een derde land of naar een internationale organisatie en, in bepaalde zeer specifieke gevallen, de garanties die voor deze doorgifte worden gegeven;
+7. de **termijnen die zijn vastgesteld voor het wissen** van de verschillende categorieën gegevens, d.w.z. de bewaartermijn, of anders de criteria voor het bepalen daarvan
+8. voor zover mogelijk, een **algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen** die u toepast.
 
-![Les différentes sections d'un traitement "responsable de traitement" dans Dastra](<../../.gitbook/assets/image (194).png>)
+De verschillende onderdelen van een Verwerking "verantwoordelijke" in Dastra
 
-### Les acteurs&#x20;
+### Actoren&#x20;
 
-* L'identité et les informations de contacts du responsable du traitement
-* L'identité et les informations de contacts du DPO le cas échéant
-* L'identité et les informations de contacts du représentant le cas échéant
-* Le ou les responsables de traitement conjoints, le cas échéant
+* De identiteit en contactgegevens van de Verwerkingsverantwoordelijke.
+* De identiteit en contactgegevens van de functionaris voor gegevensbescherming, indien van toepassing.
+* De identiteit en contactgegevens van de vertegenwoordiger, indien van toepassing
+* De gezamenlijke verwerkingsverantwoordelijke(n), indien van toepassing.
 
-### Les finalités
+### Doeleinden
 
-* Toutes les finalités liées à l'activité impliquant le traitement
+* Alle doeleinden die verband houden met de activiteit van de Verwerking.
 
-### La base légale
+### Rechtsgrondslag
 
-* Respect d'une obligation légale&#x20;
-* Exécution d'un contrat
-* Intérêt légitime de l'entreprise ou d'un tiers
-* Intérêt public
-* Consentement&#x20;
-* Sauvegarde des intérêts vitaux de la personne concernée ou d'une autre personne
+* Nakoming van een wettelijke verplichting&#x20;
+* Uitvoering van een contract
+* Gerechtvaardigd belang van het bedrijf of een derde
+* Algemeen belang
+* Toestemming&#x20;
+* Bescherming van de vitale belangen van de betrokkene of een andere persoon.
 
-### L'inventaire des données et des personnes concernées
+### Inventaris van gegevens en betrokkenen
 
-* Type de personnes concernées
-* Catégories de données&#x20;
-* Délais de suppression des données ou règle applicable
+* Type betrokkenen
+* Categorieën van gegevens&#x20;
+* Termijnen voor het wissen van gegevens of toepasselijke regel
 
-### Les destinataires et les transferts de données hors EEE&#x20;
+### Ontvangers en doorgiften van gegevens buiten de EER&#x20;
 
-* &#x20;Identification des destinataires comprenant les destinataires internes (service concerné par le traitement) ; organismes externes (partenaires commerciaux ou institutionnels) ; sous-traitants (hébergeur, fournisseur de solutions) ; personne concernée le cas échéant et responsables conjoints&#x20;
-* Pour chaque destinataire, identification des transferts en dehors de l'Espace économique européen (EEE) et les outils juridiques utilisés (Règles d'entreprise contraignantes en cas de transferts hors UE avec les filiales, clauses contractuelles types, pays reconnu adéquat...)
+* &#x20;Identificatie van ontvangers inclusief interne ontvangers (afdeling betrokken bij de Verwerking); externe organen (commerciële of institutionele partners); subcontractanten (host, solution provider); betrokkene indien van toepassing en gezamenlijk verantwoordelijken voor de verwerking&#x20;
+* Voor elke ontvanger, identificatie van doorgiften buiten de Europese Economische Ruimte (EER) en de gebruikte juridische instrumenten (bindende bedrijfsregels in geval van doorgiften buiten de EU met dochterondernemingen, standaard contractuele clausules, land erkend als adequaat, enz.)
 
-### Les mesures de sécurité
+### Beveiligingsmaatregelen
 
-* Mesures techniques et organisationnelles mises en place pour sécuriser chaque traitement de données&#x20;
-* Par exemple, chiffrement des données, pseudonymisation, limitation des accès
+* Technische en organisatorische maatregelen ter beveiliging van elke gegevensverwerking&#x20;
+* Bijvoorbeeld gegevensversleuteling, pseudonimisering, beperkte toegang, enz.
 
-## Aller plus loin&#x20;
+## Verder gaan&#x20;
 
-{% content-ref url="gerer-votre-registre.md" %}
-[gerer-votre-registre.md](gerer-votre-registre.md)
+{% content-ref url="beheer-uw-register.md" %}
+[beheer-uw-register.md](beheer-uw-register.md)
 {% endcontent-ref %}

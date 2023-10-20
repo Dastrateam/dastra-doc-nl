@@ -1,24 +1,24 @@
 ---
 description: >-
-  Apprenez comment cartographier les données personnelles de votre organisation
-  dans Dastra
+  Leer hoe u de persoonlijke gegevens van uw organisatie in kaart brengt
+  in Dastra
 ---
 
-# Cartographie des données
+# Gegevens in kaart brengen
 
-#### Tout commence par une cartographie des donnnées <a href="#0-label" id="0-label"></a>
+#### Het begint allemaal met het in kaart brengen van gegevens <a href="#0-label" id="0-label"></a>
 
-Avant de vous lancer dans la constitution de vos fiches de traitement, nous vous recommandons de cartographier le plus précisémment possible les données de l'entreprise. Le schéma ci-dessous vous présente la structure de la cartographie que vous pouvez mettre en place.
+Voordat u begint met het maken van uw verwerkingsbladen, raden wij u aan om de gegevens van uw bedrijf zo nauwkeurig mogelijk in kaart te brengen. Het onderstaande diagram toont de mappingstructuur die u kunt gebruiken.
 
-<figure><img src="../../.gitbook/assets/assets-schema.png" alt=""><figcaption><p>Schéma de la cartographie de données </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/assets-schema.png" alt=""><figcaption><p>Data mapping diagram </p></figcaption></figure>
 
-Pour inventorier l'ensemble des données personnelles de votre SI, voici la procédure à suivre :
+Om een inventarisatie te maken van alle persoonlijke gegevens in je IS, is dit de procedure die je moet volgen:
 
-1. **Recenser les actifs (assets)** qui peuvent être des logiciels, des fichiers, des plugins, serveurs, machines...
-2. **Identifier l'éditeur de l'actif (le cas échéant)** : saisissez les informations de la société qui produit cet actif. Celui-ci pourra être listé dans les sous-traitants lors de la constitution du registre.
-3. **Inventorier les données** : lister le ou les jeux de données associés (vous pouvez vous référer au DPA signé avec le sous-traitant). Cliquez-ici pour en savoir plus sur [les jeux de données](https://doc.dastra.eu/features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees).
-4. **Lister les mesures de sécurité** mises en place
+1. **Identificeer de Activa**, dat kan software zijn, bestanden, plugins, servers, machines, enz.
+2. **Identificeer de uitgever van de Activa (indien van toepassing)**: voer de gegevens in van het bedrijf dat de Activa produceert. Dit kan worden vermeld onder onderaannemers bij het aanmaken van het register.
+3. **Gegevens opslaan**: vermeld de bijbehorende dataset(s) (u kunt verwijzen naar de DPA die is ondertekend met de onderaannemer). Klik hier voor meer informatie over [de datasets] (https://doc.dastra.eu/features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees).
+4. **Lijst de geïmplementeerde beveiligingsmaatregelen**
 
-Cette cartographie rendra beaucoup plus aisée la constitution de fiches de traitement en partant de la réalité de vos données.
+Met deze mapping wordt het veel eenvoudiger om verwerkingsfiches op te stellen op basis van de realiteit van uw gegevens.
 
-Vous ne souhaitez pas faire cette inventaire ou vous estimez que les logiciels que vous utilisez sont standards ? Nous avons tout prévu, vous pouvez créer votre référentiel d'actif à l'aide de notre bibliothèque de modèles prédéfinis contenant les actifs standards du marché (Salesforce, Jira...).
+Als je deze inventarisatie niet wilt maken, of je denkt dat de software die je gebruikt standaard is, dan hebben we het voor je geregeld. We hebben het onder controle: u kunt uw Activa repository maken met behulp van onze bibliotheek van voorgedefinieerde sjablonen met standaard marktactiva (Salesforce, Jira, enz.).

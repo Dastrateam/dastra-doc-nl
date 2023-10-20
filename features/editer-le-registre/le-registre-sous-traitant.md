@@ -1,39 +1,39 @@
 ---
-description: Apprenez à utiliser le registre "Sous-traitant" de Dastra.
+description: Leer hoe het "Verwerker" register van Dastra te gebruiken.
 ---
 
-# Registre "Sous-traitant"
+# Verwerker-register
 
-## Introduction
+## Inleiding
 
-L’article 30 du RGPD prévoit des obligations spécifiques pour le _registre du responsable de traitement_ de données personnelles et pour le _registre du sous-traitant_. Si votre organisme agit à la fois en tant que sous-traitant et responsable de traitement, votre registre doit donc clairement distinguer les deux catégories d’activités.
+Artikel 30 van de GDPR bevat specifieke verplichtingen voor de _registratie van de verwerkingsverantwoordelijke_ van persoonsgegevens en voor de _registratie van de verwerker_. Als je organisatie zowel als verwerker als als verwerkingsverantwoordelijke optreedt, moet je register dus duidelijk onderscheid maken tussen de twee categorieën activiteiten.
 
-**En pratique, dans cette hypothèse, la CNIL vous recommande de tenir 2 registres :**
+**In de praktijk adviseert de gegevensbeschermingsautoriteit in dit geval om 2 registers bij te houden:**.
 
-1. un pour les traitements de données personnelles dont vous êtes vous-même responsable,
-2. un autre pour les traitements que vous opérez, en tant que sous-traitant, pour le compte de vos clients.
+1. één voor de gegevensverwerking waarvoor u zelf verantwoordelijk bent,
+2. een ander voor de Verwerkingen die u als onderaannemer namens uw klanten uitvoert.
 
-La suite de cette page traite uniquement du registre "Sous-traitant".
+De rest van deze pagina behandelt alleen het "Verwerker"-register.
 
-## Le registre Sous-traitant
+## Het register van subverwerkers
 
-Chaque sous-traitant est tenu de renseigner un registre moins étendu.&#x20;
+Elke verwerker moet een minder uitgebreid register invullen;
 
-Celui-ci contient :&#x20;
+Dit bevat:&#x20;
 
-* les **coordonnées du sous-traitant**, de son représentant le cas échéant et de son DPO&#x20;
-* les **coordonnées de tous les responsables de traitement pour le compte desquels le sous-traitant agit** (les clients généralement)
-* les **catégories de données** traitées
-* les **destinataires**&#x20;
-* les **transferts** hors EEE
-* les **mesures de sécurité**
+* de contactgegevens** van de **verwerker, zijn eventuele vertegenwoordiger en zijn DPO&#x20;
+* de **gegevens van alle Verwerkingsverantwoordelijken namens wie de verwerker optreedt** (meestal de klanten)
+* de **categorieën gegevensverwerking**
+* ontvangers**&#x20;
+* doorgiften** buiten de EER
+* beveiligingsmaatregelen**.
 
 
 
-![Les différentes sections d'un traitement "sous-traitant" dans Dastra](<../../.gitbook/assets/image (195).png>)
+De verschillende secties van een "subcontractant" Verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
 
-## Aller plus loin
+## Verder gaan
 
-{% content-ref url="le-registre-responsable-de-traitement.md" %}
-[le-registre-responsable-de-traitement.md](le-registre-responsable-de-traitement.md)
+{% content-ref url="le-registre-responsable-de-processing.md" %}
+[le-registre-responsable-de-processing.md](le-registre-responsable-de-processing.md)
 {% endcontent-ref %}

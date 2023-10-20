@@ -1,33 +1,31 @@
 ---
 description: >-
-  Apprenez à concevoir et gérer votre registre de traitement en utilisant
-  Dastra.
+  Leer hoe u uw verwerkingsregister ontwerpt en beheert met behulp van Dastra.
 ---
 
-# Etablissez votre registre
+# Uw register opzetten
 
-## Pour établir votre registre dans Dastra, deux possibilités:
+## Er zijn twee manieren om uw register in Dastra op te zetten:
 
-* Soit vous disposez déjà d'un registre, dans ce cas vous pouvez l'importez dans Dastra
-* Soit vous n'en disposez pas, et vous devez le créer à partir de zéro et vous inspirer des modèles de traitements proposés
+* Of u heeft al een register, in dat geval kunt u het importeren in Dastra.
+* Of je hebt er geen en je moet het helemaal opnieuw maken met behulp van de meegeleverde sjablonen voor Verwerking.
 
-## Importez votre registre actuel
+## Uw huidige register importeren
 
-Avec Dastra, vous pouvez facilement télécharger votre registre de traitement existant au lieu d'avoir à le saisir manuellement, et ce quel que soit le format actuel - excel, texte ou csv.
+Met Dastra kunt u eenvoudig uw bestaande behandelingsregister uploaden in plaats van het handmatig in te voeren, in elk formaat - excel, tekst of csv.
 
 {% content-ref url="exporter-importer-le-registre.md" %}
-[exporter-importer-le-registre.md](exporter-importer-le-registre.md)
+[export-importer-le-registre.md](export-importer-le-registre.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-N'oubliez pas de publier vos activités de traitement de données si vous souhaitez qu'elles soient prises en compte dans le tableau de bord.
+Vergeet niet je gegevensverwerking te publiceren als je wilt dat er rekening mee wordt gehouden in het dashboard.
 {% endhint %}
 
-## Créer un nouveau registre de traitement à partir de zéro&#x20;
+## Maak een nieuw verwerkingsregister vanaf nul&#x20;
 
-Avec Dastra, un registre est automatiquement créé dès que l'espace de travail est défini. Si vous ne souhaitez pas télécharger un registre existant, vous pouvez commencer à le remplir immédiatement celui créé par défaut en créant votre première activité de traitement. Si vous voulez savoir comment, cliquez sur le lien suivant:
+Met Dastra wordt automatisch een register aangemaakt zodra de werkruimte is gedefinieerd. Als u geen bestaand register wilt downloaden, kunt u beginnen met het invullen van het register dat standaard wordt aangemaakt wanneer u uw eerste Verwerkingsactiviteit aanmaakt. Klik op de volgende link als je wilt weten hoe:
 
-{% content-ref url="gerer-votre-traitement.md" %}
-[gerer-votre-traitement.md](gerer-votre-traitement.md)
+{% content-ref url="manage-je-behandeling.md" %}
+[manage-your-processing.md](manage-your-processing.md)
 {% endcontent-ref %}
-

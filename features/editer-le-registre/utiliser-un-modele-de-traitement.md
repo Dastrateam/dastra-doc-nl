@@ -1,46 +1,46 @@
-# Utiliser un modèle de traitement
+# Gebruik een sjabloon voor Verwerking
 
-Dastra vous permet de créer votre registre des activités de traitement à partir de modèles conçus par nos experts.&#x20;
+Met Dastra kunt u uw register van de verwerkingsactiviteiten maken met behulp van sjablonen die door onze experts zijn ontworpen;
 
-Les modèles de traitement permettent de gagner du temps dans la saisie de traitements courants.&#x20;
+Verwerkingssjablonen helpen u tijd te besparen bij het invoeren van veelvoorkomende behandelingen &#x20;
 
 
 
-## Créer un traitement à partir d'un modèle
+## Verwerking van een sjabloon maken
 
-Aller sur "créer un traitement de données"&#x20;
+Ga naar "Gegevensverwerking aanmaken"&#x20;
 
 <figure><img src="../../.gitbook/assets/image (12) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-et sélectionner "modèle prédéfini"
+en selecteer "voorgedefinieerd sjabloon
 
 
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
-Ensuite vous pourrez chercher des modèles de traitement à partir de la barre de recherche.
+Dan kun je naar verwerkingssjablonen zoeken met de zoekbalk.
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-Les **tags** vous permettront de filtrer les modèles selon les secteurs d'activité.&#x20;
+Met de **tags** kun je modellen filteren op activiteitensector &#x20;
 
-La **langue** vous permet de visualiser les modèles de traitements dans les autres langues.&#x20;
+Met de **taal** kunt u behandelingsmodellen in andere talen bekijken &#x20;
 
-Pour **visualiser le contenu du modèle** avant son import, vous pouvez cliquer sur l'oeil situé en haut à droite du modèle.
+Om de inhoud van het sjabloon** te bekijken voordat u het importeert, kunt u op het oog rechtsboven in het sjabloon klikken.
 
 <figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Suggérer un modèle de traitement
+## Verwerkingsmodel voorstellen
 
-Si vous ne trouvez pas un modèle, vous pouvez nous en suggérer la création.&#x20;
+Als je geen sjabloon kunt vinden, kun je er een aan ons voorstellen.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Créer des modèles de traitement en masse
+## Sjablonen voor massaverwerking maken
 
-Vous pouvez sélectionner plusieurs modèles de traitement et les importer en une seule fois en passant par la bibliothèque.
+Je kunt meerdere behandelingssjablonen selecteren en ze allemaal in één keer importeren via de bibliotheek.
 
-Rendez vous dans les options du bouton "Créer un traitement de données" puis "Créer à partir de la bibliothèque"
+Ga naar de opties voor de knop "Gegevensverwerking maken" en vervolgens naar "Maken vanuit bibliotheek".
 
 <figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
@@ -48,13 +48,13 @@ Rendez vous dans les options du bouton "Créer un traitement de données" puis "
 
 
 
-Sélectionnez un ou plusieurs modèles, choisissez une unité organisationnelle et cliquez sur "ajouter"
+Selecteer een of meer sjablonen, kies een organisatorische eenheid en klik op "toevoegen".
 
 <figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Le bouton "**Détails**" permet de prévisualiser le modèle.&#x20;
+Gebruik de knop "**Details**" om een voorbeeld van de sjabloon te bekijken &#x20;
 
-Ensuite vos modèles seront importés en tâche de fonds
+Uw sjablonen worden dan op de achtergrond geïmporteerd
 
 
 
