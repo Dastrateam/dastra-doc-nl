@@ -1,30 +1,29 @@
 ---
 description: >-
-  Dans cette section, identifiez l’activité de traitement que vous souhaitez
-  inscrire dans le registre.
+  Identificeer in dit gedeelte de Verwerking die u wilt registreren.
 ---
 
-# Général
+# General
 
 
 
 {% embed url="https://www.youtube.com/watch?v=eQWf47xYWgc&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=3" %}
 
-[**L’article 30 du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4) impose à chaque responsable du traitement de tenir un registre des activités de traitement dont il porte la responsabilité. Il constitue le premier élément d’ « accountability » permettant de démontrer le respect du RGPD. Le registre des activités de traitement permet de recenser vos traitements de données et de disposer d’une vue d’ensemble de ce que vous faites avec les données personnelles.
+[**Artikel 30 van de AVG**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4) vereist dat elke verwerkingsverantwoordelijke een register bijhoudt van de verwerkingsactiviteiten waarvoor hij verantwoordelijk is. Dit is het eerste element van verantwoording om naleving van de AVG aan te tonen. Het register van de verwerkingsactiviteiten maakt het mogelijk om uw gegevensverwerking te inventariseren en een overzicht te hebben van wat u met persoonsgegevens doet.
 
-L’activité de traitement constitue l’activité « parapluie  » qui englobe l’ensemble des finalités poursuivies dans le cadre de l’activité.&#x20;
+De verwerkingsactiviteit is de "overkoepelende" activiteit die alle doeleinden omvat die worden nagestreefd als onderdeel van de activiteit &#x20;
 
-Par exemple, l’activité « recrutement » pourra avoir deux finalités distinctes : l’analyse des candidatures et la gestion des entretiens ainsi que la constitution d’une CV-thèque.&#x20;
+De activiteit "aanwerving" kan bijvoorbeeld twee verschillende doeleinden hebben: de analyse van sollicitaties en het beheer van sollicitatiegesprekken, evenals het samenstellen van een cv-bibliotheek &#x20;
 
-Les termes « activités de traitement » et « traitements », souvent confondus, peuvent être entendus de manière similaire.&#x20;
+De termen "verwerkingsactiviteiten" en "verwerkingsactiviteiten", die vaak worden verward, kunnen op soortgelijke wijze worden opgevat.&#x20;
 
-Un traitement est défini l’article 4 du RGPD par « _toute opération ou tout ensemble d'opérations effectuées ou non à l'aide de procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel_ ».&#x20;
+Artikel 4 van de AVG definieert Verwerking als "elke bewerking of elk geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van gegevens, al dan niet uitgevoerd met behulp van geautomatiseerde procedés";
 
-Par exemple, il s’agit d’une base de données, d’un tableau Excel, d’une installation de vidéosurveillance, d’un système de paiement par carte bancaire ou reconnaissance biométrique, d’une application pour smartphone etc.&#x20;
+Bijvoorbeeld een database, een Excel spreadsheet, een videobewakingssysteem, een betalingssysteem met een bankpas of biometrische herkenning, een smartphone applicatie, etc.&#x20;
 
-Un traitement de données à caractère personnel peut être informatisé ou non.
+De gegevensverwerking kan al dan niet geautomatiseerd zijn.
 
-[**En savoir plus**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement)
+[Meer informatie**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement)
 
 
 

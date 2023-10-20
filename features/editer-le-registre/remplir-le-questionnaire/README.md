@@ -1,142 +1,142 @@
 ---
 description: >-
-  Apprenez à remplir 100% des informations relatives à un traitement de données
-  dans votre registre.
+  Leer hoe u 100% van de informatie met betrekking tot gegevensverwerking kunt invullen
+  in uw register.
 ---
 
-# Compléter un traitement
+# Verwerking voltooien
 
-## Un processus de création de traitement qui vous guide pas à pas
+## Verwerking aanmaken die u stap voor stap begeleidt
 
-L'application Dastra vous accompagne à chaque étape du processus de création d'un traitement, tout en restant autonome. Bénéficiez de conseils et devenez conforme aux exigences du RGPD.
+De Dastra-toepassing begeleidt u door elke fase van het creatieproces van de gegevensverwerking, terwijl u autonoom blijft. Profiteer van advies en voldoe aan de vereisten van de AVG.
 
 
 
-## Qu'est-ce que le questionnaire Dastra ?&#x20;
+## Wat is de Dastra-vragenlijst &#x20;
 
-Le questionnaire Dastra est là pour vous aider à fournir toutes les informations nécessaires à une activité de traitement de données donnée de la manière la plus fluide et la plus rapide possible. Il consiste en 12 étapes à suivre pour remplir l'intégralité des informations relatives à un traitement de données.
+De Dastra-vragenlijst is ontworpen om u te helpen alle benodigde informatie voor een bepaalde gegevensverwerking zo soepel en snel mogelijk te verstrekken. De vragenlijst bestaat uit 12 stappen die u moet volgen om alle informatie met betrekking tot een gegevensverwerking in te vullen.
 
-Les 12 étapes sont:&#x20;
+De 12 stappen zijn:&#x20;
 
-* **Général** - Cette section vous permet de saisir des informations générales sur le traitement de données à caractère personnel, telles que son nom et sa description.&#x20;
+* Algemeen** - Hier kunt u algemene informatie over de gegevensverwerking invoeren, zoals de naam en de beschrijving &#x20;
 
 {% content-ref url="generalites.md" %}
 [generalites.md](generalites.md)
 {% endcontent-ref %}
 
-* **Parties prenantes** - Cette section vous permet de répertorier les parties prenantes en charge du traitement des données ou les acteurs autres que le responsable du traitement et le DPO.
+* Belanghebbenden** - In dit gedeelte kunt u de belanghebbenden vermelden die verantwoordelijk zijn voor de gegevensverwerking of andere actoren dan de Verwerkingsverantwoordelijke en de functionaris voor gegevensbescherming.
 
-{% content-ref url="acteurs.md" %}
-[acteurs.md](acteurs.md)
+{% content-ref url="actors.md" %}
+[actors.md](actoren.md)
 {% endcontent-ref %}
 
-* **Données et conservation** - répertorie les différentes catégories de données traitées lors de ce traitement ainsi que les règles de conservation associées.
+* Gegevens en opslag** - geeft een lijst van de verschillende categorieën gegevensverwerking die tijdens deze verrichting worden verwerkt en de bijbehorende opslagregels.
 
-{% content-ref url="categorie-de-donnees.md" %}
-[categorie-de-donnees.md](categorie-de-donnees.md)
+{% content-ref url="data-category.md" %}
+[gegevens-categorie.md](gegevens-categorie.md)
 {% endcontent-ref %}
 
-* **Finalité** - description des finalités du traitement de données à caractère personnel&#x20;
+* **Doel** - beschrijving van de doeleinden van de gegevensverwerking&#x20;
 
-{% content-ref url="finalites.md" %}
+{% content-ref url="purposes.md" %}
 [finalites.md](finalites.md)
 {% endcontent-ref %}
 
-* **Actifs** - Cette section vous permet de répertorier tout ce qui peut être lié avec votre traitements : des applications, des personnes, des objets etc.&#x20;
+* Activa** - In deze sectie kunt u een lijst maken van alles wat aan uw Verwerkingen kan worden gekoppeld: toepassingen, mensen, voorwerpen enz.&#x20;
 
 {% content-ref url="applications.md" %}
-[applications.md](applications.md)
+[toepassingen.md](toepassingen.md)
 {% endcontent-ref %}
 
-* **Personnes concernées** - contient la liste des personnes concernées par le traitement des données à caractère personnel.&#x20;
+* Data subjects** - bevat de lijst van betrokkenen die betrokken zijn bij de verwerking van persoonsgegevens.&#x20;
 
-{% content-ref url="personnes-concernees.md" %}
-[personnes-concernees.md](personnes-concernees.md)
+{% content-ref url="betrokkenen.md" %}
+[betrokkenen.md](betrokkenen.md)
 {% endcontent-ref %}
 
-* **Droits des personnes -** Détaillez les modalités à la disposition des personnes concernées pour exercer chacun de leurs droits.&#x20;
+* Rechten van betrokkenen -** Beschrijf de procedures die betrokkenen ter beschikking staan om elk van hun rechten te doen gelden &#x20;
 
-{% content-ref url="droits-des-personnes.md" %}
-[droits-des-personnes.md](droits-des-personnes.md)
+{% content-ref url="rechten van betrokkenen.md" %}
+[rechten van betrokkenen.md](people-rights.md)
 {% endcontent-ref %}
 
-* **Destinataires** - Cette section répertorie les destinataires des données de traitement. C'est à cette étape que vous pouvez déclarer un transfert de données hors UE.&#x20;
+* Ontvangers** - In dit gedeelte staan de ontvangers van de gegevensverwerking. In dit stadium kunt u een doorgifte van gegevens buiten de EU aangeven &#x20;
 
-{% content-ref url="destinataires/" %}
-[destinataires](destinataires/)
+{% content-ref url="ontvangers/" %}
+[ontvangers](ontvangers/)
 {% endcontent-ref %}
 
-{% content-ref url="destinataires/transferts-de-donnees-hors-ue.md" %}
-[transferts-de-donnees-hors-ue.md](destinataires/transferts-de-donnees-hors-ue.md)
+{% content-ref url="recipients/data-transfers-outside-the-eu.md" %}
+{% endcontent-ref %} {% content-ref url="recipients/transfers-of-data-out-of-ue.md" %} [transfers-of-data-out-of-ue.md](recipients/transfers-of-data-out-of-ue.md)
 {% endcontent-ref %}
 
-* **Mesures de sécurité** - décrit les mesures de sécurité organisationnelles et techniques prévues pour préserver la confidentialité des données.&#x20;
+* Beveiligingsmaatregelen** - beschrijft de organisatorische en technische beveiligingsmaatregelen om de vertrouwelijkheid van de gegevens te beschermen &#x20;
 
-{% content-ref url="mesures-de-securite.md" %}
-[mesures-de-securite.md](mesures-de-securite.md)
+{% content-ref url="security-measures.md" %}
+[measures-of-security.md](measures-of-security.md)
 {% endcontent-ref %}
 
-* **Analyse d'impact** - décrit l'impact de ce traitement&#x20;
+* **Effectbeoordeling** - beschrijft het effect van deze Verwerking&#x20;
 
 {% content-ref url="analyse-dimpact.md" %}
-[analyse-dimpact.md](analyse-dimpact.md)
+[impact-analyse.md](impact-analyse.md)
 {% endcontent-ref %}
 
-* **Documentation** - Dans cet espace, vous pouvez télécharger tout document supplémentaire pour votre activité de traitement de données (par exemple, Code de déontologie, politique de confidentialité, etc.)
+* **Documentatie** - In dit gebied kunt u aanvullende documenten downloaden voor uw gegevensverwerking (bijv. ethische code, privacybeleid, enz.).
 
 {% content-ref url="documents.md" %}
-[documents.md](documents.md)
+[documents.md](documenten.md)
 {% endcontent-ref %}
 
-* **Récapitulatif -** synthèse de ce qui précède.&#x20;
+* **Samenvatting -** samenvatting van het bovenstaande.&#x20;
 
-Une fois que vous avez saisi les informations dont vous disposez, vous pouvez commencer à faire le point sur ce qui vous reste à faire.
+Zodra je de informatie die je hebt hebt ingevoerd, kun je gaan inventariseren wat er nog gedaan moet worden.
 
-{% content-ref url="../../planifier/" %}
-[planifier](../../planifier/)
+{% content-ref url="../../plan/" %}
+[plan](../../plan/)
 {% endcontent-ref %}
 
 
 
-## Les indices sur les fiches de traitement
+## Aanwijzingen voor Verwerking
 
-Le questionnaire n'est pas le seul élément de guide compris dans l'établissement des fiches de traitement.\
-Effectivement, vous retrouverez des indices vous permettant d'évaluer notamment l'avancée et la qualité de votre fiche.&#x20;
+De vragenlijst is niet het enige richtinggevende element Begrepen bij het opstellen van formulieren voor Verwerking.
+In feite vind je indexen om je te helpen de voortgang en kwaliteit van je formulier te beoordelen &#x20;
 
-Ces indices sont au nombre de 3 :&#x20;
+Er zijn 3 indexen:&#x20;
 
-* L'indice de progression
-* L'indice de qualité
-* L'indice de sensibilité
+* Voortgangsindex
+* Kwaliteitsindex
+* Gevoeligheidsindex
 
-#### L'indice de progression
+#### De voortgangsindex
 
-Il s'agit d'un pourcentage de progrès calculé à partir d'une série de contrôles de vos traitements qui vérifient que tous vos traitements contiennent tous les éléments strictement nécessaires (finalité, label, personnes concernées, destinataires, données...).
+Dit is een voortgangspercentage dat wordt berekend op basis van een reeks controles van uw Verwerkingen om ervoor te zorgen dat deze alle elementen bevatten die strikt noodzakelijk zijn (doel, label, betrokkenen, ontvangers, gegevens, enzovoort).
 
-Cet indice fait référence aux informations à nécessairement renseigner au sens de l'article 30 du RGPD
+Deze index verwijst naar de informatie die moet worden verstrekt in overeenstemming met artikel 30 van de AVG.
 
-#### L'indice de qualité
+#### De kwaliteitsindex
 
-Ce pourcentage de qualité est calculé à partir d'une série de contrôles de vos traitements qui vérifient la qualité des éléments que vous avez saisis dans le formulaire.
+Dit kwaliteitspercentage wordt berekend op basis van een reeks controles van uw Verwerkingen waarbij de kwaliteit van de elementen die u in het formulier hebt ingevoerd, wordt gecontroleerd.
 
-Il s'agit notamment de renseigner la présence d'actifs, de détailler la mise en oeuvre des droits des personnes concernées ou encore de remplir l'étape relative à la vérification des critères conditionnant la réalisation d'une analyse d'impact sur le traitement...&#x20;
+Het gaat hierbij met name om het verstrekken van informatie over de aanwezigheid van activa, het gedetailleerd uiteenzetten van de implementatie van de rechten van betrokkenen of het voltooien van de stap met betrekking tot de verificatie van de criteria voor het uitvoeren van een effectbeoordeling op de Verwerking...&#x20;
 
-Ce faisant, vous augmentez la qualité des éléments renseignés dans votre fiche de traitement.
+Door dit te doen, verbetert u de kwaliteit van de informatie in uw formulier voor gegevensverwerking.
 
-Ces critères non visés directement par l'article 30 du RGPD vont vous permettre d'anticiper d'autres éventualités comme par exemple :&#x20;
+Deze criteria, die niet direct onder artikel 30 van de RGPD vallen, stellen u in staat om te anticiperen op andere eventualiteiten, zoals:&#x20;
 
-* le respect de l'obligation de réalisation d'une AIPD sur un traitement qui en nécessite une&#x20;
-* ou encore le fait d'identifier l'utilisation d'un logiciel comme support de votre activité de traitement vous renseignera sur l'éditeur de celui-ci, ce faisant, vous identifiez le sous-traitant et les éventuels transferts...
+* het voldoen aan de verplichting om een DPIA uit te voeren voor Verwerkingen waarvoor er een vereist is&#x20;
+* of het identificeren van het gebruik van software ter ondersteuning van uw Verwerkingsactiviteit geeft u informatie over de uitgever van de software, de identificatie van de subcontractant en eventuele overdrachten...
 
-#### L'indice de sensibilité
+#### De gevoeligheidsindex
 
-Cet indicateur vous permet d'évaluer rapidement le **niveau de sensibilité du traitement**.
+Met deze indicator kunt u snel het gevoeligheidsniveau van uw Verwerking beoordelen.
 
-Il est calculé automatiquement en fonction du nombre de **critères suivants** :
+Hij wordt automatisch berekend op basis van de volgende **criteria** :
 
-* présence de données sensibles,
-* présence de mineurs et/ou personnes vulnérables dans les personnes concernées,
-* volume important de personnes concernées,
-* présence d'un sous-traitant,
-* présence d'un transfert vers un pays non-adéquat,
-* nécessité de réaliser un PIA.
+* aanwezigheid van gevoelige gegevens
+* aanwezigheid van minderjarigen en/of kwetsbare personen onder de betrokkenen,
+* groot aantal betrokkenen
+* de aanwezigheid van een onderaannemer
+* doorgifte naar een ongeschikt land,
+* de noodzaak van een AIP.

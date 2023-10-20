@@ -1,144 +1,143 @@
 ---
 description: >-
-  Apprenez à renseigner les catégories de données ainsi que les règles de
-  conservation associées spécifiques à un traitement.
+  Leer hoe u de gegevenscategorieën en de bijbehorende opslagregels kunt invoeren die specifiek zijn voor een Verwerking.
 ---
 
-# Données et conservation
+# Gegevens en bewaring
 
 {% embed url="https://www.youtube.com/watch?v=BJSynYF0aDw&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=6" %}
 
-[**L’article 30 du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4) exige également l’inscription des catégories de données traitées.
+[**Artikel 30 van de AVG**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) vereist ook dat de categorieën van gegevensverwerking worden ingevoerd.
 
-Il s’agit ici de définir les catégories de données traitées. Celles-ci peuvent être dites courantes ou sensibles. On distingue en effet les données qui présentent un risque plus important sur les personnes physiques tel que les données relatives à la santé des personnes, les données relatives aux opinions politiques ou à l’activité syndicale. Les données relatives à des infractions ou autres mesures d’exécution de peines constituent également des données particulièrement protégées.&#x20;
+Hiervoor moeten de categorieën van gegevensverwerking worden gedefinieerd. Deze kunnen worden omschreven als routinematig of gevoelig. Er wordt onderscheid gemaakt tussen gegevens die een groter risico vormen voor personen, zoals gegevens met betrekking tot persoonlijke gezondheid, politieke opvattingen of vakbondsactiviteiten. Gegevens met betrekking tot overtredingen of andere maatregelen om een straf ten uitvoer te leggen zijn ook bijzonder beschermd&x20;
 
-De même, le numéro d’inscription au répertoire (NIR) ou numéro de sécurité sociale peut être assimilé à une donnée sensible.&#x20;
+Ook het registratienummer (NIR) of socialezekerheidsnummer kan worden beschouwd als gevoelige gegevens.&#x20;
 
-La collecte de données sensibles est par principe interdite. Seules les exceptions prévues à l’[**article 9 du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2) permettent de les collecter.
+Het verzamelen van gevoelige gegevens is principieel verboden. Alleen de uitzonderingen in [**artikel 9 van de AVG**] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2) staan toe dat ze worden verzameld.
 
-## Jeux de données
+## Datasets
 
-Le jeu de données regroupe les données d'un élément précis, par exemple, une table dans une base de données ou un formulaire de collecte papier.
+De dataset groepeert de gegevens voor een specifiek element, bijvoorbeeld een tabel in een database of een papieren verzamelformulier.
 
-### Plusieurs cas d'usage des jeux de données
+### Verschillende toepassingen voor datasets
 
-Les jeux de données peuvent être utilisés selon plusieurs manières :
+Datasets kunnen op verschillende manieren gebruikt worden:
 
-* **Cas n°1** : en associant **un jeu de données à un actif unique**. Dans ce cas, le jeu de données correspond aux données de l'actif et n'est pas générique
-* **Cas n°2** : en associant **un jeu de données au traitement de données**. Ce jeu de données peut être spécifique au traitement de données et n'est pas réutilisé dans un autre traitement de données
-* **Cas n°3** : en associant des **jeux de données génériques au traitement de données**. Dans ce cas, le jeu de données peut être réutilisé dans plusieurs traitements de données.
+* Geval 1**: door **een dataset te koppelen aan één Activa**. In dit geval komt de dataset overeen met de Activa-gegevens en is niet generiek.
+* Geval 2**: door **een dataset te associëren met gegevensverwerking**. Deze dataset kan specifiek zijn voor de gegevensverwerking en wordt niet hergebruikt in een andere gegevensverwerking.
+* Geval 3**: door **generieke gegevensreeksen te koppelen aan de gegevensverwerking**. In dit geval kan de dataset in meerdere gegevensverwerkingen worden hergebruikt.
 
-Pour utiliser les jeux de données génériques, nous recommandons la procédure suivante :
+Om generieke datasets te gebruiken, raden we de volgende procedure aan:
 
-* Ouvrir la page du traitement concernant les jeux de données
-* Ouvrir un nouvel onglet sur la page des jeux de données dans la cartographie
-* Sélectionner le jeu de données dans le traitement de données
-* Si le jeu de données doit être modifié, il faut en créer un autre : se rendre sur l'autre onglet et dupliquer le jeu de données générique en enlevant ou en ajoutant les champs souhaités
-* Pour plus de clarté, il est recommandé d'utiliser un tag pour ces jeux de données (cela vous permettra de les distinguer facilement dans le sélecteur de jeux de données). Par exemple : un tag "générique" et un tag concernant la donnée ajoutée ou enlevée
+* Open de verwerkingspagina voor de datasets.
+* Open een nieuw tabblad op de datasetpagina in de kaart.
+* Selecteer de dataset in het venster voor gegevensverwerking.
+* Als de dataset gewijzigd moet worden, maak dan een nieuwe aan: ga naar het andere tabblad en dupliceer de generieke dataset door de vereiste velden te verwijderen of toe te voegen.
+* Voor meer duidelijkheid raden we je aan om een tag te gebruiken voor deze datasets (zo kun je ze gemakkelijk onderscheiden in de dataset selector). Bijvoorbeeld: een "generieke" tag en een tag voor de toegevoegde of verwijderde gegevens.
 
-#### Utiliser des jeux de données sans champs
+#### Datasets zonder velden gebruiken
 
-Par ailleurs, il est possible de rester encore plus générique en ne précisant pas les données associées au jeu de données mais en nommant le jeu de données en tant que catégorie de données (ce qui est également valable au sens du RGPD par exemple).
+Het is ook mogelijk om nog generieker te blijven door niet de gegevens te specificeren die bij de dataset horen, maar door de dataset een gegevenscategorie te noemen (wat bijvoorbeeld ook geldig is in de zin van de AVG).
 
-Selon les traitements, vous pouvez avoir des approches différentes, en fonction de la sensibilité qu'ils présentent au regard des droits et libertés des personnes concernées.
+Afhankelijk van het type Verwerking kun je verschillende benaderingen kiezen, afhankelijk van hoe gevoelig ze zijn in termen van de rechten en vrijheden van betrokkenen.
 
-### Associer la source des données dans le jeu de données
+### Koppel de bron van de gegevens aan de dataset
 
-Dans chaque jeu de données, vous pouvez inscrire l'origine des données. Celle est soit directe, soit indirecte, soit les deux.&#x20;
+In elke dataset kunt u de oorsprong van de gegevens aangeven. Dit kan direct, indirect of beide zijn &#x20;
 
-Un champ vous permettant de décrire l'origine de la collecte permet d'apporter la précision nécessaire.
+Met een veld waarin u de oorsprong van de verzameling kunt beschrijven, kunt u de nodige nauwkeurigheid bieden.
 
-<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Source des données</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Bron van gegevens</p></figcaption></figure>
 
-### Associer un actif au jeu de données
+### Activa koppelen aan de dataset
 
-Les jeux de données ont une vocation naturelle à être ajoutés à des [actifs](applications.md).&#x20;
+Datasets hebben een natuurlijke roeping om te worden toegevoegd aan [Activa](applications.md).&#x20;
 
-Vous pouvez associer un actif à votre jeu de données lors de sa création.&#x20;
+U kunt een Activa aan uw dataset koppelen wanneer deze wordt gemaakt.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Sélecteur d'actif</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Asset selector</p></figcaption></figure>
 
-Un jeu de données ne peut être associé qu'à un seul actif. En effet, en définissant les jeux de données d'un actif, ceux-ci sont uniques.&#x20;
+Een dataset kan maar aan één asset worden gekoppeld. Bij het definiëren van de datasets voor een Activa zijn ze namelijk uniek &#x20;
 
-Par exemple, en considérant un logiciel de comptabilité comme un actif, plusieurs jeux de données pourraient être associés à cet actif, tels que "données de facturation" comprenant les données relatives au module suivi des factures ou encore "données des clients" comprenant les données relatives aux comptes clients.
+Als u bijvoorbeeld boekhoudsoftware als een activum beschouwt, kunnen er verschillende datasets aan dit activum worden gekoppeld, zoals "factureringsgegevens", met gegevens over de module voor het bijhouden van facturen, of "klantgegevens", met gegevens over klantenrekeningen.
 
-### Associer une catégorie de personnes concernées
+### Een categorie van betrokkenen koppelen
 
-Pour chaque jeu de données, vous pouvez associer une ou plusieurs catégories de personnes concernées.&#x20;
+Voor elke gegevensset kunt u een of meer categorieën van gegevenssubjecten&#x20 koppelen;
 
-Cela vous permet de mieux comprendre quelles sont les données associées aux personnes concernées. De plus, cela simplifie le travail de cartographie.&#x20;
+Dit geeft u een beter inzicht in de gegevens die aan de betrokkenen zijn gekoppeld. Het vereenvoudigt ook het mappingproces.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Sélecteur de catégories de personnes concernées</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Data subject category selector</p></figcaption></figure>
 
 {% hint style="info" %}
-Indiquer les personnes concernées est utile dans la gestion des [demandes d'exercice des droits](../../gerer-les-exercices-des-droits/). En effet, vous pourrez retrouver facilement les données qui l'objet de la demande en identifiant rapidement les jeux de données concernés.
+Het aangeven van de betrokkenen is handig voor het beheren van [verzoeken tot uitoefening van rechten](../../gerer-les-exercices-des-droits/). U kunt de gegevens waarop het verzoek betrekking heeft gemakkelijk vinden door snel de betreffende gegevensreeksen te identificeren.
 {% endhint %}
 
-### Associer des champs de données
+### Gegevensvelden koppelen
 
-Chaque jeu de données a vocation à être complété par des champs de données. Ces champs sont les données en tant que tel.&#x20;
+Elke gegevensset moet worden aangevuld met gegevensvelden. Deze velden zijn de gegevens zelf &#x20;
 
-Les champs qui s'affichent dans le sélecteur sont les champs disponibles dans le glossaire de données.&#x20;
+De velden die in de selector worden weergegeven, zijn de velden die beschikbaar zijn in de gegevenswoordenlijst &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Sélecteur de champs de données</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Gegevensveld selector</p></figcaption></figure>
 
-Si une donnée n'est pas présente, vous pouvez la créer directement depuis ce sélecteur pour l'ajouter au jeu de données.&#x20;
+Als een gegeven nog niet aanwezig is, kun je het direct vanuit deze selector maken om het aan de dataset toe te voegen &#x20;
 
-Les champs peuvent être catégorisés selon des catégories prédéterminées. Il s'agit notamment des catégories préconisées par la CNIL.
+Velden kunnen worden gecategoriseerd volgens vooraf gedefinieerde categorieën. Dit zijn onder andere de categorieën die worden aanbevolen door de CNIL.
 
-<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Sélecteur de catégorie de données personnelles</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Selector categorie persoonsgegevens</p></figcaption></figure>
 
-C'est également au niveau du champ que vous pouvez indiquer la présence d'une donnée sensible. Par exemple, une donnée de santé ou un autre type de donnée sensible.&#x20;
+In dit veld kun je ook de aanwezigheid van gevoelige gegevens aangeven. Bijvoorbeeld gezondheidsgegevens of een ander type gevoelige gegevens&#x20;
 
-Dans ce cas, vous êtes invité à justifier de la collecte de cette donnée et en particulier du fondement juridique la permettant.
+In dit geval wordt u gevraagd om het verzamelen van deze gegevens te rechtvaardigen en in het bijzonder de rechtsgrondslag hiervoor.
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Donnée sensible</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Gevoelige gegevens</p></figcaption></figure>
 
 {% hint style="info" %}
-Cette information sera analysée par l'application pour déclencher un critère intelligent [d'AIPD](analyse-dimpact.md).&#x20;
+Deze informatie wordt door de toepassing geanalyseerd om een intelligent criterium te activeren [van AIPD](analyse-dimpact.md).&#x20;
 {% endhint %}
 
-### Associer une règle de conservation des données
+### Een gegevensbewaringsregel koppelen
 
-Dans chaque jeu de données, vous pouvez associer une règle de conservation des données.&#x20;
+In elke dataset kun je een dataretentieregel koppelen.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Durées de conservation</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Retentie tijden</p></figcaption></figure>
 
-Les durées de conservation sont considérées par défaut car elles peuvent être personnalisées au niveau du traitement (voir infra).
+Bewaartermijnen worden als standaard beschouwd omdat ze op het niveau van de Verwerking kunnen worden aangepast (zie hieronder).
 
-Vous pouvez ajouter une durée en base active, en archive intermédiaire ou une règle de purge.
+Je kunt een bewaarperiode toevoegen voor een actieve database, een tussentijds archief of een zuiveringsregel.
 
-La base active est la base courante du traitement. L'archivage intermédiaire est une forme de conservation plus restreinte. Le champ « purge » vous permet de décrire les conditions de suppression des données ou leur transmission pour archivage définitif.
+De actieve basis is de huidige verwerkingsbasis. Tussenarchivering is een beperktere vorm van opslag. Met het veld "purge" kun je de voorwaarden beschrijven voor het verwijderen van gegevens of het verzenden voor definitieve archivering.
 
-## Conservation des données
+## Gegevensbehoud
 
-La conservation limitée des données fait partie des principes généraux du droit des données à caractère personnel et est rappelée à l’[**article 5 1. e) du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2). Celui-ci prévoit en effet que « _conservées sous une forme permettant l'identification des personnes concernées pendant une durée n'excédant pas celle nécessaire au regard des finalités pour lesquelles elles sont traitées_ ».
+Beperkte gegevensbewaring is een van de algemene beginselen van de wet op persoonsgegevens en is vastgelegd in [**artikel 5 1. e) van de AVG**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2). Hierin staat dat "gegevens in een vorm die het mogelijk maakt de betrokkenen te identificeren, niet langer mogen worden bewaard dan noodzakelijk is voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt".
 
-Concrètement, cela signifie que lors de la mise en œuvre d’un traitement de données, il faut penser à son devenir lorsque la finalité aura été accomplie. La donnée devra être soit détruite de manière définitive, soit anonymisée, soit traitée pour une nouvelle finalité compatible.&#x20;
+Praktisch gezien betekent dit dat wanneer gegevensverwerking plaatsvindt, we moeten nadenken over wat er met de gegevens gebeurt nadat het doel is bereikt. De gegevens moeten ofwel permanent worden vernietigd, anoniem worden gemaakt of worden verwerkt voor een nieuw, compatibel doel&#x20;
 
-La durée de conservation dépend de la finalité du traitement et de la nature des données. Les durées de conservation peuvent être définies en fonction des types de données. Par exemple, pour la gestion de la paie, les données relatives au bulletin de salaire sont conservées 1 mois en base active et 5 ans en archivage intermédiaire tandis que les données relatives à l’ordre de virement pour paiement sont conservées le temps nécessaire à l’émission du bulletin de paie en base active et 10 ans à compter de la clôture en archive intermédiaire.&#x20;
+De bewaartermijn hangt af van het doel van de gegevensverwerking en de aard van de gegevens. Bewaartermijnen kunnen worden gedefinieerd op basis van het type gegevens. Voor salarisadministratie worden gegevens met betrekking tot de loonstrook bijvoorbeeld 1 maand bewaard in de actieve database en 5 jaar in het tussenliggende archief, terwijl gegevens met betrekking tot de betalingsopdracht worden bewaard gedurende de tijd die nodig is om de loonstrook uit te geven in de actieve database en 10 jaar na sluiting in het tussenliggende archief&#x20;
 
-La durée peut être exprimée en valeur ou, si ce n’est pas possible, les critères utilisés pour définir la période de conservation (jusqu’à la désinscription par exemple). Il est recommandé, en particulier par la CNIL dans sa [**recommandation du 11 octobre 2005 sur l’archivage électronique dans le secteur privé**](https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000017651957), de mettre en place des procédures permettant de gérer les durées de conservation au niveau de la catégorie de données et en particulier, de gérer les purges ou destructions de données.
+De bewaartermijn kan worden uitgedrukt in een waarde of, indien dit niet mogelijk is, in de criteria die worden gebruikt om de bewaartermijn te definiëren (bijvoorbeeld tot uitschrijving). Het wordt aanbevolen, met name door de CNIL in haar [**aanbeveling van 11 oktober 2005 over elektronische archivering in de privésector**](https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000017651957), om procedures in te stellen voor het beheer van bewaartermijnen op het niveau van gegevenscategorieën en, in het bijzonder, voor het beheer van het wissen of vernietigen van gegevens.
 
-#### Personnaliser les règles de conservation d'un jeu de données
+#### Bewaarregels aanpassen voor een dataset
 
-Les champs de données d'un jeu de données générique ne peuvent pas varier d'un traitement à l'autre. Cependant, la durée de conservation peut être différente. En effet, il est possible de personnaliser la durée de conservation d'un jeu de données en fonction du traitement. Ainsi, la durée de conservation du jeu de données ne sera plus prise en compte.&#x20;
+De gegevensvelden in een generieke dataset kunnen niet per Verwerking verschillen. De bewaarperiode kan echter wel verschillen. Het is zelfs mogelijk om de bewaartermijn voor een dataset aan te passen aan de Verwerking. Op deze manier wordt er geen rekening meer gehouden met de bewaarperiode van de gegevensset &#x20;
 
-Pour cela, il est nécessaire d'ajouter le jeu de données au traitement. Sur la liste des jeux de données, il faut cliquer sur les boutons "base active/...".
+Om dit te doen, moet je de dataset toevoegen aan de Verwerking. In de lijst met datasets moet je klikken op de knoppen "actieve basis/...".
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>Bouton "base active"</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>"Base activa"</p></figcaption></figure> knop.
 
-Vous pourrez voir apparaitre la fenêtre de personnalisation.&#x20;
+Je ziet nu het aanpassingsvenster verschijnen.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Fenêtre de personnalisation des durées de conservation</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (11).png" alt=""><figcaption><p>Duur aanpassen venster</p></figcaption></figure>
 
-Lorsque la durée de conservation est personnalisée au niveau du traitement, un petit logo de stylo apparait sur le bouton concerné :&#x20;
+Wanneer de bewaartermijn op het niveau van de Verwerking wordt aangepast, verschijnt er een klein pennetjeslogo op de betreffende knop:&#x20;
 
-L'objectif à terme peut être de limiter l'utilisation de jeux de données génériques et de s'orienter vers une cartographie plus précise soit via les traitements de données (cas n°2) soit via les actifs (cas n°1).
+Het uiteindelijke doel kan zijn om het gebruik van generieke gegevensreeksen te beperken en over te gaan op nauwkeuriger kartering via gegevensverwerking (geval 2) of via Activa (geval 1).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Durée personnalisée au niveau du traitement</p></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Aangepaste duur op Verwerking</p></figcaption></figure>
 
 
 

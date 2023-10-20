@@ -1,5 +1,5 @@
-# Personnes concernées
+# Betrokken mensen
 
 {% embed url="https://www.youtube.com/watch?v=m5ptGBND4gg&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=8" %}
 
-[**L’article 30 du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4) demande d’inscrire dans le registre une description des catégories de personnes concernées par le traitement. L’identification des types de personnes concernées vous permettra d’analyser la sensibilité du traitement et de mieux pouvoir évaluer le risque pour les personnes concernées. Ainsi, un traitement n’aura pas la même sensibilité s’il concerne des enfants mineurs au sein d’un hôpital qu’un fichier de clients dans un commerce.
+[Artikel 30 van de AVG**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) verplicht u om in het register een beschrijving op te nemen van de categorieën betrokkenen waarop de Verwerking betrekking heeft. Door de soorten betrokkenen te identificeren, kunt u de gevoeligheid van de Verwerking analyseren en het risico voor de betrokkenen beter beoordelen. De Verwerking van gegevens van minderjarigen in een ziekenhuis zal bijvoorbeeld niet zo gevoelig zijn als de Verwerking van gegevens van klanten in een detailhandel.

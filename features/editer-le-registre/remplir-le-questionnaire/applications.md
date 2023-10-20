@@ -1,22 +1,22 @@
 ---
 description: >-
-  Cette section permet de lister les actifs, internes ou externes à
-  l'organisation (applications, ressources, bâtiments…), qui supportent
-  l'exécution du traitement de données concerné.
+  In dit gedeelte staan de Activa, intern of extern aan de organisatie
+  de organisatie (applicaties, middelen, gebouwen, etc.), die ondersteuning bieden
+  de uitvoering van de betreffende gegevensverwerking.
 ---
 
-# Actifs
+# Activa
 
 {% embed url="https://www.youtube.com/watch?v=T8ipK2jsVAw&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=7" %}
 
-Il s'agit ici de renseigner les applications, logiciels ou autre qui servent de **supports aux données personnelles**.
+Hier vult u de applicaties, software of andere in die dienen als **ondersteuning voor persoonsgegevens**.
 
-_Par exemple, si vous utilisez un logiciel de relation client type CRM, ajoutez le dans cette liste._
+Als u bijvoorbeeld CRM-software gebruikt, voeg deze dan toe aan deze lijst.
 
-Cette information, **non obligatoire pour la tenue du registre**, vous permet de **cartographier la chaîne applicative liant les données entre elles**.
+Met deze informatie, **niet verplicht voor het bijhouden van het register**, kunt u **de toepassingsketen in kaart brengen die de gegevens met elkaar verbindt**.
 
-**L'objectif est de vous permettre de maitriser les supports des données et de lier vos actifs à votre catalogue de données.**
+**Het doel is om u in staat te stellen gegevensdragers te beheren en uw Activa te koppelen aan uw gegevenscatalogus**.
 
-Vous pouvez ainsi rapidement et simplement **préciser les types de données traitées à travers cette activité de traitement**.
+Op deze manier kunt u snel en eenvoudig **de soorten gegevensverwerking definiëren via deze verwerkingsactiviteit**.
 
-NB : Les actifs ne sont pas nécessairement liées à des sous-traitants. En effet, il peut s’agir par exemple d’un **logiciel installé sur le serveur sans intervention de l’éditeur dans le traitement des données personnelles**.
+NB: Activa zijn niet noodzakelijk gekoppeld aan onderaannemers. Het kan bijvoorbeeld gaan om **software die op de server is geïnstalleerd zonder dat de uitgever betrokken is bij de gegevensverwerking**.

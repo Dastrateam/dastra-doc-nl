@@ -1,27 +1,27 @@
 ---
-description: Définissez les acteurs intervenant dans le traitement de données.
+description: De spelers definiëren die betrokken zijn bij gegevensverwerking.
 ---
 
-# Parties prenantes
+# Stakeholders
 
-## Identifiez les responsables sur le traitement&#x20;
+# Identificeer degenen die Verwerkingsverantwoordelijk zijn voor de gegevensverwerking&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=6bzMMS5oxxM&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=4" %}
 
-Vous pouvez indiquer les acteurs concernés par la mise en œuvre du traitement. Cela peut par exemple être un service ou un département d’une entreprise (comme le service des ressources humaines par exemple) mais également une personne dédiée s’il s’agit d’un projet (chef de projet par exemple). \
+Je kunt aangeven welke partijen betrokken zijn bij de uitvoering van de Verwerking. Dit kan bijvoorbeeld een bedrijfsafdeling zijn (zoals de personeelsafdeling) of een specifiek persoon in het geval van een project (projectmanager, bijvoorbeeld). \
 
 
-Vous indiquez également l’identité du représentant du responsable du traitement, le cas échéant, du ou des responsables conjoints du traitement.&#x20;
+Vermeld ook de identiteit van de vertegenwoordiger van de Verwerkingsverantwoordelijke en, indien van toepassing, van de gezamenlijke Verwerkingsverantwoordelijke(n) &#x20;
 
 
 
-## Ajouter un responsable conjoint (coresponsable de traitement)
+## Een gezamenlijke verwerkingsverantwoordelijke (Verwerker) toevoegen
 
-Pour ajouter un responsable conjoint, il faut ajouter une nouvelle partie prenante et sélectionner "Responsable conjoint".&#x20;
+Om een gezamenlijke verwerkingsverantwoordelijke toe te voegen, moet u een nieuwe stakeholder toevoegen en "Gezamenlijke verwerkingsverantwoordelijke" selecteren &#x20;
 
-Vous serez invité à ajouter un acteur en tant que responsable conjoint.&#x20;
+U wordt gevraagd om een Actor toe te voegen als gezamenlijke controller.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

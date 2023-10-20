@@ -1,20 +1,20 @@
-# Documents
+# Documenten
 
 {% embed url="https://www.youtube.com/watch?v=pAg5LlfWC5s&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=12" %}
 
-L’exigence de documentation découle du principe de responsabilité (accountability) rappelé à l’[**article 24 du RGPD**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4).&#x20;
+Het documentatievereiste vloeit voort uit het verantwoordingsbeginsel dat is vastgelegd in [**artikel 24 van de GDPR**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). &#x20;
 
-Cette documentation se traduit en pratique en premier lieu par le registre des activités de traitement mais également à travers d’autres éléments de gestion des données et de la conformité au RGPD. Il peut s’agir des éléments suivants (liste non exhaustive) :&#x20;
+In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de GDPR. Deze kunnen omvatten (maar zijn niet beperkt tot):&#x20;
 
-* procédures internes encadrant la création d’un nouveau traitement de données à caractère personnel (contrôle interne, évaluation des risques et de la proportionnalité, etc.)
-* procédure de réalisation des PIA
-* mise en place de politiques de protection des données écrites et contraignantes, à prendre en compte et à appliquer aux nouvelles opérations de traitement des données (par exemple, conformité aux critères de qualité des données, préavis, principes de sécurité, consultation, etc.), lesquelles devraient être mises à la disposition des personnes concernées&#x20;
-* mappage des procédures en vue de veiller au bon recensement de toutes les opérations de traitement des données et gestion d’un inventaire de celles-ci
-* mise en place de programmes de formation pour les personnes en charge de la gestion des traitements de données
-* mise en place de procédures de gestion des demandes d'accès, de rectification et d'effacement et des droits détenus par les personnes concernées sur les données
-* mise sur pied d’un mécanisme interne de gestion des plaintes
-* élaboration de procédures internes pour une gestion et une notification efficaces des violations de données&#x20;
-* réalisation d’évaluations d’impact sur la vie privée dans certaines circonstances
-* mise en œuvre et supervision de procédures de vérification afin de s’assurer que toutes les mesures n’existent pas seulement sur papier, mais qu’elles sont aussi mises en œuvre et fonctionnent dans la pratique (audits internes ou externes, etc.).
+* interne procedures voor het creëren van een nieuwe verwerking van persoonsgegevens (interne controle, risico- en evenredigheidsbeoordeling, enz.)
+* procedure voor het uitvoeren van PIA's
+* Opstellen van een schriftelijk en bindend gegevensbeschermingsbeleid waarmee rekening moet worden gehouden en dat moet worden toegepast op nieuwe gegevensverwerking (bijv. naleving van gegevenskwaliteitscriteria, voorafgaande kennisgeving, beveiligingsbeginselen, raadpleging, enz;)
+* het in kaart brengen van procedures om ervoor te zorgen dat alle gegevensverwerkingen naar behoren worden geïdentificeerd en dat er een inventaris van deze verwerkingen wordt bijgehouden
+* het opzetten van opleidingsprogramma's voor degenen die verantwoordelijk zijn voor het beheer van gegevensverwerking
+* het opzetten van procedures voor het beheer van verzoeken om toegang, rectificatie en verwijdering van gegevens en de rechten van betrokkenen ten aanzien van hun gegevens
+* het opzetten van een intern klachtenbehandelingsmechanisme
+* het ontwikkelen van interne procedures voor het effectief beheren en melden van datalekken&#x20;
+* het uitvoeren van privacyeffectbeoordelingen in bepaalde omstandigheden
+* implementatie van en toezicht op verificatieprocedures om ervoor te zorgen dat alle maatregelen niet alleen op papier bestaan, maar ook worden geïmplementeerd en in de praktijk werken (interne of externe audits, enz.).
 
-Vous pouvez également dans cet espace stocker tout document utile à la compréhension du traitement, les notes de formation ainsi que les contrats encadrant le traitement le cas échéant.\
+U kunt hier ook documenten opslaan die nuttig zijn voor het begrijpen van de Verwerking, trainingsnotities en eventuele contracten die betrekking hebben op de Verwerking.
