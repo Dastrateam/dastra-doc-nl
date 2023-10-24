@@ -28,14 +28,14 @@ En hier is het resultaat in het formulier:
 
 ## Betrokken functies
 
-{% hint style="succes" %}
+{% hint style="info" %}
 Let op! Niet alle functies worden beïnvloed door aangepaste velden
 {% endhint %}
 
-Je kunt de volgende formulieren aanpassen:&#x20;
+Je kunt de volgende formulieren aanpassen:
 
 * [Verwerking](../bewerken-register/)
-* [Uitoefenrechten](../gerer-les-exercices-des-droits/)
+* [Uitoefenrechten](broken-reference)
 * [Taken](../plan/gerer-vos-taches.md)
 * [Activa](../edit-register/fill-in-questionnaire/applications.md)
 * [Actoren](../cartografie/referenties.md)
@@ -46,7 +46,7 @@ Je kunt de volgende formulieren aanpassen:&#x20;
 * [Risicobeoordelingen](../risk-management/risks.md)
 
 {% hint style="danger" %}
-### Beperkingen op het aantal velden
+#### Beperkingen op het aantal velden
 
 Het aantal aangepaste velden is beperkt, afhankelijk van het abonnement dat u gebruikt. Raadpleeg de prijspagina van de applicatie (https://www.dastra.eu/fr/pricing) voor meer informatie over dit onderwerp.
 {% endhint %}
@@ -76,9 +76,9 @@ Je kunt :
 * Aangepaste velden kunnen worden weergegeven in alle weergavetabellen van de toepassing. Klik op de knop Instellingen tabelkolommen om ze weer te geven.
 * Aangepaste velden zijn **aanwezig in alle Excel** data-exports. Voor meer informatie over exports, [raadpleeg de pagina over exports](../editer-le-registre/export-import-le-registre.md)
 * Aangepaste velden kunnen optioneel worden opgenomen in HTML-, Word- en PDF-exports (door het vakje "Exporteerbaar in rapporten" aan te vinken bij het veld in kwestie).
-* Met uitzondering van meervoudige antwoordvelden**, kunnen alle aangepaste velden gefilterd worden met behulp van het [geavanceerde filters] systeem (geavanceerde-filters.md).&#x20;
+* Met uitzondering van meervoudige antwoordvelden\*\*, kunnen alle aangepaste velden gefilterd worden met behulp van het \[geavanceerde filters] systeem (geavanceerde-filters.md).
 * Aangepaste velden kunnen massaal worden bijgewerkt in gegevenstabellen.
-* Aangepaste velden kunnen worden geïmporteerd via platte bestanden [met behulp van het importsysteem] (import-uw-gegevens-excel-csv.md)
+* Aangepaste velden kunnen worden geïmporteerd via platte bestanden \[met behulp van het importsysteem] (import-uw-gegevens-excel-csv.md)
 * Aangepaste velden zijn **toegankelijk en aanpasbaar via alle API's**. Gebruik hiervoor de variabelenaam die aan elke kolom is toegewezen. [Zie de sectie over het wijzigen van aangepaste velden via API](custom-fields.md#manipulate-custom-fields-in-api).
 
 ## Aangepaste velden instellen
@@ -97,7 +97,7 @@ Je kunt :
 
 Voor sommige elementen kun je de gewenste locatie in het formulier definiëren!
 
-* Zodra de groep is gemaakt, kun je de veldtypen** die je wilt instellen **slepen en neerzetten!
+* Zodra de groep is gemaakt, kun je de veldtypen\*\* die je wilt instellen \*\*slepen en neerzetten!
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -139,4 +139,4 @@ Als een veld ongeldig is (bijvoorbeeld als het niet is ingevuld hoewel het is ge
 
 ## Beperkingen
 
-Je kunt **niet filteren op aangepaste velden van het meervoudige type (selectievakje (Meervoudig) en selector (Meervoudig))**. Dit is een bekende beperking waar we aan werken &#x20;
+Je kunt **niet filteren op aangepaste velden van het meervoudige type (selectievakje (Meervoudig) en selector (Meervoudig))**. Dit is een bekende beperking waar we aan werken

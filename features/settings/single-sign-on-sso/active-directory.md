@@ -21,8 +21,6 @@ description: >-
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
-
-
 ## **Configuration du client SSO dans Dastra**
 
 **Etape 1 : Créez un login SSO OpenId dans Dastra.**
@@ -56,8 +54,8 @@ description: >-
 * Copiez les 3 liens Entity Id, SSO Url et Logout Url depuis l'étape 4 de Active Directory
 * ![](<../../../.gitbook/assets/image (7) (1) (1).png>)
 * Copiez les urls en respectant le schéma suivant :\
-  **Login URL => Single sign on url** \
-  **Azure AD Identifier => Identity provider's Entity Id** \
+  **Login URL => Single sign on url**\
+  **Azure AD Identifier => Identity provider's Entity Id**\
   **Logout Url => Identity provider Signout url**
 * Votre formulaire de configuration du SSO dans Dastra devrait ressembler à ceci :
 * ![](<../../../.gitbook/assets/image (2) (1) (1) (1).png>)
@@ -73,7 +71,7 @@ Avant de lancer le test de la connexion assurez vous qu'un utilisateur est bien 
 
 ### Testez votre connexion SSO
 
-Cliquez ensuite sur le bouton "Test" au pied du formulaire dans l'active directory. Si tout fonctionne correctement vous devriez être redirigé vers l'application Dastra.&#x20;
+Cliquez ensuite sur le bouton "Test" au pied du formulaire dans l'active directory. Si tout fonctionne correctement vous devriez être redirigé vers l'application Dastra.
 
 {% hint style="info" %}
 Si vous n'avez pas activé **le provisionnement automatique** des comptes, l'accès sera refusé du côté de Dastra si le compte local n'a pas été créé via une invitation
@@ -81,8 +79,8 @@ Si vous n'avez pas activé **le provisionnement automatique** des comptes, l'acc
 
 ### Pour aller plus loin
 
-{% content-ref url="problemes-connus.md" %}
-[problemes-connus.md](problemes-connus.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="saml-2.md" %}

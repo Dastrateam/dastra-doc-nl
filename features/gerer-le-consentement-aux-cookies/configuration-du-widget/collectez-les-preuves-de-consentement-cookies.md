@@ -2,7 +2,7 @@
 description: Apprenez à collecter les preuves de consentement cookies avec Dastra.
 ---
 
-# Collectez les preuves de consentement cookies
+# Verzamel bewijs van cookie-toestemming
 
 Une fois le widget de consentement aux cookies DASTRA implémenté sur votre site internet, le module de Consentement aux cookies DASTRA vous permets également de **collecter** et d'**exporter** les **preuves de consentement aux cookies**.
 
@@ -26,13 +26,12 @@ Pour les consulter, il suffit de se rendre dans l'interface "Consentement" du mo
 A partir de cette interface, vous pouvez également personnaliser les preuves de consentement collectées, exporter les données, filtrer par date ou widget de cookies, notamment.
 {% endhint %}
 
-Bravo, vous collectez maintenant les preuves de consentement cookies !&#x20;
+Bravo, vous collectez maintenant les preuves de consentement cookies !
 
-La durée de vie des preuves de consentement est d'un an.&#x20;
+La durée de vie des preuves de consentement est d'un an.
 
 Pour rendre votre site dynamique et prendre en compte véritablement le consentement de l'internaute, rendez-vous à la prochaine rubrique "aller plus loin":
 
-{% content-ref url="allez-plus-loin-sur-le-consentement-des-cookies.md" %}
-[allez-plus-loin-sur-le-consentement-des-cookies.md](allez-plus-loin-sur-le-consentement-des-cookies.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
-
