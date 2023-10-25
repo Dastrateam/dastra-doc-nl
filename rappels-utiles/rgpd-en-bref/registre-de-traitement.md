@@ -2,19 +2,19 @@
 description: Leer wat een register van de verwerkingsactiviteiten is.
 ---
 
-# Verwerkingsregister
+# Register van verwerkingen
 
 ## Definitie van een verwerkingsregister
 
-Het register van de verwerkingsactiviteiten brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens &#x20;
+Het register van de verwerkingsactiviteiten brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens
 
-Het register is vastgelegd in [artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Het helpt bij het documenteren van de naleving.
+Het register is vastgelegd in \[artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Het helpt bij het documenteren van de naleving.
 
 Als inventarisatie- en analysedocument moet het de realiteit van uw gegevensverwerking weerspiegelen en u in staat stellen om nauwkeurig vast te stellen :
 
 * de **Stakeholders** (vertegenwoordiger, Verwerkers, Verwerkingsverantwoordelijken, etc.) die betrokken zijn bij de gegevensverwerking,
 * de categorieën **gegevensverwerking**,
-* waarvoor de gegevens worden gebruikt** (wat u ermee doet), **wie toegang heeft** tot de gegevens en **aan wie ze worden meegedeeld**,
+* waarvoor de gegevens worden gebruikt\*\* (wat u ermee doet), **wie toegang heeft** tot de gegevens en **aan wie ze worden meegedeeld**,
 * hoe lang u uw gegevens **bewaart**,
 * hoe veilig ze **zijn**.
 
@@ -24,7 +24,7 @@ Hoe overschakelen naar de runstand voor logboekbeheer voor Verwerking
 
 ## Waarom een register gebruiken?
 
-&#x20;Het register is **verplicht** gesteld door [artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Naast het voldoen aan de verplichting van artikel 30 van de AVG, is het register een **hulpmiddel voor het controleren en aantonen van uw naleving van de AVG**. &#x20;
+Het register is **verplicht** gesteld door \[artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Naast het voldoen aan de verplichting van artikel 30 van de AVG, is het register een **hulpmiddel voor het controleren en aantonen van uw naleving van de AVG**.
 
 Het stelt u in staat om uw gegevensverwerking te documenteren en uzelf de juiste vragen te stellen: heb ik deze gegevens echt nodig voor mijn verwerking? Heeft het zin om alle gegevens zo lang te bewaren? Zijn de gegevens voldoende beschermd? En ga zo maar door.
 
@@ -66,9 +66,9 @@ Voor elke Verwerking vermeldt het register van de Verwerkingsverantwoordelijke t
 7. de **termijnen die zijn vastgesteld voor het wissen** van de verschillende categorieën gegevens, d.w.z. de bewaartermijn, of anders de criteria voor het bepalen daarvan
 8. voor zover mogelijk, een **algemene beschrijving van de technische en organisatorische beveiligingsmaatregelen** die u toepast.
 
-[Een "Verwerkingsverantwoordelijke" in Dastra]
+\[Een "Verwerkingsverantwoordelijke" in Dastra]
 
-### De actoren&#x20;
+### De actoren
 
 * De identiteit en contactgegevens van de Verwerkingsverantwoordelijke.
 * De identiteit en contactgegevens van de functionaris voor gegevensbescherming, indien van toepassing.
@@ -81,57 +81,50 @@ Voor elke Verwerking vermeldt het register van de Verwerkingsverantwoordelijke t
 
 ### Rechtsgrondslag
 
-* Nakoming van een wettelijke verplichting&#x20;
+* Nakoming van een wettelijke verplichting
 * Uitvoering van een contract
 * Gerechtvaardigd belang van het bedrijf of een derde
 * Algemeen belang
-* Toestemming&#x20;
+* Toestemming
 * Bescherming van de vitale belangen van de betrokkene of een andere persoon.
 
 ### Inventaris van gegevens en betrokkenen
 
 * Type betrokkenen
-* Categorieën van gegevens&#x20;
+* Categorieën van gegevens
 * Termijnen voor het wissen van gegevens of toepasselijke regel
 
-### Ontvangers en doorgiften van gegevens buiten de EER&#x20;
+### Ontvangers en doorgiften van gegevens buiten de EER
 
-* &#x20;Identificatie van ontvangers inclusief interne ontvangers (afdeling betrokken bij de Verwerking); externe organen (commerciële of institutionele partners); subcontractanten (host, solution provider); betrokkene indien van toepassing en gezamenlijk verantwoordelijken voor de verwerking&#x20;
+* Identificatie van ontvangers inclusief interne ontvangers (afdeling betrokken bij de Verwerking); externe organen (commerciële of institutionele partners); subcontractanten (host, solution provider); betrokkene indien van toepassing en gezamenlijk verantwoordelijken voor de verwerking
 * Voor elke ontvanger, identificatie van doorgiften buiten de Europese Economische Ruimte (EER) en de gebruikte juridische instrumenten (bindende bedrijfsregels in geval van doorgiften buiten de EU met dochterondernemingen, standaard contractuele clausules, land erkend als adequaat, enz.)
-
-
 
 ### Beveiligingsmaatregelen
 
-* Technische en organisatorische maatregelen ter beveiliging van elke gegevensverwerking&#x20;
+* Technische en organisatorische maatregelen ter beveiliging van elke gegevensverwerking
 * Bijvoorbeeld gegevensversleuteling, pseudonimisering, toegangsbeperking, enz.
-
-
 
 ## Het register "subcontractant" in Dastra
 
-Elke subcontractant moet een minder uitgebreid register &#x20; invullen;
+Elke subcontractant moet een minder uitgebreid register invullen;
 
-Dit bevat:&#x20;
+Dit bevat:
 
-* de **contactgegevens** van de subcontractant, hun vertegenwoordiger indien van toepassing en hun DPO&#x20;
+* de **contactgegevens** van de subcontractant, hun vertegenwoordiger indien van toepassing en hun DPO
 * de **gegevens van alle Verwerkingsverantwoordelijken namens wie de subcontractant optreedt** (meestal de klanten)
 * de **categorieën gegevensverwerking**
-* **ontvangers**&#x20;
+* **ontvangers**
 * **doorgiften** buiten de EER
 * **beveiligingsmaatregelen**.
 
-
-
-[Een "onderaannemer" verwerking in Dastra]
+\[Een "onderaannemer" verwerking in Dastra]
 
 ## Om verder te gaan
 
 {% content-ref url="../../features/editer-le-registre/" %}
-[edit-the-record](../../features/editer-le-registre/)
+[editer-le-registre](../../features/editer-le-registre/)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/editer-le-registre/gerer-votre-registre.md" %}
-[manage-your-registry.md](../../features/edit-the-registry/manage-your-registry.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
-

@@ -4,11 +4,11 @@ description: >-
   site.
 ---
 
-# Configurez un widget de consentement aux cookies
+# Een cookie-toestemmingswidget configureren
 
 DASTRA vous permets de mettre un place un widget de consentement aux cookies directement sur votre site respectant les recommandations de la CNIL sur les cookies et autres traceurs.
 
-## En quoi consiste le widget de consentement aux cookies Dastra&#x20;
+## En quoi consiste le widget de consentement aux cookies Dastra
 
 Ce widget se compose de plusieurs éléments:
 
@@ -16,9 +16,9 @@ Ce widget se compose de plusieurs éléments:
 
 ![Une fenêtre d'introduction dépliable](<../../../.gitbook/assets/image (42).png>)
 
-![La liste des cookies par finalité utilisées par le site ](<../../../.gitbook/assets/image (40) (1).png>)
+![La liste des cookies par finalité utilisées par le site](<../../../.gitbook/assets/image (40) (1).png>)
 
-## Prérequis&#x20;
+## Prérequis
 
 Pour implémenter votre widget de consentement aux cookies, vous devez préalablement avoir **identifié** et **classifié** par catégories de finalités **les cookies déposés sur votre site internet.** Le module Consentement aux cookies de DASTRA permets de faire cela en quelques clics.
 
@@ -28,29 +28,29 @@ Pour rendre l'implémentation du widget de consentement aux cookies plus facile,
 
 Pour scanner les cookies déposés sur votre site Web, rendez-vous sur la page suivante :
 
-{% content-ref url="scannez-les-cookies-deposes-sur-votre-site-web.md" %}
-[scannez-les-cookies-deposes-sur-votre-site-web.md](scannez-les-cookies-deposes-sur-votre-site-web.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Pour classifier les cookies par catégories de consentement, rendez-vous sur la page suivante :
 
-{% content-ref url="classifiez-les-cookies-par-categories-de-consentement.md" %}
-[classifiez-les-cookies-par-categories-de-consentement.md](classifiez-les-cookies-par-categories-de-consentement.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Définissez l'apparence de votre widget de consentement aux cookies cible
 
-Pour mettre en place un widget de consentement aux cookies sur votre site internet, vous devez vous rendre sur l'interface "Apparence" du module Consentement aux cookies de DASTRA. Une fois que vous avez créé votre premier widget de consentement, cliquez dessus pour faire apparaître une page où vous retrouvez un ensemble de fonctionnalités pour le widget. Cliquez sur "apparence du widget".&#x20;
+Pour mettre en place un widget de consentement aux cookies sur votre site internet, vous devez vous rendre sur l'interface "Apparence" du module Consentement aux cookies de DASTRA. Une fois que vous avez créé votre premier widget de consentement, cliquez dessus pour faire apparaître une page où vous retrouvez un ensemble de fonctionnalités pour le widget. Cliquez sur "apparence du widget".
 
 ![Interface "Apparence" du module Consentement aux Cookies DASTRA](<../../../.gitbook/assets/Capture web\_6-5-2022\_93842\_app.dastra.eu.jpeg>)
 
-A partir de cette interface, vous pouvez **personnaliser intégralement votre widget** pour qu'il s'affiche de la façon dont vous le souhaitez sur votre site internet.&#x20;
+A partir de cette interface, vous pouvez **personnaliser intégralement votre widget** pour qu'il s'affiche de la façon dont vous le souhaitez sur votre site internet.
 
 {% hint style="info" %}
 Vous pouvez également apporter d'autres modifications plus générales sur le widget dans les sections "Configuration", "Textes et traductions" et "Déclencheurs".
 {% endhint %}
 
-Une fois le paramétrage terminé, cliquez ensuite sur "Publier". Vous pouvez également prévisualisr le rendu final sur la page de votre site web en cliquant sur "Prévisualiser".&#x20;
+Une fois le paramétrage terminé, cliquez ensuite sur "Publier". Vous pouvez également prévisualisr le rendu final sur la page de votre site web en cliquant sur "Prévisualiser".
 
 ![](<../../../.gitbook/assets/Capture web\_6-5-2022\_94118\_app.dastra.eu.jpeg>)
 
@@ -69,6 +69,5 @@ Vous pouvez utiliser le Google tag manager pour insérer dynamiquement ce code s
 N'hésitez pas à faire appel à votre webmaster pour réaliser cette étape. Une fois celle-ci réalisée, un widget apparait sur votre écran.
 
 {% hint style="info" %}
-Pour des raisons de sécurité, seuls les sites disposant d'un certificat SSL de type "https" peuvent mettre en place un widget. &#x20;
+Pour des raisons de sécurité, seuls les sites disposant d'un certificat SSL de type "https" peuvent mettre en place un widget.
 {% endhint %}
-

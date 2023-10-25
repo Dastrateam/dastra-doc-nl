@@ -1,0 +1,2 @@
+# Cookies classificeren op toestemmingscategorieën
+

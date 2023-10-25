@@ -2,7 +2,7 @@
 description: Apprenez à configurer Dastra à travers les fonctions avancées.
 ---
 
-# Configuration avancée
+# Geavanceerde configuratie
 
 Apprenez à mettre en place le SSO :
 
@@ -16,16 +16,16 @@ Apprenez à gérer les référentiels :
 [referentials.md](../cartography/referentials.md)
 {% endcontent-ref %}
 
-Apprenez-en davantage sur les rôles et permissions:&#x20;
+Apprenez-en davantage sur les rôles et permissions:
 
-{% content-ref url="roles-et-permissions.md" %}
-[roles-et-permissions.md](roles-et-permissions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Si besoin, consultez la section API :
 
-{% content-ref url="../../api-references/authentification.md" %}
-[authentification.md](../../api-references/authentification.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Apprenez à gérer les notifications dans Dastra :
@@ -36,8 +36,8 @@ Apprenez à gérer les notifications dans Dastra :
 
 Apprenez à mettre en place des workflows dans Dastra :
 
-{% content-ref url="workflows.md" %}
-[workflows.md](workflows.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Apprenez à mettre en place des intégrations :
@@ -48,8 +48,8 @@ Apprenez à mettre en place des intégrations :
 
 Apprenez à configurer le SMTP :
 
-{% content-ref url="configuration-du-smtp.md" %}
-[configuration-du-smtp.md](configuration-du-smtp.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Apprenez à synchroniser vos données et utiliser les webhooks :

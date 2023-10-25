@@ -1,0 +1,2 @@
+# Individuele rechten
+

@@ -2,11 +2,11 @@
 description: Leer hoe u met Dastra uw register voor verwerkingen kunt bewerken.
 ---
 
-# Verwerking register
+# Register van verwerkingen
 
 ## Inleiding
 
-Met het verwerkingsregister kunt u uw gegevensverwerking** in kaart brengen en heeft u een **overzicht** van wat u met de betreffende persoonsgegevens doet. Het hebben van een ingevuld register is een **verplichting** onder artikel 30 van de AVG, maar naast het bindende aspect is het vooral een **hulpmiddel om een beter inzicht te krijgen in uw gegevens** en **controle te hebben over de bijbehorende waardeketen** - van de productie tot het gebruik dat ervan wordt gemaakt. &#x20;
+Met het verwerkingsregister kunt u uw gegevensverwerking\*\* in kaart brengen en heeft u een **overzicht** van wat u met de betreffende persoonsgegevens doet. Het hebben van een ingevuld register is een **verplichting** onder artikel 30 van de AVG, maar naast het bindende aspect is het vooral een **hulpmiddel om een beter inzicht te krijgen in uw gegevens** en **controle te hebben over de bijbehorende waardeketen** - van de productie tot het gebruik dat ervan wordt gemaakt.
 
 Bij Dastra geloven we dat het onze rol is om het voor u **eenvoudiger** te maken om gegevensverwerkingen in kaart te brengen, zodat u zich kunt concentreren op uw kernactiviteiten. Om dit te doen, ondersteunen wij u met een **intelligent** register en **vragenlijsten** die u stap voor stap begeleiden bij het maken van uw register.
 
@@ -14,11 +14,11 @@ Bij Dastra geloven we dat het onze rol is om het voor u **eenvoudiger** te maken
 
 De registers van de verwerkingsactiviteiten van Dastra voldoen aan alle wettelijke vereisten. Registers, voor zowel Data Processors als Subcontractors, zijn gebaseerd op repositories (actoren, assets, datasets, gegevens, risico's en beveiligingsmaatregelen) waardoor u **uw verwerking in kaart kunt brengen** en **tijd kunt besparen** in het dagelijks beheer.
 
-Verwerkingen kunnen worden gedupliceerd en behandelingsmodellen zijn beschikbaar in een bibliotheek die vrij toegankelijk is voor al onze gebruikers. Er is een workflow geïntegreerd, een zoekfunctie is aanwezig en het is mogelijk om verwerkingsbladen in verschillende formaten te importeren/exporteren ( pdf , word , html, excel , csv, json ). Het is mogelijk om bijlagen, overtredingen of zelfs risico's aan deze behandelingen toe te voegen.&#x20;
+Verwerkingen kunnen worden gedupliceerd en behandelingsmodellen zijn beschikbaar in een bibliotheek die vrij toegankelijk is voor al onze gebruikers. Er is een workflow geïntegreerd, een zoekfunctie is aanwezig en het is mogelijk om verwerkingsbladen in verschillende formaten te importeren/exporteren ( pdf , word , html, excel , csv, json ). Het is mogelijk om bijlagen, overtredingen of zelfs risico's aan deze behandelingen toe te voegen.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-01-24 at 15.11.37.png" alt=""><figcaption></figcaption></figuur>
+<figure><img src="../../.gitbook/assets/Screenshot%202023-01-24%20at%2015.11.37.png" alt=""><figcaption></figcaption></figure>
 
-## Register Verwerkingsverantwoordelijke versus Subcontractant
+### Register Verwerkingsverantwoordelijke versus Subcontractant
 
 Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registrar van de verwerkingsverantwoordelijke_ en voor de _registrar van de verwerker_. Als uw organisatie zowel als verwerker als als verwerkingsverantwoordelijke optreedt, moet uw register dus een duidelijk onderscheid maken tussen beide categorieën activiteiten.
 
@@ -28,31 +28,31 @@ Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registrar van de 
 2. een ander voor verwerkingen die u als subcontractant namens uw klanten uitvoert.
 
 {% content-ref url="le-registre-responsable-de-verwerking.md" %}
-[le-registre-responsable-de-processing.md](le-registre-responsable-de-processing.md)
+[le-registre-responsable-de-verwerking.md](le-registre-responsable-de-verwerking.md)
 {% endcontent-ref %}
 
-{% content-ref url="le-registre-sous-traitant.md" %}
-[le-registre-sous-traitant.md](le-registre-sous-traitant.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-## De verschillende methoden voor het opzetten van het register voor gegevensverwerking
+### De verschillende methoden voor het opzetten van het register voor gegevensverwerking
 
-Er zijn twee methoden om een Verwerkingsregister aan te maken:&#x20;
+Er zijn twee methoden om een Verwerkingsregister aan te maken:
 
 * Top-Down" ontwerp: het project wordt gestart met het opstellen van een inventaris van gegevensverwerking en vervolgens wordt de specifieke informatie voor elke verwerking verzameld (gegevens, subcontractanten, enz.);
 * Bottom-Up ontwerp: we beginnen met het maken van een inventaris van de gegevens (software, gegevensverzamelingen en velden met persoonsgegevens) en vervolgens creëren we de processen op basis van deze inventaris.
 
-### Welke methode voor registerimplementatie moet ik kiezen?
+#### Welke methode voor registerimplementatie moet ik kiezen?
 
 Er is geen goede of foute methode, alles hangt af van de context van uw organisatie, de vaardigheden van het DPO-team, de toegankelijkheid van het operationele personeel voor gegevens, enz.
 
 Hier is een tabel waarin de twee benaderingen worden vergeleken:
 
-<table><thead><tr><th width="129">Methodologie</th><th width="178">Doel</th><th>Voordelen</th><th>Achteraf</th></tr></thead><tbody><tr><td><strong>Top-. Down (Top-down)</strong></td><td>Kleine organisaties of lokale overheden<br>Bedrijf met een zwakke gegevenscultuur<br>Legaal team met weinig affiniteit met IT</td><td>Snel te implementeren<br>Minder werk<br>Klikt goed aan bij de wettelijke verwachtingen van de AVG<br></td><td>Kan problemen veroorzaken als het team dat het register opstelt niet bekend is met de gegevens van de organisatie<br>Meer belastend voor operationeel personeel<br>De gegevensinventaris zal veel minder waardevol zijn omdat deze alleen is gemodelleerd voor wettelijke verwachtingen<br>Meer complex om op de lange termijn te onderhouden<br></td></tr><td><strong>Bottom- Up (Bottom-up)</strong></td><td>Grote of middelgrote organisaties<br>Met een sterke gegevenscultuur<br>Legaal team met sterke IT-affiniteit</td><td>Het uitvoeren van de gegevensinventarisatie zal minder abstract zijn dan het direct creëren van gegevensverwerking. <br>Het register weerspiegelt de realiteit van de organisatie<br>Het bijhouden van het register is op de lange termijn eenvoudiger<br>Meer leden van de organisatie zijn betrokken<br>Het maken van verwerkingsrecords is meer geautomatiseerd</td><td>Al met al moeilijker en tijdrovender om op te zetten<br>Project vereist goede governance</td></tr></tbody></table>
+<table><thead><tr><th width="129">Methodologie</th><th width="178">Doel</th><th>Voordelen</th><th>Achteraf</th></tr></thead><tbody><tr><td><strong>Top-. Down (Top-down)</strong></td><td>Kleine organisaties of lokale overheden<br>Bedrijf met een zwakke gegevenscultuur<br>Legaal team met weinig affiniteit met IT</td><td>Snel te implementeren<br>Minder werk<br>Klikt goed aan bij de wettelijke verwachtingen van de AVG<br></td><td>Kan problemen veroorzaken als het team dat het register opstelt niet bekend is met de gegevens van de organisatie<br>Meer belastend voor operationeel personeel<br>De gegevensinventaris zal veel minder waardevol zijn omdat deze alleen is gemodelleerd voor wettelijke verwachtingen<br>Meer complex om op de lange termijn te onderhouden<br></td></tr><tr><td><strong>Bottom- Up (Bottom-up)</strong></td><td>Grote of middelgrote organisaties<br>Met een sterke gegevenscultuur<br>Legaal team met sterke IT-affiniteit</td><td>Het uitvoeren van de gegevensinventarisatie zal minder abstract zijn dan het direct creëren van gegevensverwerking.<br>Het register weerspiegelt de realiteit van de organisatie<br>Het bijhouden van het register is op de lange termijn eenvoudiger<br>Meer leden van de organisatie zijn betrokken<br>Het maken van verwerkingsrecords is meer geautomatiseerd</td><td>Al met al moeilijker en tijdrovender om op te zetten<br>Project vereist goede governance</td></tr></tbody></table>
 
-Het goede nieuws is dat Dastra beide benaderingen perfect beheerst! Je kunt een formulier automatisch maken [met behulp van een verwerkingsmodel] (use-a-processing-model.md). Als u de voorkeur geeft aan de automatische aanpak, kunt u [uw gegevensverwerking maken](../cartografie/) en direct vanuit een Activa (software, database) een gegevensverwerking maken.
+Het goede nieuws is dat Dastra beide benaderingen perfect beheerst! Je kunt een formulier automatisch maken \[met behulp van een verwerkingsmodel] (use-a-processing-model.md). Als u de voorkeur geeft aan de automatische aanpak, kunt u [uw gegevensverwerking maken](../cartografie/) en direct vanuit een Activa (software, database) een gegevensverwerking maken.
 
-## Hoe stel je een register voor Verwerking in?
+### Hoe stel je een register voor Verwerking in?
 
 Hier is een instructievideo om je te helpen het register aan te maken.
 
@@ -67,7 +67,7 @@ Als je wilt leren hoe je een register voor gegevensverwerking ontwerpt en beheer
 Als je wilt leren hoe je een gegevensverwerking ontwerpt en beheert, begin dan hier:
 
 {% content-ref url="manage-je-verwerking.md" %}
-[manage-your-processing.md](manage-your-processing.md)
+[manage-je-verwerking.md](manage-je-verwerking.md)
 {% endcontent-ref %}
 
 Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier :
@@ -79,25 +79,25 @@ Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier 
 Als je wilt weten hoe je het register kunt delen, klik dan hier :
 
 {% content-ref url="share-the-register.md" %}
-[deel-het-register.md](deel-het-register.md)
+[share-the-register.md](share-the-register.md)
 {% endcontent-ref %}
 
-## Meer informatie
+### Meer informatie
 
-Bekijk ons webinar over het register voor gegevensverwerking &#x20;
+Bekijk ons webinar over het register voor gegevensverwerking
 
 {% embed url="https://www.youtube.com/watch?v=R_Z2m4sb-44" %}
 Hoe over te schakelen naar de runstand voor het beheer van het verwerkingsregister
 {% endembed %}
 
 {% content-ref url="../../reminders-utiles/rgpd-en-bref/treatment-register.md" %}
-[register-van-verwerking.md](../../useful-recalls/rgpd-en-bref/register-van-verwerking.md)
+[treatment-register.md](../../reminders-utiles/rgpd-en-bref/treatment-register.md)
 {% endcontent-ref %}
 
 {% content-ref url="../risk-management/risks.md" %}
 [risks.md](../risk-management/risks.md)
 {% endcontent-ref %}
 
-{% content-ref url="../planifier/" %}
-[plan](../plan/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
