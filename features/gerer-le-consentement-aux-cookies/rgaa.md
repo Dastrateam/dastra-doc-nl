@@ -1,11 +1,11 @@
 ---
 description: >-
-  Dastra respecte les normes d'accessibilité RGAA pour le widget de gestion des
-  cookies
+  Dastra voldoet aan de RGAA toegankelijkheidsnormen voor de
+  management widget
 ---
 
-# Conformité RGAA
+# RGAA naleving
 
 {% file src="../../.gitbook/assets/Audit RGAA.zip" %}
-Téléchargez le rapport d'audit RGAA
+Download het RGAA audit rapport
 {% endfile %}

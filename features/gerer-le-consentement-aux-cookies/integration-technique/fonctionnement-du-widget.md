@@ -1,44 +1,44 @@
-# Fonctionnement du widget
+# Hoe de widget werkt
 
-## Fonctionnement global :
+## Algemene werking :
 
-Globalement, le widget de consentement fonctionne en 3 grandes étapes :
+Over het algemeen werkt de toestemmingswidget in 3 hoofdfasen:
 
-1. La **proposition** de la fenêtre de consentement
-2. La **collecte** du consentement (stockage des preuves)
-3. **L'exécution** réelle du consentement de l'utilisateur
-
-{% hint style="info" %}
-Le widget Dastra permet de couvrir les deux premières étapes de manière partiellement automatique. Pour la troisième étape consistant à appliquer réellement les préférences de l'utilisateur en matière de cookies, vous allez avoir besoin d'intégrer techniquement le système de consentement aux services tiers pouvant potentiellement poser des cookies. Consultez le [guide de blocage des cookies](blocage-des-cookies/) pour plus d'informations/
-{% endhint %}
-
-Le SDK javascript du widget doit être appelé sur toutes les pages du site utilisant les cookies.
-
-![Schéma de fonctionnement global du widget de consentement des cookies](../../../.gitbook/assets/cookie-consent.png)
-
-### 1. Visite sur le site du client
-
-L'internaute visite le site web où le snippet de code js est installé. De manière à ne pas impacter les performances et le SEO des pages webs, le SDK est chargé de manière totalement asynchrone avec une durée de mise en cache d'une journée.
-
-### 2. et 3. : Collecte et mise en cache de la configuration du widget
-
-Pour que le widget fonctionne correctement sur le site, il va avoir besoin d'une configuration de client à jour récupérée depuis les serveurs de Dastra. Pour avoir la version la plus fraîche possible, celui-ci va effectuer une requête GET du widget avec la clé d'API publique pour contrôler l'appartenance du widget au client.
+1. Het **voorstel** van het toestemmingsvenster
+2. Het **verzamelen** van toestemming (opslaan van bewijs)
+3. De daadwerkelijke **uitvoering** van de toestemming van de gebruiker
 
 {% hint style="info" %}
-Si le client n'a pas correctement renseigné son domaine dans l'éditeur de widget, celui-ci n'autorisera pas la requête et il sera impossible d'afficher correctement le widget. Pour remédier à cela, rendez vous [sur cette page](https://app.dastra.eu/workspace/19/cookie-widget/list), choisissez votre widget et ajoutez le domaine manquant.
+De Dastra-widget maakt het mogelijk om de eerste twee stappen gedeeltelijk automatisch uit te voeren. Voor de derde stap, het daadwerkelijk afdwingen van de cookievoorkeuren van de gebruiker, moet je het toestemmingssysteem technisch integreren met diensten van derden die mogelijk cookies plaatsen. Zie de [gids voor het blokkeren van cookies](blocking-cookies/) voor meer informatie.
 {% endhint %}
 
-### 4. Demande du consentement à l'utilisateur
+De javascript SDK van de widget moet worden aangeroepen op alle pagina's van de site die cookies gebruiken.
 
-Si le cookie "euconsent" (vous pouvez choisir le nom du cookie si vous le souhaitez) est absent, la fenêtre de consentement s'affichera. Pour tester le bon affichage du widget, vous pouvez supprimer ce cookie de votre navigateur.&#x20;
+[Globaal bewerkingsdiagram cookie-toestemming widget](../../../.gitbook/assets/cookie-toestemming.png)
 
-### 5. La collecte du consentement
+### 1. Bezoek aan de site van de klant
 
-Les consentements seront automatiquement collectés par l'API de Dastra via une requête POST en json.&#x20;
+De gebruiker bezoekt de website waar het js codefragment is geïnstalleerd. Om de prestaties en SEO van de webpagina's niet te beïnvloeden, wordt de SDK volledig asynchroon geladen met een cachingperiode van één dag.
 
-Bien que dans l'interface du widget, l'expression du consentement s'effectue par finalité, le stockage quant à lui, s'effectue par service.
+### 2. en 3. Verzamelen en cachen van de widgetconfiguratie
 
-Voici à quoi ressemble la preuve de consentement telle qu'elle est stockée dans nos bases :
+Om de widget correct te laten functioneren op de site, heeft deze een up-to-date clientconfiguratie nodig die is opgehaald van de servers van Dastra. Om de meest recente versie te hebben, zal Dastra een GET-verzoek doen naar de widget met de openbare API-sleutel om te controleren of de widget bij de klant hoort.
+
+{% hint style="info" %}
+Als de klant zijn domein niet correct heeft ingevoerd in de widget editor, zal de editor het verzoek niet autoriseren en is het onmogelijk om de widget correct weer te geven. Om dit te verhelpen, ga naar [deze pagina](https://app.dastra.eu/workspace/19/cookie-widget/list), kies je widget en voeg het ontbrekende domein toe.
+{% endhint %}
+
+### 4. Toestemming vragen aan de gebruiker
+
+Als de "euconsent" cookie (je kunt de naam van de cookie kiezen als je dat wilt) ontbreekt, wordt het toestemmingsvenster weergegeven. Om te testen of de widget correct wordt weergegeven, kun je deze cookie uit je browser verwijderen &#x20;
+
+### 5. Verzamelen van toestemming
+
+Toestemmingen worden automatisch verzameld door de Dastra API via een POST-verzoek in json.&#x20;
+
+Hoewel toestemming wordt uitgedrukt per doel in de widget-interface, wordt het opgeslagen per service.
+
+Hier is hoe het bewijs van toestemming eruit ziet zoals het is opgeslagen in onze databases:
 
 ```javascript
 {
@@ -51,7 +51,7 @@ Voici à quoi ressemble la preuve de consentement telle qu'elle est stockée dan
     "typeDevice": 2,
     "workSpaceId": 19,
     "consentId": "8a5e89c4-2243-4598-97c5-ba3cfb35a138",
-    "consents": {
+    "toestemmingen": {
         "lang": "fr-FR",
         "versionKey": null,
         "cookieConsents": [
@@ -67,7 +67,7 @@ Voici à quoi ressemble la preuve de consentement telle qu'elle est stockée dan
             }, {
                 "id": "1c3baa61-0d05-44e4-da3d-08d7eeadee05",
                 "tenantId": 0,
-                "name": "Google Analytics (universal)",
+                "naam": "Google Analytics (universeel)",
                 "slug": "analytics",
                 "consent": true,
                 "version": "6f65cb1d-85eb-4a64-976d-519679189f8d",
@@ -79,13 +79,13 @@ Voici à quoi ressemble la preuve de consentement telle qu'elle est stockée dan
 }
 ```
 
-&#x20;En retour, l'api renverra une chaîne nommée "consentId" qui sera ensuite stockée dans le navigateur dans le localStorage pour une durée de 180 jours max. Cette chaîne est l'identifiant unique de la preuve de consentement. Dans le cas d'un litige, c'est cet identifiant qu'il faudra chercher dans le navigateur du client.
+&#x20;Als tegenprestatie stuurt de api een string met de naam "consentId" terug, die vervolgens maximaal 180 dagen in de browser wordt opgeslagen in de localStorage. Deze string is de unieke identifier van het toestemmingsbewijs. In geval van een geschil moet deze identifier worden opgezocht in de browser van de klant.
 
-### 6. L'exécution du consentement
+### 6. Uitvoering van de toestemming
 
-Lorsque nous avons collecté le consentement de l'utilisateur, il est désormais nécessaire d'exécuter réellement son souhait en transmettant à l'ensemble des services du site les informations de consentement.
+Nadat we de toestemming van de gebruiker hebben verzameld, is het nu nodig om de wens van de gebruiker daadwerkelijk uit te voeren door de informatie over de toestemming door te sturen naar alle diensten van de site.
 
-Pour cette phase, nous vous invitons à consulter le guide sur le blocage des cookies :
+Voor deze fase nodigen we u uit om de gids over het blokkeren van cookies te raadplegen:
 
 {% content-ref url="blocage-des-cookies/" %}
 [blocage-des-cookies](blocage-des-cookies/)
@@ -94,10 +94,10 @@ Pour cette phase, nous vous invitons à consulter le guide sur le blocage des co
 
 
 {% hint style="info" %}
-A l'exception des cookies strictement nécessaires, l'intégralité des services tiers effectuant du traçage doivent être bloqués par défaut.&#x20;
+Met uitzondering van strikt noodzakelijke cookies moeten alle trackingdiensten van derden standaard worden geblokkeerd &#x20;
 {% endhint %}
 
-Bravo, vous êtes prêt à démarrer l'intégration technique du widget:
+Gefeliciteerd, je bent klaar om te beginnen met de technische integratie van de widget:
 
 {% content-ref url="integration-dans-les-cms/" %}
 [integration-dans-les-cms](integration-dans-les-cms/)

@@ -1,28 +1,28 @@
 # TCF 1.1/2.0
 
 {% hint style="danger" %}
-**Pour l'instant, cette fonctionnalité est encore en phase expérimentale. Toute implémentation du TCF ne sera pas effective**&#x20;
+**Voorlopig is deze functionaliteit nog in de experimentele fase. Elke implementatie van TCF zal niet effectief zijn**&#x20;
 {% endhint %}
 
-Le [consent management platform (CMP) framework](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework) est actuellement supporté par le widget Dastra. Pour activer l'optin des vendors de l'IAB, il vous suffit de vous rendre dans la partie "services" de la configuration du widget et d'activer la case correspondante.
+Het [consent management platform (CMP) framework](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework) wordt momenteel ondersteund door de Dastra-widget. Om de opt-in voor IAB-verkopers te activeren, ga je naar het gedeelte "services" van de widgetconfiguratie en activeer je het betreffende vakje.
 
-Une fois la case cochée, vous pouvez observer les modifications dans l'interface du widget :
+Zodra het vakje is aangevinkt, kun je de veranderingen zien in de interface van de widget:
 
-![](<../../../.gitbook/assets/image (69).png>)
+![](<../../..gitbook/assets/image (69).png>)
 
-Automatiquement, lors de l'optin de l'IAB, le cookie contenant les informations encodés sur le consentement de l'utilisateur aux vendeurs de l'IAB sont automatiquement créées dans le navigateur :
+Automatisch, wanneer de IAB optin wordt uitgevoerd, wordt de cookie met de gecodeerde informatie over de toestemming van de gebruiker voor IAB-verkopers automatisch aangemaakt in de browser:
 
-![](<../../../.gitbook/assets/image (71).png>)
+![](<../../..gitbook/assets/image (71).png>)
 
 {% hint style="info" %}
-Ce cookie a une durée de vie par défaut de 180 jours et est nommé "eupubconsent"
+Deze cookie heeft een standaard levensduur van 180 dagen en heet "eupubconsent".
 {% endhint %}
 
-### Capturer la chaîne du consentement de l'IAB
+### De toestemmingsstring van IAB vastleggen
 
-Lorsque l'utilisateur applique son consentement, il est possible de capter la chaîne du consentement directement en utilisant l'écouteur d’événement suivant :
+Wanneer de gebruiker toestemming geeft, is het mogelijk om de toestemmingsstring direct vast te leggen met de volgende event listener:
 
-```javascript
+Javascript
 document.addEventListener('dastra:consentstring',function(consentString){
     console.log(consentString); // BOybBVKOybbNhABABBENCoAAAAAq6AAA
 });

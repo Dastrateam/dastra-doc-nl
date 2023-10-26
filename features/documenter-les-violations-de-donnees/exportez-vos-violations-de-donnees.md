@@ -1,17 +1,17 @@
 ---
-description: Apprenez à exporter votre registre des violations de données.
+description: Leer hoe u uw register voor gegevensinbreuken kunt exporteren.
 ---
 
-# Exportez vos violations de données
+# Exporteer je inbreukken
 
-L'ensemble du registre des violations de données est exportable. Pour exporter une violation, cliquez sur la flèche à droite de l'écran, puis sur le bouton "Exportez les données".
+Je kunt het hele Inbreuk-register exporteren. Om een lek te exporteren, klik je op de pijl aan de rechterkant van het scherm en vervolgens op de knop "Gegevens exporteren".
 
-![](<../../.gitbook/assets/Capture web\_5-5-2022\_164539\_app.dastra.eu.jpeg>)
+![](<../../.gitbook/assets/Capture web_5-5-2022\_164539_app.dastra.eu.jpeg>)
 
-![](<../../.gitbook/assets/image (63) (1).png>)
+(<../../.gitbook/assets/image (63) (1).png>)
 
-Un fenêtre apparaît avec un choix de formats possibles à l'export. Cliquez sur le format de votre choix puis sur le bouton "Télécharger le fichier".
+Een venster verschijnt met een keuze uit mogelijke export formaten. Klik op het formaat van je keuze en dan op de "Download bestand" knop.
 
 ![](<../../.gitbook/assets/image (64).png>)
 
-Ca y est, vos violations de données sont exportées !
+Dat is het, je inbreukken zijn geëxporteerd!

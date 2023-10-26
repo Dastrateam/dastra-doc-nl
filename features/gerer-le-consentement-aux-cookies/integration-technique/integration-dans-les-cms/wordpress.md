@@ -1,31 +1,31 @@
 ---
-description: Apprenez à intégrer le widget de cookie Dastra sur un site Wordpress.
+description: Leer hoe je de Dastra cookie-widget integreert in een Wordpress-site.
 ---
 
 # Wordpress
 
-## 1. Récupération du SDK
+## 1 De SDK ophalen
 
-Une fois que vous avez fini la configuration et le design du widget de consentement cookie Dastra, vous pouvez récupérez le SDK dans la partie "Code".
+Zodra u klaar bent met de configuratie en het ontwerp van de Dastra cookie toestemmingswidget, kunt u de SDK ophalen in de "Code" sectie.
 
 {% hint style="info" %}
-Vous pouvez retrouver ce bout de code et le copier / coller ici : \
-Consentement cookie > Editer > Code
+U kunt dit stukje code vinden en het hier kopiëren/plakken: \
+Cookie toestemming > Bewerken > Code
 {% endhint %}
 
-![](<../../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/image (79).png>)
 
-## 2. Copier-coller dans l'éditeur Wordpress
+## 2. Kopieer en plak in de Wordpress editor
 
-Une fois le code récupéré, allez dans la console d'administration de votre site Wordpress.
+Zodra je de code hebt opgehaald, ga je naar de beheerconsole van je Wordpress site.
 
-Cliquez sur le bouton "Apparence" dans la bannière verticale à gauche de l'écran, puis sur le bouton "Editeur de Thème".&#x20;
+Klik op de knop "Uiterlijk" in de verticale banner aan de linkerkant van het scherm en vervolgens op de knop "Thema-editor" &#x20;
 
-Sélectionner le fichier "Footer.php" à droite de l'écran qui s'affiche, puis insérez-vous le code préalablement récupéré de Dastra à la fin de la balise \<body> (juste avant \</body>).
+Selecteer het bestand "Footer.php" aan de rechterkant van het scherm dat verschijnt en voeg de code in die u eerder van Dastra hebt gehaald aan het einde van de tag \<body> (net voor \</body>).
 
-![](<../../../../.gitbook/assets/image (80).png>)
+![](<../../../.gitbook/assets/image (80).png>)
 
-Sauvegardez en cliquant sur "Mettre à jour le fichier", puis rafraîchissez la page de votre site internet. Ca y est, la bannière apparaît !
+Sla op door op "Bestand bijwerken" te klikken, vernieuw dan je website pagina. Dat is het, de banner verschijnt!
 
 &#x20;
 

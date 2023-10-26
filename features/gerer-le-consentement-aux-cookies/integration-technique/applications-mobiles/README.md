@@ -1,6 +1,5 @@
 ---
-description: Le guide d'intégration du consentement cookies dans les applications mobiles
+description: Een gids voor het integreren van cookietoestemming in mobiele applicaties
 ---
 
-# Applications mobiles
-
+# Mobiele toepassingen

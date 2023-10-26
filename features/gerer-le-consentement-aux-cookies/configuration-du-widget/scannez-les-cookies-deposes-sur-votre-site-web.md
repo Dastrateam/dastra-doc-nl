@@ -1,49 +1,49 @@
 ---
-description: Apprenez à scanner les cookies déposés sur votre site web.
+description: Leer hoe u de cookies op uw website kunt scannen.
 ---
 
-# Scannez les cookies déposés sur votre site Web
+# De op uw website geplaatste cookies scannen
 
-DASTRA vous permets de scanner les cookies déposés sur votre site web grâce à sa fonctionnalité de **scan des cookies,** directement intégré à son module "Widget de consentement aux cookies".
+Met DASTRA kunt u de cookies scannen die op uw website zijn geplaatst dankzij de functionaliteit **cookie scannen,** die rechtstreeks is geïntegreerd in de module "Cookie Consent Widget".
 
-## Accédez à la fonctionalité "scan des cookies" Dastra
+## Toegang tot de Dastra "cookie scan" functionaliteit
 
-Vous devez tout d'abord vous connecter à votre votre espace de travail Dastra. Pour apprendre à faire cela, rendez-vous sur la page suivante:
+Eerst moet u verbinding maken met uw Dastra-werkruimte. Om te leren hoe u dit moet doen, gaat u naar de volgende pagina:
 
-{% content-ref url="../../../commencer/tutoriel/" %}
-[tutoriel](../../../commencer/tutoriel/)
+{% content-ref url="../../../start/tutorial/" %}
+[tutorial](../../../start/tutorial/)
 {% endcontent-ref %}
 
-Ensuite, vous devez vous rendre dans le module "Cookies", et cliquer sur le bouton "Créer un widget".
+Vervolgens moet je naar de module "Cookies" gaan en op de knop "Een widget maken" klikken.
 
-![Icône du module "Cookies"](<../../../.gitbook/assets/Capture web\_5-5-2022\_165656\_app.dastra.eu.jpeg>)
+[Cookies module icoon](<../../../.gitbook/assets/Capture web_5-5-2022_165656_app.dastra.eu.jpeg>)
 
-![Cliquer sur le bouton "Créer un widget"](<../../../.gitbook/assets/Capture web\_5-5-2022\_165746\_app.dastra.eu.jpeg>)
+[Klik op de "Creëer een widget" knop](<../../.gitbook/assets/Capture web\_5-5-2022\_165746\_app.dastra.eu.jpeg>)
 
-Un nouvel écran s'affiche. Vous vous trouvez dans la section "Scan des cookies".
+Een nieuw scherm verschijnt. Je bent nu in de "Cookie Scan" sectie.
 
-![](<../../../.gitbook/assets/Capture web\_5-5-2022\_165823\_app.dastra.eu.jpeg>)
+![](<../../..gitbook/assets/Capture web\_5-5-2022\_165823_app.dastra.eu.jpeg>)
 
-## Scannez les cookies déposés sur votre site web&#x20;
+## Scan de cookies die op je website zijn geplaatst&#x20;
 
-Une fois dans la section "Scan des cookies", il vous suffit de saisir le nom de domaine de votre site internet dans l'espace réservé, et de cliquer sur "Valider".
+Zodra u in de sectie "Cookies scannen" bent, voert u de domeinnaam van uw website in de daarvoor bestemde ruimte in en klikt u op "Valideren".
 
-![Section "Scan des cookies"](<../../../.gitbook/assets/Capture web\_5-5-2022\_165912\_app.dastra.eu.jpeg>)
+[Section "Scan cookies"](<../../../.gitbook/assets/Capture web\_5-5-2022\_165912_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
-Votre nom de domaine doit inclure l'intégralité du préfixe "https://www." pour être pris en compte par notre moteur.
+Uw domeinnaam moet het hele voorvoegsel "https://www." bevatten om door onze engine in aanmerking te worden genomen.
 {% endhint %}
 
-&#x20;Attendez quelques secondes, et ça y est, les cookies déposés sur votre site web sont identifiés !
+&#x20;Wacht een paar seconden, en dat is het, de cookies die op uw website zijn geplaatst zijn geïdentificeerd!
 
-![Le scan est en cours](<../../../.gitbook/assets/Capture web\_5-5-2022\_17030\_app.dastra.eu.jpeg>)
+[De scan is bezig](<../../../.gitbook/assets/Capture web_5-5-2022_17030_app.dastra.eu.jpeg>)
 
-![Ecran d'affichage des cookies](<../../../.gitbook/assets/image (51).png>)
+[Cookie weergave scherm](<../../..gitbook/assets/image (51).png>)
 
-Une fois les cookies déposés sur votre site web scannés, vous pouvez procéder à leur classification.
+Als de cookies die op je website geplaatst zijn gescand zijn, kun je ze classificeren.
 
-{% content-ref url="classifiez-les-cookies-par-categories-de-consentement.md" %}
-[classifiez-les-cookies-par-categories-de-consentement.md](classifiez-les-cookies-par-categories-de-consentement.md)
+{% content-ref url="classify-cookies-by-consent-categories.md" %}
+[classificeer-kookies-door-instemming-categorieën.md](classificeer-kookies-door-instemming-categorieën.md)
 {% endcontent-ref %}
 
 

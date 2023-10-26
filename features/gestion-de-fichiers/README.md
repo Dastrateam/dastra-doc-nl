@@ -1,6 +1,5 @@
 ---
-description: La gestion documentaire de Dastra (GED).
+beschrijving: Dastra documentbeheer (EDM).
 ---
 
-# Gestion de fichiers
-
+# Bestandsbeheer

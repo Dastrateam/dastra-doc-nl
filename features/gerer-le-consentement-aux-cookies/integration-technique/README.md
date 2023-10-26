@@ -1,10 +1,10 @@
 ---
 description: >-
-  Cette page décrit l'ensemble des éléments vous permettant d'intégrer le widget
-  dastra à votre site web.
+   Deze pagina beschrijft alle elementen die u nodig heeft om de
+  dastra widget te integreren in uw website.
 ---
 
-# Intégration technique
+# Technische integratie
 
 {% content-ref url="fonctionnement-du-widget.md" %}
 [fonctionnement-du-widget.md](fonctionnement-du-widget.md)

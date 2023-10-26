@@ -1,84 +1,84 @@
 ---
 description: >-
-  Cette page vous détaille le fonctionnement de l'api de gestion du
-  consentement. Cette API peut-être intégrée facilement dans les applications
-  mobiles natives.
+  Deze pagina legt uit hoe de api voor toestemmingsbeheer werkt.
+  API voor toestemmingsbeheer. Deze API kan eenvoudig worden geïntegreerd in
+  toepassingen.
 ---
 
-# Applications natives
+# Native toepassingen
 
-{% swagger baseUrl="https://api.dastra.eu" path="/v1/client/cookie-widget-settings/:id?key=:key" method="get" summary="Récupérer la configuration du widget" expanded="false" %}
+{% swagger baseUrl="https://api.dastra.eu" path="/v1/client/cookie-widget-settings/:id?key=:key" method="get" summary="Haal widgetconfiguratie op" expanded="false" %}
 {% swagger-description %}
-Cet endpoint permet de récupérer l'intégralité de la configuration du widget
+Dit endpoint wordt gebruikt om de volledige configuratie van de widget op te halen
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="id" type="number" %}
-ID of the widget configuration
+ID van de widgetconfiguratie
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="culture" type="string" %}
-The locale of the widget configuration (en, fr...)
+De locale van de widgetconfiguratie (en, fr...)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="key" type="string" %}
-The public api key provided
+De geleverde openbare api-sleutel
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="Cake successfully retrieved." %}
+{% swagger-response status="200" description="Cake succesvol opgehaald." %}
 ```
 {
-  "translation": {
+  "vertaling": {
     "id": "35dddc1a-3ceb-49a8-a8d2-fc343fdb56a3",
     "lang": "fr",
     "order": 0,
     "buttonBackLabel": "Retour",
-    "buttonAcceptLabel": "Accepter tout",
-    "buttonSettingsLabel": "Personnaliser",
-    "buttonViewPurposeLabel": "Sélectionner les finalités",
-    "buttonConfirmLabel": "Enregistrer sélection",
-    "buttonAcceptAllLabel": "Tout accepter",
-    "buttonLaterLabel": "Tout refuser",
-    "buttonViewMoreLabel": "Voir la liste",
-    "noticeUrlButtonLabel": "Lire notre politique des cookies",
-    "startupTitle": "Nous utilisons les cookies",
-    "startupDisclaimer": "Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services",
-    "innerTitle": "Voici nos services qui utilisent les cookies",
-    "innerDisclaimer": "Dans cet écran de configuration, vous pouvez choisir les cookies que vous autorisez lors de votre navigation",
-    "categoryNecessaryLabel": "Cookies nécessaires",
-    "categoryNecessaryExcerpt": "Les cookies nécessaires contribuent à rendre un site Web utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies.",
-    "categoryNecessaryDescription": "Les cookies nécessaires contribuent à rendre un site Web utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies.",
-    "categoryPreferenceLabel": "Préférences",
-    "categoryPreferenceExcerpt": "Les cookies de préférences permettent à un site Web de retenir des informations qui modifient la manière dont le site se comporte ou s’affiche, comme votre langue préférée ou la région dans laquelle vous vous situez.",
-    "categoryPreferenceDescription": "Les cookies de préférences permettent à un site Web de retenir des informations qui modifient la manière dont le site se comporte ou s’affiche, comme votre langue préférée ou la région dans laquelle vous vous situez.",
-    "categoryAnalyticalLabel": "Statistiques",
-    "categoryAnalyticalExcerpt": "Les cookies statistiques aident les propriétaires du site Web, par la collecte et la communication d'informations de manière anonyme, à comprendre comment les visiteurs interagissent avec les sites Web.",
-    "categoryAnalyticalDescription": "Les cookies statistiques aident les propriétaires du site Web, par la collecte et la communication d'informations de manière anonyme, à comprendre comment les visiteurs interagissent avec les sites Web.",
+    "buttonAcceptLabel": "Alles accepteren",
+    "buttonSettingsLabel": "Aanpassen",
+    "buttonViewPurposeLabel": "Selecteer doeleinden",
+    "buttonConfirmLabel": "Selectie opslaan",
+    "buttonAcceptAllLabel": "Alles accepteren",
+    "buttonLaterLabel": "Alles afwijzen",
+    "buttonViewMoreLabel": "Bekijk de lijst",
+    "noticeUrlButtonLabel": "Lees ons cookiebeleid",
+    "startupTitle": "Wij gebruiken cookies",
+    "startupDisclaimer":"Cookies stellen ons in staat inhoud en advertenties te personaliseren, functies voor sociale media aan te bieden en ons verkeer te analyseren. We delen ook informatie over het gebruik van onze site met onze sociale media-, advertentie- en analysepartners, die dit kunnen combineren met andere informatie die u aan hen hebt verstrekt of die zij hebben verzameld via uw gebruik van hun diensten."
+    "innerTitle": "Dit zijn onze diensten die cookies gebruiken",
+    "innerDisclaimer": "In dit configuratiescherm kunt u de cookies kiezen die u tijdens het browsen toestaat,
+    "categoryNecessaryLabel": "Noodzakelijke cookies",
+    "categoryNecessaryExcerpt": "Noodzakelijke cookies helpen een website bruikbaar te maken door basisfuncties mogelijk te maken, zoals paginanavigatie en toegang tot beveiligde delen van de website. Zonder deze cookies kan de website niet goed functioneren.",
+    "categoryNecessaryDescription": "Noodzakelijke cookies helpen om een website bruikbaar te maken door basisfuncties zoals paginanavigatie en toegang tot beveiligde delen van de website mogelijk te maken. Zonder deze cookies kan de website niet goed functioneren.",
+    "categoryPreferenceLabel": "Voorkeuren",
+    "categoryPreferenceExcerpt": "Voorkeurscookies stellen een website in staat om informatie te onthouden die de manier verandert waarop de site zich gedraagt of wordt weergegeven, zoals uw voorkeurstaal of de regio waarin u zich bevindt.",
+    "categoryPreferenceDescription": "Voorkeurcookies stellen een website in staat om informatie te onthouden die de manier verandert waarop de site zich gedraagt of wordt weergegeven, zoals uw voorkeurstaal of de regio waarin u zich bevindt."
+    "categoryAnalyticalLabel": "Statistieken",
+    "categoryAnalyticalExcerpt": "Statistische cookies helpen website-eigenaren, door anoniem informatie te verzamelen en te rapporteren, om te begrijpen hoe bezoekers omgaan met websites.",
+    "categoryAnalyticalDescription": "Statistische cookies helpen website-eigenaren, door anoniem informatie te verzamelen en door te geven, om te begrijpen hoe bezoekers omgaan met websites.",
     "categoryMarketingLabel": "Marketing",
-    "categoryMarketingExcerpt": "Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites Web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers.",
-    "categoryMarketingDescription": "Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites Web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers.",
-    "categoryOtherLabel": "Autres cookies",
-    "categoryOtherExcerpt": "Ecrire une description courte ici",
-    "categoryOtherDescription": "Ecrire une description longue ici",
-    "categoryIABLabel": "Services publicitaires de l'IAB",
-    "categoryIABExcerpt": "Ces services utilisent les cookies principalement à des fin d'amélioration de la qualité des messages publicitaires.",
-    "categoryIABDescription": "Ces services utilisent les cookies principalement à des fin d'amélioration de la qualité des messages publicitaires.",
+    "categoryMarketingExcerpt": "Marketingcookies worden gebruikt om bezoekers op websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
+    "categoryMarketingDescription": "Marketingcookies worden gebruikt om bezoekers van verschillende websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
+    "categoryOtherLabel": "Overige cookies",
+    "categoryOtherExcerpt": "Schrijf hier een korte beschrijving",
+    "categoryOtherDescription": "Schrijf hier een lange beschrijving",
+    "categoryIABLabel": "IAB Reclamediensten",
+    "categoryIABExcerpt": "Deze services gebruiken cookies voornamelijk om de kwaliteit van reclameboodschappen te verbeteren."
+    "categoryIABDescription": "Deze services gebruiken cookies voornamelijk om de kwaliteit van reclameboodschappen te verbeteren,
     "cookieDeclaration": null,
-    "buttonYes": "Oui",
-    "buttonNo": "Non",
-    "viewProof": "Afficher la preuve du consentement",
-    "successMessage": "Vos préférences ont été sauvegardées ! Merci ! "
+    "buttonYes": "Yes",
+    "buttonNo": "No",
+    "viewProof": "Bewijs van toestemming weergeven",
+    "successMessage": "Uw voorkeuren zijn opgeslagen! Bedankt! "
   },
   "groups": [
     {
       "label": "Marketing",
-      "excerpt": "Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites Web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers.",
-      "purpose": 3,
+      "excerpt": "Marketingcookies worden gebruikt om bezoekers van verschillende websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
+      "doel": 3,
       "services": [
         {
           "id": "e213aca4-79b7-4b93-2bad-08d897969898",
-          "name": "yrdy",
+          "naam": "yrdy",
           "slug": "yrdy",
-          "domain": "www.dastra.eu",
+          "domein": "www.dastra.eu",
           "logoUrl": "https://api.dastra.eu/v1/favicon/www.dastra.eu",
           "privacyPolicyUrl": null,
           "defaultConsent": false,
@@ -89,7 +89,7 @@ The public api key provided
             {
               "id": "de529978-3ae0-496d-bf25-daac9d7230c7",
               "serviceId": null,
-              "name": "yrdy",
+              "naam": "yrdy",
               "description": null,
               "value": null,
               "path": null,
@@ -100,7 +100,7 @@ The public api key provided
           "lang": "fr"
         }
       ],
-      "description": "Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites Web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers.",
+      "description": "Marketingcookies worden gebruikt om bezoekers van verschillende websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
       "requiredConsent": true,
       "defaultConsent": false
     }
@@ -122,7 +122,7 @@ The public api key provided
   "scrollTrigger": 0,
   "autoGeneratedCookieNotice": false,
   "cookieNoticeUrl": "",
-  "bgColor": "#FFFFFF",
+  "bgColor": "#FFFFFFFF",
   "colorTitle": "#2E4058",
   "colorBtn": "#686868",
   "colorText": "#2E4058",
@@ -131,7 +131,7 @@ The public api key provided
   "customCSS": "",
   "enableIAB": false,
   "tcfVersion": 1,
-  "fontFamily": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+  "fontFamily": "'Segoe UI', Tahoma, Geneva, Verdana, schreefloos",
   "dateCreation": "2020-12-03T14:20:19.3703522",
   "dateUpdate": "2021-03-15T12:32:09.848664",
   "consentCookieExpiryTime": 180,
@@ -144,35 +144,35 @@ The public api key provided
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.dastra.eu" path="/v1/client/collect/:id?key=:key" method="post" summary="Enregistrement des consentements" %}
+{% swagger baseUrl="https://api.dastra.eu" path="/v1/client/collect/:id?key=:key" method="post" summary="Toestemming registratie" %}
 {% swagger-description %}
-Cette méthode permet de collecter les consentements aux cookies
+Deze methode wordt gebruikt om toestemming voor cookies te verzamelen
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="id" type="string" %}
-ID of the widget configuration
+ID van de widgetconfiguratie
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="key" type="string" %}
-The public api key
+De openbare api-sleutel
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="consents" type="object" %}
-&#x20;La liste des consentements de l'utilisateur\
+&#x20;De lijst van gebruikers toestemmingen
 \
 `{`\
-`"cookieConsents":`\
+cookieConsents":`
 `[`\
 &#x20; `{`\
-&#x20;   `"consent":true, // True if consented, false if refused`\
-&#x20;   `"id":"e213aca4-79b7-4b93-2bad-08d897969898", // Cookies id`\
-&#x20;   `"date":"2021-03-15T14:00:04.133Z",`\
-&#x20;   `"name":"yrdy",`\
-&#x20;   `"slug":"yrdy",`\
-&#x20;   `"purpose":3`\
+&#x20; `"toestemming":true, // True als toegestaan, false als geweigerd``.
+&#x20; `"id":"e213aca4-79b7-4b93-2bad-08d897969898", // Cookies id`.
+&#x20; `"date":"2021-03-15T14:00:04.133Z",`\
+&#x20; `"naam":"yrdy",`
+&#x20; `"slug":"yrdy",`
+&#x20; `"doel":3``
 &#x20; `}`\
 `],`\
-`"lang":"fr-FR",`\
+`"lang":"fr-FR",`
 `"consentId":"6f47576e-5a0c-4219-8efe-331e72bab73a",`\
 `"date":1615809009744`\
 `}`\
@@ -189,18 +189,18 @@ The public api key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="type" type="string" %}
-CookieEventType Visit,Quit,Consents
-{% endswagger-parameter %}
+CookieEventType Bezoek,Afsluiten,Toestemmingen
+{% swagger-parameter %}
 
 {% swagger-parameter in="body" name="consentId" type="string" %}
-The current consent Id (If any collected before)
+De huidige toestemmings-id (indien eerder verzameld)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="userId" type="string" %}
-Custom user id (
+Aangepaste gebruikers-id (
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="Return the id of the consent collected" %}
+{% swagger-response status="200" description="Geef de id van de verzamelde toestemming terug" %}
 ```
 140f213b-de17-4572-99a7-5075ccbcbbec
 ```

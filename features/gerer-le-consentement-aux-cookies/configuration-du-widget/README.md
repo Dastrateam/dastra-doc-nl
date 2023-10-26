@@ -1,6 +1,5 @@
 ---
-description: Apprenez à mettre en place le widget de consentement aux cookies.
+description: Leer hoe je de cookie-toestemmingswidget instelt.
 ---
 
-# Mise en place du widget
-
+# De widget instellen

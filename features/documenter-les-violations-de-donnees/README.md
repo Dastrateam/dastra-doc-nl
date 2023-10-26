@@ -1,41 +1,41 @@
 ---
-description: Apprenez à gérer les notifications de violations de données.
+description: Leer hoe u meldingen van inbreuken beheert.
 ---
 
-# Violations de données
+# Inbreuken
 
-## Introduction
+## Inleiding
 
-Tous les organismes qui traitent des données personnelles doivent mettre en place des mesures pour prévenir les violations de données et réagir de manière appropriée en cas d'incident.
+Alle organisaties die persoonsgegevens verwerken, moeten maatregelen treffen om inbreuken te voorkomen en adequaat te reageren in het geval van een incident.
 
-Pour plus d'informations sur ce qu'est une violation de données et les obligations pour les entreprises :
+Voor meer informatie over wat een datalek is en de verplichtingen voor bedrijven:
 
 {% content-ref url="../../rappels-utiles/rgpd-en-bref/violations-de-donnees.md" %}
 [violations-de-donnees.md](../../rappels-utiles/rgpd-en-bref/violations-de-donnees.md)
 {% endcontent-ref %}
 
-## Pourquoi mettre en œuvre un registre des violations de données ?
+## Waarom een register voor inbreuken implementeren?
 
-L'article 33.5 du RGPD impose à chaque organisme de tenir une documentation des violations de données.&#x20;
+Artikel 33.5 van de AVG vereist dat elke organisatie een register bijhoudt van inbreuken &#x20;
 
-Au delà de l'obligation règlementaire, le stockage et l’analyse des rapports d’incidents sont essentiels pour respecter les obligations de notifications et identifier des mesures de prévention à mettre en place. Voir : [https://www.dastra.eu/fr/data-breach](https://www.dastra.eu/fr/data-breach)
+Naast de wettelijke verplichting is het opslaan en analyseren van incidentmeldingen essentieel om te voldoen aan de meldplicht en om preventieve maatregelen te kunnen nemen. Zie: [https://www.dastra.eu/en/data-breach](https://www.dastra.eu/en/data-breach)
 
-## Accéder au registre des notifications de violation de données dans Dastra
+## Toegang tot het Dastra Meldingslogboek inbreuken
 
-DASTRA vous permet de constituer un registre des violations de données. Pour cela, rendez-vous dans l'application DASTRA, puis cliquez sur le module **Violations** disponible dans le bandeau à gauche de l'écran :
+Met Dastra kunt u een meldplicht inbreuken aanmaken. Ga hiervoor naar de DASTRA-toepassing en klik vervolgens op de module **Inbreuk** in de banner aan de linkerkant van het scherm:
 
-![Bouton du module de gestion des violations](<../../.gitbook/assets/Capture web\_5-5-2022\_163811\_app.dastra.eu.jpeg>)
+(<../../.gitbook/assets/Capture web\_5-5-2022\_163811_app.dastra.eu.jpeg>)
 
-Le registre des violations de données apparaît.
+Het logboek van de inbreuk verschijnt.
 
-![L'espace de gestion des violations](<../../.gitbook/assets/Capture web\_5-5-2022\_163922\_app.dastra.eu.jpeg>)
+[Het inbraakbeheer gedeelte](<../../.gitbook/assets/Capture web\_5-5-2022\_163922_app.dastra.eu.jpeg>)
 
-## Aller plus loin
+## Verder gaan
 
 {% content-ref url="documenter-une-violation-de-donnees.md" %}
-[documenter-une-violation-de-donnees.md](documenter-une-violation-de-donnees.md)
+[document-je-inbreuken.md](documenter-une-violation-de-donnees.md)
 {% endcontent-ref %}
 
-{% content-ref url="exportez-vos-violations-de-donnees.md" %}
-[exportez-vos-violations-de-donnees.md](exportez-vos-violations-de-donnees.md)
+{% content-ref url="exportez-vos-violations-de-donnees" %}
+[export-je-inbreuken.md](exportez-vos-violations-de-donnees.md)
 {% endcontent-ref %}

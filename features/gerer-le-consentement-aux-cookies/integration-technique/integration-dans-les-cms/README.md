@@ -1,52 +1,51 @@
 ---
 description: >-
-  Apprenez à intégrer le widget de cookie Dastra dans une page web en utilisant
-  le SDK javascript.
+  Leer hoe u de Dastra cookie-widget kunt integreren in een webpagina met behulp van de javascript SDK.
 ---
 
-# Démarrage rapide
+# Snel aan de slag
 
-## Prérequis : récupération d'une clé publique d'API
+## Voorwaarde: een API openbare sleutel ophalen
 
-pour récupérer une clé publique du SDK Dastra, rendez-vous sur cette page : [https://app.dastra.eu/general-settings/api](https://app.dastra.eu/general-settings/api)&#x20;
+Om een publieke sleutel van de Dastra SDK op te halen, gaat u naar deze pagina: [https://app.dastra.eu/general-settings/api](https://app.dastra.eu/general-settings/api)&#x20;
 
-![](<../../../../.gitbook/assets/image (88).png>)
+![](<../../../.gitbook/assets/image (88).png>)
 
-## Configurez votre widget
+## Configureer je widget
 
-Configurez votre widget en suivant le guide ci-dessous
+Configureer je widget door de onderstaande gids te volgen
 
-{% content-ref url="../../configuration-du-widget/" %}
-[configuration-du-widget](../../configuration-du-widget/)
+{% content-ref url="../../widget-configuration/" %}
+[widget-configuratie](../../widget-configuratie/)
 {% endcontent-ref %}
 
-## Insérez le code d'intégration html
+## De html-integratiecode invoegen
 
-Insérez le code HTML disponible dans la section "Code" du module de consentement Cookie Dastra **avant la fin de la balise \<BODY>** de votre site internet, sur l'ensemble des pages. Vous pouvez utiliser le Google tag manager pour insérer dynamiquement ce code sur chaque page.
+Voeg de HTML-code die beschikbaar is in de "Code" sectie van de Dastra Cookie toestemmingsmodule **voor het einde van de tag<BODY>** in op je website, op alle pagina's. Je kunt Google tag manager gebruiken om de code dynamisch te maken. U kunt Google tag manager gebruiken om deze code dynamisch op elke pagina in te voegen.
 
 {% hint style="info" %}
-Pour que le code fonctionne correctement, assurez-vous de la bonne configuration au préalable de la clef publique de votre API.
+Om de code correct te laten werken, moet je ervoor zorgen dat de publieke sleutel van je API vooraf correct is geconfigureerd.
 {% endhint %}
 
-Voici comment se présente le code d'intégration du widget
+De widgetintegratiecode ziet er als volgt uit
 
-```markup
-<div id="dastra-cookie-consent" data-widgetid="{your_widget_id}"></div>
-<script src="https://app.dastra.eu/sdk/dastra.js?key={your_public_key}" async>
+markup
+<div id="dastra-cookie-consent" data-widgetid="{uw_widget_id}"></div>
+<script src="https://app.dastra.eu/sdk/dastra.js?key={uw_publieke_key}" async>
 </script>
 ```
 
-La div avec l'id "dastra-cookie-consent" sera l'emplacement du rendu de votre widget de consentement. L'attribut "data-widgetid" permet d'identifier le widget invoqué, c'est souvent un nombre (int32). {your\_public\_key} correspond à votre clé publique [d'API récupérable ici](https://app.dastra.eu/general-settings/api)
+De div met het id "dastra-cookie-consent" wordt de renderlocatie voor je toestemmingswidget. Het "data-widgetid" attribuut wordt gebruikt om de aangeroepen widget te identificeren, wat vaak een getal is (int32). {uw_publieke_key} komt overeen met je publieke sleutel [API sleutel hier op te vragen](https://app.dastra.eu/general-settings/api)
 
-Une fois le code inséré dans la balise \<body> de votre site, le widget s'affichera sur votre site.
+Zodra de code is ingevoegd in de tag \<body> op je site, wordt de widget weergegeven op je site.
 
 {% hint style="warning" %}
-Pour des performances optimales, le widget est mis en cache automatiquement par la navigateur dans le sessionStorage
+Voor optimale prestaties wordt de widget automatisch in de cache geplaatst door de browser in de sessionStorage
 {% endhint %}
 
 ## Wordpress
 
-Si vous utilisez Wordpress, vous trouverez dans le lien ci-dessous plus d'informations sur la manière dont le code généré peut être inséré à la fin de la balise html de votre site internet.
+Als je Wordpress gebruikt, vind je meer informatie in de onderstaande link over hoe de gegenereerde code aan het einde van de html-tag van je website kan worden ingevoegd.
 
 {% content-ref url="wordpress.md" %}
 [wordpress.md](wordpress.md)
@@ -54,9 +53,8 @@ Si vous utilisez Wordpress, vous trouverez dans le lien ci-dessous plus d'inform
 
 
 
-Une fois le widget intégré, passez à la phase de test.
+Zodra de widget is geïntegreerd, ga je verder met de testfase.
 
 {% content-ref url="../comment-tester-lintegration-dun-widget.md" %}
-[comment-tester-lintegration-dun-widget.md](../comment-tester-lintegration-dun-widget.md)
+[comment-tester-lintegratie-dun-widget.md](../comment-tester-lintegratie-dun-widget.md)
 {% endcontent-ref %}
-

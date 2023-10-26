@@ -1,37 +1,33 @@
 ---
-description: Apprenez à collecter les preuves de consentement cookies avec Dastra.
+description: Leer hoe je een bewijs van toestemming voor cookies verzamelt met Dastra.
 ---
 
 # Verzamel bewijs van cookie-toestemming
 
-Une fois le widget de consentement aux cookies DASTRA implémenté sur votre site internet, le module de Consentement aux cookies DASTRA vous permets également de **collecter** et d'**exporter** les **preuves de consentement aux cookies**.
+Zodra de DASTRA Cookie Consent widget op uw website is geïmplementeerd, kunt u met de DASTRA Cookie Consent module ook **het **bewijs van toestemming voor cookies** verzamelen** en **exporteren**.
 
-## Prérequis
+## Vereisten
 
-Pour faire cela, vous devez avoir préalablement implémenté un widget de consentement aux cookies DASTRA sur votre site internet.
+Hiervoor moet u een DASTRA Cookie Consent widget op uw website hebben geïmplementeerd.
 
-{% content-ref url="implementez-un-widget-de-consentement-aux-cookies.md" %}
-[implementez-un-widget-de-consentement-aux-cookies.md](implementez-un-widget-de-consentement-aux-cookies.md)
+{% content-ref url="implement-a-cookie-consent-widget.md" %}
+[implement-a-widget-de-instemming-aux-cookies.md](implement-a-widget-de-instemming-aux-cookies.md)
 {% endcontent-ref %}
 
-## Collectez les preuves de consentement aux cookies
+## Verzamel bewijs van toestemming voor cookies
 
-Une fois le widget implémenté, DASTRA collecte automatiquement pour vous les preuves de consentement des internautes visitant votre site web.
+Zodra de widget is geïmplementeerd, verzamelt DASTRA automatisch toestemmingsbewijzen van bezoekers op uw website.
 
-Pour les consulter, il suffit de se rendre dans l'interface "Consentement" du module de Consentement aux cookies DASTRA.
+Om ze te bekijken, gaat u naar de interface "Toestemming" van de module DASTRA Cookie Toestemming.
 
-![Interface "Consentement"](<../../../.gitbook/assets/Capture web\_6-5-2022\_95747\_app.dastra.eu.jpeg>)
+[Consent" interface](<../../../.gitbook/assets/Capture web_6-5-2022_95747\_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
-A partir de cette interface, vous pouvez également personnaliser les preuves de consentement collectées, exporter les données, filtrer par date ou widget de cookies, notamment.
+Vanuit deze interface kun je ook het verzamelde toestemmingsbewijs aanpassen, gegevens exporteren, filteren op datum of cookie-widget, enzovoort.
 {% endhint %}
 
-Bravo, vous collectez maintenant les preuves de consentement cookies !
+Gefeliciteerd, u verzamelt nu toestemmingsbewijzen voor cookies!
 
-La durée de vie des preuves de consentement est d'un an.
+Toestemmingsbewijzen hebben een levensduur van één jaar.
 
-Pour rendre votre site dynamique et prendre en compte véritablement le consentement de l'internaute, rendez-vous à la prochaine rubrique "aller plus loin":
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Als u uw site dynamisch wilt maken en echt rekening wilt houden met de toestemming van de gebruiker, gaat u naar de volgende sectie "verder gaan":

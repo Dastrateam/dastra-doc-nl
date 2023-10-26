@@ -1,2 +1,2 @@
-# Permissions et droits d'accès
+# Machtigingen en toegangsrechten
 

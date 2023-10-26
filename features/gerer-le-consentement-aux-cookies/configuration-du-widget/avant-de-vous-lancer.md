@@ -1,69 +1,67 @@
 ---
 description: >-
-  Avant de vous lancer dans l'implémentation technique du widget Dastra, nous
-  vous recommandons de passer par une étape d'audit des cookies de vos sites
-  web.
+  Voordat u begint met de technische implementatie van de Dastra widget, raden we u aan om de cookies op uw websites te controleren.
+  raden we u aan de cookies op uw websites te controleren.
+  sites.
 ---
 
-# Etude préliminaire
+# Vooronderzoek
 
-## 1. Rapprochez vous de votre webmaster ou agence web
+## 1. neem contact op met uw webmaster of webbureau
 
-Avant d'implémenter le widget Dastra, nous vous recommandons de vous rapprocher de la personne responsable de l'intégration des tags et autres marqueurs de votre site web, et de l'inviter dans votre espace de travail. Cette personne pourra ainsi récupérer les éléments de code générés par Dastra qui seront nécessaires à la réalisation des diverses actions techniques (mise en place de la bannière, du blocage effectif des cookies en cas de non-consentement...).
+Voordat u de Dastra widget implementeert, raden wij u aan contact op te nemen met de persoon die verantwoordelijk is voor het integreren van tags en andere markers op uw website en deze uit te nodigen voor uw werkruimte. Deze persoon kan dan de door Dastra gegenereerde code-elementen ophalen die nodig zijn om de verschillende technische acties uit te voeren (het instellen van de banner, het effectief blokkeren van cookies in geval van non-consent, etc.).
 
-## 2. Effectuez un mini-audit des cookies de votre site ou web-app
+## 2. Voer een mini-audit uit van de cookies op uw site of web-app
 
-Pour effectuer cet audit, vous pouvez vous appuyer sur le template de fichier Excel ci-dessous :
+Om deze audit uit te voeren, kunt u het onderstaande Excel-bestandssjabloon gebruiken:
 
-{% file src="../../../.gitbook/assets/template-audit.xlsx" %}
+{% file src="../../..gitbook/assets/template-audit.xlsx" %}
 
-Ce mini audit facilitera grandement le travail d'intégration de l'équipe technique.
+Deze mini-audit zal het integratiewerk van het technische team enorm vergemakkelijken.
 
-### Listez les services/cookies associés à votre nom de domaine
+### Maak een lijst van de services/cookies die aan uw domeinnaam zijn gekoppeld
 
-Pour vous aider, vous pouvez utiliser notre outil de scan de cookies clé en main : [https://app.dastra.eu/workspace/19/cookie-widget/integration/scan](https://app.dastra.eu/workspace/19/cookie-widget/integration/scan)\
-Celui-ci vous permettra d'identifier à la volée les services installés sur votre site à partir de notre base de données de cookies.
+Om u te helpen, kunt u onze kant-en-klare cookie-scantool gebruiken: [https://app.dastra.eu/workspace/19/cookie-widget/integration/scan](https://app.dastra.eu/workspace/19/cookie-widget/integration/scan)\.
+Hiermee kunt u ter plekke de services identificeren die op uw site zijn geïnstalleerd vanuit onze cookie-database.
 
-{% content-ref url="scannez-les-cookies-deposes-sur-votre-site-web.md" %}
-[scannez-les-cookies-deposes-sur-votre-site-web.md](scannez-les-cookies-deposes-sur-votre-site-web.md)
+{% content-ref url="scan-de-cookies-gedeponeerd-op-uw-website.md" %}
+[scan-the-cookies-deposited-on-your-website.md](scan-the-cookies-deposited-on-your-website.md)
 {% endcontent-ref %}
 
-En complément, il est recommandé d'examiner avec précision l'ensemble des services installés sur votre site (examen du code source de la page, inspection des cookies...). Des outils comme [https://builtwith.com/](https://builtwith.com/) peuvent également vous venir en aide pour lister ces services.
+Daarnaast is het raadzaam om een gedetailleerd onderzoek uit te voeren naar alle services die op uw site zijn geïnstalleerd (onderzoek van de broncode van de pagina, inspectie van cookies, enz.) Tools zoals [https://builtwith.com/](https://builtwith.com/) kunnen u ook helpen bij het inventariseren van deze services.
 
-Pour chaque domaine ou site web que vous souhaitez cartographier, nous vous recommandons de rédiger une liste exhaustive des services tiers utilisant les traceurs.
+Voor elk domein of elke website die u in kaart wilt brengen, raden we u aan een volledige lijst op te stellen van diensten van derden die cookies gebruiken.
 
-Une fois que vous avez la liste des services associés à votre site, vous allez devoir définir la stratégie de blocage à adopter.
+Zodra u een lijst hebt van de diensten die met uw site verbonden zijn, moet u de te volgen blokkeringsstrategie bepalen.
 
-### Définition des finalités
+### Definitie van doeleinden
 
-Chaque service identifié devra être classé dans l'une de ces catégories :&#x20;
+Elke geïdentificeerde dienst moet in een van deze categorieën worden ingedeeld:&#x20;
 
-| Type                    | Id |
+| Type | Id |
 | ----------------------- | -- |
-| Strictement nécessaires | 0  |
-| Préférences             | 1  |
-| Analytique              | 2  |
-| Marketing               | 3  |
-| Autre                   | 4  |
+| Strikt noodzakelijk | 0 |
+| Voorkeuren 1
+| Analytisch 2
+| Marketing | | 3 |
+| Overige 4
 
-### Identification du type d'intégration du service
+### Het type service-integratie identificeren
 
-Pour chaque service, vous allez devoir identifier la manière avec laquelle le tag js est intégré dans la page :
+Voor elke service moet u bepalen op welke manier de javascript-tag in de pagina is geïntegreerd:
 
-* Tag javascript direct dans la page
-* Intégration dans le code js de la page (Développement interne)
-* Intégration dans un outil de taggage (Google Tag Manager)
-* Autres:  iframe, ...
+* Directe javascript tag in de pagina
+* Integratie in de js-code van de pagina (interne ontwikkeling)
+* Integratie in een tagging tool (Google Tag Manager)
+* Andere: iframe, enz.
 
-### Définition de la stratégie de blocage à adopter
+### De te gebruiken blokkeringsstrategie bepalen
 
-Pour bloquer les cookies par défaut, il existe plusieurs stratégies possibles qui dépendront de vos besoins:
+Er zijn verschillende strategieën mogelijk om cookies standaard te blokkeren, afhankelijk van uw behoeften:
 
-* **Ne plus utiliser** : cette librairie n'est en fait pas nécessaire, vous pouvez donc la retirer complètement des sources du site ;
-* **Bloquer complètement** : L'exécution de la balise est totalement bloquée tant que l'utilisateur n'a pas accepté les cookies ;
-* **Blocage partiel** : Seules les fonctionnalités de traçage sont bloquées (si la librairie le permet). Certaines librairies peuvent en effet fonctionner avec un mode complètement dégradé sans aucune dégradation de performance.
-
-
+* **Niet langer gebruiken**: deze bibliotheek is in feite overbodig, dus u kunt hem volledig verwijderen uit de bronnen van de site;
+* Volledig blokkeren** : De uitvoering van de tag wordt volledig geblokkeerd totdat de gebruiker cookies accepteert;
+* Gedeeltelijk blokkeren**: Alleen de trackingfuncties worden geblokkeerd (als de bibliotheek dit toestaat). Sommige bibliotheken kunnen in een volledig gedegradeerde modus werken zonder prestatieverlies.
 
 
 

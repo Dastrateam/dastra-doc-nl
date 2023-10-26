@@ -1,21 +1,21 @@
 ---
-description: Apprenez à tester l'intégration d'un widget de consentement.
+description: Leer hoe je de integratie van een toestemmingswidget test.
 ---
 
-# Tester l'intégration d'un widget
+# De integratie van een widget testen
 
-## Activer le mode prévisualisation
+## Voorbeeldmodus activeren
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<../../..gitbook/assets/image (68).png>)
 
-Le mode prévisualisation désactivera le cache du widget et vous permettra de visualiser vos modifications de configuration en live. Les domaines en localhost seront également autorisés.
+Voorbeeldmodus zal de widget cache deactiveren en je toestaan om je configuratiewijzigingen live te bekijken. Localhost domeinen zullen ook geauthoriseerd worden.
 
-## Vous pouvez utiliser la clé d'api suivante
+## Je kunt de volgende api sleutel gebruiken
 
 ```
-dastra00-0testing1-key
+dastra00-0testing1-sleutel
 ```
 
 {% hint style="info" %}
-&#x20;Cette clé affichera un exemple de widget de consentement. Il n'est pas possible de modifier la configuration de celui-ci. La finalité de cette clé est d'effectuer des tests d'intégrations ( par exemple dans un jsFiddle).
+&#x20;Deze toets geeft een voorbeeld van een toestemmingswidget weer. Het is niet mogelijk om de configuratie aan te passen. Het doel van deze sleutel is om integratietests uit te voeren (bijvoorbeeld in een jsFiddle).
 {% endhint %}

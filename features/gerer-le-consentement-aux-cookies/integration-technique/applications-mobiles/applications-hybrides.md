@@ -1,4 +1,4 @@
-# Applications hybrides
+# Hybride toepassingen
 
-Le fonctionnement du SDK fonctionne de la même façon que sur un site internet.\
-Il sera toutefois nécessaire de configurer manuellement les traceurs.&#x20;
+De SDK werkt op dezelfde manier als een website.
+Het is echter noodzakelijk om de trackers handmatig te configureren &#x20;

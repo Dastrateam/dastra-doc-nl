@@ -1,28 +1,27 @@
 ---
-description: Cette page explique comment gérer les langues du widget de consentement
+description: Deze pagina legt uit hoe u de talen van de toestemmingswidget kunt beheren
 ---
 
-# Gestion de la langue
+# Taalbeheer
 
-## Comment gérer plusieurs langues pour le widget ?
+## Hoe beheer ik meerdere talen voor de widget?
 
-Rendez-vous sur la page de réglages du widget souhaité, puis dans l'onglet "Textes et traductions". Vous pouvez ajouter une ou plusieurs langues.
+Ga naar de instellingenpagina voor de gewenste widget en vervolgens naar het tabblad "Teksten en vertalingen". Je kunt een of meer talen toevoegen.
 
-![](<../../../.gitbook/assets/Capture web\_6-5-2022\_102131\_app.dastra.eu.jpeg>)
+![](<../../..gitbook/assets/Capture web_6-5-2022_102131_app.dastra.eu.jpeg>)
 
 {% hint style="warning" %}
-Attention, seuls le français et l'anglais sont supportés aujourd'hui.
+Houd er rekening mee dat momenteel alleen Frans en Engels worden ondersteund.
 {% endhint %}
 
-## Comment est détectée la langue du widget ?
+## Hoe wordt de taal van de widget gedetecteerd?
 
-Par défaut, la langue est détectée automatiquement en fonction de la langue du navigateur
+Standaard wordt de taal automatisch gedetecteerd op basis van de browsertaal.
 
-## Comment forcer la langue du widget ?
+## Hoe forceer ik de taal van de widget?
 
-Pour forcer la langue du widget, il suffit d'ajouter un attribut data-lang="" à la div du widget
+Om de taal van de widget te forceren, voeg je gewoon een data-lang="" attribuut toe aan de widget div
 
-```markup
-<div id="cookie-consent" data-lang="fr"></div>
+``opmerking
+<div id="cookie-consent" data-lang="en"></div>
 ```
-

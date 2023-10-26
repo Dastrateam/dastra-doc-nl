@@ -1,73 +1,73 @@
 ---
 description: >-
-  Apprenez à mettre en place un widget de consentement aux cookies sur votre
+  Leer hoe je een cookie toestemmingswidget instelt op je
   site.
 ---
 
 # Een cookie-toestemmingswidget configureren
 
-DASTRA vous permets de mettre un place un widget de consentement aux cookies directement sur votre site respectant les recommandations de la CNIL sur les cookies et autres traceurs.
+Met DASTRA kunt u een cookie-toestemmingswidget rechtstreeks op uw site zetten in overeenstemming met de CNIL-aanbevelingen over cookies en andere trackingapparaten.
 
-## En quoi consiste le widget de consentement aux cookies Dastra
+## Wat is de Dastra cookie-toestemmingswidget?
 
-Ce widget se compose de plusieurs éléments:
+Deze widget bestaat uit verschillende elementen:
 
-![Un symbole "cookies" apparaissant en bas à gauche de l'écran](<../../../.gitbook/assets/Capture web\_6-5-2022\_93427\_www.dastra.eu.jpeg>)
+[Een "cookies" symbool dat linksonder in het scherm verschijnt](<../../..gitbook/assets/Capture web_6-5-2022\_93427\_www.dastra.eu.jpeg>)
 
-![Une fenêtre d'introduction dépliable](<../../../.gitbook/assets/image (42).png>)
+[Een uitklapbaar introductievenster](<../../..gitbook/assets/image (42).png>)
 
-![La liste des cookies par finalité utilisées par le site](<../../../.gitbook/assets/image (40) (1).png>)
+[De lijst met cookies per doel gebruikt door de site](<../../.gitbook/assets/image (40) (1).png>)
 
-## Prérequis
+## Vereisten
 
-Pour implémenter votre widget de consentement aux cookies, vous devez préalablement avoir **identifié** et **classifié** par catégories de finalités **les cookies déposés sur votre site internet.** Le module Consentement aux cookies de DASTRA permets de faire cela en quelques clics.
-
-{% hint style="info" %}
-Pour rendre l'implémentation du widget de consentement aux cookies plus facile, Dastra a intégré dans le même module toutes les étapes nécessaires, depuis la mise en place des prérequis jusqu'aux lignes de code.
-{% endhint %}
-
-Pour scanner les cookies déposés sur votre site Web, rendez-vous sur la page suivante :
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-Pour classifier les cookies par catégories de consentement, rendez-vous sur la page suivante :
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Définissez l'apparence de votre widget de consentement aux cookies cible
-
-Pour mettre en place un widget de consentement aux cookies sur votre site internet, vous devez vous rendre sur l'interface "Apparence" du module Consentement aux cookies de DASTRA. Une fois que vous avez créé votre premier widget de consentement, cliquez dessus pour faire apparaître une page où vous retrouvez un ensemble de fonctionnalités pour le widget. Cliquez sur "apparence du widget".
-
-![Interface "Apparence" du module Consentement aux Cookies DASTRA](<../../../.gitbook/assets/Capture web\_6-5-2022\_93842\_app.dastra.eu.jpeg>)
-
-A partir de cette interface, vous pouvez **personnaliser intégralement votre widget** pour qu'il s'affiche de la façon dont vous le souhaitez sur votre site internet.
+Om uw cookie toestemmingswidget te implementeren, moet u eerst **de cookies die op uw website zijn geplaatst** hebben geïdentificeerd** en** geclassificeerd** per doelcategorie.** Met de Cookie Toestemmingsmodule van DASTRA kunt u dit in slechts een paar klikken doen.
 
 {% hint style="info" %}
-Vous pouvez également apporter d'autres modifications plus générales sur le widget dans les sections "Configuration", "Textes et traductions" et "Déclencheurs".
+Om de implementatie van de Cookie Consent widget eenvoudiger te maken, heeft Dastra alle benodigde stappen, van randvoorwaarden tot regels code, geïntegreerd in dezelfde module.
 {% endhint %}
 
-Une fois le paramétrage terminé, cliquez ensuite sur "Publier". Vous pouvez également prévisualisr le rendu final sur la page de votre site web en cliquant sur "Prévisualiser".
+Ga naar de volgende pagina om de op uw website geplaatste cookies te scannen:
 
-![](<../../../.gitbook/assets/Capture web\_6-5-2022\_94118\_app.dastra.eu.jpeg>)
+{% content-ref url="broken-reference" %}
+[Gebroken link](gebroken-verwijzing)
+{% endcontent-ref %}
 
-## Insérez le code du widget sur votre site web
+Ga naar de volgende pagina om cookies te classificeren op toestemmingscategorie:
 
-Une fois votre widget de consentement aux cookies cible défini, vous pouvez l'intégrer directement sur votre site web grâce aux **lignes de code générées automatiquement** par DASTRA.\
+{% content-ref url="broken-reference" %}
+[Gebroken link](gebroken-verwijzing)
+{% endcontent-ref %}
+
+## Definieer het uiterlijk van je cookie toestemmingswidget
+
+Om een cookie toestemmingswidget op uw website in te stellen, moet u naar de interface "Uiterlijk" van de DASTRA Cookie Toestemmingsmodule gaan. Zodra u uw eerste toestemmingswidget hebt aangemaakt, klikt u erop om een pagina te openen met een set functies voor de widget. Klik op "widget uiterlijk".
+
+[DASTRA Cookie Toestemming "Uiterlijk" Interface](<../../.gitbook/assets/Capture web_6-5-2022\_93842_app.dastra.eu.jpeg>)
+
+Vanuit deze interface kun je **je widget** volledig aanpassen, zodat hij wordt weergegeven zoals jij dat wilt op je website.
+
+{% hint style="info" %}
+Je kunt ook andere, meer algemene wijzigingen aanbrengen aan de widget in de secties "Configuratie", "Teksten en vertalingen" en "Triggers".
+{% endhint %}
+
+Als je klaar bent met je instellingen, klik je op "Publiceren". U kunt ook een voorbeeld van de uiteindelijke weergave op uw websitepagina bekijken door op "Voorbeeld" te klikken.
+
+![](<../../..gitbook/assets/Capture web_6-5-2022_94118_app.dastra.eu.jpeg>)
+
+## Plaats de widget code op je website
+
+Als je eenmaal je cookie toestemmingswidget hebt gedefinieerd, kun je deze direct in je website integreren met behulp van de **automatisch gegenereerde coderegels** van DASTRA.eu.
 \
-Pour cela, rendez-vous dans l'onglet "Installation" une fois que vous avez sélectionné votre widget dans le menu du module de Cookies, et insérez le code généré automatiquement avant la fin de la balise html \<body> de votre site internet.
+Ga hiervoor naar het tabblad "Installatie" nadat u uw widget hebt geselecteerd in het Cookiesmodule-menu en voeg de automatisch gegenereerde code in vóór het einde van de html<body>-tag van uw website.
 
-![Génération de code html du widget](<../../../.gitbook/assets/image (58).png>)
+[Widget html code generatie](<../../../.gitbook/assets/image (58).png>)
 
 {% hint style="info" %}
-Vous pouvez utiliser le Google tag manager pour insérer dynamiquement ce code sur chaque page.
+Je kunt Google tag manager gebruiken om deze code dynamisch op elke pagina in te voegen.
 {% endhint %}
 
-N'hésitez pas à faire appel à votre webmaster pour réaliser cette étape. Une fois celle-ci réalisée, un widget apparait sur votre écran.
+Aarzel niet om je webmaster te vragen deze stap uit te voeren. Zodra dit is gedaan, verschijnt er een widget op je scherm.
 
 {% hint style="info" %}
-Pour des raisons de sécurité, seuls les sites disposant d'un certificat SSL de type "https" peuvent mettre en place un widget.
+Om veiligheidsredenen kunnen alleen sites met een "https" SSL-certificaat een widget installeren.
 {% endhint %}

@@ -1,24 +1,24 @@
 ---
 description: >-
-  Ce chapitre vous apprendra comment gérer les consentements de notre widget de
-  cookies programmatiquement.
+  Dit hoofdstuk leert je hoe je de toestemmingen van onze
+  widget programmatisch te beheren.
 ---
 
-# Gérer le consentement programmatiquement
+# Toestemmingen programmatisch beheren
 
-## Où sont stockés les consentements ?
+## Waar worden de toestemmingen opgeslagen?
 
-L'intégralité de la preuve du consentement de l'utilisateur est stocké dans le localStorage du navigateur (La clé de stockage est nommée dastra-consents) au format json. La propagation des consentements en dépend, c'est pourquoi, il n'est pas recommandé de modifier directement les données de cette clé
+Het volledige bewijs van de toestemming van de gebruiker wordt opgeslagen in de localStorage van de browser (de opslagsleutel heet dastra-consents) in json-formaat. De propagatie van toestemmingen hangt hiervan af, daarom wordt het niet aangeraden om de gegevens in deze sleutel direct te wijzigen.
 
 {% hint style="info" %}
-&#x20;Il n'est pas recommandé de modifier directement les données se trouvant dans le localStorage. Utilisez de préférence le SDK Javascript de dastra.
+&#x20;Het wordt niet aanbevolen om de gegevens in de localStorage rechtstreeks te wijzigen. Gebruik bij voorkeur de dastra Javascript SDK.
 {% endhint %}
 
-### Accès au service de consentement
+### Toegang tot de toestemmingsservice
 
-Le service de consentement de dastra est accessible de cette façon
+De toestemmingsservice van dastra kan als volgt worden geopend
 
-```javascript
+```Javascript
 <script>
 dastra = dastra || []
 dastra.push(['cookieReady',function(manager){
@@ -27,92 +27,92 @@ dastra.push(['cookieReady',function(manager){
 </script>
 ```
 
-### Liste des méthodes disponibles dans le manageur de consentement
+### Lijst van beschikbare methoden in de toestemmingsmanager
 
-dans manager.consent, vous disposez des méthodes suivantes :
+In manager.consent zijn de volgende methoden beschikbaar:
 
-* open() : ouvre le widget de consentement
-* close() : ferme le widget de consentement
-* getAllConsents() : récupère tous les consentements
-* getPurposeConsent(purposeId:number) : récupère le consentement d'une catégorie de cookies
-* setPurposeConsent(purposeId:number, consent:bool): définit le consentement pour une catégorie
-* getServiceConsent(serviceShortName:string): récupère le consentement d'un service particulier.
-* setServiceConsent(serviceShortName:string, consent:bool): définit le consentement d'un élément particulier
+* open(): opent de toestemmingswidget.
+* close(): Sluit de toestemmingswidget.
+* getAllConsents(): Alle toestemmingen ophalen.
+* getPurposeConsent(purposeId:number): vraagt toestemming op voor een categorie cookies
+* setPurposeConsent(purposeId:number, consent:bool): stelt de toestemming voor een categorie in
+* getServiceConsent(serviceShortName:string): hiermee wordt de toestemming voor een bepaalde dienst opgehaald.
+* setServiceConsent(serviceShortName:string, consent:bool): stelt de toestemming voor een bepaald item in.
 
-### Récupérer la liste des consentements de l'utilisateur (getAllConsents)
+### De lijst met gebruikerstoestemmingen ophalen (getAllConsents)
 
-Une fois que vous accédez au manager de consentement, il est très aisé de récupérer les consentements de l'utilisateur courant :
+Als je eenmaal toegang hebt tot de toestemmingsmanager, is het heel eenvoudig om de toestemmingen van de huidige gebruiker op te vragen:
 
-```javascript
+```Javascript
 <script>
 dastra = dastra || []
-dastra.push(['cookieReady', function(manager){
-    // Get the complete consent services list
+dastra.push(['cookieReady', functie(manager){
+    // De volledige lijst met toestemmingsservices ophalen
     var consents = manager.consent.getAllConsents()
 });
 </script>
 ```
 
-La méthode ci-dessus renvoie la liste de tous les consentements de l'utilisateur
+De bovenstaande methode retourneert een lijst met alle toestemmingen van de gebruiker
 
 ```javascript
 [
   {
     "id":"000000-0000000-000000",
-    "name": "Service name",
-    "purpose": 1,
-    "logoUrl": "https://logo-url/img.jpg",
-    "privacyPolicyUrl":"",
-    "description": "Short description",
-    "defaultConsent": true,
+    "naam":"Servicenaam",
+    "doel": 1,
+    "logoUrl":"https://logo-url/img.jpg",
+    "privacyPolicyUrl":""
+    "description":"Korte beschrijving",
+    "defaultConsent":true,
     "requiredConsent":true
   },
   ...
 ]
 ```
 
-### Interroger les consentements par catégorie (getPurposeConsent/setPurposeConsent)
+### Toestemmingen per categorie opvragen (getPurposeConsent/setPurposeConsent)
 
-Les catégories de cookies sont représentés par les ids suivants :
+Cookiecategorieën worden vertegenwoordigd door de volgende id's:
 
-| Type        | Id |
+| Type | Id |
 | ----------- | -- |
-| Nécessaires | 0  |
-| Préférences | 1  |
-| Analytique  | 2  |
-| Marketing   | 3  |
-| Autre       | 4  |
+| Noodzakelijk | 0 |
+| Voorkeuren 1
+| Analytisch 2
+| Marketing | | 3 |
+| Andere | 4 |
 
-```javascript
+```Javascript
 <script>
 dastra = dastra || []
 dastra.push(['cookieReady',function(manager){
-    // Get the complete consent services list
-    let cookiePurpose = 2; // 2 = Analytic
-    let consents = manager.consent.getPurposeConsent(cookiePurpose);
+    // De volledige lijst met toestemmingsservices ophalen
+    laat cookiePurpose = 2; // 2 = Analytisch
+    laat toestemmingen = manager.consent.getPurposeConsent(cookiePurpose);
     manager.consent.setPurposeConsent(cookiePurpose, false)
 });
 </script>
 ```
 
-### Manipuler les consentements par service
+### Toestemmingen per service manipuleren
 
-Pour manipuler les consentements par service, vous aurez besoin du nom simplifié du service disponible dans l'interface de gestion des services de votre widget.
+Om toestemmingen per service te manipuleren, heb je de vereenvoudigde servicenaam nodig die beschikbaar is in de servicebeheerinterface van je widget.
 
 {% hint style="info" %}
-**Comment trouver le nom simplifié du service ?**\
-Rendez-vous dans l'interface de gestion des services, en éditant un service, le nom simplifié (slug) du service apparaît en dessous du nom du cookie.
+**Hoe vind ik de vereenvoudigde servicenaam?
+Ga naar de servicebeheerinterface en bewerk een service. De vereenvoudigde naam (slug) van de service verschijnt onder de naam van de cookie.
 {% endhint %}
 
-![Emplacement du nom du cookies simplifié](<../../../.gitbook/assets/image (67).png>)
+Locatie van vereenvoudigde cookienaam](<../../..gitbook/assets/image (67).png>)
 
 ```javascript
 <script> 
 dastra = dastra || []
 dastra.push(['cookieReady',function(manager){
-    // Get the complete consent services list
-    let cookiePurpose = 'google-analytics'; // 2 = Analytic
-    let consents = manager.consent.getServiceConsent(cookiePurpose );
+    // De volledige lijst met toestemmingsservices ophalen
+    laat cookiePurpose = 'google-analytics'; // 2 = Analytic
+    laat toestemmingen = manager.consent.getServiceConsent(cookiePurpose );
     manager.consent.setServicePurpose(cookiePurpose, false)
 });
 </script>

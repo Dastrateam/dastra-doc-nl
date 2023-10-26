@@ -1,40 +1,40 @@
 ---
-description: Apprenez à classifier les cookies par catégories de consentement.
+description: Leer hoe u cookies kunt classificeren op toestemmingscategorie.
 ---
 
-# Classifiez les cookies par catégories de consentement
+# Cookies classificeren op toestemmingscategorie
 
-Dans son [projet de recommandation](https://www.cnil.fr/fr/la-cnil-lance-une-consultation-publique-sur-son-projet-de-recommandation-cookies-et-autres-traceurs) « cookies et autres traceurs », la CNIL  recommande de recenser et catégoriser les cookies sur son site internet, selon qu’ils nécessitent un consentement ou non.
+In haar [ontwerpaanbeveling](https://www.cnil.fr/fr/la-cnil-lance-une-consultation-publique-sur-son-projet-de-recommandation-cookies-et-autres-traceurs) "cookies en andere trackers" beveelt de CNIL aan om de cookies op uw website op te sommen en te categoriseren op basis van het feit of er wel of geen toestemming voor nodig is.
 
 {% hint style="info" %}
-Pour plus d'information sur les recommandations de la CNIL sur les cookies, n'hésitez pas à consulter notre article "[Les recommandations de la CNIL sur les cookies expliquées à votre boss](https://www.dastra.eu/fr/article/recommendations-CNIL-cookies-expliquees-a-votre-boss/104)"
+Zie voor meer informatie over de aanbevelingen van de CNIL over cookies ons artikel "[De aanbevelingen van de CNIL over cookies uitgelegd aan uw baas](https://www.dastra.eu/fr/article/recommendations-CNIL-cookies-expliquees-a-votre-boss/104)".
 {% endhint %}
 
-Avec DASTRA, vous pouvez classifier via simple "drag and drop" les cookies déposés sur votre site internet, par grande catégorie de finalité :
+Met DASTRA kunt u de cookies die op uw website worden geplaatst classificeren met behulp van een eenvoudige "drag and drop", per hoofdcategorie van doel:
 
-* Les cookies "**strictement nécessaires**": il s'agit de cookies exemptés de consentement de par leur nature (par exemple, cookies de session ou de consentement)
-* Les cookies de type "**préférences**"
-* Les cookies de type "**analyse d'audience**"
-* Les cookies de type "**marketing et expérience utilisateur**"
-* les autres.
+* Strikt noodzakelijke" cookies: dit zijn cookies die van nature geen toestemming vereisen (bijvoorbeeld sessie- of toestemmingscookies).
+* Voorkeurcookies
+* publieksanalyse**" cookies
+* cookies voor marketing en gebruikerservaring
+* Overige cookies.
 
 {% content-ref url="les-finalites-des-cookies.md" %}
 [les-finalites-des-cookies.md](les-finalites-des-cookies.md)
 {% endcontent-ref %}
 
-Pour ce faire, il suffit de sélectionner le cookie à classifier depuis l'interface de Classification, puis de le déplacer par simple "cliquer - déposer" vers la catégorie de son choix.
+Om dit te doen, selecteer je gewoon het cookie dat je wilt classificeren in de Classificatie-interface en verplaats je het door er simpelweg op te "klikken en neer te zetten" in de categorie van je keuze.
 
-![Le cookie "Cookie à classer" en cours de classification](<../../../.gitbook/assets/image (52).png>)
+[Het "te classificeren cookie" cookie dat geclassificeerd wordt](<../../../.gitbook/assets/image (52).png>)
 
-![Le cookie "Cookie à classer" classé dans la catégorie "Préférences"](<../../../.gitbook/assets/image (53).png>)
+[Het "Cookie dat geclassificeerd moet worden" cookie dat geclassificeerd wordt in de "Voorkeuren" categorie](<../../../.gitbook/assets/image (53).png>)
 
 {% hint style="info" %}
-Vous pouvez définir s'il y a besoin de demander le consentement ou non pour chaque cookie au cas par cas.
+Je kunt van geval tot geval bepalen of er wel of geen toestemming moet worden gevraagd voor elke cookie.
 {% endhint %}
 
-&#x20;Une fois tous vos cookies classifiés par catégorie, vous pouvez implémenter le widget de consentement correspondant.
+&#x20;Als al je cookies per categorie zijn ingedeeld, kun je de bijbehorende toestemmingswidget implementeren.
 
-{% content-ref url="implementez-un-widget-de-consentement-aux-cookies.md" %}
-[implementez-un-widget-de-consentement-aux-cookies.md](implementez-un-widget-de-consentement-aux-cookies.md)
+{% content-ref url="implement-a-consent-widget-for-cookies.md" %}
+[implement-a-consent-widget-aux-cookies.md](implement-a-consent-widget-aux-cookies.md)
 {% endcontent-ref %}
 

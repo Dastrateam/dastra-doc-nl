@@ -1,15 +1,15 @@
 ---
 description: >-
-  Cette page liste l'ensemble des finalités de cookies pris en compte par le
-  widget de consentement Dastra
+  Deze pagina geeft een overzicht van alle cookiedoeleinden die in aanmerking worden genomen door de
+  Dastra toestemmingswidget
 ---
 
-# Les finalités des cookies
+# Cookie doeleinden
 
-| Type        | Id |
+| Type | Id |
 | ----------- | -- |
-| Nécessaires | 0  |
-| Préférences | 1  |
-| Analytique  | 2  |
-| Marketing   | 3  |
-| Autre       | 4  |
+| Noodzakelijk 0
+| Voorkeuren 1
+| Analytisch 2
+| Marketing | | 3 |
+| Andere | 4 |
