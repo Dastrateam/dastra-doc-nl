@@ -14,10 +14,10 @@ Er kunnen verschillende risicotypologieën worden onderscheiden (niet-exhaustiev
 
 | Risicotypologieën | Risicovoorbeelden |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Privacy- en gegevensbeveiligingsrisico's <p></p><ul><li>Storing van de vertrouwelijkheid van gegevens</li><li>Storing van de beschikbaarheid van gegevens</li><li>Storing van de integriteit van gegevens</li></ul> |
-| Juridische risico's <p></p><ul><li>Inbreuk op het beroepsgeheim</li><li>aansprakelijkheid wegens onrechtmatige daad en contractuele aansprakelijkheid</li><li>strafrechtelijke aansprakelijkheid</li><li>niet-naleving van wettelijke, reglementaire, normatieve, sectorale of interne benchmarks</li></ul> |
-| Operationele risico's <p></p><ul><li>Natuurlijke gebeurtenissen</li><li>Interne fraude</li><li>Diefstal</li><li>Sabotage</li><li>Burgerlijke aansprakelijkheid</li><li>Systeemfalen</li><li>Vertrouwelijke informatie</li><li>Schade aan industriële faciliteiten</li><li>Technologische risico's</li><li>Milieurisico's</li></ul> |
-| Financiële risico's <ul><li>Marktrisico</li><li>Krediet-/tegenpartijrisico</li><li>Liquiditeitsrisico</li><li>Politiek risico</li></ul> |
+| Privacy- en gegevensbeveiligingsrisico's | <p></p><ul><li>Storing van de vertrouwelijkheid van gegevens</li><li>Storing van de beschikbaarheid van gegevens</li><li>Storing van de integriteit van gegevens</li></ul> |
+| Juridische risico's | <p></p><ul><li>Inbreuk op het beroepsgeheim</li><li>aansprakelijkheid wegens onrechtmatige daad en contractuele aansprakelijkheid</li><li>strafrechtelijke aansprakelijkheid</li><li>niet-naleving van wettelijke, reglementaire, normatieve, sectorale of interne benchmarks</li></ul> |
+| Operationele risico's | <p></p><ul><li>Natuurlijke gebeurtenissen</li><li>Interne fraude</li><li>Diefstal</li><li>Sabotage</li><li>Burgerlijke aansprakelijkheid</li><li>Systeemfalen</li><li>Vertrouwelijke informatie</li><li>Schade aan industriële faciliteiten</li><li>Technologische risico's</li><li>Milieurisico's</li></ul> |
+| Financiële risico's | <ul><li>Marktrisico</li><li>Krediet-/tegenpartijrisico</li><li>Liquiditeitsrisico</li><li>Politiek risico</li></ul> |
 | Strategische risico's <ul><li>noncompliance</li><li>subcontractor</li><li>transformatie</li><li>project</li></ul>
 
 ## Ga verder
