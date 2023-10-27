@@ -22,7 +22,7 @@ Na training in het in kaart brengen van de gegevensverwerking en het interviewen
 Daarna voltooit u uw registratie in Dastra:
 
 {% content-ref url="../../features/editer-le-registre/" %}
-[edit-register](../../features/editer-le-register/)
+[het register bewerken](../../features/editer-le-registre/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -37,8 +37,8 @@ Vul vervolgens alle informatie in die nodig is voor de Verwerking door de stappe
 
 U deelt het register met alle Verwerkingsverantwoordelijken en uw netwerk van RGPD-correspondenten en vraagt om validatie van alle belanghebbenden &#x20;
 
-{% content-ref url="../../features/edit-the-registry/share-the-registry.md" %}
-[share-the-record.md](../../features/edit-the-record/share-the-record.md)
+{% content-ref url="../../features/editer-le-registre/partager-le-registre.md" %}
+[deel het register](../../features/editer-le-registre/partager-le-registre.md)
 {% endcontent-ref %}
 
 Dat is het, **je register is ingesteld** en je Verwerking is klaar om beschermd te worden!
