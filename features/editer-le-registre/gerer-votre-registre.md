@@ -15,7 +15,7 @@ description: >-
 Met Dastra kunt u eenvoudig uw bestaande behandelingsregister uploaden in plaats van het handmatig in te voeren, in elk formaat - excel, tekst of csv.
 
 {% content-ref url="exporter-importer-le-registre.md" %}
-[export-importer-le-registre.md](export-importer-le-registre.md)
+[exporteren-importeren-registreren](export-importer-le-registre.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -26,6 +26,6 @@ Vergeet niet je gegevensverwerking te publiceren als je wilt dat er rekening mee
 
 Met Dastra wordt automatisch een register aangemaakt zodra de werkruimte is gedefinieerd. Als u geen bestaand register wilt downloaden, kunt u beginnen met het invullen van het register dat standaard wordt aangemaakt wanneer u uw eerste Verwerkingsactiviteit aanmaakt. Klik op de volgende link als je wilt weten hoe:
 
-{% content-ref url="manage-je-behandeling.md" %}
-[manage-your-processing.md](manage-your-processing.md)
+{% content-ref url="gerer-votre-traitement.md" %}
+[Verwerking beheren](gerer-votre-traitement.md)
 {% endcontent-ref %}

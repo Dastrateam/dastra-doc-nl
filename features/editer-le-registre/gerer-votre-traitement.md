@@ -36,7 +36,7 @@ Om een bestaande verwerkingsactiviteit te wijzigen, klikt u op de knop "Wijzigen
 
 Volg dan elke stap van de vragenlijst, te beginnen met de volgende sectie:
 
-{% content-ref url="vul-in-de-vragenlijst/" %}
-[vul-in-de-vragenlijst](vul-in-de-vragenlijst/)
+{% content-ref url="remplir-le-questionnaire/" %}
+[vul-in-de-vragenlijst](remplir-le-questionnaire/)
 {% endcontent-ref %}
 

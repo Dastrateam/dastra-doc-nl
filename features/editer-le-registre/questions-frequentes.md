@@ -17,7 +17,7 @@ Houd er rekening mee dat wijzigingen in organisatorische eenheden niet worden bi
 
 ## Is het mogelijk om automatisch elementen toe te voegen aan het veld "belanghebbenden" in een nieuwe Verwerking?
 
-Nee, belanghebbenden kunnen niet automatisch worden bijgewerkt via geautomatiseerde workflows &#x20;
+Nee, stakeholders kunnen niet automatisch worden bijgewerkt via geautomatiseerde workflows &#x20;
 
 Het is echter wel mogelijk om een aangepast stakeholderveld te maken dat via de geautomatiseerde workflow kan worden gewijzigd.
 

@@ -68,6 +68,6 @@ De verschillende onderdelen van een Verwerking "verantwoordelijke" in Dastra
 
 ## Verder gaan&#x20;
 
-{% content-ref url="beheer-uw-register.md" %}
-[beheer-uw-register.md](beheer-uw-register.md)
+{% content-ref url="gerer-votre-registre.md" %}
+[beheer-uw-register](gerer-votre-registre.md)
 {% endcontent-ref %}

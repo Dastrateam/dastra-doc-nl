@@ -72,27 +72,27 @@ De 12 stappen zijn:&#x20;
 * Beveiligingsmaatregelen** - beschrijft de organisatorische en technische beveiligingsmaatregelen om de vertrouwelijkheid van de gegevens te beschermen &#x20;
 
 {% content-ref url="esures-de-securite.md" %}
-[measures-of-security.md](mesures-de-securite.md)
+[veiligheidsmaatregel](mesures-de-securite.md)
 {% endcontent-ref %}
 
 * **Effectbeoordeling** - beschrijft het effect van deze Verwerking&#x20;
 
 {% content-ref url="analyse-dimpact.md" %}
-[impact-analyse.md](impact-analyse.md)
+[gegevensbeschermingseffectbeoordeling](analyse-dimpact.md)
 {% endcontent-ref %}
 
 * **Documentatie** - In dit gebied kunt u aanvullende documenten downloaden voor uw gegevensverwerking (bijv. ethische code, privacybeleid, enz.).
 
 {% content-ref url="documents.md" %}
-[documents.md](documenten.md)
+[documenten](documents.md)
 {% endcontent-ref %}
 
 * **Samenvatting -** samenvatting van het bovenstaande.&#x20;
 
 Zodra je de informatie die je hebt hebt ingevoerd, kun je gaan inventariseren wat er nog gedaan moet worden.
 
-{% content-ref url="../../plan/" %}
-[plan](../../plan/)
+{% content-ref url="../../planifier/" %}
+[plan](../../planifier/)
 {% endcontent-ref %}
 
 
@@ -138,4 +138,4 @@ Hij wordt automatisch berekend op basis van de volgende **criteria** :
 * groot aantal betrokkenen
 * de aanwezigheid van een onderaannemer
 * doorgifte naar een ongeschikt land,
-* de noodzaak van een AIP.
+* de noodzaak van een PIA.

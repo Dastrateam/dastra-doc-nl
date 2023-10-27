@@ -21,19 +21,19 @@ Elke verwerker moet een minder uitgebreid register invullen;
 
 Dit bevat:&#x20;
 
-* de contactgegevens** van de **verwerker, zijn eventuele vertegenwoordiger en zijn DPO&#x20;
+* de **contactgegevens** van de **verwerker**, zijn eventuele vertegenwoordiger en zijn DPO&#x20;
 * de **gegevens van alle Verwerkingsverantwoordelijken namens wie de verwerker optreedt** (meestal de klanten)
 * de **categorieën gegevensverwerking**
-* ontvangers**&#x20;
-* doorgiften** buiten de EER
-* beveiligingsmaatregelen**.
+* **ontvangers**&#x20;
+* **doorgiften** buiten de EER
+* **beveiligingsmaatregelen**.
 
 
 
-De verschillende secties van een "subcontractant" Verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
+[De verschillende secties van een "subcontractant" Verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
 
 ## Verder gaan
 
-{% content-ref url="le-registre-responsable-de-processing.md" %}
-[le-registre-responsable-de-processing.md](le-registre-responsable-de-processing.md)
+{% content-ref url="le-registre-responsable-de-traitement.md" %}
+[het register van verantwoordelijken voor de verwerking](le-registre-responsable-de-traitement.md)
 {% endcontent-ref %}

@@ -42,7 +42,7 @@ Om te voorkomen dat elke Verwerking handmatig moet worden ingevuld en om rekenin
 Deze stappen zijn niet verplicht, maar worden toch sterk aanbevolen, vooral als het register van de Verwerking een groot aantal processen bevat.
 {% endhint %}
 
-U kunt ook onze bibliotheek met modellen voor gegevensverwerking raadplegen: [https://www.dastra.eu/fr/data-processing/referentials](https://www.dastra.eu/fr/data-processing/referentials)
+U kunt ook onze bibliotheek met modellen voor gegevensverwerking raadplegen: [https://www.dastra.eu/en/data-processing/referentials](https://www.dastra.eu/en/data-processing/referentials)
 
 ## Stap 1: Verwerkingslabels importeren
 
@@ -58,12 +58,13 @@ Download vervolgens een voorbeeld van ons bestand zoals op het scherm te zien is
 
 Vul het gedownloade bestand in met je labels voor de Verwerking in de volgende volgorde:
 
-| Kolom Beschrijving Mogelijke waarden
+| Colonne          | Beschrijving                          | Mogelijke waarden                                 |
 | ---------------- | ------------------------------------- | --------------------------------------------------- |
-| Ref | Interne referentie (string) | Verwerkingstoestand | Verwerkingstoestand (string)
-| Verwerkingstoestand | "Studie", "Wordt geïmplementeerd", "In productie", "Gestopt" |
-| Label | Naam (tekenreeks) |
-| Beschrijving | Beschrijving (string) |
+| Ref              | Interne referentie (string)            |                                                     |
+| Verwerkingstoestand | Verwerkingstoestand (string) | "Studie", "Wordt geïmplementeerd", "In productie", "Gestopt" |
+| Label            | Naam(string)                          |                                                     |
+| Beschrijving      | Beschrijving (string)                  |      
+
 
 Hieronder staat een voorbeeld van een bestand in het vereiste formaat dat beschikbaar is voor import en in Dastra kan worden geïmporteerd met drag & drop:
 
@@ -127,8 +128,8 @@ Herhaal de procedure zoals hierboven beschreven vanuit de sectie Register, tabbl
 
 Nu alle repositories zijn geïmporteerd, bewerk je elk van de Verwerkingen en vul je de informatie in op basis van de geïmporteerde informatie volgens de onderstaande gids:
 
-{% content-ref url="vul-in-de-vragenlijst/" %}
-[vul-in-de-vragenlijst](vul-in-de-vragenlijst/)
+{% content-ref url="remplir-le-questionnaire/" %}
+[de vragenlijst invullen](remplir-le-questionnaire/)
 {% endcontent-ref %}
 
 Dat is het, de links zijn gemaakt!
