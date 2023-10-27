@@ -1,2 +1,0 @@
-# Een nieuw datalek documenteren
-

@@ -17,7 +17,7 @@
 * [Risicobeheer](rappels-utiles/la-gestion-des-risques/README.md)
   * [Risico definitie](rappels-utiles/la-gestion-des-risques/definition-des-risques.md)
   * [Risicobeoordeling](rappels-utiles/la-gestion-des-risques/evaluation-dun-risque.md)
-  * [Risico's onderaannemer](rappels-utiles/la-gestion-des-risques/risques-sous-traitants.md)
+  * [Risico's verwerker](rappels-utiles/la-gestion-des-risques/risques-sous-traitants.md)
 
 ## 👨💻 Aan de slag <a href="#commencer" id="commencer"></a>
 
@@ -183,4 +183,4 @@
 
 * [Veelgestelde vragen](divers/faq-registre.md)
 * [Bekende problemen](divers/problemes-connus.md)
-* [Release-opmerkingen](https://www.dastra.eu/fr/category/release/10)
+* [Release-opmerkingen](https://www.dastra.eu/en/category/release/10)

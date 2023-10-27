@@ -1,2 +1,0 @@
-# Geavanceerd ontwerp
-

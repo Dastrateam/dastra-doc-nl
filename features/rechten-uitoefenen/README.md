@@ -1,2 +1,0 @@
-# Rechten uitoefenen
-

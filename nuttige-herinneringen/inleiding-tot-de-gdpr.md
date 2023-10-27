@@ -1,2 +1,0 @@
-# Inleiding tot de GDPR
-

@@ -1,2 +1,0 @@
-# Hybride toepassingen
-

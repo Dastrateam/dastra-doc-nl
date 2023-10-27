@@ -1,2 +1,0 @@
-# Technische integratie
-

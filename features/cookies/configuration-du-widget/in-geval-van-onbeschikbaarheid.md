@@ -1,2 +1,0 @@
-# In geval van onbeschikbaarheid
-
