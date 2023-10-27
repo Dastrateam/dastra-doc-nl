@@ -29,5 +29,5 @@ Met filters en de instellingenknop kun je de boomstructuur naar wens aanpassen.
 ## Verder gaan
 
 {% content-ref url="../../../commencer/commencer/creer-et-parametrer-des-entites-et-departements.md" %}
-[create-and-parameterize-entitles-and-departments.md](../../../commence/create-and-parameterize-entitles-and-departments.md)
+[entiteiten en afdelingen creëren en opzetten.md](../../../commencer/commencer/creer-et-parametrer-des-entites-et-departements.md)
 {% endcontent-ref %}

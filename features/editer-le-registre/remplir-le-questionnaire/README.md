@@ -1,7 +1,6 @@
 ---
 description: >-
-  Leer hoe u 100% van de informatie met betrekking tot gegevensverwerking kunt invullen
-  in uw register.
+  Leer hoe u 100% van de informatie met betrekking tot gegevensverwerking kunt invullen in uw register.
 ---
 
 # Verwerking voltooien
@@ -21,59 +20,59 @@ De 12 stappen zijn:&#x20;
 * Algemeen** - Hier kunt u algemene informatie over de gegevensverwerking invoeren, zoals de naam en de beschrijving &#x20;
 
 {% content-ref url="generalites.md" %}
-[generalites.md](generalites.md)
+[algemeenheden](generalites.md)
 {% endcontent-ref %}
 
 * Belanghebbenden** - In dit gedeelte kunt u de belanghebbenden vermelden die verantwoordelijk zijn voor de gegevensverwerking of andere actoren dan de Verwerkingsverantwoordelijke en de functionaris voor gegevensbescherming.
 
 {% content-ref url="actors.md" %}
-[actors.md](actoren.md)
+[Actoren](acteurs.md)
 {% endcontent-ref %}
 
 * Gegevens en opslag** - geeft een lijst van de verschillende categorieën gegevensverwerking die tijdens deze verrichting worden verwerkt en de bijbehorende opslagregels.
 
 {% content-ref url="data-category.md" %}
-[gegevens-categorie.md](gegevens-categorie.md)
+[gegevens-categorie.md](categorie-de-donnees.md)
 {% endcontent-ref %}
 
 * **Doel** - beschrijving van de doeleinden van de gegevensverwerking&#x20;
 
 {% content-ref url="purposes.md" %}
-[finalites.md](finalites.md)
+[Doelen](finalites.md)
 {% endcontent-ref %}
 
-* Activa** - In deze sectie kunt u een lijst maken van alles wat aan uw Verwerkingen kan worden gekoppeld: toepassingen, mensen, voorwerpen enz.&#x20;
+* **Activa** - In deze sectie kunt u een lijst maken van alles wat aan uw Verwerkingen kan worden gekoppeld: toepassingen, mensen, voorwerpen enz.&#x20;
 
 {% content-ref url="applications.md" %}
-[toepassingen.md](toepassingen.md)
+[applications.md](applications.md)
 {% endcontent-ref %}
 
-* Data subjects** - bevat de lijst van betrokkenen die betrokken zijn bij de verwerking van persoonsgegevens.&#x20;
+* **Betrokken personen** - bevat de lijst van betrokkenen die betrokken zijn bij de verwerking van persoonsgegevens.&#x20;
 
-{% content-ref url="betrokkenen.md" %}
-[betrokkenen.md](betrokkenen.md)
+{% content-ref url="personnes-concernees.md" %}
+[betrokkenen.md](personnes-concernees.md)
 {% endcontent-ref %}
 
-* Rechten van betrokkenen -** Beschrijf de procedures die betrokkenen ter beschikking staan om elk van hun rechten te doen gelden &#x20;
+* **Rechten van betrokkenen** Beschrijf de procedures die betrokkenen ter beschikking staan om elk van hun rechten te doen gelden &#x20;
 
-{% content-ref url="rechten van betrokkenen.md" %}
-[rechten van betrokkenen.md](people-rights.md)
+{% content-ref url="droits-des-personnes.md" %}
+[Rechten van betrokkenen](droits-des-personnes.md)
 {% endcontent-ref %}
 
-* Ontvangers** - In dit gedeelte staan de ontvangers van de gegevensverwerking. In dit stadium kunt u een doorgifte van gegevens buiten de EU aangeven &#x20;
+* **Ontvangers** - In dit gedeelte staan de ontvangers van de gegevensverwerking. In dit stadium kunt u een doorgifte van gegevens buiten de EU aangeven &#x20;
 
-{% content-ref url="ontvangers/" %}
-[ontvangers](ontvangers/)
+{% content-ref url="destinataires/" %}
+[ontvangers](destinataires/)
 {% endcontent-ref %}
 
 {% content-ref url="recipients/data-transfers-outside-the-eu.md" %}
-{% endcontent-ref %} {% content-ref url="recipients/transfers-of-data-out-of-ue.md" %} [transfers-of-data-out-of-ue.md](recipients/transfers-of-data-out-of-ue.md)
+{% endcontent-ref %} {% content-ref url="destinataires/transferts-de-donnees-hors-ue.md" %} [doorgiften-van-gegevens-uit-ue](destinataires/transferts-de-donnees-hors-ue.md)
 {% endcontent-ref %}
 
 * Beveiligingsmaatregelen** - beschrijft de organisatorische en technische beveiligingsmaatregelen om de vertrouwelijkheid van de gegevens te beschermen &#x20;
 
-{% content-ref url="security-measures.md" %}
-[measures-of-security.md](measures-of-security.md)
+{% content-ref url="esures-de-securite.md" %}
+[measures-of-security.md](mesures-de-securite.md)
 {% endcontent-ref %}
 
 * **Effectbeoordeling** - beschrijft het effect van deze Verwerking&#x20;

@@ -33,5 +33,5 @@ Er is ook een zoekbalk beschikbaar voor extra filters.
 ## Verder gaan
 
 {% content-ref url="visualiser-la-carte-des-transferts.md" %}
-[doorgiften.md](doorgiften.md)
+[bekijk de doorgiftenskaart.md](visualiser-la-carte-des-transferts.md)
 {% endcontent-ref %}

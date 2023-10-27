@@ -1,2 +1,0 @@
-# Gegevens en retentie
-

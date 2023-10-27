@@ -1,2 +1,0 @@
-# Het register exporteren/importeren
-

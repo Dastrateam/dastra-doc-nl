@@ -30,6 +30,6 @@ Details van Doorgiftn kunnen bekeken worden door op de puntjes te klikken die bi
 
 ## Verder gaan
 
-{% content-ref url="../../risk-management/" %}
-[risicobeheer](../../risicobeheer/)
+{% content-ref url="../../la-gestion-des-risques/" %}
+[risicobeheer](../../la-gestion-des-risques/)
 {% endcontent-ref %}

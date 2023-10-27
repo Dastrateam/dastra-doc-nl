@@ -1,2 +1,0 @@
-# De registergegevenskaart weergeven
-

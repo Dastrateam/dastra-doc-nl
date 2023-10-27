@@ -1,75 +1,78 @@
-# Foire aux questions
+# Veelgestelde vragen
 
-## Comment afficher le nom des modules sous les icones dans Dastra ?
+## Hoe toon ik de namen van de modules onder de pictogrammen in Dastra?
 
-Vous souhaitez afficher le nom des modules sous chaque icône à gauche de l'écran ? Cela dépend du niveau de zoom du navigateur.&#x20;
+Wilt u de namen van de modules onder elk pictogram aan de linkerkant van het scherm zien? Dit hangt af van het zoomniveau van de browser &#x20;
 
-Baissez le niveau de zoom et vous verrez apparaitre les noms !
+Verlaag het zoomniveau en de namen verschijnen!
 
-## Comment modifier le logo de l'organisation dans Dastra ?
+## Hoe verander ik het logo van de organisatie in Dastra?
 
-Il n'est pas possible de modifier le logo de l'organisation puisqu'il n'y en a pas. Le logo qui s'affiche au dessus du nom de l'organisation en haut à droite est l'image associée au compte utilisateur qui se paramètre au niveau des paramètres du profil.
+U kunt het logo van de organisatie niet wijzigen omdat er geen logo is. Het logo dat in de rechterbovenhoek boven de naam van de organisatie wordt weergegeven, is de afbeelding die aan het gebruikersaccount is gekoppeld en die is ingesteld in de profielinstellingen.
 
-Avec cette image, le logo de l'espace de travail est également modifiable.
+Je kunt het werkruimte-logo ook wijzigen met deze afbeelding.
 
-## Comment modifier le logo de l'espace de travail dans Dastra ?
+## Hoe verander ik het werkruimte-logo in Dastra?
 
-Vous pouvez le modifier en vous rendant dans les réglages de l'espace de travail dans la rubrique Design et marque. Vous pourrez également personnaliser certains éléments de l'export en format word et PDF (police de caractère et couleurs).
+U kunt het wijzigen door naar de werkruimte-instellingen te gaan in de sectie Ontwerp en branding. U kunt ook bepaalde elementen van de Word- en PDF-export aanpassen (lettertype en kleuren).
 
-## Comment importer les données de mon registre des traitements sur le format de la CNIL ?&#x20;
+## Hoe importeer ik de gegevens uit mijn register voor gegevensverwerking in het CNIL-formaat?&#x20;
 
-Vous avez un registre des traitements existant sur le format de la CNIL ? Vous pouvez bien évidemment l'importer dans Dastra. Cela va nécessiter la réalisation de plusieurs actions :&#x20;
+Hebt u een bestaand register voor gegevensverwerking in CNIL-formaat? Dan kunt u deze natuurlijk importeren in Dastra. Hiervoor moet u verschillende handelingen verrichten:&#x20;
 
-1 : importer les noms des traitements&#x20;
+1: importeer de namen van de Verwerkingen&#x20;
 
-2 : importer les jeux de données
+2: de gegevenssets importeren
 
-3 : importer les acteurs
+3: de actoren importeren
 
-4 : importer les mesures de sécurité&#x20;
+4: importeer de beveiligingsmaatregelen&#x20;
 
-5 : créer les liens entre les objets dans les traitements
+5: koppelingen maken tussen objecten in processen
 
-Si vous souhaitez qu'on vous aide à importer votre registre existant, n'hésitez pas à nous solliciter. Ce sera l'occasion de le revoir !
+Als je wilt dat we je helpen bij het importeren van je bestaande register, aarzel dan niet om het ons te vragen. Dit zal een gelegenheid zijn om het te beoordelen!
 
-## Comment supprimer un traitement ?&#x20;
+## Hoe een Verwerking verwijderen &#x20;
 
-Afin d'éviter les mauvaises surprises, nous avons mis en place un garde-fou. La suppression se fait en deux étapes.&#x20;
+Om onaangename verrassingen te voorkomen, hebben we een beveiliging ingebouwd. Verwijderen gaat in twee stappen &#x20;
 
-## Je ne retrouve pas des éléments, que puis-je faire ?&#x20;
+## Ik kan geen items vinden, wat kan ik doen? &#x20;
 
-Si vous ne retrouvez pas un élément auquel vous devriez avoir accès, il se peut qu'il ne soit pas visible pour les raisons suivantes&#x20;
+Als je een item waartoe je toegang zou moeten hebben niet kunt vinden, kan het om de volgende redenen niet zichtbaar zijn &#x20;
 
-1.  Un filtre est présent et restreint l'affichage comme ci-dessous avec le "(1)". Cliquez sur Effacez les filtres \
+1.  Er is een filter dat de weergave beperkt, zoals hieronder wordt weergegeven met "(1)". Klik op Filters wissen.
     \
 
 
     <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2. L'objet est lié à une unité organisationnelle à laquelle vous n'avez pas accès ou pour laquelle vous n'avez pas les droits nécessaires. Contactez le gestionnaire de votre espace de travail.
-3.  L'objet est archivé et ne s'affiche donc plus dans la liste par défaut. Vous pouvez choisir d'afficher les archives dans le menu de sélection des filtres.\
+2. Het object is gekoppeld aan een organisatorische eenheid waartoe je geen toegang hebt of waarvoor je niet de benodigde rechten hebt. Neem contact op met je werkruimtebeheerder.
+3.  Het object is gearchiveerd en wordt daarom niet meer weergegeven in de standaardlijst. Je kunt ervoor kiezen om archieven weer te geven in het filterselectiemenu.
 
 
     <figure><img src="../.gitbook/assets/image (4) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 
-4. Enfin des paramètres incorrects sont enregistrés dans votre navigateur. Pour vérifier, vous pouvez essayer la navigation privée. Si la navigation privée règle le problème, référez vous à la procédure ci-dessous qui permet de vider le stockage local de votre navigateur.
+4. Tot slot worden onjuiste instellingen opgeslagen in je browser. Om dit te controleren, kunt u privé browsen proberen. Als privé browsen het probleem oplost, raadpleeg dan de onderstaande procedure waarmee je de lokale opslag van je browser kunt wissen.
 
-## Comment supprimer le localstorage ?
+## Hoe verwijder ik lokale opslag?
 
-Vous avez un problème sur l'application ? Parfois, on peut vous demander de supprimer le localstorage. Il s'agit d'éléments de stockage du navigateur web qui permettent d'utiliser l'application et de se souvenir des paramètres choisis (les filtres par exemple).&#x20;
+Hebt u een probleem met de toepassing? Soms wordt u gevraagd om de lokale opslag te verwijderen. Dit zijn opslagelementen in de webbrowser waarmee u de toepassing kunt gebruiken en de instellingen die u hebt gekozen (bijvoorbeeld filters) kunt onthouden.&#x20;
 
-Voici la procédure :&#x20;
+Hier is de procedure:&#x20;
 
 ### Google Chrome
 
-1. Menu « sandwich » / plus d’outils / Outils de développement (F12)
-2. Menu application / storage / local storage
-3. Clic droit : « clear »
-4. Actualiser la page (F5)
+1. Menu "Sandwich" / Meer tools / Ontwikkelgereedschappen (F12)
+2. Menu toepassing / opslag / lokale opslag
+3. Klik met de rechtermuisknop: "wissen"
+4. Pagina vernieuwen (F5)
 
 ### Mozilla Firefox
 
-1. Menu « sandwich » / développement web / Outils de développement (F12)
-2. Menu stockage / stockage local
-3. Clic droit : « tout supprimer »
-4. Actualiser la page (F5)
+1. Menu "Sandwich" / Webontwikkeling / Ontwikkelgereedschappen (F12)
+2. Opslagmenu / lokale opslag
+3. Klik met de rechtermuisknop: "alles verwijderen
+4. Pagina verversen (F5)
+*** Vertaald met www.DeepL.com/Translator (gratis versie) ***
+
+
