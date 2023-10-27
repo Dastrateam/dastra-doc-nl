@@ -1,81 +1,80 @@
 ---
-description: Dastra s'intègre avec la plateforme d'automatisation Zapier
+beschrijving: Dastra integreert met het automatiseringsplatform Zapier
 ---
 
-# Intégrations via Zapier
+# integraties via Zapier
 
-Mettez en place des connecteurs entre Dastra et vos autres applications favorites pour automatiser vos flux de travail et gagner du temps.
+Stel connectoren in tussen Dastra en uw andere favoriete applicaties om uw workflows te automatiseren en tijd te besparen.
 
-![](<../.gitbook/assets/connectors (1).svg>)
-
-{% hint style="info" %}
-[Accéder à la page Dastra du catalogue Zapier](https://zapier.com/apps/dastra/integrations)
-{% endhint %}
-
-### Présentation de Zapier
-
-Zapier est un outil d'automatisation en ligne qui connecte vos applications et services. Vous pouvez connecter deux ou plusieurs applications pour automatiser des tâches répétitives sans avoir à coder ou à faire appel à des développeurs pour réaliser l'intégration.&#x20;
-
-Avec Zapier, vous allez mettre en place des Zaps (ou intégrations).
-
-Un Zap est un flux de travail automatisé qui relie vos applications et services entre eux. Chaque Zap se compose d'un déclencheur et d'une ou plusieurs actions. Lorsque vous activez votre Zap, il exécute les étapes de l'action chaque fois que l'événement déclencheur se produit.
-
-### Les trois notions clés à retenir: <a href="#chapter-1" id="chapter-1"></a>
-
-* **Déclencheurs:**\
-  Un événement qui lance un Zap. Par exemple, si vous souhaitez envoyer un SMS à chaque fois que vous recevez un e-mail, le déclencheur est "nouvel e-mail dans la boîte de réception".
-* **Action:**\
-  Un événement qu'un Zap exécute après avoir été déclenché. Par exemple, si vous souhaitez envoyer un SMS à chaque fois que vous recevez un e-mail, l'action est "envoyer un message texte".
-* **Zap:**\
-  Un déclencheur et un ensemble d'actions, le tout représentant un flux de travail automatisé. Par exemple, envoyer un SMS à chaque fois que vous recevez un e-mail.
-
-### Des modèles pour une configuration éclair
-
-Nous avons préconfiguré des modèles de flux de travail automatisés que vous pouvez mettre en place en quelques clics. Une dizaine de modèles sont déjà disponibles et accessibles depuis notre [page intégrations](https://www.dastra.eu/fr/integrations) ou directement dans la [section intégrations](https://app.dastra.eu/workspace/0/settings/integrations) de l'application web Dastra.
-
-Nous mettrons régulièrement en ligne de nouveaux modèles pour répondre à vos besoins d'automatisation et vous faire gagner un temps précieux. N'hésitez pas également à nous soumettre vos idées de flux de travail automatisés pour que nous puissions les proposer en modèles.
-
-### Un éditeur d'intégrations entièrement customisable <a href="#chapter-3" id="chapter-3"></a>
-
-Si vous souhaitez automatiser un flux de travail pour lequel nous ne proposons pas encore de modèle (ou customiser légèrement un modèle existant pour l'adapter à votre cas de figure), vous pouvez passer par [l'éditeur de Zap de Zapier.](https://zapier.com/apps/dastra/integrations)
-
-L'éditeur de Zap vous permet de créer un Zap à partir de zéro, sans avoir à taper une seule ligne de code.
-
-Choisissez l'application que vous souhaitez connecter avec Dastra dans le [catalogue de Zapier](https://zapier.com/apps), configurez un déclencheur puis sélectionner l'action à effectuer. Vous pouvez déclencher des actions dans une application tierce à partir d'un évènement se produisant sur Dastra, ou bien déclencher une action dans Dastra suite à un événement dans une application tierce. Avec plus de 4000 applications compatibles avec Zapier, les possibilités d'automatisation sont infinies.
-
-### Quelles fonctionnalités de Dastra sont actuellement automatisables dans Dastra via Zapier ? <a href="#chapter-4" id="chapter-4"></a>
-
-Vous l'avez compris, une intégration se compose d'un élement déclencheur et d'une ou plusieurs actions. A ce jour, nous avons mis en place 2 déclencheurs et 6 actions côté Dastra (Il est important de comprendre que vous êtes limité en terme de déclencheurs et d'actions à ce que les éditeurs d'applications compatibles Zapier mettent à votre disposition). Nous viendrons étoffer cette liste dans le futur afin de vous permettre d'automatiser un maximum des fonctionnalités de Dastra.
-
-* **Les déclencheurs existants:**
-
-1. Nouvelle demande d'exercice de droits créée
-2. Nouvelle tâche créée
-
-* **les actions existantes:**
-
-1. Créer une tâche
-2. Créer un acteur
-3. Créer une demande d'exercice de droit
-4. Attacher un acteur à un traitement existant
-5. Rechercher un acteur
-6. Trouver un acteur ou le créer si non existant
-
-Vous pouvez partir d'un des deux déclencheurs côté Dastra pour effectuer des tâches dans des applications tierces, ou bien partir d'un déclencheur d'une application tierce pour effectuer une des six actions possibles dans Dastra.
+(<../.gitbook/assets/connectors (1).svg>)
 
 {% hint style="info" %}
-[Consulter l'ensemble du catalogue d'applications Zapier ici.](https://zapier.com/apps)
+[Ga naar de Dastra pagina in de Zapier catalogus](https://zapier.com/apps/dastra/integrations)
+{% endhint %}
+
+### Zapier introduceren
+
+Zapier is een online automatiseringstool die je applicaties en services met elkaar verbindt. Je kunt twee of meer applicaties met elkaar verbinden om terugkerende taken te automatiseren zonder dat je code hoeft te schrijven of ontwikkelaars hoeft in te schakelen om de integratie uit te voeren &#x20;
+
+Met Zapier kun je Zaps (of integraties) opzetten.
+
+Een Zap is een geautomatiseerde workflow die je applicaties en services met elkaar verbindt. Elke Zap bestaat uit een trigger en een of meer acties. Wanneer je je Zap activeert, voert hij de actiestappen uit telkens wanneer de triggergebeurtenis zich voordoet.
+
+### De drie belangrijkste concepten om te onthouden: <a href="#chapter-1" id="chapter-1"></a>
+
+* **Triggers**\
+  Een gebeurtenis die een Zap start. Als je bijvoorbeeld elke keer dat je een e-mail ontvangt een sms wilt sturen, is de trigger "nieuwe e-mail in inbox".
+* **Actie**\
+  Een gebeurtenis die een Zap uitvoert nadat deze is getriggerd. Als je bijvoorbeeld elke keer dat je een e-mail ontvangt een sms wilt versturen, is de actie "sms versturen".
+* **Zap**\
+  Een trigger en een reeks acties die samen een geautomatiseerde workflow vertegenwoordigen. Stuur bijvoorbeeld een tekstbericht telkens wanneer u een e-mail ontvangt.
+
+### Sjablonen voor bliksemsnelle configuratie
+
+We hebben voorgeconfigureerde geautomatiseerde workflowsjablonen die je met een paar klikken kunt instellen. Ongeveer tien sjablonen zijn al beschikbaar en kunnen worden geopend vanaf onze [integraties pagina](https://www.dastra.eu/en/integrations) of rechtstreeks vanuit de [integraties sectie](https://app.dastra.eu/workspace/0/settings/integrations) van de Dastra webapplicatie.
+
+We zullen regelmatig nieuwe sjablonen online zetten om aan uw automatiseringsbehoeften te voldoen en u kostbare tijd te besparen. Voel u ook vrij om uw ideeën voor geautomatiseerde workflows in te dienen zodat we ze als sjabloon kunnen voorstellen.
+
+### Een volledig aanpasbare integratie-editor <a href="#chapter-3" id="chapter-3"></a>
+
+Als u een workflow wilt automatiseren waarvoor we nog geen sjabloon aanbieden (of een bestaande sjabloon enigszins wilt aanpassen aan uw situatie), kunt u [Zapier's Zap Editor](https://zapier.com/apps/dastra/integrations) gebruiken.
+
+Met de Zap Editor kun je vanaf nul een Zap maken, zonder ook maar één regel code te hoeven typen.
+
+Kies de toepassing die u wilt verbinden met Dastra uit de [Zapier catalogus](https://zapier.com/apps), configureer een trigger en selecteer vervolgens de actie die u wilt uitvoeren. Je kunt acties in een applicatie van derden triggeren vanuit een gebeurtenis in Dastra, of een actie in Dastra triggeren vanuit een gebeurtenis in een applicatie van derden. Met meer dan 4.000 applicaties die compatibel zijn met Zapier, zijn de automatiseringsmogelijkheden eindeloos.
+
+### Welke functies van Dastra kunnen op dit moment worden geautomatiseerd in Dastra via Zapier? <a href="#chapter-4" id="chapter-4"></a>
+
+Zoals je Begrepen hebt, bestaat een integratie uit een triggerelement en een of meer acties. Tot nu toe hebben we 2 triggers en 6 acties ingesteld aan de kant van Dastra (het is belangrijk om te begrijpen dat je beperkt bent in termen van triggers en acties tot wat Zapier-compatibele applicatie-editors voor je beschikbaar maken). We zullen deze lijst in de toekomst uitbreiden zodat je zoveel mogelijk functies van Dastra kunt automatiseren.
+
+* **Bestaande triggers:**
+
+1. Nieuw rechtenverzoek aangemaakt
+2. Nieuwe taak aangemaakt
+
+* **Bestaande acties:**
+
+1. Een taak maken
+2. Een acteur maken
+3. Maak een verzoek om een recht uit te oefenen
+4. Een actor aan een bestaande behandeling koppelen
+5. Een actor zoeken
+6. Een actor vinden of aanmaken als deze niet bestaat
+
+U kunt een van de twee triggers aan de Dastra-kant gebruiken om taken in toepassingen van derden uit te voeren, of een trigger in een toepassing van derden gebruiken om een van de zes mogelijke acties in Dastra uit te voeren.
+
+{% hint style="info" %}
+[Bekijk hier de volledige catalogus met Zapier-toepassingen](https://zapier.com/apps)
 {% endhint %}
 
 {% hint style="info" %}
-Consulter la [documentation Zapier](https://zapier.com/help) pour plus d'informations sur la mise en place d'un connecteur&#x20;
+Zie de [Zapier documentatie](https://zapier.com/help) voor meer informatie over het instellen van een connector&#x20;
 {% endhint %}
 
-Vous êtes maintenant prêt à vous lancer dans le monde de l'automatisation et à mettre en place votre premier connecteur.&#x20;
+Je bent nu klaar om jezelf in de wereld van automatisering te lanceren en je eerste connector &#x20 in te stellen;
 
-Suivez notre guide pas à pas pour automatiser vos demandes d'exercice de droits:&#x20;
+Volg onze stapsgewijze handleiding voor het automatiseren van je rechtenaanvragen:&#x20;
 
 {% embed url="https://www.dastra.eu/fr/article/automatisation-exercice-de-droits/51571" %}
-
 
 

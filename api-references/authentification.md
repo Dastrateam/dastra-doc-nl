@@ -1,55 +1,55 @@
 ---
-description: Pour s'authentifier sur l'API Dastra vous devez utiliser
+description: Om u te authenticeren bij de Dastra API moet u gebruik maken van
 ---
 
-# Authentification
+# Authenticatie
 
-### Obtention de la clé secrète d'API
+### API geheime sleutel ophalen
 
-L'API Rest Dastra utilise les clés d'API pour authentifier chaque requête. Vous pouvez gérer vos clés dans l['interface de configuration de votre organisation](https://app.dastra.eu/general-settings/api).&#x20;
+De Dastra API Rest gebruikt API-sleutels om elk verzoek te authenticeren. U kunt uw sleutels beheren in de[ configuratie-interface van uw organisatie](https://app.dastra.eu/general-settings/api). &#x20;
 
-Vous pouvez utiliser une clé d'API pour un espace de travail spécifique ou l'organisation complète.
+U kunt een API-sleutel gebruiken voor een specifieke werkruimte of voor de hele organisatie.
 
-Votre clé d'API permet de faire beaucoup de chose, c'est pourquoi, vous devez la conserver précieusement. Ne partagez pas votre clé secrète dans les parties publiques d'applications comme GitHub, le code client...etc...
+Met uw API-sleutel kunt u veel dingen doen en daarom moet u deze veilig bewaren. Deel je geheime sleutel niet in de openbare delen van applicaties zoals GitHub, client code, etc.
 
-Si vous souhaitez utiliser l'authentification OAuth2 en mode "authorization\_code", il sera nécessaire de bien configurer le ou les urls de redirection ainsi que les origines CORs autorisées.
+Als je OAuth2 authenticatie in de "authorization\_code" modus wilt gebruiken, dan moet je de omleiding url('s) en de geauthoriseerde COR's origins configureren.
 
 ![](<../.gitbook/assets/image (249) (1) (1) (1).png>)
 
-## OAuth2 "Authorization code" flow
+## OAuth2 "Autorisatie code" stroom
 
-### Authorization
+### Autorisatie
 
-la phase d'autorisation s'effectue en appelant l'url suivante :
+de autorisatie fase wordt uitgevoerd door de volgende url aan te roepen:
 
 ```
 https://account.dastra.eu/connect/authorize?
-    response_type=code&
+    antwoord_type=code&
     client_id={YOUR_CLIENT_ID}&
     redirect_uri=https://YOUR_APP/callback&
     scope=api1+offline_access&
     state={STATE}
 ```
 
-**Paramètres**
+**Parameters**
 
-<table><thead><tr><th width="272.5595168190588">Parameter Name</th><th width="470.9578998488362">Description</th></tr></thead><tbody><tr><td><code>response_type</code></td><td>code</td></tr><tr><td><code>client_id</code></td><td>La clé publique de votre clé d'api configuré dans votre compte Dastra</td></tr><tr><td><code>redirect_uri</code></td><td>L'url configuré dans la clé d'API de Dastra. Vous serez automatiquement redirigé sur cette page à l'issue du processus d'authorisation</td></tr><tr><td><code>scope</code></td><td><p>api1 => obligatoire</p><p>offline_access <em>=></em> pour récupérer un refresh_token (sessions longues)</p></td></tr><tr><td><code>state</code></td><td>Une clé aléatoire généré par votre application qui permet d'éviter les attaques de type cross-site request forgery (CSRF) , lire <a href="https://auth0.com/docs/protocols/oauth2/mitigate-csrf-attacks">Mitigate CSRF Attacks With State Parameters</a>. Les librairies cliente gèrent ça rapidement</td></tr></tbody></table>
+<table><thead><tr><th width="272.5595168190588">Parameternaam</th><th width="470. 9578998488362">Beschrijving</th></tr></thead><tbody><tr><td><code>response_type</code></td><td>code</td></tr><tr><td><code>client_id</code></td><td>De openbare sleutel van uw api-sleutel die is geconfigureerd in uw Dastra-account</td></tr><tr><td><code>redirect_uri</code></td><td><td>De url die is geconfigureerd in de Dastra API-sleutel. U wordt automatisch doorgestuurd naar deze pagina aan het einde van het autorisatieproces</td></tr><tr><td><code><scope</code></td><td><p>api1 => mandatory</p><p>offline_access <em>=></em> om een refresh_token op te halen (lange sessies)</p></td></tr><td><code><state</code></td><td>Een willekeurige sleutel die wordt gegenereerd door uw applicatie om cross- site request forgery (CSRF)-aanvallen voorkomt, lees <a href="https: //auth0. com/docs/protocols/oauth2/mitigate-csrf-attacks">Mitigate CSRF Attacks With State Parameters</a>. Clientbibliotheken kunnen dit snel afhandelen</td></tr></tbody></table>.
 
 
 
-## OAuth2 "Client credential" flow
+## OAuth2 "Client credential" stroom
 
-### Méthode d'authentification
+### Authenticatiemethode
 
-L'authentification de l'API s'effectue grâce à l'aide du [protocole OAuth2](https://oauth.net/2/) utilisant le flow "Client credential". Ce mode d'authentification doit être utilisé uniquement pour des requêtes de serveur à serveur et ne doit en aucun cas être utilisé côté navigateur (SPA en javascript par exemple).
+De API wordt geauthenticeerd met behulp van het [OAuth2 protocol] (https://oauth.net/2/) met behulp van de "Client credential" stroom. Deze authenticatiemethode mag alleen worden gebruikt voor server-naar-serververzoeken en mag nooit aan de browserzijde worden gebruikt (SPA in javascript bijvoorbeeld).
 
-![](<../.gitbook/assets/API authentication scheam.svg>)
+![](<../.gitbook/assets/API authenticatie scheam.svg>)
 
-### Récupération du token
+### Het token herstellen
 
-{% swagger method="post" path="/connect/token" baseUrl="https://account.dastra.eu" summary="" %}
-{% swagger-description %}
-Perform a token request using BASIC Headers
+{% swagger method="post" path="/connect/token" baseUrl="https://account.dastra.eu" summary=" %}
+{% swagger-beschrijving %}
+Voer een tokenverzoek uit met BASIC-headers
 {% endswagger-description %}
 
 {% swagger-parameter in="body" type="scope" required="true" %}
@@ -57,36 +57,36 @@ api1
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" type="grant_type" %}
-client\_credentials
+client_credentials
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" type="Authorization" required="true" %}
 Basic {base64("{PublicKey}:{PrivateKey}")}
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="The access_token necessary to perform operations on the REST API" %}
+{% swagger-response status="200: OK" description="Het toegangs_token dat nodig is om bewerkingen op de REST API uit te voeren" %}
 ```javascript
 {
   "access_token":"tNQoqsSePv0DnSSNVJv1aDxzSFh9H2z3YBKtuBKqWAU",
-  "expires_in":3600,
+  "verloopt_in":3600,
   "token_type":"Bearer",
-  "scope":"api1"
+  "scope": "api1"
 }
 ```
 {% endswagger-response %}
 {% endswagger %}
 
-Une fois que vous avez récupéré un access\_token, vous pouvez ensuite appeler n'importe quel endpoint de l'API Rest à l'aide de ce jeton d'accès en le passant en "Bearer token".&#x20;
+Als je eenmaal een toegangstoken hebt opgehaald, kun je elk Rest API endpoint aanroepen met dit toegangstoken door het als een "Bearer token" &#x20 door te geven;
 
-Par exemple, pour récupérer la liste de vos espaces de travail :
+Bijvoorbeeld, om de lijst van je workspaces op te halen :
 
 {% swagger method="get" path="" baseUrl="https://api.dastra.eu/v1/workspaces" summary="" %}
 {% swagger-description %}
-Récupérer la liste des espaces de travail de Dastra
+Verkrijg de lijst van Dastra workspaces
 {% endswagger-description %}
 
 {% swagger-parameter in="header" type="Authorization" required="true" %}
-Bearer {access\_token}
+Bearer {access_token}
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -95,31 +95,31 @@ Bearer {access\_token}
   "items": [
     {
       "id": 1,
-      "tenantId": 1,
-      "label": "My data company",
+      "huurderId": 1,
+      "label": "Mijn gegevens bedrijf",
       "logoUrl": null,
-      "state": "Active",
-      "permissions": null,
+      "status": "Activa",
+      "permissies": null,
       "dataSubjectArchivedRetentionDays": null,
       "nbEntities": 1
     },
     {
       "id": 2,
       "tenantId": 1,
-      "label": "My test workspace",
+      "label": "Mijn testwerkruimte",
       "logoUrl": null,
-      "state": "Active",
-      "permissions": null,
+      "status": "Activa",
+      "permissies": null,
       "dataSubjectArchivedRetentionDays": null,
       "nbEntities": 1
     },
     {
       "id": 3,
       "tenantId": 1,
-      "label": "My experimentation workspace",
+      "label": "Mijn experimenteerwerkruimte",
       "logoUrl": null,
-      "state": "Active",
-      "permissions": null,
+      "status": "Activa",
+      "permissies": null,
       "dataSubjectArchivedRetentionDays": null,
       "nbEntities": 0
     }
@@ -132,6 +132,6 @@ Bearer {access\_token}
 
 
 
-Toutes les requêtes doivent s'effectuer en [HTTPS](http://en.wikipedia.org/wiki/HTTP\_Secure) et toujours côté serveur. Les requêtes sans authentification échoueront avec le code d'erreur 401
+Alle verzoeken moeten worden gedaan via [HTTPS] (http://en.wikipedia.org/wiki/HTTP_Secure) en altijd aan de serverkant. Verzoeken zonder authenticatie zullen mislukken met foutcode 401.
 
-Consultez les références de l'API ici : [https://api.dastra.eu/swagger/index.html](https://api.dastra.eu/swagger/index.html)\
+Zie de API referenties hier: [https://api.dastra.eu/swagger/index.html](https://api.dastra.eu/swagger/index.html)^.

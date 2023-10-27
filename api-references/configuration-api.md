@@ -1,39 +1,39 @@
-# Configuration API
+# API configureren
 
-### Configurer des API dans Dastra&#x20;
+### API's configureren in Dastra&#x20;
 
-API signifie _**application programming interface**_ ou « interface de programmation d’application » en français.&#x20;
+API staat voor _**Application Programming Interface**_;
 
-Les API permettent de connecter la plateforme Dastra a d'autres outils extérieurs.&#x20;
+API's maken het mogelijk om het Dastra platform te verbinden met andere externe tools;
 
-Les possibilités sont multiples : connexion avec un logiciel CRM pour récupérer les parties prenantes de manière automatisée, synchronisation d'un outil de gestion des exercices des droits avec le module de Dastra etc.
+De mogelijkheden zijn legio: koppeling met CRM-software om stakeholders automatisch op te halen, synchronisatie van een rechtenmanagementtool met de Dastra-module, etc.
 
-Dastra repose sur le standard **API-Rest** et notamment les requêtes HTTP suivantes :&#x20;
+Dastra is gebaseerd op de **API-Rest** standaard en in het bijzonder op de volgende HTTP requests:&#x20;
 
 
 
-| URI                                                                   | GET                                                                                               | POST                                                                                                                                                                                                                                           | PUT                                                                                                                                                                                                | PATCH                                                                                                                                                                                                                  | DELETE                                                                                   |
+| URI | GET | POST | PUT | PATCH | DELETE |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Ressource collection, telle que `http://api.exemple.com/collection/`  | _Récupère_ les URI des ressources membres de la ressource collection dans le corps de la réponse. | _Crée_ une ressource membre dans la ressource collection en utilisant les instructions du corps de la requête. L'URI de la ressource membre créée est _attribué automatiquement_ et retourné dans le champ d'en-tête _Location_ de la réponse. | _Remplace_ toutes les représentations des ressources membres de la ressource collection par la représentation dans le corps de la requête, ou _crée_ la ressource collection si elle n'existe pas. | _Met à jour_ toutes les représentations des ressources membres de la ressource collection en utilisant les instructions du corps de la requête, ou _crée éventuellement_ la ressource collection si elle n'existe pas. | _Supprime_ toutes les représentations des ressources membres de la ressource collection. |
-| Ressource membre, telle que `http://api.exemple.com/collection/item3` | _Récupère_ une représentation de la ressource membre dans le corps de la réponse.                 | _Crée_ une ressource membre dans la ressource membre en utilisant les instructions du corps de la requête. L'URI de la ressource membre créée est _attribué automatiquement_ et retourné dans le champ d'en-tête _Location_ de la réponse.     | _Remplace_ toutes les représentations de la ressource membre, ou _crée_ la ressource membre si elle n'existe pas, par la représentation dans le corps de la requête.                               | _Met à jour_ toutes les représentations de la ressource membre, ou _crée éventuellement_ la ressource membre si elle n'existe pas, en utilisant les instructions du corps de la requête.                               | _Supprime_ toutes les représentations de la ressource membre.                            |
+| Resource collection, zoals `http://api.exemple.com/collection/` | _Fetch_ de URI's van de member resources in de resource collection uit de respons body. |_Create_ een member resource in de resource collection met behulp van de statements in de request body. De URI van de aangemaakte member resource wordt _auto-toegewezen_ en teruggezonden in het _Location_ headerveld van het antwoord. Vervang_ alle representaties van de member resources in de resourceverzameling door de representatie in de request body, of _maak_ de resourceverzameling aan als deze niet bestaat. | Update_ alle representaties van de resource-leden van de resourceverzameling met behulp van de verklaringen in de verzoektekst, of _creëer_ de resourceverzameling als deze niet bestaat. Verwijder alle representaties van de resource-leden van de resourceverzameling.
+| Haalt_ een representatie van de lidbron op uit de respons body. Creëert_ een lidbron in de lidbron met behulp van de verklaringen in de request body. De URI van de aangemaakte member resource wordt _auto-toegewezen_ en teruggezonden in het _Location_ headerveld van het antwoord. Vervang_ alle representaties van de member resource, of _creëer_ de member resource als deze niet bestaat, met de representatie in de request body.                               | Werk alle representaties van de lidbron bij, of _maak_ de lidbron aan als deze niet bestaat, met behulp van de instructies in de verzoektekst. Verwijder alle representaties van de lidbron.
 
-&#x20;Source : [_wikipédia_](https://fr.wikipedia.org/wiki/Representational\_state\_transfer)&#x20;
+Bron : [_wikipedia_](https://fr.wikipedia.org/wiki/Representational);
 
 
 
-Avec Dastra, il est possible de configurer plusieurs API. La liste des API est accessible ici : [https://api.dastra.eu/swagger/index.html](https://api.dastra.eu/swagger/index.html)
+Verschillende API's kunnen worden geconfigureerd met Dastra. De lijst met API's is hier beschikbaar: [https://api.dastra.eu/swagger/index.html](https://api.dastra.eu/swagger/index.html)
 
-### Limitations&#x20;
+### Beperkingen&#x20;
 
-Une limite de requête http est fixée à 500/min ou 10000/10min.
+Een http-verzoeklimiet is ingesteld op 500/min of 10000/10min.
 
-Les options de sécurité (notamment filtrage IP) ne s'appliquent pas aux API.&#x20;
+Beveiligingsopties (met name IP-filtering) zijn niet van toepassing op API's &#x20;
 
-### Exposition des champs personnalisés dans l'API Dastra&#x20;
+### Blootstelling van aangepaste velden in de Dastra API&#x20;
 
-Dans Dastra, il est possible d'exposer dans l'API [des champs personnalisés](../features/generalites/custom-fields.md) conçus depuis votre espace de travail Dastra.&#x20;
+In Dastra is het mogelijk om in de API [aangepaste velden](../features/generalites/custom-fields.md) te tonen die ontworpen zijn vanuit je Dastra-workspace.&#x20;
 
-Les champs personnalisés sont propre à chaque espace de travail. Pour les prendre en compte dans l'API Dastra, il faut d'abord définir le nom de leur variable dans la définition du champs personnalisé :&#x20;
+Aangepaste velden zijn specifiek voor elke werkruimte. Om ze mee te nemen in de Dastra API, moet je eerst de naam van hun variabele definiëren in de aangepaste velddefinitie:&#x20;
 
 <figure><img src="../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
 
@@ -41,44 +41,44 @@ Les champs personnalisés sont propre à chaque espace de travail. Pour les pren
 [custom-fields.md](../features/generalites/custom-fields.md)
 {% endcontent-ref %}
 
-La plupart des entités modifiables via l'API expose un champ nommé "**customFields**" que vous pouvez modifier.&#x20;
+De meeste entiteiten die via de API gewijzigd kunnen worden, hebben een veld met de naam "**customFields**" dat je kunt wijzigen &#x20;
 
-Si vous définissez les champs avec les noms de variable suivants au sein de votre espace de travail :&#x20;
+Als je velden definieert met de volgende variabele namen binnen je werkruimte:&#x20;
 
-* mon\_champ\_string : un champ "Texte"
-* mon\_champ\_booleen : un champ "Case à coche"
-* mon\_champ\_numeric : un champ "Nombre"
-* mon\_champ\_checkbox : un champ "Cases à cocher"
+* my_field_string: een "Tekst" veld
+* my_field_booleen: een "aankruisvakje" veld
+* mijn_veld_numeriek : een "Nummer" veld
+* my_field_checkbox: een "Checkbox" veld
 
-Il sera possible de modifier ces informations de cette façon
+Het is mogelijk om deze informatie als volgt aan te passen
 
 ```json
 { 
-  "label": "Google Analytics 4",
+  "label: "Google Analytics 4",
   ...
   "customFields": {
-     "mon_champ_string": "Valeur de mon champ",
-     "mon_champ_booleen": true,
-     "mon_champ_numeric": 1,
-     "mon_champ_checkbox"!:["Pomme","Banane"],
+     "my_field_string": "Waarde van mijn veld",
+     "my_field_booleen": waar
+     "my_field_numeric": 1.,
+     "my_checkbox_field":["Appel", "Banaan"],
      ...a
   }
 }
 ```
 
-### Le cas des tags
+### Tags
 
-Pour exposer des tags dans l'API Dastra, il faut aller les chercher dans le endpoint tags avant de les ajouter : /v1/ws/{workspaceId}/Tags
+Om tags bloot te leggen in de Dastra API, moet je ze zoeken in het tags eindpunt voordat je ze toevoegt: /v1/ws/{workspaceId}/Tags
 
 ###
 
 {% hint style="info" %}
-**CONSEIL** : ne manipulez les API que si vous savez ce que vous faites !
+**TIP**: gebruik alleen API's als je weet wat je doet!
 {% endhint %}
 
 
 
-Vous retrouvez l'interface de gestion des API dans Dastra à cette adresse : [https://app.dastra.eu/general-settings/api](https://app.dastra.eu/general-settings/api)
+Je kunt de API beheerinterface in Dastra vinden op dit adres: [https://app.dastra.eu/general-settings/api](https://app.dastra.eu/general-settings/api)
 
 
 

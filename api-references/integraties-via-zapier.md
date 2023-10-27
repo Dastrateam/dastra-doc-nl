@@ -1,2 +1,0 @@
-# Integraties via Zapier
-
