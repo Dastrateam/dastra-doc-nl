@@ -104,6 +104,6 @@ Hier is een video met uitleg:
 
 ## Verder gaan
 
-{% content-ref url="creer-puis-affecttez-des-equipes.md" %}
-[create-then-assign-teams.md](create-then-assign-teams.md)
+{% content-ref url="creer-puis-affectez-des-equipes.md" %}
+[maak-de-toewijzings-teams.md](creer-puis-affectez-des-equipes.md)
 {% endcontent-ref %}

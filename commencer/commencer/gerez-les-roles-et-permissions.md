@@ -48,7 +48,7 @@ Om een aangepaste rol te maken, moet u de eigenaar van de organisatie zijn. Klik
 
 Eenmaal in het configuratiescherm, klik je op de "Rollen en rechten" knop in de "Organisatie" sectie. De lijst met rollen en rechten wordt weergegeven:
 
-De rollen "HR Registry Operator" en "Assistant" zijn aangepaste rollen](<../../.gitbook/assets/image (134).png>)
+[De rollen "HR Registry Operator" en "Assistant" zijn aangepaste rollen](<../../.gitbook/assets/image (134).png>)
 
 {% hint style="info" %}
 Alleen eigenaren van de organisatie hebben toegang tot het rollen en rechten beheerscherm.
@@ -62,6 +62,6 @@ Om effectief te zijn, moet de nieuwe rol worden toegewezen aan een of meer gebru
 
 Dat is het, de rollen en rechten zijn ingesteld! U kunt nu de tutorial bekijken of de mogelijkheden van Dastra zelf gaan verkennen.
 
-{% content-ref url="../tutorial/" %}
-[tutorial](../tutorial/)
+{% content-ref url="../tutoriel/" %}
+[handleiding](../tutoriel/)
 {% endcontent-ref %}

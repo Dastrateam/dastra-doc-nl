@@ -67,6 +67,6 @@ Gefeliciteerd, je werkruimte in Dastra is gemaakt en ingesteld!&#x20;
 
 Volg de onderstaande tutorial of begin Dastra zelf te verkennen.&#x20;
 
-{% content-ref url="../tutorial/" %}
-[tutorial](../tutorial/)
+{% content-ref url="../tutoriel/" %}
+[handleiding](../tutoriel/)
 {% endcontent-ref %}
