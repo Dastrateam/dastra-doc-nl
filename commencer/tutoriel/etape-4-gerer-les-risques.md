@@ -54,8 +54,8 @@ $$
 Risico = waarschijnlijkheid * impact
 $$
 
-{% content-ref url="../../features/risk-management/" %}
-[risicobeheer](../../features/risicobeheer/)
+{% content-ref url="../../features/la-gestion-des-risques/" %}
+[risicobeheer](../../features/la-gestion-des-risques/)
 {% endcontent-ref %}
 
 ### Audits
@@ -69,5 +69,5 @@ Om het risicobeheer een stap verder te brengen, kan Dastra ook audits ontwerpen,
 Dat is het, je risico's zijn geïdentificeerd en beoordeeld! Ga dan verder met stap 4, het prioriteren van de taken:
 
 {% content-ref url="etape-3-prioriser-les-actions-a-mener.md" %}
-[etape-3-prioriser-les-actions-a-mener.md](etape-3-prioriser-les-actions-a-mener.md)
+[stap-3 te nemen acties prioriteren.md](etape-3-prioriser-les-actions-a-mener.md)
 {% endcontent-ref %}

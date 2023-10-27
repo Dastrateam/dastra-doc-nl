@@ -2,22 +2,23 @@
 
 Na training in het in kaart brengen van de gegevensverwerking en het interviewen van de Verwerkingsverantwoordelijken, identificeert u hieronder uw eerste gegevensverwerkingen:
 
-| Afdeling | Gegevensverwerking | Ondersteuning / aanvraag | DPIA a priori vereist ?
+| #  | Afdeling         | Gegevensverwerking          | Ondersteuning / aanvraag     | DPIA a priori vereist ? |
 | -- | ------------------- | ------------------------------------------- | ------------------------- | ---------------------- |
-| 1 | HR | Wervingsmanagement | Linkedin (extern) | Nee |
-| Payfit (extern) | Nee | 2
-| 3 | HR Management | Microsoft Office | Nee |
-| 4 | Secretariaat | Gegevensbeheer ondernemingsraad | Interne toepassing | Nee |
-| Productie | Kwaliteitsbeheer | Microsoft Office | Nee |
-| 6 | Marketing & Verkoop | Klantenbeheer | Salesforce (extern) | Nee |
-| Sales | Mailjet (extern) | Nee |
-| 8 | Marketing & Sales | Prospectprofilering | Salesforce | Ja |
-| 9 Beveiliging | Beheer van ingangen/uitgangen in gebouwen | IBM | Ja |
-| Beveiliging | Prioriteitscontrole | Microsoft Office | Nee |
-| 11 IT | Applicatieontwikkeling | Microsoft Azure (extern) | Nee |
-| 12 IT | Applicatieonderhoud | CGI (extern) | Nee |
-| 13 Juridisch | Contractbeheer | Microsoft Office | Nee |
-| 14 Inkoop | Leveranciersbeheer | SAP (extern) | Nee |
+| 1  | HR                  | Wervingsmanagement                      | Linkedin (extern)        | Nee                    |
+| 2  | HR                  | Salarisbeheer                        | Payfit (extern)          | Nee                   |
+| 3  | HR                  | Personeelsbeheer                       | Microsoft Office          | Nee                   |
+| 4  | Algemeen secretariaat | Beheer gegevens ondernemingsraad  | Interne toepassing       | Nee                    |
+| 5  | Productie         | Kwaliteitsmanagement                      | Microsoft Office          | Nee                    |
+| 6  | Marketing en verkoop  | Beheer van klanten                         | Salesforce (extern)      | Nee                    |
+| 7  | Marketing en verkoop  | Promotionele e-mails versturen                | Mailjet (extern)         | Nee                    |
+| 8  | Marketing en verkoop  | Prospect profilering                      | Salesforce                | Ja                    |
+| 9  | Beveiliging           | De in- en uitgangen van gebouwen beheren | IBM                       | Ja                    |
+| 10 | Beveiliging          | Prioriteit controleren                    | Microsoft Office          | Nee                    |
+| 11 | IT      | Applicatieontwikkeling                 | Microsoft Azure (externe) | Nee                    |
+| 12 | IT      | Onderhoud van toepassingen               | CGI (externe)             | Nee                    |
+| 13 | Wettelijk         | Contractbeheer                    | Microsoft Office          | Nee                    |
+| 14 | Inkoop            | Beheer van leveranciers                  | SAP (extern)             | Nee                    |
+
 
 Daarna voltooit u uw registratie in Dastra:
 

@@ -14,12 +14,12 @@ Met Dastra kunt u ten minste enkele van de volgende interne processen digitalise
 
 * **Cookie toestemmingsbeheer :**
 
-{% content-ref url="../../features/gerer-le-instemming-aux-cookies/" %}
-[manage-cookie-consent](../../features/manage-cookie-consent/)
+{% content-ref url="../../features/gerer-le-consentement-aux-cookies/" %}
+[manage-cookie-consent](../../features/gerer-le-consentement-aux-cookies/)
 {% endcontent-ref %}
 
 * **Beheer meldingen datalekken :**
 
-{% content-ref url="../../features/document-data-breaches/" %}
-[Inbreuk](../../features/document-data-breaches/)
+{% content-ref url="../../features/documenter-les-violations-de-donnees/" %}
+[Inbreuk](../../features/documenter-les-violations-de-donnees/)
 {% endcontent-ref %}

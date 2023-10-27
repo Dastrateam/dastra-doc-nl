@@ -4,17 +4,18 @@ Om aan te tonen dat u de verordening naleeft, moet u de nodige documentatie same
 
 #### Uw dossier moet in het bijzonder de volgende elementen bevatten:
 
-| Documentatie
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [**Het register van de verwerkingsactiviteiten**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement) (voor verwerkingsverantwoordelijken) of categorieën van verwerkingsactiviteiten (voor subcontractanten).
-| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [Gegevensbeschermingseffectbeoordeling**](https://www.cnil.fr/fr/RGPD-analyse-impact-protection-des-donnees-aipd) (DPIA) voor verwerkingen die waarschijnlijk grote risico's inhouden voor de rechten en vrijheden van betrokkenen.
-| DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS [**Het kader voor doorgifte van gegevens**](https://www.cnil.fr/fr/transferts-de-donnees-hors-ue-ce-qui-change-avec-le-reglement-general-sur-la-protection-des-donnees) buiten de Europese Unie (met name modelcontractbepalingen, BCR's en certificeringen).
-| INFORMATIE VOOR PERSONEN | [**Informatieberichten**]|
-| INFORMATIE VOOR GEGEVENSDELNEMERS | Modelformulieren voor **het verzamelen van toestemming van betrokkenen** | INFORMATIE VOOR GEGEVENSDELNEMERS
-| INFORMATIE VOOR GEGEVENSOVERLEGGERS Procedures voor **uitoefening van rechten** INFORMATIE VOOR GEGEVENSOVERLEGGERS
-| OVEREENKOMSTEN DIE DE ROLEN EN VERANTWOORDELIJKHEDEN VAN DE DEELNEMERS BEPALEN [**Overeenkomsten met Verwerkers**] |
-| OVEREENKOMSTEN DIE DE BEPALINGEN EN VERANTWOORDELIJKHEDEN VAN DE DEELNEMERS BEPALEN [Interne procedures **in geval van een datalek**]
+* DOCUMENTATIE OVER UW VERWERKING VAN PERSOONSGEGEVENS Het register van de **verwerkingsactiviteiten** (voor verwerkingsverantwoordelijken) of categorieën van verwerkingsactiviteiten (voor verwerker).
+* Een **Gegevensbeschermingseffectbeoordeling** of data protection impact assessment (DPIA) voor verwerkingen die waarschijnlijk grote risico's inhouden voor de rechten en vrijheden van betrokkenen.
+* Een **Inbreukenregister** of datalekregister bijhouden (waarin u ook de datalekken opneemt die u niet hoeft te melden)
+* aantonen dat een betrokkene daadwerkelijk toestemming heeft gegeven voor een gegevensverwerking wanneer u voor deze verwerking toestemming nodig heeft
+* goed kunnen onderbouwen waarom u ervoor gekozen heeft om al dan niet een functionaris gegevensbescherming (FG) aan te stellen wanneer onduidelijk is of u verplicht bent om een FG aan te stellen;
+* een privacyverklaring opstellen (let op: dit is niet hetzelfde als een privacybeleid).
 
-| Rechten van betrokkenen en de uitoefening van hun rechten: bewijs dat betrokkenen **toestemming hebben gegeven** voor de verwerking van hun gegevens op deze basis.
+Klik op onderstaande links voor meer informatie over uw gegevensbeschermingsautoriteit:
+
+* [**BELGIË - gegevensbeschermingsautoritei**](https://www.gegevensbeschermingsautoriteit.be/professioneel/avg)
+* [**BELGIË - vlaamse toezichtcommissie**](https://overheid.vlaanderen.be/vlaamse-toezichtcommissie)
+
+* [**NEDERLAND - autoriteitpersoonsgegevens**](https://www.autoriteitpersoonsgegevens.nl/)
 
 Als uit uw documentatie blijkt dat u voldoet aan de verplichtingen van de Europese Verordening, dan bent u door deze fase heen. Goed gedaan!

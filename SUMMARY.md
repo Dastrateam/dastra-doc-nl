@@ -36,7 +36,7 @@
   * [Stap 3: Risico's beheren](commencer/tutoriel/etape-4-gerer-les-risques.md)
   * [Stap 4: Prioriteit geven aan te nemen acties](commencer/tutoriel/etape-3-prioriser-les-actions-a-mener.md)
   * [Stap 5: Implementeer interne processen](commencer/tutoriel/etape-5-implementer-les-processus-internes.md)
-  * [Stap 6: Document compliance](commencer/tutoriel/etape-6-documenter-la-conformite.md)
+  * [Stap 6: naleving van documenten](commencer/tutoriel/etape-6-documenter-la-conformite.md)
 * [Ondersteuning](commencer/le-support/README.md)
   * [De astronaut-assistent](commencer/le-support/lassistant-dastronaute.md)
   * [Online hulp](commencer/le-support/laide-en-ligne.md)
