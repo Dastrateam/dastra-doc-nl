@@ -20,15 +20,15 @@ In de sectie met de tegels kun je de volgorde van verschijnen van deze tegels ve
 
 Er zijn verschillende **categorieën tegels** beschikbaar in het dashboard:
 
-* **Nieuws en bekijken**
-* **Gegevensverwerking**
-* **Taken**
-* **Uitoefening van rechten van betrokkenen** 
-* **Laatste inbreuken**
-* **Risicoanalyse**
-* **Uw audits**
-* **Widget voor toestemming voor gegevensverwerking** 
-* **Widget voor bescherming persoonsgegevens** 
+* **Nieuws en bekijken**;
+* **Gegevensverwerking**;
+* **Taken**;
+* **Uitoefening van rechten van betrokkenen**; 
+* **Laatste inbreuken**;
+* **Risicoanalyse**;
+* **Uw audits**;
+* **Widget voor toestemming voor gegevensverwerking**;
+* **Widget voor bescherming persoonsgegevens**;
 * **Widget voor toestemming cookie**
 
 ## Hoe deel ik het dashboard?
