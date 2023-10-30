@@ -39,7 +39,7 @@ Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op e
 
 Verken de functies nu:
 
-{% content-ref url="editer-le-registre.md/" %}
+{% content-ref url="editer-le-registre.md" %}
 [het register bewerken](editer-le-registre.md)
 {% endcontent-ref %}
 
@@ -52,7 +52,7 @@ Verken de functies nu:
 {% endcontent-ref %}
 
 {% content-ref url="planifier" %}
-[plan](planifier/)
+[plan](planifier.md)
 {% endcontent-ref %}
 
 {% content-ref url="gerer-les-exercices-des-droits.md" %}
