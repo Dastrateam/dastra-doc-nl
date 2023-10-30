@@ -21,7 +21,7 @@ In de sectie met de tegels kun je de volgorde van verschijnen van deze tegels ve
 Er zijn verschillende **categorieën tegels** beschikbaar in het dashboard:
 
 * **Nieuws en bekijken**
-* **Gegevensverwerking**&#x20;
+* **Gegevensverwerking**
 * **Taken**
 * **Uitoefening van rechten van betrokkenen** 
 * **Laatste inbreuken**
@@ -39,8 +39,8 @@ Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op e
 
 Verken de functies nu:
 
-{% content-ref url="editer-le-registre.md" %}
-[het register bewerken](editer-le-registre.md)
+{% content-ref url="features/editer-le-registre/README.md" %}
+[het register bewerken](features/editer-le-registre/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="editer-le-registre/la-visualisation-des-donnees.md" %}
@@ -51,7 +51,7 @@ Verken de functies nu:
 [risicobeheer](la-gestion-des-risques.md)
 {% endcontent-ref %}
 
-{% content-ref url="planifier" %}
+{% content-ref url="planifier.md" %}
 [plan](planifier.md)
 {% endcontent-ref %}
 
