@@ -21,13 +21,15 @@ In de sectie met de tegels kun je de volgorde van verschijnen van deze tegels ve
 Er zijn verschillende **categorieën tegels** beschikbaar in het dashboard:
 
 * **Nieuws en bekijken**
-* Gegevensverwerking**&#x20;
-* Risicoanalyse
-* Uw audits
-* Deadline-taken
-* **Uitoefening van rechten van betrokkenen** *Widget voor toestemming voor gegevensverwerking** * *Widget voor bescherming persoonsgegevens** *Widget voor bescherming persoonsgegevens
-*Widget voor toestemming cookie
-* Laatste incidenten
+* **Gegevensverwerking**&#x20;
+* **Taken**
+* **Uitoefening van rechten van betrokkenen** 
+* **Laatste inbreuken**
+* **Risicoanalyse**
+* **Uw audits**
+* **Widget voor toestemming voor gegevensverwerking** 
+* **Widget voor bescherming persoonsgegevens** 
+* **Widget voor toestemming cookie**
 
 ## Hoe deel ik het dashboard?
 
@@ -37,38 +39,38 @@ Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op e
 
 Verken de functies nu:
 
-{% content-ref url="edit-the-record/" %}
-[bewerk-het-record](bewerk-het-record/)
+{% content-ref url="editer-le-registre.md/" %}
+[het register bewerken](editer-le-registre.md)
 {% endcontent-ref %}
 
-{% content-ref url="edit-the-record/data-viewing/" %}
-[the-data-viewer](edit-the-record/the-data-viewer/)
+{% content-ref url="editer-le-registre/la-visualisation-des-donnees.md" %}
+[gegevensvisualisatie](editer-le-registre/la-visualisation-des-donnees.md)
 {% endcontent-ref %}
 
-{% content-ref url="risk-management/" %}
-[risicobeheer](risicobeheer/)
+{% content-ref url="la-gestion-des-risques.md" %}
+[risicobeheer](la-gestion-des-risques.md)
 {% endcontent-ref %}
 
-{% content-ref url="plan/" %}
-[plan](plan/)
+{% content-ref url="planifier" %}
+[plan](planifier/)
 {% endcontent-ref %}
 
-{% content-ref url="gerer-les-exercices-des-droits/" %}
-[beheer-rechten-oefeningen](beheer-rechten-oefeningen/)
+{% content-ref url="gerer-les-exercices-des-droits.md" %}
+[rechten van betrokkenen beheren](gerer-les-exercices-des-droits.md)
 {% endcontent-ref %}
 
-{% content-ref url="documenter-les-violations-de-donnees/" %}
-[documenting-data-violations](documenting-data-violations/)
+{% content-ref url="documenter-les-violations-de-donnees.md" %}
+[gegevensinbreuken documenteren](documenter-les-violations-de-donnees.md)
 {% endcontent-ref %}
 
-{% content-ref url="gerer-le-consentement-aux-cookies/" %}
-[gerer-le-consentement-aux-cookies](gerer-le-consentement-aux-cookies/)
+{% content-ref url="gerer-le-consentement-aux-cookies.md" %}
+[toestemming beheren voor cookies](gerer-le-consentement-aux-cookies.md)
 {% endcontent-ref %}
 
-{% content-ref url="audit/" %}
-[audit](audit/)
+{% content-ref url="audit.md" %}
+[audit](audit.md)
 {% endcontent-ref %}
 
-{% content-ref url="settings/" %}
-[instellingen](instellingen/)
+{% content-ref url="settings.md" %}
+[instellingen](settings.md)
 {% endcontent-ref %}
