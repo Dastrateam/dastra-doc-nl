@@ -59,15 +59,15 @@ Dat is het! Je kunt nu je eigen aangepaste velden maken. Maar dat is nog niet al
 
 Je kunt ook voorwaardelijke blokken maken die alleen onder bepaalde voorwaarden worden weergegeven.
 
-Om dit te doen, moet je het voorwaardelijke labelsysteem gebruiken dat begint met {% if qqch == true %} en eindigt met {% endif %}.
+Om dit te doen, moet je het voorwaardelijke labelsysteem gebruiken dat begint met {% if qqch == true %\} en eindigt met {% endif %\}.
 
 &#x20;Dus ik kan de volgende voorwaarde schrijven:&#x20;
 
-> \% if attachments != blank %}
+> \{% if attachments != blank %\}
 >
 > Je hebt een bijlage
 >
-> \{% endif %}}
+> \{% endif %\}
 
 Het blok wordt alleen weergegeven als er een bijlage aanwezig is in het verzoek.
 

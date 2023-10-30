@@ -18,6 +18,6 @@ Begin 2020 publiceerde de CNIL [aanbevelingen over cookies en andere trackers](h
 
 Een cookie-toestemmingswidget kan worden gebruikt om naleving te garanderen.
 
-{% content-ref url="configuration-du-widget/implement-a-cookie-consent-widget.md" %}
-[implement-a-widget-de-consent-aux-cookies.md](configuration-du-widget/implement-a-widget-de-consent-aux-cookies.md)
+{% content-ref url="configuration-du-widget/configuration-du-widget/implementez-un-widget-de-consentement-aux-cookies.md" %}
+[implement-a-widget-de-consent-aux-cookies.md](configuration-du-widget/implementez-un-widget-de-consentement-aux-cookies.md)
 {% endcontent-ref %}

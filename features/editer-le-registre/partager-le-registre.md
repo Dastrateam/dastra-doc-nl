@@ -47,4 +47,4 @@ Alle deellinks die in je werkruimte zijn gemaakt, worden gecentraliseerd in de b
 
 Je kunt ze bekijken en indien nodig verwijderen.
 
-[Share link beheer interface](<../../.gitbook/assets/image (179).png>)
+[Beheersinterface voor koppelingen delen](<../../.gitbook/assets/image (179).png>)

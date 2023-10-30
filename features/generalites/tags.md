@@ -1,7 +1,6 @@
 ---
 description: >-
-  Met tags kunt u informatie in Dastra op een eenvoudige, intuïtieve manier classificeren.
-  intuïtieve manier
+  Met tags kunt u informatie in Dastra op een eenvoudige, intuïtieve manier classificeren. 
 ---
 
 # Tagbeheer

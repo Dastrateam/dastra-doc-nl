@@ -19,7 +19,7 @@ Met DASTRA kunt u de cookies die op uw website worden geplaatst classificeren me
 * Overige cookies.
 
 {% content-ref url="les-finalites-des-cookies.md" %}
-[les-finalites-des-cookies.md](les-finalites-des-cookies.md)
+[de-koekjes-finaliteiten](les-finalites-des-cookies.md)
 {% endcontent-ref %}
 
 Om dit te doen, selecteer je gewoon het cookie dat je wilt classificeren in de Classificatie-interface en verplaats je het door er simpelweg op te "klikken en neer te zetten" in de categorie van je keuze.
@@ -34,7 +34,7 @@ Je kunt van geval tot geval bepalen of er wel of geen toestemming moet worden ge
 
 &#x20;Als al je cookies per categorie zijn ingedeeld, kun je de bijbehorende toestemmingswidget implementeren.
 
-{% content-ref url="implement-a-consent-widget-for-cookies.md" %}
-[implement-a-consent-widget-aux-cookies.md](implement-a-consent-widget-aux-cookies.md)
+{% content-ref url="implementez-un-widget-de-consentement-aux-cookies.md" %}
+[een-consent-widget-aux-cookies implementeren](implementez-un-widget-de-consentement-aux-cookies.md)
 {% endcontent-ref %}
 

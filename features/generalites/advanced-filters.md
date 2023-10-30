@@ -47,4 +47,4 @@ Als u problemen hebt met de filters: u verliest de weergave van uw gegevens, rad
 
 Om verschillende redenen kan het technisch niet mogelijk zijn om deze filters in te stellen. In dit geval raden we u aan om de gegevens in ruwe vorm te exporteren en het rapport uit te voeren in tools zoals Excel.
 
-Als dit een filter is dat essentieel is voor uw bedrijf, aarzel dan niet om ons een verzoek te sturen voor nieuwe functionaliteit [via de Dastra community of het aanvraagsysteem](../../start/support/request-support.md).
+Als dit een filter is dat essentieel is voor uw bedrijf, aarzel dan niet om ons een verzoek te sturen voor nieuwe functionaliteit [via de Dastra community of het aanvraagsysteem](../../commencer/le-support/faire-une-demande-de-support.md).

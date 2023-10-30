@@ -34,21 +34,21 @@ Let op! Niet alle functies worden beïnvloed door aangepaste velden
 
 Je kunt de volgende formulieren aanpassen:
 
-* [Verwerking](../bewerken-register/)
-* [Uitoefenrechten](broken-reference)
-* [Taken](../plan/gerer-vos-taches.md)
-* [Activa](../edit-register/fill-in-questionnaire/applications.md)
-* [Actoren](../cartografie/referenties.md)
+* [Verwerking](../editer-le-registre.md/)
+* [Rechten van betrokkenen](../gerer-les-exercices-des-droits.md)
+* [Taken](../planifier/gerer-vos-taches.md)
+* [Activa](../editer-le-registre/remplir-le-questionnaire/applications.md)
+* [Actoren](../cartography/referentials.md)
 * Metingen
 * Gegevenssets
 * Gegevensvelden
-* [Inbreuken](../../useful-reminders/rgpd-en-bref/data-violations.md)
-* [Risicobeoordelingen](../risk-management/risks.md)
+* [Inbreuken](../../rappels-utiles/rgpd-en-bref/violations-de-donnees.md)
+* [Risicobeoordelingen](../la-gestion-des-risques/risques.md)
 
 {% hint style="danger" %}
 #### Beperkingen op het aantal velden
 
-Het aantal aangepaste velden is beperkt, afhankelijk van het abonnement dat u gebruikt. Raadpleeg de prijspagina van de applicatie (https://www.dastra.eu/fr/pricing) voor meer informatie over dit onderwerp.
+Het aantal aangepaste velden is beperkt, afhankelijk van het abonnement dat u gebruikt. Raadpleeg de prijspagina van de applicatie (https://www.dastra.eu/en/pricing) voor meer informatie over dit onderwerp.
 {% endhint %}
 
 ## Beschikbare veldtypes
@@ -108,7 +108,7 @@ Vul alle informatie in!
 
 ## Omgaan met aangepaste velden in API's
 
-Met Dastra kun je via de [API Rest](../../api-referenties/configuratie-api.md) alle waarden van entiteiten met aangepaste velden ophalen, wijzigen en aanmaken.
+Met Dastra kun je via de [API Rest](../../api-references/configuration-api.md) alle waarden van entiteiten met aangepaste velden ophalen, wijzigen en aanmaken.
 
 Een "**customFields**" eigenschap zal beschikbaar zijn in alle entiteiten die u ophaalt in get in Dastra.c
 

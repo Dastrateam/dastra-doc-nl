@@ -34,7 +34,7 @@ Je kunt de AI-assistent gebruiken om gegevensverwerking of Activa te genereren. 
 {% hint style="warning" %}
 **Wat moet ik doen als ik deze functie niet op mijn account wil?
 
-Als je niet wilt dat deze optie beschikbaar is in je werkruimte, kun je [contact met ons opnemen ](../../start/support/make-a-support-request.md) zodat we de functionaliteit voor jouw organisatie kunnen deactiveren.
+Als je niet wilt dat deze optie beschikbaar is in je werkruimte, kun je [contact met ons opnemen ](../../commencer/le-support/faire-une-demande-de-support.md) zodat we de functionaliteit voor jouw organisatie kunnen deactiveren.
 {% endhint %}
 
 ## Hoe werkt het?

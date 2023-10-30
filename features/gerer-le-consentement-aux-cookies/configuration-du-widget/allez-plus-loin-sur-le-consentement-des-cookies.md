@@ -15,10 +15,10 @@ Naast het scannen, classificeren, widgeting van cookies en het verzamelen van be
 * Statistische rapporten genereren
 * Toestemming integreren
 
-Voor meer informatie kunt u [rechtstreeks contact met ons opnemen](https://www.dastra.eu/fr/Contact?type=Demo) of de volgende sectie raadplegen:
+Voor meer informatie kunt u [rechtstreeks contact met ons opnemen](https://www.dastra.eu/en/Contact?type=Demo) of de volgende sectie raadplegen:
 
-{% content-ref url="../integration-technique/" %}
-[integratie-techniek](../integratie-techniek/)
+{% content-ref url="../integration-technique.md" %}
+[integratie-techniek](../integratiion-technique.md/)
 {% endcontent-ref %}
 
 

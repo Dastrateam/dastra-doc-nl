@@ -24,8 +24,8 @@ Deze mini-audit zal het integratiewerk van het technische team enorm vergemakkel
 Om u te helpen, kunt u onze kant-en-klare cookie-scantool gebruiken: [https://app.dastra.eu/workspace/19/cookie-widget/integration/scan](https://app.dastra.eu/workspace/19/cookie-widget/integration/scan)\.
 Hiermee kunt u ter plekke de services identificeren die op uw site zijn geïnstalleerd vanuit onze cookie-database.
 
-{% content-ref url="scan-de-cookies-gedeponeerd-op-uw-website.md" %}
-[scan-the-cookies-deposited-on-your-website.md](scan-the-cookies-deposited-on-your-website.md)
+{% content-ref url="scannez-les-cookies-deposes-sur-votre-site-web.md" %}
+[scan-de-cookies-gedeponeerd-op-uw-website](scannez-les-cookies-deposes-sur-votre-site-web.md)
 {% endcontent-ref %}
 
 Daarnaast is het raadzaam om een gedetailleerd onderzoek uit te voeren naar alle services die op uw site zijn geïnstalleerd (onderzoek van de broncode van de pagina, inspectie van cookies, enz.) Tools zoals [https://builtwith.com/](https://builtwith.com/) kunnen u ook helpen bij het inventariseren van deze services.

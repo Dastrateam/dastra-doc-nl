@@ -24,12 +24,10 @@ Het proces is hetzelfde voor elke import &#x20;
 
 Er zijn 4 stappen:&#x20;
 
-1. [Bereid het gegevensbestand voor] (importeer-uw-gegevens-excel-csv.md#1.-bereid-het-gegevensbestand voor)
-2. [Bestand uploaden](import-uw-gegevens-excel-csv.md#2.-upload-bestand)
-3. [Controleer de gegevens voor het importeren](importeer-uw-gegevens-excel-csv.md#3.-controleer-uw-gegevens)
-4. [Gegevens importeren](import-je-gegevens-excel-csv.md#4.-import-gegevens)
-
-
+1. [Bereid het gegevensbestand voor](importer-vos-donnees-excel-csv.md#1.-preparation-du-fichier-de-donnees)
+2. [Bestand uploaden](importer-vos-donnees-excel-csv.md#2.-charger-le-fichier)
+3. [Controleer de gegevens voor het importeren](importer-vos-donnees-excel-csv.md#3.-verifiez-vos-donnees)
+4. [Gegevens importeren](importer-vos-donnees-excel-csv.md#4.-importez-les-donnees)
 
 ### 1. Het gegevensbestand voorbereiden
 
