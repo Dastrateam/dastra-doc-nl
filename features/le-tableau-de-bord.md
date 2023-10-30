@@ -39,20 +39,20 @@ Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op e
 
 Verken de functies nu:
 
-{% content-ref url="editer-le-registre.md" %}
-[Register van verwerkingen](editer-le-registre.md)
+{% content-ref url="editer-le-registre/" %}
+[editer-le-registre](editer-le-registre/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="editer-le-registre/la-visualisation-des-donnees.md" %}
-[gegevensvisualisatie](editer-le-registre/la-visualisation-des-donnees.md)
+{% content-ref url="editer-le-registre/la-visualisation-des-donnees/" %}
+[la-visualisation-des-donnees](editer-le-registre/la-visualisation-des-donnees/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="la-gestion-des-risques.md" %}
-[risicobeheer](la-gestion-des-risques.md)
+{% content-ref url="la-gestion-des-risques/" %}
+[la-gestion-des-risques](la-gestion-des-risques/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="planifier.md" %}
-[plan](planifier.md)
+{% content-ref url="planifier/" %}
+[planifier](planifier/)
 {% endcontent-ref %}
 
 {% content-ref url="gerer-les-exercices-des-droits.md" %}

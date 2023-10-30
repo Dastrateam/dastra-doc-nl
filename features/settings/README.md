@@ -1,13 +1,13 @@
 ---
-beschrijving: Leer hoe je Dastra configureert met de geavanceerde functies.
+description: Leer hoe je Dastra configureert met de geavanceerde functies.
 ---
 
 # Geavanceerde configuratie
 
 Leer hoe je SSO instelt:
 
-{% content-ref url="single-sign-on-sso/" %}
-[single-sign-on-sso](single-sign-on-sso/)
+{% content-ref url="single-sign-on-sso.md" %}
+[single-sign-on-sso](single-sign-on-sso.md)
 {% endcontent-ref %}
 
 Leer hoe je repositories beheert :
