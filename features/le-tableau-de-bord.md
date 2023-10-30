@@ -40,7 +40,7 @@ Je kunt het dashboard ook afdrukken of direct een gebruiker uitnodigen door op e
 Verken de functies nu:
 
 {% content-ref url="editer-le-registre.md" %}
-[het register bewerken](editer-le-registre.md)
+[Register van verwerkingen](editer-le-registre.md)
 {% endcontent-ref %}
 
 {% content-ref url="editer-le-registre/la-visualisation-des-donnees.md" %}
