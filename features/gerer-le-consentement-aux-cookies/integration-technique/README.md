@@ -1,6 +1,5 @@
 ---
-description: >-
-   Deze pagina beschrijft alle elementen die u nodig heeft om de
+description: Deze pagina beschrijft alle elementen die u nodig heeft om de
   dastra widget te integreren in uw website.
 ---
 
