@@ -18,7 +18,7 @@ Om de manier waarop behandelingen in uw register worden weergegeven te wijzigen,
 
 ![Module "Registers"](<../../../.gitbook/assets/image (199).png>)
 
-![Pijl rechts van de "Tabel" knop & uitklapmenu](<../../.gitbook/assets/Capture web_4-5-2022\_95947_app.dastra.eu.jpeg>)
+![Pijl rechts van de "Tabel" knop & uitklapmenu](<../../../.gitbook/assets/Capture web\_4-5-2022\_95947\_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
 De eerste keuze "Tabel" verwijst naar de standaardweergave van de Verwerking**.

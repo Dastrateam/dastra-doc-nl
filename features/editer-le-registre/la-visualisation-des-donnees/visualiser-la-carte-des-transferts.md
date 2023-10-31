@@ -1,8 +1,8 @@
 ---
-description: Leer hoe u de gegevensDoorgiftkaart in Dastra kunt bekijken.
+description: Leer hoe u de gegevensdoorgiftkaart in Dastra kunt bekijken.
 ---
 
-# De gegevensDoorgiftkaart bekijken
+# De gegevensdoorgiftkaart bekijken
 
 ## Inleiding
 
@@ -12,17 +12,16 @@ Met deze weergave kunt u met name geografische gegevensDoorgiftn verkennen, anal
 
 ## De Doorgiftskaart bekijken
 
-Om de transferkaart te bekijken, klikt u op de module 'Registers' en vervolgens op de knop '**Transfers**' boven uw lijst met Verwerkingen &#x20;
+Om de transferkaart te bekijken, klikt u op de module 'Registers' en vervolgens op de knop '**doorgiften**' boven uw lijst met verwerkingen &#x20;
 
+![Registers module](<../../../.gitbook/assets/image (199).png>)
 
-
-[Registers module](<../../..gitbook/assets/image (199).png>)
-
-[Doorgift tab boven Verwerking](<../../..gitbook/assets/Capture web_4-5-2022_101533_app.dastra.eu.jpeg>)
+![Doorgift tab boven verwerking](<../../../.gitbook/assets/Capture web\_4-5-2022\_101533\_app.dastra.eu.jpeg>)
 
 Hiermee kun je **de Doorgift map.** bekijken.
 
-[Voorbeeld van data Doorgift](<../../../.gitbook/assets/image (212).png>)
+![Voorbeeld van data Doorgift](<../../../.gitbook/assets/image (212).png>)
+
 
 {% hint style="info" %}
 Details van Doorgiftn kunnen bekeken worden door op de puntjes te klikken die bij elk land horen.

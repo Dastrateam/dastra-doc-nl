@@ -14,13 +14,14 @@ Deze weergave maakt het met name mogelijk om te begrijpen aan welke entiteiten e
 
 Om de Verwerkingsboom te bekijken, klikt u op de module "Registers" en vervolgens op de pijl rechts van de knop om de optie "**Boomstructuur**" te selecteren.
 
-![Module Registers](<../../..gitbook/assets/image (199).png>)
+![Module Registers](<../../../.gitbook/assets/image (199).png>)
 
-![Pijltje rechts van de knop & uitklapmenu](<../../..gitbook/assets/Capture web_4-5-2022_95947\_app.dastra.eu.jpeg>)
+![Pijltje rechts van de knop & uitklapmenu](<../../../.gitbook/assets/Capture web\_4-5-2022\_95947\_app.dastra.eu.jpeg>)
 
-Dit laat je de Verwerking zien.
+Hiermee kunt u de **boomstructuur** van de verwerking bekijken.
 
 ![De verwerkingsboom in Dastra](<../../../.gitbook/assets/image (211).png>)
+
 
 {% hint style="info" %}
 Met filters en de instellingenknop kun je de boomstructuur naar wens aanpassen.

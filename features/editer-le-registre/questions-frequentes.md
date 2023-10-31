@@ -1,6 +1,5 @@
 ---
-description: >-
-  Op deze pagina staan de belangrijkste vragen en antwoorden die we bieden.
+description: Op deze pagina staan de belangrijkste vragen en antwoorden die we bieden.
 ---
 
 # Veelgestelde vragen
@@ -76,10 +75,10 @@ Selecteer de optie "Koppel actoren" en voeg je actoren toe als belanghebbenden.&
 
 <figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Activa opvragen per organisatorische eenheid (OU)?
+## Activa opvragen per organisatorische eenheid (OE)?
 
 Je kunt de lijst met Activa per organisatorische eenheid opvragen via de koppelingen die ze hebben met Verwerkingen &#x20;
 
-U kunt hiervoor de export van Verwerkingen in Excel-formaat gebruiken. Door de Verwerkingen te filteren op OU en de geselecteerde Verwerkingen te exporteren, kunt u ervoor kiezen om alleen het veld Activa te exporteren in de export. Je hebt dan de export van Activa per UO. Je kunt er ook voor kiezen om alleen de UO's en Activa te exporteren, zodat je alle Activa voor alle UO's hebt. Je kunt deze informatie ook grafisch weergeven in de mapping-weergave van het register.
+U kunt hiervoor de export van Verwerkingen in Excel-formaat gebruiken. Door de Verwerkingen te filteren op OE en de geselecteerde Verwerkingen te exporteren, kunt u ervoor kiezen om alleen het veld Activa te exporteren in de export. Je hebt dan de export van Activa per OE. Je kunt er ook voor kiezen om alleen de OE's en Activa te exporteren, zodat je alle Activa voor alle OE's hebt. Je kunt deze informatie ook grafisch weergeven in de mapping-weergave van het register.
 
 

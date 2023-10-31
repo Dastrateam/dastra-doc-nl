@@ -16,13 +16,13 @@ Om de registergegevenskaart te bekijken, klikt u op de module "Registers" en ver
 
 
 
-[Module "Registers"](<../../../.gitbook/assets/image (199).png>)
+![Module "Registers"](<../../../.gitbook/assets/image (199).png>)
 
-[Mapping tab boven behandelingen](<../../..gitbook/assets/Capture web_4-5-2022_101143_app.dastra.eu.jpeg>)
+![Tabblad kaarten boven verwerkingen](<../../..gitbook/assets/Capture web_4-5-2022_101143_app.dastra.eu.jpeg>)
 
 Hiermee kun je **de mapping van de registergegevens** bekijken.
 
-[Voorbeeld van mapping](<../../../.gitbook/assets/image (168).png>)
+![Voorbeeld van mapping](<../../../.gitbook/assets/image (168).png>)
 
 {% hint style="info" %}
 Zodra de mapping wordt weergegeven, kan het worden aangepast door **dubbel te klikken** op de elementen om filters toe te voegen.
