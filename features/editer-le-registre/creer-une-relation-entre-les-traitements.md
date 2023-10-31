@@ -1,8 +1,8 @@
-# Een relatie tussen Verwerkingen maken
+# Een relatie tussen verwerkingen maken
 
-In Dastra kunt u relaties tussen uw Verwerkingen maken om ze gemakkelijker te beheren.
+In Dastra kunt u relaties tussen uw verwerkingen maken om ze gemakkelijker te beheren.
 
-Deze relaties kunnen worden gemaakt tussen Verwerkingen in dezelfde werkruimte of in verschillende werkruimten.
+Deze relaties kunnen worden gemaakt tussen verwerkingen in dezelfde werkruimte of in verschillende werkruimten.
 
 
 
@@ -11,8 +11,7 @@ Deze relaties kunnen worden gemaakt tussen Verwerkingen in dezelfde werkruimte o
 Ga hiervoor naar een Verwerkingsformulier en selecteer de tab "Relaties" bovenaan het formulier.
 
 
-
-[De "Relaties" tab](<../../.gitbook/assets/image (243).png>)
+![De "Relaties" tab](<../../.gitbook/assets/image (243).png>)
 
 
 

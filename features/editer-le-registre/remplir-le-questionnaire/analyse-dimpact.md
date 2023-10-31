@@ -2,9 +2,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=VUL2T_SILSg&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=11" %}
 
-Met deze stap kunt u op eenvoudige wijze beoordelen of uw gegevensverwerking moet worden onderworpen aan een Gegevensbeschermingseffectbeoordeling (PIA) zoals bepaald in [**artikel 35 van de GDPR**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). &#x20;
+Met deze stap kunt u op eenvoudige wijze beoordelen of uw gegevensverwerking moet worden onderworpen aan een Gegevensbeschermingseffectbeoordeling (PIA) zoals bepaald in [**artikel 35 van de AVG**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504). &#x20;
 
-Wat is een PIA? Een proces om de noodzaak en evenredigheid te beoordelen en de risico's te beheren.&#x20;
+Wat is een gegevensbeschermingseffectbeoordeling (PIA)? Een proces om de noodzaak en evenredigheid te beoordelen en de risico's te beheren.&#x20;
 
 Onder welke voorwaarden moet ik een PIA uitvoeren? Als de risico's voor de rechten en vrijheden van betrokkenen groot zijn. De EDPS heeft de reikwijdte van deze vereiste verduidelijkt. Als de Verwerking aan ten minste twee van de volgende criteria voldoet, moet er een AIP worden uitgevoerd:&#x20;
 

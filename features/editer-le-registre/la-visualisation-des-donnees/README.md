@@ -16,9 +16,9 @@ In Dastra kunnen **gegevens** op verschillende manieren worden weergegeven:&#x20
 
 Om de manier waarop behandelingen in uw register worden weergegeven te wijzigen, gaat u naar de module "Registers" in de banner aan de linkerkant van het scherm. Verwerkingen worden standaard in tabelmodus weergegeven. Klik op de **pijl naar rechts** van de knop "Tabel".
 
-[Module "Registers"](<../../../.gitbook/assets/image (199).png>)
+![Module "Registers"](<../../../.gitbook/assets/image (199).png>)
 
-[Pijl rechts van de "Tabel" knop & uitklapmenu](<../../.gitbook/assets/Capture web_4-5-2022\_95947_app.dastra.eu.jpeg>)
+![Pijl rechts van de "Tabel" knop & uitklapmenu](<../../.gitbook/assets/Capture web_4-5-2022\_95947_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
 De eerste keuze "Tabel" verwijst naar de standaardweergave van de Verwerking**.

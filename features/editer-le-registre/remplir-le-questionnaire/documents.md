@@ -2,12 +2,12 @@
 
 {% embed url="https://www.youtube.com/watch?v=pAg5LlfWC5s&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=12" %}
 
-Het documentatievereiste vloeit voort uit het verantwoordingsbeginsel dat is vastgelegd in [**artikel 24 van de GDPR**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). &#x20;
+Het documentatievereiste vloeit voort uit het verantwoordingsbeginsel dat is vastgelegd in [**artikel 24 van de AVG**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). &#x20;
 
-In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de GDPR. Deze kunnen omvatten (maar zijn niet beperkt tot):&#x20;
+In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de AVG. Deze kunnen omvatten (maar zijn niet beperkt tot):&#x20;
 
-* interne procedures voor het creëren van een nieuwe verwerking van persoonsgegevens (interne controle, risico- en evenredigheidsbeoordeling, enz.)
-* procedure voor het uitvoeren van PIA's
+* **interne procedures** voor het creëren van een nieuwe verwerking van persoonsgegevens (interne controle, risico- en evenredigheidsbeoordeling, enz.)
+* **procedure voor het uitvoeren van PIA's**
 * Opstellen van een schriftelijk en bindend gegevensbeschermingsbeleid waarmee rekening moet worden gehouden en dat moet worden toegepast op nieuwe gegevensverwerking (bijv. naleving van gegevenskwaliteitscriteria, voorafgaande kennisgeving, beveiligingsbeginselen, raadpleging, enz;)
 * het in kaart brengen van procedures om ervoor te zorgen dat alle gegevensverwerkingen naar behoren worden geïdentificeerd en dat er een inventaris van deze verwerkingen wordt bijgehouden
 * het opzetten van opleidingsprogramma's voor degenen die verantwoordelijk zijn voor het beheer van gegevensverwerking

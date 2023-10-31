@@ -74,7 +74,7 @@
     * [Beveiligingsmaatregelen](features/editer-le-registre/remplir-le-questionnaire/mesures-de-securite.md)
     * [Effectbeoordeling](features/editer-le-registre/remplir-le-questionnaire/analyse-dimpact.md)
     * [Documenten](features/editer-le-registre/remplir-le-questionnaire/documents.md)
-  * [Creëer een relatie tussen behandelingen](features/editer-le-registre/creer-une-relation-entre-les-traitements.md)
+  * [Creëer een relatie tussen verwerkingen](features/editer-le-registre/creer-une-relation-entre-les-traitements.md)
   * [Verwerking van frisheid](features/editer-le-registre/fraicheur-des-traitements.md)
   * [Het register delen](features/editer-le-registre/partager-le-registre.md)
   * [Gegevensvisualisatie](features/editer-le-registre/la-visualisation-des-donnees/README.md)

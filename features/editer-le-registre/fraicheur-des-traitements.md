@@ -1,10 +1,10 @@
 ---
-description: Leer hoe u de optie Verwerking frisheid kunt activeren en gebruiken
+description: Leer hoe u de optie verwerking frisheid kunt activeren en gebruiken
 ---
 
 # Verwerking frisheid
 
-### Wat is de indicator Frisheid van een behandeling?
+### Wat is de indicator frisheid van een behandeling?
 
 De frisheid van een behandeling geeft aan wanneer een behandeling voor het laatst is gecontroleerd. De frisheid gaat achteruit naarmate de vervaldatum van de behandeling nadert. Deze functie is een eenvoudige en leuke manier om ervoor te zorgen dat de informatie in uw register voor verwerkingen regelmatig wordt gecontroleerd.&#x20;
 
