@@ -37,7 +37,7 @@ Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registrar van de 
 
 ### De verschillende methoden voor het opzetten van het register voor gegevensverwerking
 
-Er zijn twee methoden om een Verwerkingsregister aan te maken:
+Er zijn twee methoden om een verwerkingsregister aan te maken:
 
 * Top-Down" ontwerp: het project wordt gestart met het opstellen van een inventaris van gegevensverwerking en vervolgens wordt de specifieke informatie voor elke verwerking verzameld (gegevens, subcontractanten, enz.);
 * Bottom-Up ontwerp: we beginnen met het maken van een inventaris van de gegevens (software, gegevensverzamelingen en velden met persoonsgegevens) en vervolgens creëren we de processen op basis van deze inventaris.
@@ -50,7 +50,7 @@ Hier is een tabel waarin de twee benaderingen worden vergeleken:
 
 <table><thead><tr><th width="129">Methodologie</th><th width="178">Doel</th><th>Voordelen</th><th>Achteraf</th></tr></thead><tbody><tr><td><strong>Top-. Down (Top-down)</strong></td><td>Kleine organisaties of lokale overheden<br>Bedrijf met een zwakke gegevenscultuur<br>Legaal team met weinig affiniteit met IT</td><td>Snel te implementeren<br>Minder werk<br>Klikt goed aan bij de wettelijke verwachtingen van de AVG<br></td><td>Kan problemen veroorzaken als het team dat het register opstelt niet bekend is met de gegevens van de organisatie<br>Meer belastend voor operationeel personeel<br>De gegevensinventaris zal veel minder waardevol zijn omdat deze alleen is gemodelleerd voor wettelijke verwachtingen<br>Meer complex om op de lange termijn te onderhouden<br></td></tr><tr><td><strong>Bottom- Up (Bottom-up)</strong></td><td>Grote of middelgrote organisaties<br>Met een sterke gegevenscultuur<br>Legaal team met sterke IT-affiniteit</td><td>Het uitvoeren van de gegevensinventarisatie zal minder abstract zijn dan het direct creëren van gegevensverwerking.<br>Het register weerspiegelt de realiteit van de organisatie<br>Het bijhouden van het register is op de lange termijn eenvoudiger<br>Meer leden van de organisatie zijn betrokken<br>Het maken van verwerkingsrecords is meer geautomatiseerd</td><td>Al met al moeilijker en tijdrovender om op te zetten<br>Project vereist goede governance</td></tr></tbody></table>
 
-Het goede nieuws is dat Dastra beide benaderingen perfect beheerst! Je kunt een formulier automatisch maken \[met behulp van een verwerkingsmodel] (use-a-processing-model.md). Als u de voorkeur geeft aan de automatische aanpak, kunt u [uw gegevensverwerking maken](../cartographie/) en direct vanuit een Activa (software, database) een gegevensverwerking maken.
+Het goede nieuws is dat Dastra beide benaderingen perfect beheerst! Je kunt een formulier automatisch maken [met behulp van een verwerkingsmodel](use-a-processing-model.md). Als u de voorkeur geeft aan de automatische aanpak, kunt u [uw gegevensverwerking maken](../cartography/) en direct vanuit een Activa (software, database) een gegevensverwerking maken.
 
 ### Hoe stel je een register voor Verwerking in?
 
@@ -61,13 +61,13 @@ Hier is een instructievideo om je te helpen het register aan te maken.
 Als je wilt leren hoe je een register voor gegevensverwerking ontwerpt en beheert, begin dan hier:
 
 {% content-ref url="gerer-votre-registre/" %}
-[manage-je-register.md](gerer-votre-registre.md)
+[manage-je-register](gerer-votre-registre.md)
 {% endcontent-ref %}
 
 Als je wilt leren hoe je een gegevensverwerking ontwerpt en beheert, begin dan hier:
 
 {% content-ref url="gerer-votre-traitement/" %}
-[manage-je-verwerking.md](gerer-votre-traitement.md)
+[manage-je-verwerking](gerer-votre-traitement.md)
 {% endcontent-ref %}
 
 Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier :
@@ -79,7 +79,7 @@ Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier 
 Als je wilt weten hoe je het register kunt delen, klik dan hier :
 
 {% content-ref url="partager-le-registre/" %}
-[deel het register](partager-le-registre.md)
+[deel-het-register](partager-le-registre.md)
 {% endcontent-ref %}
 
 ### Meer informatie
