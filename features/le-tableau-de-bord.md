@@ -59,18 +59,18 @@ Verken de functies nu:
 [rechten van betrokkenen beheren](gerer-les-exercices-des-droits/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="documenter-les-violations-de-donnees.md" %}
-[gegevensinbreuken documenteren](documenter-les-violations-de-donnees.md)
+{% content-ref url="documenter-les-violations-de-donnees/" %}
+[gegevensinbreuken documenteren](documenter-les-violations-de-donnees/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="gerer-le-consentement-aux-cookies.md" %}
-[toestemming beheren voor cookies](gerer-le-consentement-aux-cookies.md)
+{% content-ref url="gerer-le-consentement-aux-cookies/" %}
+[toestemming beheren voor cookies](gerer-le-consentement-aux-cookies/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="audit.md" %}
-[audit](audit.md)
+{% content-ref url="audit/" %}
+[audit](audit/README.md)
 {% endcontent-ref %}
 
-{% content-ref url="settings.md" %}
-[instellingen](settings.md)
+{% content-ref url="settings/" %}
+[instellingen](settings/README.md)
 {% endcontent-ref %}
