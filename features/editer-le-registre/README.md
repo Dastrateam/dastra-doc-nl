@@ -28,7 +28,7 @@ Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registrar van de 
 2. een ander voor verwerkingen die u als subcontractant namens uw klanten uitvoert.
 
 {% content-ref url="le-registre-responsable-de-traitement/" %}
-[het register van verantwoordelijken voor de verwerking](/le-registre-responsable-de-traitement/)
+[het register van verantwoordelijken voor de verwerking](/dastra-doc-nl/features/editer-le-registre/le-registre-responsable-de-traitement.md)
 {% endcontent-ref %}
 
 {% content-ref url="le-registre-sous-traitant/" %}
