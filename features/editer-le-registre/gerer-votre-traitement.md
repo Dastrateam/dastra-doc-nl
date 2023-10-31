@@ -12,7 +12,7 @@ Een verwerkingsactiviteit is een bewerking of reeks bewerkingen die wordt uitgev
 
 Om een verwerkingsactiviteit aan te maken, klikt u eerst op "Een gegevensverwerking aanmaken" in de sectie Register.
 
-[Kies nieuwe Verwerking](<../../.gitbook/assets/image (185).png>)
+![Kies nieuwe Verwerking](<../../.gitbook/assets/image (185).png>)
 
 Kies het type Verwerking&#x20;
 

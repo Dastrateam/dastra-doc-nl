@@ -6,7 +6,7 @@ description: Leer hoe u het register "Verwerkingsverantwoordelijke" van Dastra k
 
 ## Inleiding
 
-Artikel 30 van de GDPR bevat specifieke verplichtingen voor de _registratie van de verwerkingsverantwoordelijke_ van persoonsgegevens en voor de _registratie van de verwerker_. Als uw organisatie zowel als verwerker en als verwerkingsverantwoordelijke optreedt, moet uw register dus duidelijk onderscheid maken tussen de twee categorieën activiteiten.
+Artikel 30 van de AVG bevat specifieke verplichtingen voor de _registratie van de verwerkingsverantwoordelijke_ van persoonsgegevens en voor de _registratie van de verwerker_. Als uw organisatie zowel als verwerker en als verwerkingsverantwoordelijke optreedt, moet uw register dus duidelijk onderscheid maken tussen de twee categorieën activiteiten.
 
 **In de praktijk adviseert de gegevensbeschermingsautoriteit in dit geval om 2 registers bij te houden:**.
 
