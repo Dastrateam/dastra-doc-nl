@@ -1,6 +1,5 @@
 ---
-description: >-
-  Identificeer in dit gedeelte de Verwerking die u wilt registreren.
+description: Identificeer in dit gedeelte de Verwerking die u wilt registreren.
 ---
 
 # General
@@ -9,7 +8,7 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=eQWf47xYWgc&list=PL-EvtNdEiDxEUikz6mrcMlKZ54r3RpBLZ&index=3" %}
 
-[**Artikel 30 van de AVG**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4) vereist dat elke verwerkingsverantwoordelijke een register bijhoudt van de verwerkingsactiviteiten waarvoor hij verantwoordelijk is. Dit is het eerste element van verantwoording om naleving van de AVG aan te tonen. Het register van de verwerkingsactiviteiten maakt het mogelijk om uw gegevensverwerking te inventariseren en een overzicht te hebben van wat u met persoonsgegevens doet.
+[**Artikel 30 van de AVG**](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679) vereist dat elke verwerkingsverantwoordelijke een register bijhoudt van de verwerkingsactiviteiten waarvoor hij verantwoordelijk is. Dit is het eerste element van verantwoording om naleving van de AVG aan te tonen. Het register van de verwerkingsactiviteiten maakt het mogelijk om uw gegevensverwerking te inventariseren en een overzicht te hebben van wat u met persoonsgegevens doet.
 
 De verwerkingsactiviteit is de "overkoepelende" activiteit die alle doeleinden omvat die worden nagestreefd als onderdeel van de activiteit &#x20;
 
@@ -23,7 +22,6 @@ Bijvoorbeeld een database, een Excel spreadsheet, een videobewakingssysteem, een
 
 De gegevensverwerking kan al dan niet geautomatiseerd zijn.
 
-[Meer informatie**](https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement)
 
 
 
