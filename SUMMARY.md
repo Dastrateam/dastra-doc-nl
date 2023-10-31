@@ -55,7 +55,7 @@
 * [Data mapping](features/cartography/README.md)
   * [Repositories](features/cartography/referentials.md)
 * [Register van verwerkingen](features/editer-le-registre/README.md)
-  * [Register "Verwerkingsverantwoordelijke"](features/editer-le-registre/le-registre-responsable-de-traitement.md)
+  * [Register van verwerkingsverantwoordelijken](features/editer-le-registre/le-registre-responsable-de-traitement.md)
   * [Verwerker-register](features/editer-le-registre/le-registre-sous-traitant.md)
   * [Je register instellen](features/editer-le-registre/gerer-votre-registre.md)
   * [Het register exporteren/importeren](features/editer-le-registre/exporter-importer-le-registre.md)
