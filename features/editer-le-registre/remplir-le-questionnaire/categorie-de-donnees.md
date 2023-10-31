@@ -47,7 +47,7 @@ In elke dataset kunt u de oorsprong van de gegevens aangeven. Dit kan direct, in
 
 Met een veld waarin u de oorsprong van de verzameling kunt beschrijven, kunt u de nodige nauwkeurigheid bieden.
 
-<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Bron van gegevens</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Bron van gegevens</p></figcaption></figure>
 
 ### Activa koppelen aan de dataset
 
@@ -55,9 +55,9 @@ Datasets hebben een natuurlijke roeping om te worden toegevoegd aan [Activa](app
 
 U kunt een Activa aan uw dataset koppelen wanneer deze wordt gemaakt.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Asset selector</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>activakiezer</p></figcaption></figure>
 
-Een dataset kan maar aan één asset worden gekoppeld. Bij het definiëren van de datasets voor een Activa zijn ze namelijk uniek &#x20;
+Een dataset kan maar aan één asset worden gekoppeld. Bij het definiëren van de datasets voor een activa zijn ze namelijk uniek &#x20;
 
 Als u bijvoorbeeld boekhoudsoftware als een activum beschouwt, kunnen er verschillende datasets aan dit activum worden gekoppeld, zoals "factureringsgegevens", met gegevens over de module voor het bijhouden van facturen, of "klantgegevens", met gegevens over klantenrekeningen.
 
@@ -67,7 +67,7 @@ Voor elke gegevensset kunt u een of meer categorieën van gegevenssubjecten&#x20
 
 Dit geeft u een beter inzicht in de gegevens die aan de betrokkenen zijn gekoppeld. Het vereenvoudigt ook het mappingproces.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Selector voor gegevensonderwerpcategorie</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Selector voor gegevensonderwerpcategorie</p></figcaption></figure>
 
 {% hint style="info" %}
 Het aangeven van de betrokkenen is handig voor het beheren van [verzoeken tot uitoefening van rechten](../../gerer-les-exercices-des-droits/). U kunt de gegevens waarop het verzoek betrekking heeft gemakkelijk vinden door snel de betreffende gegevensreeksen te identificeren.
@@ -79,13 +79,13 @@ Elke gegevensset moet worden aangevuld met gegevensvelden. Deze velden zijn de g
 
 De velden die in de selector worden weergegeven, zijn de velden die beschikbaar zijn in de gegevenswoordenlijst &#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Gegevensveld selector</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Gegevensveld selector</p></figcaption></figure>
 
 Als een gegeven nog niet aanwezig is, kun je het direct vanuit deze selector maken om het aan de dataset toe te voegen &#x20;
 
 Velden kunnen worden gecategoriseerd volgens vooraf gedefinieerde categorieën. Dit zijn onder andere de categorieën die worden aanbevolen door de CNIL.
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Selector categorie persoonsgegevens</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Selector categorie persoonsgegevens</p></figcaption></figure>
 
 In dit veld kun je ook de aanwezigheid van gevoelige gegevens aangeven. Bijvoorbeeld gezondheidsgegevens of een ander type gevoelige gegevens&#x20;
 
@@ -93,7 +93,7 @@ In dit geval wordt u gevraagd om het verzamelen van deze gegevens te rechtvaardi
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Gevoelige gegevens</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Gevoelige gegevens</p></figcaption></figure>
 
 {% hint style="info" %}
 Deze informatie wordt door de toepassing geanalyseerd om een intelligent criterium te activeren [van PIA](analyse-dimpact.md).&#x20;
@@ -103,7 +103,7 @@ Deze informatie wordt door de toepassing geanalyseerd om een intelligent criteri
 
 In elke dataset kun je een dataretentieregel koppelen.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Retentie tijden</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Retentie tijden</p></figcaption></figure>
 
 Bewaartermijnen worden als standaard beschouwd omdat ze op het niveau van de Verwerking kunnen worden aangepast (zie hieronder).
 
@@ -127,17 +127,17 @@ De gegevensvelden in een generieke dataset kunnen niet per Verwerking verschille
 
 Om dit te doen, moet je de dataset toevoegen aan de Verwerking. In de lijst met datasets moet je klikken op de knoppen "actieve basis/...".
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>"Base activa"</p></figcaption></figure> knop.
+<figure><img src="../../../.gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>"Base activa"</p></figcaption></figure> knop.
 
 Je ziet nu het aanpassingsvenster verschijnen.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Duur aanpassen venster</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Duur aanpassen venster</p></figcaption></figure>
 
 Wanneer de bewaartermijn op het niveau van de Verwerking wordt aangepast, verschijnt er een klein pennetjeslogo op de betreffende knop:&#x20;
 
 Het uiteindelijke doel kan zijn om het gebruik van generieke gegevensreeksen te beperken en over te gaan op nauwkeuriger kartering via gegevensverwerking (geval 2) of via Activa (geval 1).
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Aangepaste duur op Verwerking</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Aangepaste duur op Verwerking</p></figcaption></figure>
 
 
 
