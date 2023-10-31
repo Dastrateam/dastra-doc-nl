@@ -13,7 +13,7 @@ Hiervoor moeten de categorieën van gegevensverwerking worden gedefinieerd. Deze
 
 Ook het registratienummer (NIR) of socialezekerheidsnummer kan worden beschouwd als gevoelige gegevens.&#x20;
 
-Het verzamelen van gevoelige gegevens is principieel verboden. Alleen de uitzonderingen in [**artikel 9 van de AVG**] (https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2) staan toe dat ze worden verzameld.
+Het verzamelen van gevoelige gegevens is principieel verboden. Alleen de uitzonderingen in [**artikel 9 van de AVG**] (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) staan toe dat ze worden verzameld.
 
 ## Datasets
 
@@ -23,9 +23,9 @@ De dataset groepeert de gegevens voor een specifiek element, bijvoorbeeld een ta
 
 Datasets kunnen op verschillende manieren gebruikt worden:
 
-* Geval 1**: door **een dataset te koppelen aan één Activa**. In dit geval komt de dataset overeen met de Activa-gegevens en is niet generiek.
-* Geval 2**: door **een dataset te associëren met gegevensverwerking**. Deze dataset kan specifiek zijn voor de gegevensverwerking en wordt niet hergebruikt in een andere gegevensverwerking.
-* Geval 3**: door **generieke gegevensreeksen te koppelen aan de gegevensverwerking**. In dit geval kan de dataset in meerdere gegevensverwerkingen worden hergebruikt.
+* **Geval 1**: door **een dataset te koppelen aan één Activa**. In dit geval komt de dataset overeen met de Activa-gegevens en is niet generiek.
+* **Geval 2**: door **een dataset te associëren met gegevensverwerking**. Deze dataset kan specifiek zijn voor de gegevensverwerking en wordt niet hergebruikt in een andere gegevensverwerking.
+* **Geval 3**: door **generieke gegevensreeksen te koppelen aan de gegevensverwerking**. In dit geval kan de dataset in meerdere gegevensverwerkingen worden hergebruikt.
 
 Om generieke datasets te gebruiken, raden we de volgende procedure aan:
 
@@ -39,7 +39,7 @@ Om generieke datasets te gebruiken, raden we de volgende procedure aan:
 
 Het is ook mogelijk om nog generieker te blijven door niet de gegevens te specificeren die bij de dataset horen, maar door de dataset een gegevenscategorie te noemen (wat bijvoorbeeld ook geldig is in de zin van de AVG).
 
-Afhankelijk van het type Verwerking kun je verschillende benaderingen kiezen, afhankelijk van hoe gevoelig ze zijn in termen van de rechten en vrijheden van betrokkenen.
+Afhankelijk van het type verwerking kun je verschillende benaderingen kiezen, afhankelijk van hoe gevoelig ze zijn in termen van de rechten en vrijheden van betrokkenen.
 
 ### Koppel de bron van de gegevens aan de dataset
 
@@ -47,7 +47,7 @@ In elke dataset kunt u de oorsprong van de gegevens aangeven. Dit kan direct, in
 
 Met een veld waarin u de oorsprong van de verzameling kunt beschrijven, kunt u de nodige nauwkeurigheid bieden.
 
-<figure><img src="../../..gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Bron van gegevens</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>Bron van gegevens</p></figcaption></figure>
 
 ### Activa koppelen aan de dataset
 
@@ -55,7 +55,7 @@ Datasets hebben een natuurlijke roeping om te worden toegevoegd aan [Activa](app
 
 U kunt een Activa aan uw dataset koppelen wanneer deze wordt gemaakt.&#x20;
 
-<figure><img src="../../..gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Asset selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>Asset selector</p></figcaption></figure>
 
 Een dataset kan maar aan één asset worden gekoppeld. Bij het definiëren van de datasets voor een Activa zijn ze namelijk uniek &#x20;
 
@@ -67,7 +67,7 @@ Voor elke gegevensset kunt u een of meer categorieën van gegevenssubjecten&#x20
 
 Dit geeft u een beter inzicht in de gegevens die aan de betrokkenen zijn gekoppeld. Het vereenvoudigt ook het mappingproces.&#x20;
 
-<figure><img src="../../..gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Data subject category selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (3) (2).png" alt=""><figcaption><p>Selector voor gegevensonderwerpcategorie</p></figcaption></figure>
 
 {% hint style="info" %}
 Het aangeven van de betrokkenen is handig voor het beheren van [verzoeken tot uitoefening van rechten](../../gerer-les-exercices-des-droits/). U kunt de gegevens waarop het verzoek betrekking heeft gemakkelijk vinden door snel de betreffende gegevensreeksen te identificeren.
@@ -79,13 +79,13 @@ Elke gegevensset moet worden aangevuld met gegevensvelden. Deze velden zijn de g
 
 De velden die in de selector worden weergegeven, zijn de velden die beschikbaar zijn in de gegevenswoordenlijst &#x20;
 
-<figure><img src="../../..gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Gegevensveld selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p>Gegevensveld selector</p></figcaption></figure>
 
 Als een gegeven nog niet aanwezig is, kun je het direct vanuit deze selector maken om het aan de dataset toe te voegen &#x20;
 
 Velden kunnen worden gecategoriseerd volgens vooraf gedefinieerde categorieën. Dit zijn onder andere de categorieën die worden aanbevolen door de CNIL.
 
-<figure><img src="../../..gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Selector categorie persoonsgegevens</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Selector categorie persoonsgegevens</p></figcaption></figure>
 
 In dit veld kun je ook de aanwezigheid van gevoelige gegevens aangeven. Bijvoorbeeld gezondheidsgegevens of een ander type gevoelige gegevens&#x20;
 
@@ -93,17 +93,17 @@ In dit geval wordt u gevraagd om het verzamelen van deze gegevens te rechtvaardi
 
 &#x20;
 
-<figure><img src="../../..gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Gevoelige gegevens</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p>Gevoelige gegevens</p></figcaption></figure>
 
 {% hint style="info" %}
-Deze informatie wordt door de toepassing geanalyseerd om een intelligent criterium te activeren [van AIPD](analyse-dimpact.md).&#x20;
+Deze informatie wordt door de toepassing geanalyseerd om een intelligent criterium te activeren [van PIA](analyse-dimpact.md).&#x20;
 {% endhint %}
 
 ### Een gegevensbewaringsregel koppelen
 
 In elke dataset kun je een dataretentieregel koppelen.&#x20;
 
-<figure><img src="../../..gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Retentie tijden</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Retentie tijden</p></figcaption></figure>
 
 Bewaartermijnen worden als standaard beschouwd omdat ze op het niveau van de Verwerking kunnen worden aangepast (zie hieronder).
 
@@ -113,13 +113,13 @@ De actieve basis is de huidige verwerkingsbasis. Tussenarchivering is een beperk
 
 ## Gegevensbehoud
 
-Beperkte gegevensbewaring is een van de algemene beginselen van de wet op persoonsgegevens en is vastgelegd in [**artikel 5 1. e) van de AVG**](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre2). Hierin staat dat "gegevens in een vorm die het mogelijk maakt de betrokkenen te identificeren, niet langer mogen worden bewaard dan noodzakelijk is voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt".
+Beperkte gegevensbewaring is een van de algemene beginselen van de wet op persoonsgegevens en is vastgelegd in [**artikel 5 1. e) van de AVG**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504). Hierin staat dat "gegevens in een vorm die het mogelijk maakt de betrokkenen te identificeren, niet langer mogen worden bewaard dan noodzakelijk is voor de verwezenlijking van de doeleinden waarvoor zij worden verwerkt".
 
 Praktisch gezien betekent dit dat wanneer gegevensverwerking plaatsvindt, we moeten nadenken over wat er met de gegevens gebeurt nadat het doel is bereikt. De gegevens moeten ofwel permanent worden vernietigd, anoniem worden gemaakt of worden verwerkt voor een nieuw, compatibel doel&#x20;
 
 De bewaartermijn hangt af van het doel van de gegevensverwerking en de aard van de gegevens. Bewaartermijnen kunnen worden gedefinieerd op basis van het type gegevens. Voor salarisadministratie worden gegevens met betrekking tot de loonstrook bijvoorbeeld 1 maand bewaard in de actieve database en 5 jaar in het tussenliggende archief, terwijl gegevens met betrekking tot de betalingsopdracht worden bewaard gedurende de tijd die nodig is om de loonstrook uit te geven in de actieve database en 10 jaar na sluiting in het tussenliggende archief&#x20;
 
-De bewaartermijn kan worden uitgedrukt in een waarde of, indien dit niet mogelijk is, in de criteria die worden gebruikt om de bewaartermijn te definiëren (bijvoorbeeld tot uitschrijving). Het wordt aanbevolen, met name door de CNIL in haar [**aanbeveling van 11 oktober 2005 over elektronische archivering in de privésector**](https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000017651957), om procedures in te stellen voor het beheer van bewaartermijnen op het niveau van gegevenscategorieën en, in het bijzonder, voor het beheer van het wissen of vernietigen van gegevens.
+De bewaartermijn kan worden uitgedrukt in een waarde of, indien dit niet mogelijk is, in de criteria die worden gebruikt om de bewaartermijn te definiëren (bijvoorbeeld tot uitschrijving). Het wordt aanbevolen, met name door de CNIL in haar **aanbeveling van 11 oktober 2005 over elektronische archivering in de privésector**, om procedures in te stellen voor het beheer van bewaartermijnen op het niveau van gegevenscategorieën en, in het bijzonder, voor het beheer van het wissen of vernietigen van gegevens.
 
 #### Bewaarregels aanpassen voor een dataset
 
@@ -127,17 +127,17 @@ De gegevensvelden in een generieke dataset kunnen niet per Verwerking verschille
 
 Om dit te doen, moet je de dataset toevoegen aan de Verwerking. In de lijst met datasets moet je klikken op de knoppen "actieve basis/...".
 
-<figure><img src="../../..gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>"Base activa"</p></figcaption></figure> knop.
+<figure><img src="../../.gitbook/assets/image (4) (1) (5).png" alt=""><figcaption><p>"Base activa"</p></figcaption></figure> knop.
 
 Je ziet nu het aanpassingsvenster verschijnen.&#x20;
 
-<figure><img src="../../..gitbook/assets/image (11).png" alt=""><figcaption><p>Duur aanpassen venster</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Duur aanpassen venster</p></figcaption></figure>
 
 Wanneer de bewaartermijn op het niveau van de Verwerking wordt aangepast, verschijnt er een klein pennetjeslogo op de betreffende knop:&#x20;
 
 Het uiteindelijke doel kan zijn om het gebruik van generieke gegevensreeksen te beperken en over te gaan op nauwkeuriger kartering via gegevensverwerking (geval 2) of via Activa (geval 1).
 
-<figure><img src="../../..gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Aangepaste duur op Verwerking</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (4).png" alt=""><figcaption><p>Aangepaste duur op Verwerking</p></figcaption></figure>
 
 
 

@@ -31,13 +31,13 @@ Voor elk doel moet u de **rechtsgrondslag** definiëren die van toepassing is. E
 
 ## Voeg een doel toe in Dastra&#x20;
 
-Doelen worden toegevoegd in sectie 3 van de Verwerking.
+Doelen worden toegevoegd in sectie 3 van de verwerking.
 
-!<figure><img src="../../..gitbook/assets/image (1).png" alt=""><figcaption><p>Doel toevoegen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Doel toevoegen</p></figcaption></figure>
 
 
 
-!<figure><img src="../../..gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 De titel van het doel is beperkt tot 120 tekens &#x20;
 
@@ -112,7 +112,7 @@ Je kunt de resultaten van deze test bewaren als een document in stap 11. Je moet
 
 In elk doel kun je een rechtsgrondslag uit de bovenstaande 6 toevoegen.
 
-!<figure><img src="../../..gitbook/assets/image (3).png" alt=""><figcaption><p>Wettelijke basis selector</p></figcaption></figure>
+!<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Wettelijke basis selector</p></figcaption></figure>
 
 Nadat je de rechtsgrondslag hebt geselecteerd, kun je een beschrijving toevoegen. Bijvoorbeeld om de legitieme belangen of wettelijke bepaling te specificeren.&#x20;
 
