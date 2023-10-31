@@ -60,25 +60,25 @@ Hier is een instructievideo om je te helpen het register aan te maken.
 
 Als je wilt leren hoe je een register voor gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-registre/" %}
-[manage-je-register](/dastra-doc-nl/features/editer-le-registre/gerer-votre-registre.md)
+{% content-ref url="gerer-votre-registre.md" %}
+[manage je register](gerer-votre-registre.md)
 {% endcontent-ref %}
 
 Als je wilt leren hoe je een gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-traitement/" %}
-[manage-je-verwerking](gerer-votre-traitement.md)
+{% content-ref url="gerer-votre-traitement.md" %}
+[manage je verwerking](gerer-votre-traitement.md)
 {% endcontent-ref %}
 
 Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier :
 
-{% content-ref url="remplir-le-questionnaire/" %}
+{% content-ref url="remplir-le-questionnaire" %}
 [vul-in-de-vragenlijst](remplir-le-questionnaire/README.md)
 {% endcontent-ref %}
 
 Als je wilt weten hoe je het register kunt delen, klik dan hier :
 
-{% content-ref url="partager-le-registre/" %}
+{% content-ref url="partager-le-registre.md" %}
 [deel-het-register](partager-le-registre.md)
 {% endcontent-ref %}
 
