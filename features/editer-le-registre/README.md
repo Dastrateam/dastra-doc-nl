@@ -60,25 +60,25 @@ Hier is een instructievideo om je te helpen het register aan te maken.
 
 Als je wilt leren hoe je een register voor gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-registre.md" %}
+{% content-ref url="gerer-votre-registre/" %}
 [manage-je-register.md](gerer-votre-registre.md)
 {% endcontent-ref %}
 
 Als je wilt leren hoe je een gegevensverwerking ontwerpt en beheert, begin dan hier:
 
-{% content-ref url="gerer-votre-traitement.md" %}
+{% content-ref url="gerer-votre-traitement/" %}
 [manage-je-verwerking.md](gerer-votre-traitement.md)
 {% endcontent-ref %}
 
 Als je de verschillende stadia van de vragenlijst wilt begrijpen, klik dan hier :
 
-{% content-ref url="remplir-le-questionnaire.md" %}
-[vul-in-de-vragenlijst](remplir-le-questionnaire.md)
+{% content-ref url="remplir-le-questionnaire/" %}
+[vul-in-de-vragenlijst](remplir-le-questionnaire/README.md)
 {% endcontent-ref %}
 
 Als je wilt weten hoe je het register kunt delen, klik dan hier :
 
-{% content-ref url="partager-le-registre.md" %}
+{% content-ref url="partager-le-registre/" %}
 [deel het register](partager-le-registre.md)
 {% endcontent-ref %}
 
@@ -90,10 +90,10 @@ Bekijk ons webinar over het register voor gegevensverwerking
 Hoe over te schakelen naar de runstand voor het beheer van het verwerkingsregister
 {% endembed %}
 
-{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md" %}
+{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement/" %}
 [verwerkingsregister](../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md)
 {% endcontent-ref %}
 
-{% content-ref url="../la-gestion-des-risques/risques.md" %}
+{% content-ref url="../la-gestion-des-risques/risques/" %}
 [risico's](../la-gestion-des-risques/risques.md)
 {% endcontent-ref %}

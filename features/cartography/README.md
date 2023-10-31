@@ -1,6 +1,5 @@
 ---
-description: >-
-  Leer hoe u de persoonlijke gegevens van uw organisatie in kaart brengt
+description:  Leer hoe u de persoonlijke gegevens van uw organisatie in kaart brengt
   in Dastra
 ---
 
