@@ -17,27 +17,27 @@ De Dastra-vragenlijst is ontworpen om u te helpen alle benodigde informatie voor
 
 De 12 stappen zijn:&#x20;
 
-* Algemeen** - Hier kunt u algemene informatie over de gegevensverwerking invoeren, zoals de naam en de beschrijving &#x20;
+* **Algemeen** - Hier kunt u algemene informatie over de gegevensverwerking invoeren, zoals de naam en de beschrijving &#x20;
 
 {% content-ref url="generalites.md" %}
 [algemeenheden](generalites.md)
 {% endcontent-ref %}
 
-* Belanghebbenden** - In dit gedeelte kunt u de belanghebbenden vermelden die verantwoordelijk zijn voor de gegevensverwerking of andere actoren dan de Verwerkingsverantwoordelijke en de functionaris voor gegevensbescherming.
+* **Stakeholders** - In dit gedeelte kunt u de belanghebbenden vermelden die verantwoordelijk zijn voor de gegevensverwerking of andere actoren dan de Verwerkingsverantwoordelijke en de functionaris voor gegevensbescherming.
 
-{% content-ref url="actors.md" %}
+{% content-ref url="acteurs.md" %}
 [Actoren](acteurs.md)
 {% endcontent-ref %}
 
-* Gegevens en opslag** - geeft een lijst van de verschillende categorieën gegevensverwerking die tijdens deze verrichting worden verwerkt en de bijbehorende opslagregels.
+* **Gegevenscategorie** - geeft een lijst van de verschillende categorieën gegevensverwerking die tijdens deze verrichting worden verwerkt en de bijbehorende opslagregels.
 
-{% content-ref url="data-category.md" %}
+{% content-ref url="categorie-de-donnees.md" %}
 [gegevens-categorie.md](categorie-de-donnees.md)
 {% endcontent-ref %}
 
 * **Doel** - beschrijving van de doeleinden van de gegevensverwerking&#x20;
 
-{% content-ref url="purposes.md" %}
+{% content-ref url="finalites.md" %}
 [Doelen](finalites.md)
 {% endcontent-ref %}
 
@@ -65,13 +65,13 @@ De 12 stappen zijn:&#x20;
 [ontvangers](destinataires/)
 {% endcontent-ref %}
 
-{% content-ref url="recipients/data-transfers-outside-the-eu.md" %}
+{% content-ref url="recipients/transferts-de-donnees-hors-ue.md" %}
 {% endcontent-ref %} {% content-ref url="destinataires/transferts-de-donnees-hors-ue.md" %} [doorgiften-van-gegevens-uit-ue](destinataires/transferts-de-donnees-hors-ue.md)
 {% endcontent-ref %}
 
-* Beveiligingsmaatregelen** - beschrijft de organisatorische en technische beveiligingsmaatregelen om de vertrouwelijkheid van de gegevens te beschermen &#x20;
+* **Beveiligingsmaatregelen** - beschrijft de organisatorische en technische beveiligingsmaatregelen om de vertrouwelijkheid van de gegevens te beschermen &#x20;
 
-{% content-ref url="esures-de-securite.md" %}
+{% content-ref url="mesures-de-securite.md" %}
 [veiligheidsmaatregel](mesures-de-securite.md)
 {% endcontent-ref %}
 
