@@ -55,8 +55,8 @@ Verken de functies nu:
 [planifier](planifier/)
 {% endcontent-ref %}
 
-{% content-ref url="gerer-les-exercices-des-droits.md" %}
-[rechten van betrokkenen beheren](gerer-les-exercices-des-droits.md)
+{% content-ref url="gerer-les-exercices-des-droits/" %}
+[rechten van betrokkenen beheren](gerer-les-exercices-des-droits/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="documenter-les-violations-de-donnees.md" %}
