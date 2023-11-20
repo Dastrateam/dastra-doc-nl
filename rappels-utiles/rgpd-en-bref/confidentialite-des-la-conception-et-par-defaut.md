@@ -7,7 +7,7 @@ description: >-
 
 ## Inleiding
 
-"Privacy by design" en "privacy by default" zijn twee belangrijke concepten bij de implementatie van de bescherming van persoonsgegevens, die voortvloeien uit artikel 25 van de AVG (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679).
+"Privacy by design" en "privacy by default" zijn twee belangrijke concepten bij de implementatie van de bescherming van persoonsgegevens, die voortvloeien uit artikel 25 van de [AVG][https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679].
 
 Het principe van gegevensbescherming door ontwerp betekent dat het bedrijf de bescherming van persoonsgegevens **vanaf de ontwerpfase van projecten met betrekking tot de verwerking van bedrijfsgegevens** moet integreren. Het doel is om de risico's van niet-naleving van de AVG te minimaliseren, al in de ontwerpfase van een project en standaard.
 
@@ -79,8 +79,8 @@ Privacy by Design principes kunnen op verschillende manieren worden toegepast in
 
 ## Om verder te gaan
 
-{% content-ref url="../risk-management/" %}
-[risicobeheer](../risicobeheer/)
+{% content-ref url="../la-gestion-des-risques/" %}
+[risicobeheer](../la-gestion-des-risques/)
 {% endcontent-ref %}
 
 {% content-ref url="mesures-de-securite.md" %}

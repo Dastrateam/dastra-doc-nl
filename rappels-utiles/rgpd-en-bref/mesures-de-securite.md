@@ -25,6 +25,6 @@ Zie voor meer informatie de [gids voor de beveiliging van persoonsgegevens] van 
 
 ## Meer informatie
 
-{% content-ref url="../../features/edit-the-registry/complete-the-questionnaire/security-measures.md" %}
-[measures-of-security.md](../../features/edit-the-registry/complete-the-questionnaire/measures-of-security.md)
+{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/mesures-de-securite.md" %}
+[measures-of-security.md](../../features/editer-le-registre/remplir-le-questionnaire/mesures-de-securite.md)
 {% endcontent-ref %}

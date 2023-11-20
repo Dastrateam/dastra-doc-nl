@@ -81,6 +81,6 @@ Iedereen heeft het recht om toegang te krijgen tot alle informatie die op hem be
 [gerer-les-exercices-des-droits.md](../../features/gerer-les-exercices-des-droits/)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/droits-des-personnes.md" %}
-[rechten van betrokkenen.md](../../features/editer-le-registre/remplir-le-questionnaire/droits-des-personnes.md)
+{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/droits-des-personnes/" %}
+[rechten van betrokkenen.md](../../features/editer-le-registre/remplir-le-questionnaire/droits-des-personnes/)
 {% endcontent-ref %}

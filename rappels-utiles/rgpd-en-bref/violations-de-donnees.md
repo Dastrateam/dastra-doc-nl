@@ -33,6 +33,6 @@ Elke inbreuk op deze verplichting wordt bestraft door de gegevensbeschermingsaut
 
 ## Om verder te gaan
 
-{% content-ref url="../../features/document-data-breaches/" %}
-[Inbreuk](../../features/document-data-breaches/)
+{% content-ref url="../../features/documenter-les-violations-de-donnees/" %}
+[Inbreuk](../../features/documenter-les-violations-de-donnees/)
 {% endcontent-ref %}
