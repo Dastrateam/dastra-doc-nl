@@ -8,7 +8,7 @@ description: Leer wat een register van de verwerkingsactiviteiten is.
 
 Het register van de verwerkingsactiviteiten brengt alle verwerkingen van persoonsgegevens op een duidelijke en gestructureerde manier in kaart en vormt het uitgangspunt voor de controles van de Autoriteit Persoonsgegevens
 
-Het register is vastgelegd in \[artikel 30 van de AVG] (https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Het helpt bij het documenteren van de naleving.
+Het register is vastgelegd in [artikel 30 van de AVG](https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679). Het helpt bij het documenteren van de naleving.
 
 Als inventarisatie- en analysedocument moet het de realiteit van uw gegevensverwerking weerspiegelen en u in staat stellen om nauwkeurig vast te stellen :
 
@@ -123,8 +123,4 @@ Dit bevat:
 
 {% content-ref url="../../features/editer-le-registre/" %}
 [editer-le-registre](../../features/editer-le-registre/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}

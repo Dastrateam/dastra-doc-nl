@@ -92,14 +92,14 @@ De Audit-functionaliteit van Dastra is ideaal voor dit doel:&#x20;
 Webinar "Bewaartermijnen: hoe bepaal je ze?"
 {% endembed %}
 
-{% content-ref url="../../features/edit-the-record/complete-the-questionnaire/data-category.md" %}
-[data-category.md](../../features/edit-the-registry/complete-the-questionnaire/data-category.md)
+{% content-ref url="../../features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees.md" %}
+[categorie-de-donnees.md](../../features/editer-le-registre/remplir-le-questionnaire/categorie-de-donnees)
 {% endcontent-ref %}
 
 {% content-ref url="../../features/audit/" %}
 [audit](../../features/audit/)
 {% endcontent-ref %}
 
-{% content-ref url="../../features/plan/" %}
-[plan](../../features/plan/)
+{% content-ref url="../../features/planifier/" %}
+[planifier](../../features/planifier/)
 {% endcontent-ref %}

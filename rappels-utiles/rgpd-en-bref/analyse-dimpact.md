@@ -66,7 +66,7 @@ De PIA is een continu proces:
 * De beste werkwijze is om de PIA elke 3 tot 5 jaar bij te werken.
 * In alle gevallen, zodra er een wijziging optreedt in de verwerking
 
-Een iteratief proces
+ ![Een iteratief proces](<../../.gitbook/assets/image (188).png>)
 
 ## Hoe maak je een PIA?
 
