@@ -28,10 +28,10 @@ De verwerker is niet aansprakelijk voor materiële of immateriële schade veroor
 
 ## Voor meer informatie
 
-{% content-ref url="../../features/risk-management/risks.md" %}
-[risks.md](../../features/risk-management/risks.md)
+{% content-ref url="../../features/la-gestion-des-risques/risques.md" %}
+[risks.md](../../features/la-gestion-des-risques/risques.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../start/tutorial/step-4-risk-management/risks.md" %}
+{% content-ref url="../../commencer/tutoriel/etape-4-gerer-les-risques.md" %}
 [etape-4-gerer-les-risques.md](../../commencer/tutoriel/etape-4-gerer-les-risques.md)
 {% endcontent-ref %}
