@@ -28,7 +28,7 @@ Categorieën van **persoonsgegevens** zijn groepen van persoonsgegevens naar aar
 
 Er zijn verschillende soorten persoonsgegevens: identiteit, familie, economische of financiële situatie, bankgegevens, verbindingsgegevens, locatiegegevens, enz.
 
-[ Categorieën van persoonsgegevens ](<../../.gitbook/assets/image (193).png>) 
+[ Categorieën van persoonsgegevens ](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/wat-zijn-persoonsgegevens) 
 
 ## Definitie van gevoelige gegevens&#x20;
 
