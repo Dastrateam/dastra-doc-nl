@@ -4,16 +4,16 @@ Dastra integreert standaard een document management functie &#x20;
 
 Met deze module kunt u de toegang tot alle gerelateerde documenten in Dastra centraliseren en delen.
 
-Hier kunt u bijvoorbeeld alle documentatie opslaan die u nodig hebt om aan te tonen dat u voldoet aan de GDPR.
+Hier kunt u bijvoorbeeld alle documentatie opslaan die u nodig hebt om aan te tonen dat u voldoet aan de AVG.
 
 {% hint style="info" %}
-**Focus op GDPR documentatie**
+**Focus op AVG documentatie**
 
 &#x20;
 
-De documentatievereiste komt voort uit het verantwoordingsbeginsel van artikel 24 van de GDPR.
+De documentatievereiste komt voort uit het verantwoordingsbeginsel van artikel 24 van de AVG.
 
-In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de GDPR. **Deze kunnen het volgende omvatten (niet-limitatieve lijst):** * interne procedures voor het creëren van gegevensbestanden
+In de praktijk neemt deze documentatie voornamelijk de vorm aan van een register van de verwerkingsactiviteiten, maar ook van andere elementen van gegevensbeheer en naleving van de AVG. **Deze kunnen het volgende omvatten (niet-limitatieve lijst):** * interne procedures voor het creëren van gegevensbestanden
 
 * interne procedures voor het creëren van een nieuwe verwerking van persoonsgegevens (interne controle, risico- en evenredigheidsbeoordeling, enz.)
 * procedure voor het uitvoeren van PIA's
