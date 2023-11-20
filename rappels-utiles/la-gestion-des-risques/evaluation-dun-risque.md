@@ -64,10 +64,10 @@ Voorbeeld van risicovisualisatie in Dastra (<../../.gitbook/assets/image (198).p
 
 Verder gaan
 
-{% content-ref url="../../features/risk-management/risks.md" %}
-[risks.md](../../features/risk-management/risks.md)
+{% content-ref url="../../features/la-gestion-des-risques/risques.md" %}
+[risks.md](../../features/la-gestion-des-risques/risques.md)
 {% endcontent-ref %}
 
-{% content-ref url="risks-subcontractors.md" %}
-[risico's-subcontractanten.md](risico's-subcontractanten.md)
+{% content-ref url="risques-sous-traitants.md" %}
+[risico's-subcontractanten.md](risques-sous-traitants.md)
 {% endcontent-ref %}

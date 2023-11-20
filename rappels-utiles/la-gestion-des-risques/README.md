@@ -12,12 +12,12 @@ description: Samenvatting van de belangrijkste risicomanagementconcepten
 [evaluation-dun-risque.md](evaluation-dun-risque.md)
 {% endcontent-ref %}
 
-{% content-ref url="risks-subcontractors.md" %}
-[risico's-subcontractanten.md](risico's-subcontractanten.md)
+{% content-ref url="risques-sous-traitants.md" %}
+[risico's-subcontractanten.md](risques-sous-traitants.md)
 {% endcontent-ref %}
 
 ## Verder gaan
 
-{% content-ref url="../../features/risk-management/" %}
-[risicobeheer](../../features/risicobeheer/)
+{% content-ref url="../../features/la-gestion-des-risques/" %}
+[risicobeheer](../../features/la-gestion-des-risques/)
 {% endcontent-ref %}
