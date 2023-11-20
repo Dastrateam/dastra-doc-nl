@@ -32,7 +32,3 @@ description: Samenvatting van de belangrijkste concepten van de algemene verorde
 {% content-ref url="violations-de-donnees.md" %}
 [violations-de-donnees.md](violations-de-donnees.md)
 {% endcontent-ref %}
-
-
-
-[droits-des-personnes.md]: droits-des-personnes.md
