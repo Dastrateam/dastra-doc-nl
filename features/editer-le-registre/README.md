@@ -90,10 +90,10 @@ Bekijk ons webinar over het register voor gegevensverwerking
 Hoe over te schakelen naar de runstand voor het beheer van het verwerkingsregister
 {% endembed %}
 
-{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement/" %}
+{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md" %}
 [verwerkingsregister](../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md)
 {% endcontent-ref %}
 
-{% content-ref url="../la-gestion-des-risques/risques/" %}
+{% content-ref url="../la-gestion-des-risques/risques.md" %}
 [risico's](../la-gestion-des-risques/risques.md)
 {% endcontent-ref %}

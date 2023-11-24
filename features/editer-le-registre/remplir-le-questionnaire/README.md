@@ -65,7 +65,7 @@ De 12 stappen zijn:&#x20;
 [ontvangers](destinataires/)
 {% endcontent-ref %}
 
-{% content-ref url="recipients/transferts-de-donnees-hors-ue.md" %}
+{% content-ref url="destinataires/transferts-de-donnees-hors-ue.md" %}
 {% endcontent-ref %} {% content-ref url="destinataires/transferts-de-donnees-hors-ue.md" %} [doorgiften-van-gegevens-uit-ue](destinataires/transferts-de-donnees-hors-ue.md)
 {% endcontent-ref %}
 

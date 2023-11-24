@@ -30,7 +30,7 @@ Dit bevat:&#x20;
 
 
 
-[De verschillende secties van een "subcontractant" Verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
+![De verschillende secties van een "subcontractant" Verwerking in Dastra](<../../.gitbook/assets/image (195).png>)
 
 ## Verder gaan
 
