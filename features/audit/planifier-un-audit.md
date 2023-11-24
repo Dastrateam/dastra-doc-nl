@@ -27,4 +27,6 @@ Deze objecten kunnen actoren, bedrijfsmiddelen, applicaties, gegevensverwerking,
 
 Wanneer je vervolgens je audit plant, verschijnt er een nieuw vak "Object gekoppeld aan de inbreuk". Met de selector kun je preciezer kiezen aan welk object je de audit wilt koppelen.&#x20;
 
-Een voorbeeld van een gekoppeld object: een gegevensverwerking, meer specifiek een met betrekking tot het beheer van de naleving van de [GDPR](<../../.gitbook/assets/Capture web\_6-5-2022_11277_app.dastra.eu.jpeg>)
+Een voorbeeld van een gekoppeld object: een gegevensverwerking, meer specifiek een met betrekking tot het beheer van de naleving van de AVG 
+
+![AVG](<../../.gitbook/assets/Capture web\_6-5-2022_11277_app.dastra.eu.jpeg>)

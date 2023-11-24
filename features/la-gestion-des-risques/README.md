@@ -33,12 +33,12 @@ In Dastra kan een risico worden geassocieerd met **een of meer objecten**, waaro
 
 ## Verder gaan
 
-{% content-ref url="../../useful-reminders/risk-management/risk-definition.md" %}
-[definition-des-risques.md](../../useful-reminders/risk-management/risk-definition.md)
+{% content-ref url="../../rappels-utiles/la-gestion-des-risques/definition-des-risques.md" %}
+[definition-des-risques.md](../../rappels-utiles/la-gestion-des-risques/definition-des-risques.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../useful-references/risk-management/risk-evaluation-dun-risk.md" %}
-[evaluation-dun-risque.md](../../reminders-utiles/risk-management/evaluation-dun-risque.md)
+{% content-ref url="../../rappels-utiles/la-gestion-des-risques/evaluation-dun-risque.md" %}
+[evaluation-dun-risque.md](../../rappels-utiles/la-gestion-des-risques/evaluation-dun-risque.md)
 {% endcontent-ref %}
 
 {% content-ref url="risques.md" %}
