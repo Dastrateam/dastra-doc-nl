@@ -103,14 +103,14 @@ Tot slot kun je een van je audit sjablonen in json formaat importeren. Om dit te
 
 ## Om verder te gaan
 
-{% content-ref url="plan-an-audit.md" %}
-[plan-an-audit.md](plan-an-audit.md)
-{% endcontent-ref %}
-
-{% content-ref url="plan-an-audit.md" %}
-[plan-an-audit.md](plan-an-audit.md)
+{% content-ref url="planifier-un-audit.md" %}
+[plan-an-audit.md](planifier-un-audit.md)
 {% endcontent-ref %}
 
 {% content-ref url="rapport-daudit.md" %}
 [audit-report.md](audit-report.md)
+{% endcontent-ref %}
+
+{% content-ref url="supprimer-un-audit-ou-un-modele-daudit.md" %}
+[audit-report.md](supprimer-un-audit-ou-un-modele-daudit.md)
 {% endcontent-ref %}

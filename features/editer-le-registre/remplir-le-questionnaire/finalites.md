@@ -12,7 +12,7 @@ Een **doel** is het doel dat wordt nagestreefd met het opzetten van uw bestand. 
 
 De definitie van het doel is fundamenteel omdat het een voorwaarde is voor de andere elementen die de Verwerking regelen, zoals de periode gedurende welke de gegevens worden bewaard, de geschiktheid, relevantie en evenredigheid van de gegevens en de nauwkeurigheid en actualisering van de gegevens.
 
-[Artikel 5 1. b) van de AVG** ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) bepaalt dat het doel gespecificeerd, expliciet en legitiem moet zijn.
+[**Artikel 5 1. b) van de AVG**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) bepaalt dat het doel gespecificeerd, expliciet en legitiem moet zijn.
 
 **Het doel moet worden gespecificeerd**: het doel moet voldoende nauwkeurig worden gedefinieerd om de nodige waarborgen voor gegevensbescherming te kunnen bieden en om de reikwijdte van de gegevensverwerking te kunnen bepalen. De mate van gedetailleerdheid hangt af van de specifieke context van de gegevensverzameling en de betrokken gegevens. Soms volstaat eenvoudige taal. Een lokaal familiebedrijf zal bijvoorbeeld niet dezelfde mate van detail nodig hebben om het doel van het klantenbestand te beschrijven als een multinational die complexe algoritmen gebruikt voor gepersonaliseerde aanbiedingen en gerichte reclame. Het doel moet worden bepaald voordat de Verwerking wordt uitgevoerd.
 
@@ -112,7 +112,7 @@ Je kunt de resultaten van deze test bewaren als een document in stap 11. Je moet
 
 In elk doel kun je een rechtsgrondslag uit de bovenstaande 6 toevoegen.
 
-!<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Wettelijke basis selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Wettelijke basis selector</p></figcaption></figure>
 
 Nadat je de rechtsgrondslag hebt geselecteerd, kun je een beschrijving toevoegen. Bijvoorbeeld om de legitieme belangen of wettelijke bepaling te specificeren.&#x20;
 

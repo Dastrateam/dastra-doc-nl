@@ -13,7 +13,7 @@ Hiervoor moeten de categorieën van gegevensverwerking worden gedefinieerd. Deze
 
 Ook het registratienummer (NIR) of socialezekerheidsnummer kan worden beschouwd als gevoelige gegevens.&#x20;
 
-Het verzamelen van gevoelige gegevens is principieel verboden. Alleen de uitzonderingen in [**artikel 9 van de AVG**] (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) staan toe dat ze worden verzameld.
+Het verzamelen van gevoelige gegevens is principieel verboden. Alleen de uitzonderingen in [**artikel 9 van de AVG**](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) staan toe dat ze worden verzameld.
 
 ## Datasets
 

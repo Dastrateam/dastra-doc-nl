@@ -19,7 +19,7 @@ Om een gezamenlijke verwerkingsverantwoordelijke toe te voegen, moet u een nieuw
 
 U wordt gevraagd om een Actor toe te voegen als gezamenlijke controller.&#x20;
 
-!<figure><img src="../../..gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

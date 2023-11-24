@@ -34,24 +34,24 @@ Om toegang te krijgen tot de "Audit" functionaliteit, klik op de "Audit" functio
 
 ## Maak of wijzig een audit of PIA sjabloon
 
-{% content-ref url="create-an-audit-model.md" %}
-[create-an-audit-model.md](create-an-audit-model.md)
+{% content-ref url="creez-un-modele-daudit.md" %}
+[creez-un-modele-daudit.md](creez-un-modele-daudit.md)
 {% endcontent-ref %}
 
 ## Plan een audit of PIA en start een campagne
 
-{% content-ref url="plan-an-audit.md" %}
-[plan-an-audit.md](plan-an-audit.md)
+{% content-ref url="planifier-un-audit.md" %}
+[plan-an-audit.md](planifier-un-audit.md)
 {% endcontent-ref %}
 
-## Bekijk en deel het auditrapport of de AIP:
+## Bekijk en deel het auditrapport of de PIA:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="rapport-daudit.md" %}
+[rapport-daudit.md](rapport-daudit.md)
 {% endcontent-ref %}
 
 ## Verder gaan
 
-{% content-ref url="../risk-management/" %}
-[risk-management](../risk-management/)
+{% content-ref url="../la-gestion-des-risques/" %}
+[la-gestion-des-risques](../la-gestion-des-risques/)
 {% endcontent-ref %}

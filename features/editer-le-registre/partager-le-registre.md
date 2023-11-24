@@ -16,7 +16,7 @@ Zodra u hebt geklikt, verschijnt er een venster op het scherm waarin u wordt gev
 
 Delen houdt rekening met alle Verwerkingen met de status "gepubliceerd". Verwerkingen in concept worden niet gedeeld met deze functie. Om een draft behandeling te delen, moet het individueel gedeeld worden &#x20;
 
-[Sharing configuratie interface](<../../.gitbook/assets/image (178).png>)
+![Sharing configuratie interface](<../../.gitbook/assets/image (178).png>)
 
 Linklevensduren zijn als volgt:&#x20;
 
