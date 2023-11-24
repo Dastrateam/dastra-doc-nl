@@ -8,8 +8,8 @@ In deze handleiding kruipt u in de huid van een Verwerkingsverantwoordelijke die
 
 Als u onderweg hulp nodig hebt, aarzel dan niet om ondersteuning te vragen:
 
-{% content-ref url="../de-support/" %}
-[de-ondersteuning](../de-ondersteuning/)
+{% content-ref url="../le-support/" %}
+[de-ondersteuning](../le-support/)
 {% endcontent-ref %}
 
 ## Casestudy: het bedrijf SHIPBUILDER (fictieve casus)
@@ -36,7 +36,7 @@ Begin met het instellen van je werkruimte in Dastra:
 Stel vervolgens het register in en breng je gegevens in kaart:
 
 {% content-ref url="etape-2-cartograph-vos-processes-de-donnees-a-caractere-personnel-et-etablir-le-registre.md" %}
-[etape-2-cartograph-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md](etape-2-cartograph-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md)
+[etape-2-cartographier-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md](etape-2-cartographier-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md)
 {% endcontent-ref %}
 
 Beheer vervolgens uw risico's:
@@ -53,14 +53,14 @@ Geef vervolgens prioriteit aan de te nemen herstelacties:
 
 Implementeer de processen die vereist zijn door de AVG:
 
-{% content-ref url="etape-5-implement-les-processes-internes.md" %}
-[etape-5-implementer-les-processes-internes.md](etape-5-implementer-les-processes-internes.md)
+{% content-ref url="etape-5-implementer-les-processus-internes.md" %}
+[etape-5-implementer-les-processus-internes.md](etape-5-implementer-les-processus-internes.md)
 {% endcontent-ref %}
 
 Centraliseer ten slotte uw nalevingsdocumentatie, met name om eventuele inspecties door de toezichthoudende autoriteit (zoals de CNIL) te kunnen afhandelen en aanvullende informatie te kunnen verstrekken aan operationeel personeel:
 
-{% content-ref url="etape-6-document-la-conformite.md" %}
-[etape-6-document-la-conformite.md](etape-6-document-la-conformite.md)
+{% content-ref url="etape-6-documenter-la-conformite.md" %}
+[etape-6-document-la-conformite.md](etape-6-documenter-la-conformite.md)
 {% endcontent-ref %}
 
 
@@ -69,6 +69,6 @@ Goed gedaan, je hebt de tutorial voltooid!
 
 Aarzel niet om de functionaliteiten van Dastra te gaan verkennen, te beginnen met het register voor Verwerking, bijvoorbeeld:
 
-{% content-ref url="../../reminders-utiles/rgpd-en-bref/registre-de-traitement.md" %}
-[register-van-verwerking.md](../../useful-recalls/rgpd-en-bref/register-van-verwerking.md)
+{% content-ref url="../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md" %}
+[register-van-verwerking.md](../../rappels-utiles/rgpd-en-bref/registre-de-traitement.md)
 {% endcontent-ref %}

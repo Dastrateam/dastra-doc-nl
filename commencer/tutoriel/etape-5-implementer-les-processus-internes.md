@@ -8,8 +8,8 @@ Met Dastra kunt u ten minste enkele van de volgende interne processen digitalise
 
 * **Beheer van verzoeken om rechten uit te oefenen:**
 
-{% content-ref url="../../features/gerer-les-exercises-des-droits/" %}
-[manage-rights-exercises](../../features/gerer-les-exercises-des-droits/)
+{% content-ref url="../../features/gerer-les-exercices-des-droits/" %}
+[manage-rights-exercises](../../features/gerer-les-exercices-des-droits/)
 {% endcontent-ref %}
 
 * **Cookie toestemmingsbeheer :**
