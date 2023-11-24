@@ -35,7 +35,7 @@ Begin met het instellen van je werkruimte in Dastra:
 
 Stel vervolgens het register in en breng je gegevens in kaart:
 
-{% content-ref url="etape-2-cartograph-vos-processes-de-donnees-a-caractere-personnel-et-etablir-le-registre.md" %}
+{% content-ref url="etape-2-cartographier-vos-processes-de-donnees-a-caractere-personnel-et-etablir-le-registre.md" %}
 [etape-2-cartographier-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md](etape-2-cartographier-vos-traitements-de-donnees-a-caractere-personnel-etablir-le-registre.md)
 {% endcontent-ref %}
 

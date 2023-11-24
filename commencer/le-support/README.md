@@ -20,7 +20,7 @@ In Dastra en buiten deze documentatie kan ondersteuning op verschillende maniere
 
 ### Het aanvraagformulier voor ondersteuning
 
-{% content-ref url="make-a-support-request.md" %}
-[make-a-support-request.md](make-a-support-request.md)
+{% content-ref url="faire-une-demande-de-support.md" %}
+[make-a-support-request.md](faire-une-demande-de-support.md)
 {% endcontent-ref %}
 
