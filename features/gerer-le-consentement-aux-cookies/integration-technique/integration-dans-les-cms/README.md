@@ -15,8 +15,8 @@ Om een publieke sleutel van de Dastra SDK op te halen, gaat u naar deze pagina: 
 
 Configureer je widget door de onderstaande gids te volgen
 
-{% content-ref url="../../widget-configuration/" %}
-[widget-configuratie](../../widget-configuratie/)
+{% content-ref url="../../configuration-du-widget/" %}
+[widget-configuratie](../../configuration-du-widget/)
 {% endcontent-ref %}
 
 ## De html-integratiecode invoegen
@@ -29,9 +29,9 @@ Om de code correct te laten werken, moet je ervoor zorgen dat de publieke sleute
 
 De widgetintegratiecode ziet er als volgt uit
 
-markup
-<div id="dastra-cookie-consent" data-widgetid="{uw_widget_id}"></div>
-<script src="https://app.dastra.eu/sdk/dastra.js?key={uw_publieke_key}" async>
+```markup
+<div id="dastra-cookie-consent" data-widgetid="{your_widget_id}"></div>
+<script src="https://app.dastra.eu/sdk/dastra.js?key={your_public_key}" async>
 </script>
 ```
 
@@ -56,5 +56,6 @@ Als je Wordpress gebruikt, vind je meer informatie in de onderstaande link over 
 Zodra de widget is geïntegreerd, ga je verder met de testfase.
 
 {% content-ref url="../comment-tester-lintegration-dun-widget.md" %}
-[comment-tester-lintegratie-dun-widget.md](../comment-tester-lintegratie-dun-widget.md)
+[comment-tester-lintegration-dun-widget.md](../comment-tester-lintegration-dun-widget.md)
 {% endcontent-ref %}
+

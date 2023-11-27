@@ -18,7 +18,7 @@ Naast het scannen, classificeren, widgeting van cookies en het verzamelen van be
 Voor meer informatie kunt u [rechtstreeks contact met ons opnemen](https://www.dastra.eu/en/Contact?type=Demo) of de volgende sectie raadplegen:
 
 {% content-ref url="../integration-technique.md" %}
-[integratie-techniek](../integratiion-technique.md/)
+[integratie-techniek](../integration-technique.md/)
 {% endcontent-ref %}
 
 

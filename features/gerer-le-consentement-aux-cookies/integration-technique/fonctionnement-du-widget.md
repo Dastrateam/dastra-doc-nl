@@ -9,12 +9,12 @@ Over het algemeen werkt de toestemmingswidget in 3 hoofdfasen:
 3. De daadwerkelijke **uitvoering** van de toestemming van de gebruiker
 
 {% hint style="info" %}
-De Dastra-widget maakt het mogelijk om de eerste twee stappen gedeeltelijk automatisch uit te voeren. Voor de derde stap, het daadwerkelijk afdwingen van de cookievoorkeuren van de gebruiker, moet je het toestemmingssysteem technisch integreren met diensten van derden die mogelijk cookies plaatsen. Zie de [gids voor het blokkeren van cookies](blocking-cookies/) voor meer informatie.
+De Dastra-widget maakt het mogelijk om de eerste twee stappen gedeeltelijk automatisch uit te voeren. Voor de derde stap, het daadwerkelijk afdwingen van de cookievoorkeuren van de gebruiker, moet je het toestemmingssysteem technisch integreren met diensten van derden die mogelijk cookies plaatsen. Zie de [gids voor het blokkeren van cookies](blocage-des-cookies/) voor meer informatie.
 {% endhint %}
 
 De javascript SDK van de widget moet worden aangeroepen op alle pagina's van de site die cookies gebruiken.
 
-[Globaal bewerkingsdiagram cookie-toestemming widget](../../../.gitbook/assets/cookie-toestemming.png)
+![Globaal bewerkingsdiagram cookie-toestemming widget](../../../.gitbook/assets/cookie-toestemming.png)
 
 ### 1. Bezoek aan de site van de klant
 
@@ -25,7 +25,7 @@ De gebruiker bezoekt de website waar het js codefragment is geïnstalleerd. Om d
 Om de widget correct te laten functioneren op de site, heeft deze een up-to-date clientconfiguratie nodig die is opgehaald van de servers van Dastra. Om de meest recente versie te hebben, zal Dastra een GET-verzoek doen naar de widget met de openbare API-sleutel om te controleren of de widget bij de klant hoort.
 
 {% hint style="info" %}
-Als de klant zijn domein niet correct heeft ingevoerd in de widget editor, zal de editor het verzoek niet autoriseren en is het onmogelijk om de widget correct weer te geven. Om dit te verhelpen, ga naar [deze pagina](https://app.dastra.eu/workspace/19/cookie-widget/list), kies je widget en voeg het ontbrekende domein toe.
+Als de klant zijn domein niet correct heeft ingevoerd in de widget editor, zal de editor het verzoek niet autoriseren en is het onmogelijk om de widget correct weer te geven. Om dit te verhelpen, kies je widget en voeg het ontbrekende domein toe.
 {% endhint %}
 
 ### 4. Toestemming vragen aan de gebruiker

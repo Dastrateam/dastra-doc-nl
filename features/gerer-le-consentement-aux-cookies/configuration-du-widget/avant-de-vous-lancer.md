@@ -60,8 +60,8 @@ Voor elke service moet u bepalen op welke manier de javascript-tag in de pagina 
 Er zijn verschillende strategieën mogelijk om cookies standaard te blokkeren, afhankelijk van uw behoeften:
 
 * **Niet langer gebruiken**: deze bibliotheek is in feite overbodig, dus u kunt hem volledig verwijderen uit de bronnen van de site;
-* Volledig blokkeren** : De uitvoering van de tag wordt volledig geblokkeerd totdat de gebruiker cookies accepteert;
-* Gedeeltelijk blokkeren**: Alleen de trackingfuncties worden geblokkeerd (als de bibliotheek dit toestaat). Sommige bibliotheken kunnen in een volledig gedegradeerde modus werken zonder prestatieverlies.
+* **Volledig blokkeren** : De uitvoering van de tag wordt volledig geblokkeerd totdat de gebruiker cookies accepteert;
+* **Gedeeltelijk blokkeren**: Alleen de trackingfuncties worden geblokkeerd (als de bibliotheek dit toestaat). Sommige bibliotheken kunnen in een volledig gedegradeerde modus werken zonder prestatieverlies.
 
 
 

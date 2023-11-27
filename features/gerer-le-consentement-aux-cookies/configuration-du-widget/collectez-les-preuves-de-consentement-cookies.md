@@ -10,8 +10,8 @@ Zodra de DASTRA Cookie Consent widget op uw website is geïmplementeerd, kunt u 
 
 Hiervoor moet u een DASTRA Cookie Consent widget op uw website hebben geïmplementeerd.
 
-{% content-ref url="implement-a-cookie-consent-widget.md" %}
-[implement-a-widget-de-instemming-aux-cookies.md](implement-a-widget-de-instemming-aux-cookies.md)
+{% content-ref url="implementez-un-widget-de-consentement-aux-cookies.md" %}
+[implementez-un-widget-de-consentement-aux-cookies.md](implementez-un-widget-de-consentement-aux-cookies.md)
 {% endcontent-ref %}
 
 ## Verzamel bewijs van toestemming voor cookies
@@ -20,7 +20,7 @@ Zodra de widget is geïmplementeerd, verzamelt DASTRA automatisch toestemmingsbe
 
 Om ze te bekijken, gaat u naar de interface "Toestemming" van de module DASTRA Cookie Toestemming.
 
-[Consent" interface](<../../../.gitbook/assets/Capture web_6-5-2022_95747\_app.dastra.eu.jpeg>)
+!["Consent" interface](<../../../.gitbook/assets/Capture web_6-5-2022_95747\_app.dastra.eu.jpeg>)
 
 {% hint style="info" %}
 Vanuit deze interface kun je ook het verzamelde toestemmingsbewijs aanpassen, gegevens exporteren, filteren op datum of cookie-widget, enzovoort.

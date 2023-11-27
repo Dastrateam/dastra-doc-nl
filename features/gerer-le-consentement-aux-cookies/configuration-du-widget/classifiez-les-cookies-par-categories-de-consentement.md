@@ -12,11 +12,11 @@ Zie voor meer informatie over de aanbevelingen van de CNIL over cookies ons arti
 
 Met DASTRA kunt u de cookies die op uw website worden geplaatst classificeren met behulp van een eenvoudige "drag and drop", per hoofdcategorie van doel:
 
-* Strikt noodzakelijke" cookies: dit zijn cookies die van nature geen toestemming vereisen (bijvoorbeeld sessie- of toestemmingscookies).
-* Voorkeurcookies
-* publieksanalyse**" cookies
-* cookies voor marketing en gebruikerservaring
-* Overige cookies.
+* **Strikt noodzakelijke** cookies: dit zijn cookies die van nature geen toestemming vereisen (bijvoorbeeld sessie- of toestemmingscookies).
+* **Voorkeurcookies**
+* **publieksanalyse** cookies
+* cookies voor **marketing** en gebruikerservaring
+* **Overige** cookies.
 
 {% content-ref url="les-finalites-des-cookies.md" %}
 [de-koekjes-finaliteiten](les-finalites-des-cookies.md)
@@ -24,9 +24,9 @@ Met DASTRA kunt u de cookies die op uw website worden geplaatst classificeren me
 
 Om dit te doen, selecteer je gewoon het cookie dat je wilt classificeren in de Classificatie-interface en verplaats je het door er simpelweg op te "klikken en neer te zetten" in de categorie van je keuze.
 
-[Het "te classificeren cookie" cookie dat geclassificeerd wordt](<../../../.gitbook/assets/image (52).png>)
+![Het "te classificeren cookie" cookie dat geclassificeerd wordt](<../../../.gitbook/assets/image (52).png>)
 
-[Het "Cookie dat geclassificeerd moet worden" cookie dat geclassificeerd wordt in de "Voorkeuren" categorie](<../../../.gitbook/assets/image (53).png>)
+![Het "Cookie dat geclassificeerd moet worden" cookie dat geclassificeerd wordt in de "Voorkeuren" categorie](<../../../.gitbook/assets/image (53).png>)
 
 {% hint style="info" %}
 Je kunt van geval tot geval bepalen of er wel of geen toestemming moet worden gevraagd voor elke cookie.

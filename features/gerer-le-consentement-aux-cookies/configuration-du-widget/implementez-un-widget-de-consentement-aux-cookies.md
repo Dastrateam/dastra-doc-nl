@@ -12,11 +12,11 @@ Met DASTRA kunt u een cookie-toestemmingswidget rechtstreeks op uw site zetten i
 
 Deze widget bestaat uit verschillende elementen:
 
-[Een "cookies" symbool dat linksonder in het scherm verschijnt](<../../..gitbook/assets/Capture web_6-5-2022\_93427\_www.dastra.eu.jpeg>)
+![Een "cookies" symbool dat linksonder in het scherm verschijnt](<../../..gitbook/assets/Capture web_6-5-2022\_93427\_www.dastra.eu.jpeg>)
 
-[Een uitklapbaar introductievenster](<../../..gitbook/assets/image (42).png>)
+![Een uitklapbaar introductievenster](<../../..gitbook/assets/image (42).png>)
 
-[De lijst met cookies per doel gebruikt door de site](<../../.gitbook/assets/image (40) (1).png>)
+![De lijst met cookies per doel gebruikt door de site](<../../.gitbook/assets/image (40) (1).png>)
 
 ## Vereisten
 
@@ -28,21 +28,21 @@ Om de implementatie van de Cookie Consent widget eenvoudiger te maken, heeft Das
 
 Ga naar de volgende pagina om de op uw website geplaatste cookies te scannen:
 
-{% content-ref url="broken-reference" %}
-[Gebroken link](gebroken-verwijzing)
+{% content-ref url="scannez-les-cookies-deposes-sur-votre-site-web.md" %}
+[scannez-les-cookies-deposes-sur-votre-site-web.md](scannez-les-cookies-deposes-sur-votre-site-web.md)
 {% endcontent-ref %}
 
 Ga naar de volgende pagina om cookies te classificeren op toestemmingscategorie:
 
-{% content-ref url="broken-reference" %}
-[Gebroken link](gebroken-verwijzing)
+{% content-ref url="classifiez-les-cookies-par-categories-de-consentement.md" %}
+[classifiez-les-cookies-par-categories-de-consentement.md](classifiez-les-cookies-par-categories-de-consentement.md)
 {% endcontent-ref %}
 
 ## Definieer het uiterlijk van je cookie toestemmingswidget
 
 Om een cookie toestemmingswidget op uw website in te stellen, moet u naar de interface "Uiterlijk" van de DASTRA Cookie Toestemmingsmodule gaan. Zodra u uw eerste toestemmingswidget hebt aangemaakt, klikt u erop om een pagina te openen met een set functies voor de widget. Klik op "widget uiterlijk".
 
-[DASTRA Cookie Toestemming "Uiterlijk" Interface](<../../.gitbook/assets/Capture web_6-5-2022\_93842_app.dastra.eu.jpeg>)
+![DASTRA Cookie Toestemming "Uiterlijk" Interface](<../../.gitbook/assets/Capture web_6-5-2022\_93842_app.dastra.eu.jpeg>)
 
 Vanuit deze interface kun je **je widget** volledig aanpassen, zodat hij wordt weergegeven zoals jij dat wilt op je website.
 
@@ -60,7 +60,7 @@ Als je eenmaal je cookie toestemmingswidget hebt gedefinieerd, kun je deze direc
 \
 Ga hiervoor naar het tabblad "Installatie" nadat u uw widget hebt geselecteerd in het Cookiesmodule-menu en voeg de automatisch gegenereerde code in vóór het einde van de html<body>-tag van uw website.
 
-[Widget html code generatie](<../../../.gitbook/assets/image (58).png>)
+![Widget html code generatie](<../../../.gitbook/assets/image (58).png>)
 
 {% hint style="info" %}
 Je kunt Google tag manager gebruiken om deze code dynamisch op elke pagina in te voegen.
