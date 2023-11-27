@@ -6,14 +6,14 @@ description: Leer hoe je de integratie van een toestemmingswidget test.
 
 ## Voorbeeldmodus activeren
 
-![](<../../..gitbook/assets/image (68).png>)
+![](<../../../.gitbook/assets/image (68).png>)
 
 Voorbeeldmodus zal de widget cache deactiveren en je toestaan om je configuratiewijzigingen live te bekijken. Localhost domeinen zullen ook geauthoriseerd worden.
 
 ## Je kunt de volgende api sleutel gebruiken
 
 ```
-dastra00-0testing1-sleutel
+dastra00-0testing1-key
 ```
 
 {% hint style="info" %}

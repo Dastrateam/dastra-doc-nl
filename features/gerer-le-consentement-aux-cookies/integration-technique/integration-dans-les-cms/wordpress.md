@@ -13,7 +13,7 @@ U kunt dit stukje code vinden en het hier kopiëren/plakken: \
 Cookie toestemming > Bewerken > Code
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../../.gitbook/assets/image (79).png>)
 
 ## 2. Kopieer en plak in de Wordpress editor
 
@@ -23,7 +23,7 @@ Klik op de knop "Uiterlijk" in de verticale banner aan de linkerkant van het sch
 
 Selecteer het bestand "Footer.php" aan de rechterkant van het scherm dat verschijnt en voeg de code in die u eerder van Dastra hebt gehaald aan het einde van de tag \<body> (net voor \</body>).
 
-![](<../../../.gitbook/assets/image (80).png>)
+![](<../../../../.gitbook/assets/image (80).png>)
 
 Sla op door op "Bestand bijwerken" te klikken, vernieuw dan je website pagina. Dat is het, de banner verschijnt!
 

@@ -8,7 +8,7 @@ description: Deze pagina legt uit hoe u de talen van de toestemmingswidget kunt 
 
 Ga naar de instellingenpagina voor de gewenste widget en vervolgens naar het tabblad "Teksten en vertalingen". Je kunt een of meer talen toevoegen.
 
-![](<../../..gitbook/assets/Capture web_6-5-2022_102131_app.dastra.eu.jpeg>)
+![](<../../../.gitbook/assets/Capture web\_6-5-2022\_102131\_app.dastra.eu.jpeg>)
 
 {% hint style="warning" %}
 Houd er rekening mee dat momenteel alleen Frans en Engels worden ondersteund.

@@ -10,7 +10,7 @@ Er zijn verschillende methoden om cookies effectief te blokkeren: cookies verwij
 
 Deze methode is het snelst te implementeren, maar ook het minst betrouwbaar. Als je in het configuratiescherm van de Dastra widget de naam van de cookies invoert die aan elke service zijn gekoppeld, worden de betreffende cookies automatisch verwijderd telkens wanneer de pagina wordt weergegeven. &#x20;
 
-![](<../../../.gitbook/assets/image (85).png>)
+![](<../../../../.gitbook/assets/image (85).png>)
 
 Dit kan in sommige gevallen effectief zijn, maar het riskeert de betrouwbaarheid van de gebruikte gereedschappen van derden (webanalyse gereedschappen in het bijzonder) aanzienlijk te verstoren. Het is vaak beter om een van de andere onderstaande methoden te gebruiken.
 
@@ -20,7 +20,7 @@ Met deze methode kun je een stukje trackingcode op de pagina volledig uitschakel
 
 Vervang hiervoor het volgende codefragment in de html-code van je pagina:
 
-``markup
+```markup
 <script >
   alert("hallo, ik ben een tracking javascript tag");
 </script>
@@ -36,7 +36,7 @@ Van :
 
 Vervang de "{your-service-slug}" door de service-identifier die je hebt ingevoerd bij het configureren van je widget:
 
-![](<../../../.gitbook/assets/image (86).png>)
+![](<../../....//.gitbook/assets/image (86).png>)
 
 Als de client de cookies geaccepteerd heeft, zal de inhoud van het script automatisch uitgevoerd worden.
 
@@ -94,7 +94,7 @@ Zie volgende pagina:
 
 ### Herinnering aan levenscyclus van toestemming:&#x20;
 
-<figure><img src="../../../.gitbook/assets/cookies-lifecycle.drawio.png" alt=""><figcaption><p>Cookie widget levenscyclus</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cookies-lifecycle.drawio.png" alt=""><figcaption><p>Cookie widget levenscyclus</p></figcaption></figure>
 
 ### Javascript gebeurtenissen
 
