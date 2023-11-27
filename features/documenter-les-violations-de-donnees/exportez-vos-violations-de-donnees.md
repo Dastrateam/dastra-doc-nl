@@ -8,7 +8,7 @@ Je kunt het hele Inbreuk-register exporteren. Om een lek te exporteren, klik je 
 
 ![](<../../.gitbook/assets/Capture web_5-5-2022\_164539_app.dastra.eu.jpeg>)
 
-(<../../.gitbook/assets/image (63) (1).png>)
+![](<../../.gitbook/assets/image (63) (1).png>)
 
 Een venster verschijnt met een keuze uit mogelijke export formaten. Klik op het formaat van je keuze en dan op de "Download bestand" knop.
 
