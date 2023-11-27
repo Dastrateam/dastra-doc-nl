@@ -18,30 +18,30 @@ Bij Dastra geloven we dat het bijhouden van een **duidelijk**, **samenwerkend** 
 
 Om toegang te krijgen tot de planningsmodule gaat u naar de toepassing en klikt u op de module "planning" aan de linkerkant van het scherm.
 
-[Planning knop](<../../.gitbook/assets/image (220).png>)
+![Planning knop](<../../.gitbook/assets/image (220).png>)
 
 Dit brengt je naar de planningsmodule:
 
-[Planning module](<../../.gitbook/assets/image (221).png>)
+![Planning module](<../../.gitbook/assets/image (221).png>)
 
 ## Verder gaan
 
-{% content-ref url="manage-je-caches.md" %}
-[manage-your-caches.md](manage-your-caches.md)
+{% content-ref url="gerer-vos-taches.md" %}
+[gerer-vos-taches.md](gerer-vos-taches.md)
 {% endcontent-ref %}
 
-{% content-ref url="create-or-modify-a-project-or-a-iteration.md" %}
-[create-or-modify-a-project-or-a-iteration.md](create-or-modify-a-project-or-a-iteration.md)
+{% content-ref url="creer-ou-modifier-un-projet-ou-une-iteration.md" %}
+[creer-ou-modifier-un-projet-ou-une-iteration.md](creer-ou-modifier-un-projet-ou-une-iteration.md)
 {% endcontent-ref %}
 
 {% content-ref url="suivre-les-taches.md" %}
-[volg-de-caches.md](volg-de-caches.md)
+[suivre-les-taches.md](suivre-les-taches.md)
 {% endcontent-ref %}
 
-{% content-ref url="synchronise-with-other-calendars.md" %}
-[synchroniseer-met-andere-kalenders.md](synchroniseer-met-andere-kalenders.md)
+{% content-ref url="synchroniser-avec-dautres-calendriers.md" %}
+[synchroniser-avec-dautres-calendriers.md](synchroniser-avec-dautres-calendriers.md)
 {% endcontent-ref %}
 
-{% content-ref url="ga-meer-weg-met-planning.md" %}
-[ga-verder-met-planning.md](ga-verder-met-planning.md)
+{% content-ref url="allez-plus-loin-avec-la-planification.md" %}
+[allez-plus-loin-avec-la-planification.md](allez-plus-loin-avec-la-planification.md)
 {% endcontent-ref %}

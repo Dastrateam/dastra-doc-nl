@@ -11,8 +11,8 @@ Naast het aanmaken, volgen en exporteren van taken, kunt u met DASTRA ook:
 * De taakworkflow aanpassen door naar "Instellingen" / "Workflow" te gaan.
 * Tags aan uw taken toewijzen om ze gemakkelijker te sorteren&#x20;
 
-[Taakworkflow aanpassen](<../../.gitbook/assets/image (162).png>)
+![Taakworkflow aanpassen](<../../.gitbook/assets/image (162).png>)
 
 
 
-Als je meer wilt weten, aarzel dan niet om [rechtstreeks contact met ons op te nemen](https://www.dastra.eu/fr/Contact?type=Demo).
+Als je meer wilt weten, aarzel dan niet om [rechtstreeks contact met ons op te nemen](https://www.dastra.eu/en/Contact?type=Demo).

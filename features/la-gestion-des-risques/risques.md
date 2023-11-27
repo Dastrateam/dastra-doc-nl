@@ -23,7 +23,7 @@ Dit brengt je naar een risicobewerkingspagina waar je informatie kunt invoeren o
 
 Je kunt vervolgens alle risico's in je register terugvinden in de risicorepository.
 
-Detail van het tabblad Risico's verwerken](<../../.gitbook/assets/image (251) (1) (1).png>)
+![Detail van het tabblad Risico's verwerken](<../../.gitbook/assets/image (251) (1) (1).png>)
 
 Je kunt een risico ook rechtstreeks vanuit de risicobeheermodule &#x20 aan een Verwerking koppelen;
 
@@ -35,7 +35,7 @@ Om de risico's van een Verwerking te bekijken, gaat u naar de module Dastra Risk
 
 
 
-(<../../.gitbook/assets/image (253) (1) (1) (1).png>)
+!(<../../.gitbook/assets/image (253) (1) (1) (1).png>)
 
 Ga naar het tabblad "Risico's" en je ziet alle risico's gesorteerd op de elementen die aan elk risico zijn gekoppeld &#x20;
 
@@ -62,6 +62,6 @@ Het niveau van de Verwerking met het hoogste risico wordt berekend met de volgen
 
 **Ga verder**
 
-{% content-ref url="../plan/" %}
-[plan](../plan/)
+{% content-ref url="../planifier/" %}
+[plan](../planifier/)
 {% endcontent-ref %}

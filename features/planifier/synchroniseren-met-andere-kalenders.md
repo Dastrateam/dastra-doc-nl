@@ -1,2 +1,0 @@
-# Synchroniseren met andere kalenders
-

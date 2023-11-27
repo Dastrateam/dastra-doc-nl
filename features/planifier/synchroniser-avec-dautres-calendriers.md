@@ -13,7 +13,7 @@ In Dastra is het mogelijk om alle acties te synchroniseren die zijn aangemaakt i
 
 Ga hiervoor naar het tabblad "Kolommen" of "Tabel" in de module "Agenda" en klik vervolgens op de pijl rechtsboven in het scherm, naast de knop "Nieuwe taak". Klik vervolgens op "Synchroniseren met mijn agenda (Outlook...).
 
-[Het taak uitklapmenu] (<../../.gitbook/assets/Capture web\_4-5-2022\_152356\_app.dastra.eu.jpeg>)
+![Het taak uitklapmenu](<../../.gitbook/assets/Capture web\_4-5-2022\_152356\_app.dastra.eu.jpeg>)
 
 Dit genereert een **link** en/of download een **.ics bestand** waarmee het mogelijk is om de kalender van de aan jou toegewezen taken te synchroniseren met elk willekeurig kalenderprogramma (Outlook, Google, etc.).
 
@@ -26,6 +26,6 @@ Om veiligheidsredenen raden we u aan de deellinks die worden weergegeven op uw p
 
 ## Verder gaan
 
-{% content-ref url="ga-verder-met-planning.md" %}
-[ga-verder-met-planning.md](ga-verder-met-planning.md)
+{% content-ref url="aller-plus-loin-avec-la-planification.md" %}
+[ga-verder-met-planning.md](aller-plus-loin-avec-la-planification.md)
 {% endcontent-ref %}
