@@ -1,7 +1,6 @@
 ---
 description: >-
-  Leer hoe u een aanvraag voor het uitoefenen van rechten importeert, aanmaakt, wijzigt en verwijdert
-  verzoek via Dastra.
+  Leer hoe u een aanvraag voor het uitoefenen van rechten importeert, aanmaakt, wijzigt en verwijdert verzoek via Dastra.
 ---
 
 # Rechtenuitoefeningsverzoeken beheren
@@ -18,4 +17,4 @@ Klik op de "**Maak een verzoek**" knop
 
 Klik op het menu rechtsboven en op de "Import" knop.
 
-Volg dan de handleiding op [gegevens importeren in Dastra](../generalites/import-your-data-excel-csv.md)
+Volg dan de handleiding op [gegevens importeren in Dastra](../generalites/importer-vos-donneers-excel-csv.md)

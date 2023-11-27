@@ -8,13 +8,13 @@ description: >-
 
 Dastra is niet geïntegreerd in alle ontwikkelingsplatforms, wij stellen u een API Rest ter beschikking om uw recht op toegang tot uw applicaties te krijgen;
 
-### L'objet demande d'exercice de droits
+### Verzoek om rechten uit te oefenen
 
 Hieronder vindt u het model van een aanvraag voor de uitoefening van rechten in Dastra
 
 <details>
 
-<summary>L'objet demande d'exercice de droits</summary>
+<summary>Verzoek om rechten uit te oefenen</summary>
 
 ```
 {
@@ -273,15 +273,15 @@ Hieronder vindt u het model van een aanvraag voor de uitoefening van rechten in 
 
 ### Eindpunten van de API
 
-Voici les principaux Endpoints qui vous seront utiles pour intégrer vos applications avec le module exercice de droits de Dastra.
+Hier zijn de belangrijkste Endpoints die handig zijn voor het integreren van uw applicaties met de Dastra module voor het uitoefenen van rechten.
 
-{% swagger method="post" path="{workspaceId}/DataSubjectRequests" baseUrl="/v1/ws/" summary="Créer une nouvelle demande d'exercice de droits dans Dastra" %}
+{% swagger method="post" path="{workspaceId}/DataSubjectRequests" baseUrl="/v1/ws/" summary="Maak een nieuwe rechtenaanvraag aan in Dastra" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="workspaceId" type="String" required="true" %}
-L'Id du workspace dans lequel vous souhaitez poster la demande d'exercice de droits
+De id van de werkruimte waarin u het verzoek tot uitoefening van uw rechten wilt plaatsen
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -352,17 +352,17 @@ L'Id du workspace dans lequel vous souhaitez poster la demande d'exercice de dro
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="{workspaceId}/DataSubjectRequests/{id}" baseUrl="/v1/ws/" summary="Récupérer une demande d'exercice de droits existante via son id" %}
+{% swagger method="get" path="{workspaceId}/DataSubjectRequests/{id}" baseUrl="/v1/ws/" summary="Een bestaand verzoek om rechtenuitoefening ophalen via zijn id" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" type="Integer" required="true" %}
-L'id de la demande d'exercice de droits que vous souhaitez requêter
+De id van het verzoek om de rechten die u wilt uitoefenen
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="workspaceId" type="String" required="true" %}
-L'id de l'espace de travail dans lequel se trouve la demande d'exercice de droits que vous souhaitez requêter
+De id van de werkruimte waarin het verzoek om de rechten die u wilt uitoefenen zich bevindt
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -622,21 +622,21 @@ L'id de l'espace de travail dans lequel se trouve la demande d'exercice de droit
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="{workspaceId}/DataSubjectRequests" baseUrl="/v1/ws/" summary="Récupérer une liste paginée de demandes d'exercice de droits" %}
+{% swagger method="get" path="{workspaceId}/DataSubjectRequests" baseUrl="/v1/ws/" summary="Een gepagineerde lijst ophalen met verzoeken om rechten uit te oefenen" %}
 {% swagger-description %}
-Vous pouvez passer des paramètres de recherche optionnels à votre requête pour filtrer la réponse de l'API&#x20;
+Je kunt optionele zoekparameters doorgeven aan je verzoek om het API antwoord te filteren&#x20;
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="page" type="Integer" %}
-La page que vous souhaitez requêter&#x20;
+De pagina die u wilt opvragen&#x20;
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="size" type="Integer" %}
-Le nombre d'éléments retournés par page
+Het aantal elementen dat per pagina wordt geretourneerd
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="sortBy" type="String" %}
-Le champ sur lequel filtrer l'ordre des éléments
+Het veld waarop de volgorde van elementen moet worden gefilterd
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="q" %}
@@ -644,7 +644,7 @@ Zoek tekst in de titel van de aanvraag
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="asc" type="Boolean" %}
-true pour ordonner de manière ascendante
+true voor bottom-up ordening
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="skip" type="Integer" %}
@@ -652,38 +652,38 @@ true pour ordonner de manière ascendante
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="purposes" type="Array[String]" %}
-Filtrer les demandes par type (Onbekend, Informatie, Toegang, Rectificatie, Wissen, Beperking, Verzet, Portabiliteit, Richtlijnen vooraf, GeautomatiseerdBesluit)
+Filter verzoeken op type (Onbekend, Informatie, Toegang, Rectificatie, Wissen, Beperking, Verzet, Portabiliteit, Richtlijnen vooraf, GeautomatiseerdBesluit)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="states" type="Array[String]" %}
-Filtrer les demandes par état (Open, IdentityValidation, Processing, Active, Closed)
+Verzoeken filteren op status (Open, IdentityValidation, Processing, Active, Closed)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="widgetId" type="Integer" %}
-filtrer les demandes issues d'un widget de collecte
+filterverzoeken van een verzamelwidget
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="archived" type="Boolean" %}
-Retourner les demandes archivées
+Gearchiveerde verzoeken retourneren
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="inhalen" type="Boolean" %}
-Rechercher les demandes dont le délai légal de réponse à a été dépassé
+Zoeken naar verzoeken waarvoor de wettelijke antwoordtermijn is overschreden
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="ids" type="Array[Integer]" %}
-Sélectionner une liste de demandes par leurs ids
+Selecteer een lijst met verzoeken op hun id's
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="tags" type="Array[Integer]" %}
-Sélectionner les demandes ayant des tags spécifiques (passer un array de tagIds en query string)
+Selecteer verzoeken met specifieke tags (geef een array van tagIds door als querystring)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="workspaceId" type="String" required="true" %}
 De workspace id die u nodig hebt
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="Un objet contenant les demandes d'exercices de droits retournées (propriété items), la page, la taille de la requête et le nombre total d'éléments" %}
+{% swagger-response status="200: OK" description="Een object dat de geretourneerde verzoeken om rechtenuitoefening bevat (eigenschap items), de pagina, de grootte van het verzoek en het totale aantal items." %}
 ```json
 {
   "items": [
@@ -906,7 +906,7 @@ De workspace id die u nodig hebt
         "finalStep": true,
         "initialStep": true,
         "descriptionHtml": "string",
-        "mappedState": "string".
+        "mappedState": "string"
       },
       "workFlowStepId": 0,
       "channel": "Internal",
@@ -947,21 +947,21 @@ De workspace id die u nodig hebt
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="put" path="{workspaceId}/DataSubjectRequests/{id}" baseUrl="/v1/ws/" summary="Mettre à jour une demande d'exercice de droits" %}
+{% swagger method="put" path="{workspaceId}/DataSubjectRequests/{id}" baseUrl="/v1/ws/" summary="Een verzoek bijwerken om rechten uit te oefenen" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="workspaceId" type="String" required="true" %}
-L'id de l'espace de travail dans lequel se trouve la demande d'exercice de droits que vous souhaitez supprimer
+De id van de werkruimte die de rechtenaanvraag bevat die u wilt verwijderen
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="id" type="Integer" required="true" %}
-L'id de la demande d'exercice de droits existante que vous souhaitez supprimer
+De id van de bestaande rechtenaanvraag die u wilt verwijderen
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="Object" name="dataSubjectRequest" %}
-Poster l'objet complet de la demande d'exercice de droits (voir plus haut ou notre [documentation d'api swagger](https://api.dastra.eu/swagger/index.html))
+Plaats het volledige onderwerp van het verzoek om rechten uit te oefenen (zie hierboven of onze [api swagger documentatie](https://api.dastra.eu/swagger/index.html))
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Success" %}
@@ -1243,7 +1243,7 @@ De id van de bestaande rechtenaanvraag die u wilt verwijderen
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="post" path="{workspaceId}/DataSubjectRequests/workflow" baseUrl="/v1/ws/" summary="Changer l'étape de processus de la demande d'exercice de droits" %}
+{% swagger method="post" path="{workspaceId}/DataSubjectRequests/workflow" baseUrl="/v1/ws/" summary="De fase in het proces van het aanvragen van de uitoefening van rechten wijzigen" %}
 {% swagger-description %}
 
 {% endswagger-description %}

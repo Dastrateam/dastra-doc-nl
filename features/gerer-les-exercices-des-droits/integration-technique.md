@@ -14,28 +14,28 @@ De widget is geïntegreerd in de dastra **SDK javascript**.
 
 ### Vereisten
 
-Om de widget voor het uitoefenen van rechten in te stellen, moet u een **openbare API-sleutel** hebben: [lees de documentatie](../settings/management-of-keys-dapi.md) of [ga direct naar de pagina voor het beheer van API-sleutels](https://app.dasta.eu/general-settings/api).
+Om de widget voor het uitoefenen van rechten in te stellen, moet u een **openbare API-sleutel** hebben: [lees de documentatie](../settings/gestion-des-cles-dapi.md) of [ga direct naar de pagina voor het beheer van API-sleutels](https://app.dasta.eu/general-settings/api).
 
 ### De widget instellen in de speciale interface
 
-Om te beginnen moet je de widget** instellen in [het widgetbeheerpaneel](https://app.dasta.eu/workspace/data-subject-request/integrations) :&#x20;
+Om te beginnen moet je de **widget** instellen in **het widgetbeheerpaneel**:&#x20;
 
 ![](<../../.gitbook/assets/image (250) (1) (1) (1).png>)
 
 Hier is een eenvoudig voorbeeld van widget integratie (in popup mode met een open knop):
 
-``html
+```html
 <div id="customer-subject-form-custom" ></div>
-<button id="customer-request-button">Open de widget</button>
-<script src="https://cdn.dastra.eu/sdk/dastra.js?key={UW PUBLIC KEY}" async></script>
+<button id="customer-request-button">Open the widget</button>
+<script src="https://cdn.dastra.eu/sdk/dastra.js?key={YOUR PUBLIC KEY}" async></script>
 <script>
   window.dastra = window.dastra || [];
   dastra.debug = true;
   window.dastra.push(function(){
     dastra.loadCustomerSubjectForm({
-      selector: '#klant-onderwerp-formulier-klant',
-      widgetId: {uw widget id},
-      onLoad: functie (form) {
+      selector: '#customer-subject-form-custom',
+      widgetId: {your widget id},
+      onLoad: function (form) {
         document.getElementById('customer-request-button').addEventListener('click',function () {
           form.open()
         })
@@ -51,7 +51,7 @@ Standaard wordt **de browsertaal** gebruikt. Als de taal niet beschikbaar is in 
 
 In dit voorbeeld wordt standaard de Italiaanse taal geselecteerd (indien beschikbaar)_
 
-html
+```html
 <div id="customer-subject-popup" data-lang="it"></div>
 ```
 

@@ -8,11 +8,11 @@ description: Leer hoe je een widget met rechten op je site instelt.
 
 Het proces voor het aanvragen van de uitoefening van rechten via de widget vindt plaats zoals **in het onderstaande diagram** :
 
-[Diagram van het beheerproces voor het uitoefenen van rechten](../../.gitbook/assets/Diapositive1.SVG)
+![Diagram van het beheerproces voor het uitoefenen van rechten](../../.gitbook/assets/Diapositive1.SVG)
 
 ## Implementatie
 
-DASTRA staat u toe om een widget voor het uitoefenen van rechten direct op uw site in te stellen, vergelijkbaar met wat wordt gedaan op haar [privacybeleid](https://www.dastra.eu/fr/privacy-policy) :&#x20;
+DASTRA staat u toe om een widget voor het uitoefenen van rechten direct op uw site in te stellen, vergelijkbaar met wat wordt gedaan op haar [privacybeleid](https://www.dastra.eu/en/legal/privacy-policy) :&#x20;
 
 ![](<../../.gitbook/assets/image (35) (1).png>)
 
@@ -24,7 +24,7 @@ Om zo'n widget in te stellen, hoef je alleen maar je widget te configureren met 
 
 Er wordt een **HTML code-extract** gegenereerd dat je moet plaatsen waar je wilt dat de widget verschijnt &#x20;
 
-Voor meer informatie over het implementeren van een widget voor het uitoefenen van rechten op uw website, [neem contact met ons op](https://www.dastra.eu/fr/contact?type=quote).
+Voor meer informatie over het implementeren van een widget voor het uitoefenen van rechten op uw website, [neem contact met ons op](https://www.dastra.eu/en/contact?type=quote).
 
 
 
