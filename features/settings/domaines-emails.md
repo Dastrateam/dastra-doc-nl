@@ -1,41 +1,41 @@
 ---
 description: >-
-  Permettez aux utilisateurs de votre organisation de rejoindre directement
-  votre espace avec un rôle adapté.
+  Sta gebruikers van je organisatie toe om direct lid te worden van je ruimte
+  uw ruimte met een geschikte rol.
 ---
 
-# Domaines emails
+# E-mail domeinen
 
-## A quoi servent ils ?
+## Waar worden ze voor gebruikt?
 
-Les domaines emails permettent à vos collaborateurs futurs la possibilité d'être affectés directement à un espace de travail avec le rôle choisi sans action de votre part.
+Met e-maildomeinen kunnen je toekomstige medewerkers direct aan een werkruimte met de gekozen rol worden toegewezen zonder dat jij daar iets voor hoeft te doen.
 
-## Comment les utiliser  ?
+## Hoe gebruik ik ze?
 
-Vous trouverez la configuration des domaines emails dans la configuration générale de votre organisation, partie **sécurité**&#x20;
+Je vindt de configuratie van e-maildomeinen in de algemene configuratie van je organisatie, sectie **beveiliging**&#x20;
 
-<figure><img src="../../.gitbook/assets/image (16) (4).png" alt="Accès à la configuration des domaines email"><figcaption><p>domaines emails configuration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (4).png" alt="Toegang tot configuratie e-maildomeinen"><figcaption><p>configuratie e-maildomeinen</p></figcaption></figure>
 
-Activez ou désactivez la fonctionnalité en cliquant sur le bouton "_Permettre aux utilisateurs_..."
+Activeer of deactiveer de functionaliteit door op de knop "_Gebruikers toestaan_..." te klikken.
 
-Puis choisissez le rôle et l'espace de travail qui seront affectés aux futurs utilisateurs :&#x20;
+Kies vervolgens de rol en werkruimte die aan toekomstige gebruikers worden toegewezen:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>affectation du rôle et de l'espace de travail</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Rol en werkruimte toewijzen</p></figcaption></figure>
 
-Enfin, sauvegardez la configuration en cliquant sur le bouton _Enregistrer_ !
+Sla tot slot de configuratie op door op de knop _Opslaan_ te klikken!
 
 {% hint style="warning" %}
-**Restrictions** :
+**Restricties**:
 
-Vous n'êtes autorisés à ajouter que des domaines emails préalablement autorisés (c'est à dire pour lesquels un utilisateur de votre organisation a validé une adresse mail).&#x20;
+U bent alleen bevoegd om e-maildomeinen toe te voegen die eerder zijn geautoriseerd (d.w.z. waarvoor een gebruiker van uw organisatie een e-mailadres heeft gevalideerd).&#x20;
 
-Les domaines de type personnels (gmail, hotmail, etc...) ou identifiés comme "jetables" sont interdits !
+Persoonlijke domeinen (gmail, hotmail, enz...) of domeinen die zijn aangemerkt als "wegwerp" zijn verboden!
 {% endhint %}
 
-## Impact pour les futurs utilisateurs
+## Impact voor toekomstige gebruikers
 
-La prochaine fois qu'un collaborateur s'inscrira sur Dastra, il devra toujours inscrire son adresse mail et valider celle-ci. Cependant, il lui sera maintenant proposé de rejoindre votre organisation !
+De volgende keer dat een werknemer zich registreert bij Dastra, moet hij nog steeds zijn e-mailadres invoeren en valideren. Ze krijgen nu echter de mogelijkheid om zich bij uw organisatie aan te sluiten!
 
 <figure><img src="../../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-Il pourra ensuite vous rejoindre et commencer à travailler avec vous !
+Hij kan zich dan bij je aansluiten en met je beginnen te werken!

@@ -40,7 +40,7 @@ Per functionaliteit kunt u kiezen of u verschillende soorten meldingen wel of ni
 * Wijzigen van de status van een behandeling
 * Verwijderen van een relatie met een behandeling
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-11-10 at 15.11.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2022-11-10 à 15.11.24.png" alt=""><figcaption></figcaption></figure>
 
 #### Met betrekking tot audits:&#x20;
 
@@ -49,7 +49,7 @@ Per functionaliteit kunt u kiezen of u verschillende soorten meldingen wel of ni
 * Uitnodiging om op audit te reageren
 * Audit annotatie toegevoegd
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-11-10 at 15.11.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2022-11-10 à 15.11.59.png" alt=""><figcaption></figcaption></figure>
 
 ## Out-of-scope meldingen van het beheercentrum&#x20;
 

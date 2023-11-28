@@ -1,18 +1,18 @@
 ---
-description: Apprenez à personnaliser les workflows dans Dastra.
+description: Leer hoe je workflows kunt aanpassen in Dastra.
 ---
 
-# Etapes de workflow / déroulement du processus
+# Workflowstappen / processtroom
 
-## A quoi servent les étapes de workflow ?
+## Waar worden workflowstappen voor gebruikt?
 
-Les étapes de workflow (flux de travail en français) permettent de matérialiser un processus de réalisation en passant d'une étape à l'autre.&#x20;
+Met workflowstappen kunt u een productieproces materialiseren door van de ene stap naar de volgende &#x20 te gaan;
 
-Ainsi, vous pouvez décliner votre procédure de manière très opérationnelle en indiquant quelles sont les étapes à suivre directement dans Dastra.
+Op deze manier kunt u uw procedure op een zeer operationele manier definiëren door de te volgen stappen direct in Dastra aan te geven.
 
-## Comment personnaliser les étapes de workflow ?
+## Hoe pas ik de workflowstappen aan?
 
-Cliquez dans "Réglages" puis "Déroulement du processus"&#x20;
+Klik op "Instellingen" en vervolgens op "Workflow"&#x20;
 
 
 
@@ -20,24 +20,23 @@ Cliquez dans "Réglages" puis "Déroulement du processus"&#x20;
 
 
 
-Vous accéderez ainsi aux différentes étapes de workflow disponible par processus. Personnalisez-les à votre convenance puis cliquez sur "enregistrer".
+Dit geeft je toegang tot de verschillende workflowstappen die beschikbaar zijn per proces. Pas ze naar wens aan en klik op "Opslaan".
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Peut-on supprimer une étape de workflow ?
+## Kan ik een workflow stap verwijderen?
 
-Pour supprimer les étapes, il faut cliquer sur la corbeille.&#x20;
+Klik op de prullenbak &#x20 om stappen te verwijderen;
 
-Les éléments attachés à l'étape supprimés seront automatiquement rattachés à l'étape de premier niveau dans le même statut.&#x20;
+De elementen die aan de verwijderde stap zijn gekoppeld, worden automatisch gekoppeld aan de stap op het eerste niveau met dezelfde status &#x20;
 
-Par exemple, si vous supprimez l'étape "En cours" dans les workflow de tâches&#x20;
+Als u bijvoorbeeld de stap "In uitvoering" in taakworkflows verwijdert&#x20;
 
 <figure><img src="../../.gitbook/assets/image (9) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-Les objets attachés passeront à l'étape "Besoins d'infos"
+De bijgevoegde objecten gaan door naar het "Info nodig"-stadium
 
 <figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
-
 
 
 

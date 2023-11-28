@@ -1,55 +1,55 @@
 ---
-description: Dastra s'intègre nativement à votre fournisseur de fichiers cloud préféré
+description: Dastra integreert naadloos met uw favoriete cloudbestandsprovider
 ---
 
-# Intégrations OneDrive/Google Drive
+# integratie met OneDrive/Google Drive
 
-### Intérêt
+### Waarom
 
-Bien que très sécurisé et pratique dans la plupart des scénarios, le stockage des fichiers dans l'application Dastra peut faire doublon avec d'autres GED ou gestionnaire de fichiers cloud. Pour remédier à ce problème, Dastra s'intègre nativement aux principaux fournisseur de fichiers sur le cloud.
+Hoewel zeer veilig en praktisch in de meeste scenario's, kan het opslaan van bestanden in de Dastra-applicatie overlappen met andere EDM's of cloud file managers. Om dit probleem op te lossen integreert Dastra met de belangrijkste cloudbestandsproviders.
 
 ![](<../../.gitbook/assets/image (252) (1).png>)
 
-### Configuration
+### Configuratie
 
-Pour configurer votre gestionnaire de fichiers cloud, c'est hyper simple :
+Het is heel eenvoudig om je cloud bestandsbeheerder te configureren:
 
-* rendez-vous dans le [gestionnaire de fichier](https://app.dastra.eu/workspace/0/referentials/folders)
-* Cliquez sur le **sélecteur en haut à droite des fichiers** :&#x20;
+* ga naar de [bestandsbeheerder](https://app.dastra.eu/workspace/0/referentials/folders)
+* Klik op de **selector rechtsboven de bestanden** :&#x20;
 
 ![image.png](https://static.dastra.eu/richtextbackoffice/511cd52b-858d-482b-805f-e0ed97f018a7/image.png)
 
-* Cliquez sur **Gérez le stockage cloud**
-* Choisissez votre fournisseur (Google Drive ou OneDrive pour l'instant)
+* Klik op **Bewaar cloudopslag**.
+* Kies uw provider (momenteel Google Drive of OneDrive)
 
 ![](<../../.gitbook/assets/image (257) (1).png>)
 
-* Cliquez sur le bouton "Ajouter", vous allez être redirigé vers la page de login du fournisseur qui vous demandera les autorisations nécessaires à l'établissement de la connexion avec Dastra.
+* Klik op de "Toevoegen" knop, je wordt doorgestuurd naar de inlogpagina van de provider, die je zal vragen om de benodigde rechten om de verbinding met Dastra op te zetten.
 
-### Comment attacher des fichiers de votre cloud à Dastra
+### Hoe u bestanden uit uw cloud aan Dastra kunt koppelen
 
-* **Editez n'importe quelle entité** : tâche, traitement, acteur...&#x20;
-* **Choisissez la source de donnée** en haut à gauche de la boîte permettant de charger les fichiers.
+* Bewerk een entiteit**: taak, proces, actor...&#x20;
+* Selecteer de gegevensbron** linksboven in het uploadvak voor bestanden.
 
 ![](<../../.gitbook/assets/image (254) (1).png>)
 
-* Envoyez des fichiers directement sur votre Drive (Modifiez les, déplacez les)
-* Cliquez sur **sélectionnez dans le gestionnaire**. et choisissez le fichier à attacher
+* Upload bestanden direct naar je Drive (Wijzig ze, verplaats ze)
+* Klik op **selecteer in manager**. en kies het bestand om bij te voegen
 
 ![](<../../.gitbook/assets/image (255).png>)
 
 
 
-### Limitations
+### Beperkingen
 
-**Google Drive** : attention, uniquement les fichiers créés depuis votre espace Dastra pourront être ajoutés ou modifiés à votre Google Drive. Dastra n'a pas les droits d'accès pour accéder à des fichiers créés de votre côté dans le Drive. C'est une limitation de ce connecteur. Vous pouvez partager les fichiers créés dans Dastra avec d'autres collaborateurs sans problème.
+**Google Drive**: houd er rekening mee dat alleen bestanden gemaakt in je Dastra ruimte kunnen worden toegevoegd of gewijzigd in je Google Drive. Dastra heeft geen toegangsrechten tot bestanden die door u zijn aangemaakt in de Drive. Dit is een beperking van deze connector. U kunt bestanden die zijn gemaakt in Dastra zonder problemen delen met andere medewerkers.
 
-**One Drive :** le système n'a été testé que sur la version personnelle de OneDrive.  Si vous rencontrez des problèmes avec les versions entreprise, n'hésitez pas à [contacter le support](https://www.dastra.eu/fr/contact?type=support)
+**One Drive:** het systeem is alleen getest op de persoonlijke versie van OneDrive.  Als u problemen ondervindt met de bedrijfsversies, neem dan [contact op met support](https://www.dastra.eu/en/contact?type=support).
 
-Par défaut Dastra va créer des fichiers dans le répertoire "**Applications\DastraOneDrive**" qu'il considèrera comme sa racine
+Standaard maakt Dastra bestanden aan in de map "**ApplicationsDastraOneDrive**", die wordt beschouwd als de hoofdmap.
 
 {% hint style="warning" %}
-Attention ! La mise en place de la connexion OneDrive **donne un accès à l'ensemble des fichiers de votre Drive personnel**. Il faut donc être très prudent, car le connecteur sera mis à disposition à l'ensemble des utilisateurs disposant du droit de lecture "Fichiers".
+Waarschuwing! Het instellen van de OneDrive verbinding **geeft toegang tot alle bestanden in je persoonlijke schijf**. Je moet daarom heel voorzichtig zijn, omdat de connector beschikbaar zal zijn voor alle gebruikers met "Bestanden" leesrechten.
 
-Nous vous recommandons d'utiliser un compte de service ne pouvant pas contenir de fichiers personnels avec un dossier que vous pouvez éventuellement partager avec les autres utilisateurs.
+We raden je aan om een serviceaccount te gebruiken dat geen persoonlijke bestanden kan bevatten met een map die je kunt delen met andere gebruikers.
 {% endhint %}

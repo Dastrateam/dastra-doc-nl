@@ -1,73 +1,72 @@
 ---
-description: Intégrez des processus complexe à l'aide des Règles de workflow personnalisées
+description: Complexe processen integreren met aangepaste workflowregels
 ---
 
-# Règles de worfkows
+# Werkstroomregels
 
-## Le principe de fonctionnement
+## Hoe het werkt
 
-Les Règles de workflow dans Dastra sont un ensemble d'actions (notifications par e-mail, planification d'un audit, tâches et mises à jour de champs) qui sont exécutées lorsque certaines conditions sont réunies. Ces règles automatisent le processus d'envoi des notifications par e-mail, d'attribution des tâches et de mise à jour de certains champs d'un enregistrement lorsqu'une règle est déclenchée.
+Workflow Rules in Dastra zijn een set van acties (e-mail notificaties, audit scheduling, taken en veld updates) die worden uitgevoerd wanneer aan bepaalde voorwaarden wordt voldaan. Deze regels automatiseren het proces van het verzenden van e-mail notificaties, het toewijzen van taken en het bijwerken van bepaalde velden in een record wanneer een regel wordt getriggerd.
 
-![Schéma du principe de base](<../../.gitbook/assets/image (258) (1).png>)
+![Basisprincipe diagram](<../../.gitbook/assets/image (258) (1).png>)
 
-## Comment créer une règle de workflow dans Dastra ?
+## Hoe maak je een workflow regel in Dastra?
 
-* Allez dans [la page de configuration des règles de workflows votre espace de travail](https://app.dastra.eu/workspace/0/settings/workflow-rules)
-* Cliquez sur "Nouvelle règle de workflow"
-* Choisissez un nom et le type d'entité concernée (Traitement, Violations...)
-* Vous arrivez dans le designer de règles
+* Ga naar [de workflow regels configuratie pagina uw werkruimte](https://app.dastra.eu/workspace/0/settings/workflow-rules)
+* Klik op "Nieuwe workflow regel".
+* Kies een naam en het betreffende type entiteit (Behandeling, Overtredingen...)
+* U bent nu in de regelontwerper
 
-### Définition du déclencheur
+### De trigger definiëren
 
-Vous pouvez déclencher une règle de workflow sur deux évènements :&#x20;
+U kunt een workflowregel op twee gebeurtenissen triggeren:&#x20;
 
-* Lors d'**une action sur une entité concernée** : modification, suppression ou création&#x20;
-* **Lorsqu'une date précise de l'entité est atteinte**. par exemple : envoyer une notification 10 jours après la date de publication.&#x20;
+* Wanneer **een actie wordt ondernomen op een betrokken entiteit**: wijziging, verwijdering of creatie&#x20;
+* Wanneer een specifieke datum voor de entiteit wordt bereikt**. bijvoorbeeld: stuur een notificatie 10 dagen na de publicatiedatum;
 
-Un seul trigger peut être défini par règle de workflow.
+Per workflowregel kan slechts één trigger worden gedefinieerd.
 
-A noter que vous pouvez choisir si le workflow peut s'exécuter plus d'une fois par entité. **Il est fortement recommandé** **d'exécuter les workflows une seule fois par entité**, car l'exécution d'un workflow plusieurs fois peut conduire assez facilement à des problèmes de répétition de création de tâches ou de doublons de notifications.
+Merk op dat u kunt kiezen of de workflow meerdere keren per entiteit kan worden uitgevoerd. **Het wordt sterk aanbevolen** **om workflows slechts één keer per entiteit** uit te voeren, omdat het meer dan één keer uitvoeren van een workflow gemakkelijk kan leiden tot problemen met het herhaaldelijk aanmaken van taken of dubbele meldingen.
 
-### Définition de conditions
+### Voorwaarden definiëren
 
-Vous pouvez configurer une ou plusieurs conditions d'éxécution par règle.
+U kunt een of meer uitvoeringsvoorwaarden per regel configureren.
 
-### Définition des actions
+### Acties definiëren
 
-Pour ajouter une nouvelle action, cliquez sur le bouton "**Ajouter un action**" et choisissez le modèle que vous souhaitez mettre en place
+Om een nieuwe actie toe te voegen, klik je op de knop "**Een actie toevoegen**" en kies je het model dat je wilt instellen.
 
-Voici les **différents types d'actions** que vous pouvez déclencher :&#x20;
+Hier zijn de **verschillende soorten acties** die u kunt activeren:&#x20;
 
-* Envoi d'une notification par email
-* Mise à jour d'un champ de l'entité concernée
-* Ajout d'un tag à l'entité
-* Planification automatique de l'audit
-* Définition du propriétaire de l'élément (la personne assignée par exemple)
-* Création automatique d'une tâche
+* Een e-mailbericht verzenden
+* Een veld in de betreffende entiteit bijwerken
+* Een tag aan de entiteit toevoegen
+* Automatische auditplanning
+* De eigenaar van het item definiëren (bijvoorbeeld de toegewezen persoon)
+* Automatisch een taak aanmaken
 
-Il est possible de chaîner les conditions. Vous pouvez ajouter plusieurs actions par condition en cliquant de nouveau sur "ajouter une action".
+Condities kunnen aan elkaar worden gekoppeld. U kunt meerdere acties per conditie toevoegen door nogmaals op "een actie toevoegen" te klikken.
 
 {% hint style="info" %}
-Exemple : envoyer une notification à plusieurs personnes lors de la création d'une tâche. Pour cela, sélectionner le déclencheur "taches" et selon les conditions de la tache (par exemple, l'ajout d'un tag), ajouter une action "notification"
+Voorbeeld: stuur een notificatie naar verschillende mensen wanneer een taak wordt aangemaakt. Om dit te doen, selecteer je de "taken" trigger en voeg je, afhankelijk van de voorwaarden van de taak (bijvoorbeeld het toevoegen van een tag), een "notificatie" actie toe.
 {% endhint %}
 
 
 
-### Variables personnalisées
+### Aangepaste variabelen
 
-Très souvent, dans les notifications personnalisées par exemple, il sera intéressant d'y injecter des informations provenant de l'objet qui est entré dans le workflow : le nom du traitement, sa date de publication... sont autant de variables que vous pourrez facilement injecter dans le texte de vos notifications grâce au système d'injection de variables.
+Heel vaak, bijvoorbeeld in aangepaste meldingen, zal het nuttig zijn om informatie te injecteren van het object dat in de workflow wordt ingevoerd: de naam van de behandeling, de publicatiedatum, enz. zijn allemaal variabelen die u gemakkelijk in de tekst van uw meldingen kunt injecteren met behulp van het injectiesysteem voor variabelen.
 
-En interne, Dastra utilise un moteur de templating basé sur [LiquidJS](https://shopify.github.io/liquid/basics/introduction/)
+Intern gebruikt Dastra een templating-engine gebaseerd op [LiquidJS](https://shopify.github.io/liquid/basics/introduction/)
 
-**Pour accéder aux différentes variables de l'objet du trigger, tapez "\{{",** cela affichera une liste de propositions de variables que vous pouvez injecter dans le contenu
-
-
+**Om toegang te krijgen tot de verschillende variabelen in het triggerobject, typ "\{{",** die een lijst met voorgestelde variabelen weergeeft die je in de inhoud kunt injecteren.
 
 
 
-## Tutoriel vidéo : les règles de workflow
+
+
+## Video tutorial: workflow regels
 
 {% embed url="https://www.youtube-nocookie.com/embed/FqPmGdk2nTI" %}
-
 
 

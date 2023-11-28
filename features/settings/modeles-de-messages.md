@@ -1,437 +1,437 @@
 ---
-description: Fonctionnement des modèles de messages
+description: Hoe berichtsjablonen werken
 ---
 
-# Modèles de messages
+# Berichtensjablonen
 
-## Personnalisation des modèles de messages
-
-
-
-Pour optimiser votre temps et gagner en efficacité, vous pouvez paramétrer des modèles de messages à réutiliser dans les modules de Dastra.
+## Berichtsjablonen aanpassen
 
 
 
-### Types de modèles de messages accessibles&#x20;
+Om tijd te besparen en de efficiëntie te verhogen, kunt u berichtsjablonen instellen voor hergebruik in Dastra-modules.
+
+
+
+### Typen berichtsjablonen beschikbaar&#x20;
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-Les types de modèles sont les suivants :
+De sjabloontypen zijn als volgt:
 
-*   **Message dans les demandes d'exercice des droits**
+**Bericht in verzoeken om rechten**
 
-    Lors des échanges avec les demandeurs, vous pouvez enregistrer des modèles pour gagner du temps. Par exemple, un modèle d'accusé réception de la demande.
-*   **Tâche**
+    Wanneer je omgaat met aanvragers, kun je tijd besparen door sjablonen op te slaan. Bijvoorbeeld een sjabloon voor het bevestigen van de ontvangst van het verzoek.
+* Taak
 
-    Vous pouvez personnaliser le contenu de la description d'une tâche. Idéal pour gagner du temps sur des tâches répétitives. Par exemple, quand vous demandez à quelqu'un de renseigner des éléments sur un traitement de données, vous pouvez réutiliser le même modèle de message.&#x20;
-*   **Audits**
+    U kunt de inhoud van een taakbeschrijving aanpassen. Ideaal om tijd te besparen op repetitieve taken. Als je bijvoorbeeld iemand vraagt om gegevens in te vullen voor een gegevensverwerkingstaak, kun je dezelfde berichtsjabloon &#x20 hergebruiken;
+* Uitnodigingen
 
-    Vous pouvez personnaliser les invitations à répondre à un audit. Utilisez ici un modèle pour inscrire le même message pour tous vos répondants. Par exemple, vous pouvez inviter vos sous-traitants à renseigner un audit de vérification de la bonne application du contrat de sous-traitance à partir d'un modèle créé à l'image de votre organisation.
-*   **Compléter un traitement**
+    Je kunt uitnodigingen om te reageren op een audit personaliseren. Gebruik hier een sjabloon om hetzelfde bericht in te voeren voor al je respondenten. U kunt bijvoorbeeld uw onderaannemers uitnodigen om een audit uit te voeren om de correcte toepassing van het onderaannemingscontract te controleren met behulp van een sjabloon die is gemaakt naar het beeld van uw organisatie.
+* Een behandeling voltooien
 
-    Vous pouvez inviter un utilisateur de Dastra à compléter un traitement de données à partir d'une étape. Ecrivez une fois le modèle ou sélectionnez un modèle en fonction de la qualité du destinataire (juriste, DSI etc.) pour gagner du temps.&#x20;
-*   **Compléter une violation de données**
+    U kunt een Dastra-gebruiker uitnodigen om een gegevensverwerkingsstap te voltooien. Schrijf het sjabloon eenmalig of selecteer een sjabloon op basis van de kwaliteit van de ontvanger (advocaat, IT-afdeling, enz.) om tijd te besparen;
+* **Volledig een gegevensinbreuk**
 
-    Vous pouvez inviter un utilisateur de Dastra à compléter une violation de données à partir d'une étape. Ecrivez une fois le modèle ou sélectionnez un modèle en fonction de la qualité du destinataire (juriste, DSI etc.) pour gagner du temps.&#x20;
+    U kunt een Dastra-gebruiker uitnodigen om een gegevensinbreuk te voltooien vanuit één stap. Schrijf het sjabloon één keer of selecteer een sjabloon op basis van de kwaliteit van de ontvanger (advocaat, CIO, enz.) om tijd te besparen &#x20;
 
 
 
-### Création du modèle
+### Sjablonen maken
 
-La création de modèle s'effectue soit à partir des réglages de l'espace de travail, soit à partir du lieu du message.&#x20;
+Sjablonen worden gemaakt vanuit de werkruimte-instellingen of vanuit de berichtlocatie.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption><p>Création depuis les réglages de l'espace de travail</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption><p>Maken vanuit werkruimte-instellingen</p></figcaption></figure>
 
-Cliquez sur Créer modèle
+Klik op Sjabloon maken
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption><p>Interface de création d'un modèle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption><p>Sjablooninterface maken</p></figcaption></figure>
 
-N'oubliez pas d'enregistrer votre travail !
+Vergeet niet uw werk op te slaan!
 
-### Variables personnalisées dans les modèles
+### Aangepaste variabelen in sjablonen
 
-Dastra vous permet de **remplir automatiquement le modèle avec des variables personnalisées**.&#x20;
+Met Dastra kunt u **automatisch het sjabloon vullen met aangepaste variabelen**.&#x20;
 
-Cela signifie que vous pouvez inclure automatiquement des informations concernant l'objet lié au modèle dans le texte du modèle de message.&#x20;
+Dit betekent dat u automatisch informatie over het object dat gekoppeld is aan het sjabloon kunt opnemen in de tekst van het berichtsjabloon &#x20;
 
-Par exemple, dans l'invitation à répondre à un audit, il sera possible de reprendre automatiquement la date d'échéance d'un audit.&#x20;
+Zo is het bijvoorbeeld mogelijk om in de uitnodiging om te reageren op een audit automatisch de vervaldatum van een audit op te nemen &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>Les champs personnalisés du message d'invitation à répondre à un audit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>Aangepaste velden in het bericht voor de uitnodiging om te reageren op een audit</p></figcaption></figure>
 
 
 
-Vous pouvez ainsi ajouter facilement des champs dynamiques directement dans le modèle. En tant que langage de création de modèles, nous utilisons la synthax liquidJS.&#x20;
+Dit maakt het eenvoudig om dynamische velden direct aan de sjabloon toe te voegen. Als taal voor het maken van sjablonen gebruiken we de liquidJS.&#x20 synthax;
 
-Voici le guide complet ici : [les tags ](https://liquidjs.com/tags/overview.html)et [les filtres](https://liquidjs.com/filters/overview.html).&#x20;
+Hier is de volledige handleiding: [tags ](https://liquidjs.com/tags/overview.html)en [filters](https://liquidjs.com/filters/overview.html).&#x20;
 
-Pour traduire les statuts, vous pouvez utiliser le filtre personnalisé getTranslation de cette manière \{{data | getTranslation: ''\}}. Exemple : \{{data | getTranslation: 'dataSubjectRequestStates'\}}
+Om statussen te vertalen kun je de getTranslation custom filter als volgt gebruiken \{{data | getTranslation: ''\}}. Voorbeeld: \{{data | getTranslation: 'dataSubjectRequestStates'\}}
 
-### Détail des champs variables :&#x20;
+### Details van variabele velden :&#x20;
 
-#### Message de demande d'exercice des droits :&#x20;
+#### Rechten oefening verzoekbericht :&#x20;
 
-•             Titre de la demande (title)
+- Titel verzoek
 
-•             Fermée par (closedByUser)
+- Gesloten door (closedByUser)
 
-•             Unité organisationnelle (area)
+- Organisatorische eenheid (gebied)
 
-•             Créé par (creator)
+- Gemaakt door (maker)
 
-•             Opérateur (operator)
+- Gebruiker
 
-•             Langue (locale)
+- Taal (locale)
 
-•             Archivé (archived)
+- Gearchiveerd
 
-•             Archivé le (archivedDate)
+- Gearchiveerd op (gearchiveerdeDatum)
 
-•             Catégorie de personne (subjectCategory)
+- OnderwerpCategorie
 
-•             Demande complexe (complex)
+- Complex verzoek
 
-•             Date de fermeture (dateClosed)
+- Datum gesloten (dateClosed)
 
-•             Informations complémentaires (interne) (description)
+- Aanvullende (interne) informatie (omschrijving)
 
-•             Message de la demande (message)
+- Verzoek bericht (message)
 
-•             Email (email)
+- E-mailadres (email)
 
-•             N° de téléphone (phoneNumber)
+- Telefoonnummer (phoneNumber)
 
-•             Prénom (givenName)
+- Voornaam (givenName)
 
-•             Nom (familyName)
+- Achternaam (familyName)
 
-•             Mis à jour le (dateUpdate)
+- Bijgewerkt op (dateUpdate)
 
-•             Ref. Id (refId)
+- Ref. id (refId)
 
-•             Identifiant utilisateur (userId)
+- Gebruikers-ID (userId)
 
-•             Raison de la fermeture (closedReason)
+- Reden voor afsluiting (closedReason)
 
-•             Description de la fermeture (closedReasonDescription)
+- Beschrijving van de afsluiting (closedReasonDescription)
 
-•             Date d'expiration (expiryTime)
+- Vervaldatum (expiryTime)
 
-•             Address (address)
+- Adres (address)
 
-•             Code postal (zipCode)
+- Postcode (zipCode)
 
-•             Ville (city)
+- Stad (city)
 
-•             Pays (countryCode)
+- Land (countryCode)
 
-•             Date de validation de l'email (emailValidationDate)
+- Valideringsdatum e-mail (emailValidationDate)
 
-•             Email validé (mailValidated)
+- Gevalideerde e-mail (mailValidated)
 
-•             Url source (referrerUrl)
+- Url bron (referrerUrl)
 
-•             Identité validée (identityValidated)
+- IdentiteitGevalideerd
 
-•             Date de validation de l'identité (dateIdentityValidated)
+- Identiteitsvalidatiedatum (dateIdentityValidated)
 
-•             Id de la demande (demandId)
+- Verzoek id (requestId)
 
-•             Statut (state)
+- Status (state)
 
-•             Date (dateCreation)
+- Datum (dateCreation)
 
-•             Etape (workFlowStep)
+- Stap (workFlowStep)
 
-•             Canal de collecte (channel)
+- Collectie kanaal (channel)
 
-•             Types de droits (purposes)
+- Soorten rechten (purposes)
 
-•             Messages (nbMessages)
+- Berichten (nbMessages)
 
-•             Jours restants (remainingDays)
+- Resterende dagen (remainingDays)
 
-•             Délai de fermeture (jours) (closingTime)
+- Sluitingstijd (dagen) (closingTime)
 
-•             Tags (tags)
+- Tags (Tags)
 
 
 
-#### Description d'une tâche :&#x20;
+#### Beschrijving van een taak:&#x20;
 
-•             Projet (project)
+- Project (project)
 
-•             Iteration (iteration)
+- Iteratie (iteratie)
 
-•             Ordre (order)
+- Opdracht (order)
 
-•             Propriétaire (owner)
+- Eigenaar (owner)
 
-•             Unité organisationnelle (area)
+- Organisatorische eenheid (area)
 
-•             Créé par (creator)
+- Gemaakt door (creator)
 
-•             Jours restants (remainingDays)
+- Resterende dagen (remainingDays)
 
-•             Délai de fermeture (jours) (closingTime)
+- Eindtijd (dagen) (closingTime)
 
-•             Nombre de sous-tâches (nbSubTasks)
+- Aantal subtaken (nbSubTasks)
 
-•             Nombre de sous-tâches fermées (nbSubTasksClosed)
+- Aantal subtaken gesloten (nbSubTasksClosed)
 
-•             Id (id)
+- Id (id)
 
-•             Référence interne (ref)
+- Interne referentie (ref)
 
-•             Archivé (archived)
+- Gearchiveerd (archived)
 
-•             Nom (label)
+- Naam (label)
 
-•             Description (descriptionHtml)
+- Beschrijving (descriptionHtml)
 
-•             Associée à (objectType)
+- Geassocieerd met (objectType)
 
-•             Statut (state)
+- Status (status)
 
-•             Date limite (deadline)
+- Uiterste datum (deadline)
 
-•             Date de début (startDate)
+- Startdatum (startDate)
 
-•             Fermée le (dateClosed)
+- Gesloten op (dateClosed)
 
-•             Activée le (dateActivated)
+- Geactiveerd op (dateActivated)
 
-•             Créé le (dateCreation)
+- Gemaakt op (dateCreation)
 
-•             Mis à jour le (dateUpdate)
+- Bijgewerkt op (dateUpdate)
 
-•             Source (source)
+- Bron (source)
 
-•             test (customFields.test)
+- test (customFields.test)
 
-•             LIste (customFields.liste)
+- LIste (customFields.liste)
 
-•             Case à cocher simple (customFields.case\_a\_cocher\_simple)
+- Eenvoudige checkbox (customFields.case_eenvoudige_checkbox)
 
-•             Tags (tags)
+-  Tags (tags)
 
-•             Etape (workFlowStep)
+- WorkFlowStap (workFlowStep)
 
-•             Priorité (priority)
+- Prioriteit (priority)
 
-•             Assignée à (assignedToUser)
+- Toegewezen aan (assignedToUser)
 
 
 
-#### Invitations à répondre à un questionnaire d'audit :&#x20;
+#### Uitnodigingen om een controlevragenlijst in te vullen :&#x20;
 
-•             Modèle (template)
+- Model (template)
 
-•             Date du prochain audit (dateNextAudit)
+- Datum volgende audit (dateNextAudit)
 
-•             Durée de l'audit (auditDurationDays)
+- Duur van de audit (auditDurationDays)
 
-•             Nb. corrections (nbCorrections)
+- Aantal correcties (nbCorrections)
 
-•             Nb validations (nbValidations)
+- Aantal validaties (nbValidations)
 
-•             Jours avant le prochain audit (nextAuditDaysRemaining)
+- Dagen voor volgende audit (nextAuditDaysRemaining)
 
-•             Id (id)
+- Id (id)
 
-•             Nom (label)
+- Naam (label)
 
-•             Version ancienne (isRevision)
+- Oude versie (isRevision)
 
-•             Version name (revisionDescription)
+- Versie naam (revisionDescription)
 
-•             Archivé (archived)
+- Gearchiveerd (archived)
 
-•             Dépassé (isOverdue)
+- Verouderd (isOverdue)
 
-•             Unité organisationnelle (area)
+- Organisatorische eenheid (area)
 
-•             Mis à jour le (dateUpdate)
+- Bijgewerkt op (dateUpdate)
 
-•             Archivé le (archivedDate)
+- Gearchiveerd op (archivedDate)
 
-•             Score (readiness)
+- Score (readiness)
 
-•             Points (score)
+- Punten (score)
 
-•             Taux de completion (%) (completionRate)
+- Voltooiingspercentage (%) (completionRate)
 
-•             Nb. réponses (nbAnswers)
+- Aantal antwoorden (nbAnswers)
 
-•             Nb. de questions (nbQuestions)
+- Aantal vragen (nbQuestions)
 
-•             Responsables (owners)
+- Eigenaars (owners)
 
-•             Répondants (respondants)
+- Respondenten (respondants)
 
-•             Plan d'action généré le (actionPlanDate)
+- Actieplan gegenereerd op (actionPlanDate)
 
-•             Statut (state)
+- Status (status)
 
-•             Date de début (startDate)
+- Startdatum (startDate)
 
-•             Finalisé le (responseDate)
+- Afgerond op (responseDate)
 
-•             Date de publication (publishedDate)
+- Datum gepubliceerd (publishedDate)
 
-•             Créé le (dateCreation)
+- Gemaakt op (dateCreation)
 
-•             Objet attaché (objectLabel)
+- Bijgevoegd object (objectLabel)
 
-•             Date limite (deadline)
+- Uiterste datum (deadline)
 
 
 
-#### Invitations à compléter un traitement :&#x20;
+#### Uitnodigingen om een behandeling te voltooien:&#x20;
 
-Unité organisationnelle (area)
+Organisatorische eenheid (area)
 
-Etape (workflowStep)
+Stap (workflowStep)
 
 Id (id)
 
-Source (source)
+Bron (source)
 
-Nom (label)
+Naam (label)
 
-Statut (state)
+Status (status)
 
-Créé le (dateCreation)
+Aangemaakt op (dateCreation)
 
-Date d'archivage (dateArchived)
+Datum gearchiveerd (dateArchived)
 
-Archivé (archived)
+Gearchiveerd (archived)
 
-Version description (versionDescription)
+Versiebeschrijving (versionDescription)
 
 Type (processingType)
 
-Unité organisationnelle (areaId)
+Organisatorische eenheid (areaId)
 
-Actifs (assets)
+Activa (assets)
 
-Référence interne (ref)
+Interne referentie (ref)
 
-État du traitement (processingState)
+Verwerkingsstatus (processingState)
 
-Documentation (descriptionHtml)
+Documentatie (descriptionHtml)
 
 Tags (tags)
+ 
+Eigenaar verwerking (owner)
 
-Propriétaire du traitement (owner)
+Belanghebbenden (stakeHolders)
 
-Parties prenantes (stakeHolders)
+PIA vereist (isDPIARequired)
 
-PIA requis (isDPIARequired)
+PIA datum (dpiaDate)
 
-Date de PIA (dpiaDate)
+Is vrijgesteld van PIA (dpiaExemption)
 
-Est exempté de PIA (dpiaExemption)
+Ontvangers (recipients)
 
-Destinataires (recipients)
+Voor de verwerking verantwoordelijken / klanten (dataControllers)
 
-Responsables de traitement / clients (dataControllers)
+Gegevensreeksen (dataRetentionRules)
 
-Jeux de données (dataRetentionRules)
+Doeleinden (purposes)
 
-Finalités (purposes)
+Maatregelen (securityMeasures)
 
-Mesures (securityMeasures)
-
-Catégories de personnes concernées (personCategories)
+Categorieën van betrokkenen (personCategories)
 
 AIPD (customFields.aipd)
 
-Progression (%) (progression)
+Progressie (%) (progression)
 
-Qualité (%) (quality)
+Kwaliteit (%) (quality)
 
-Sensibilité (%) (sensitivity)
+Gevoeligheid (%) (sensitivity)
 
-Créé par (creatorUser)
+Gemaakt door (creatorUser)
 
-Date de déploiement (dateDeployment)
+Plaatsingsdatum (dateDeployment)
 
-Date de publication (datePublication)
+Publicatiedatum (datePublication)
 
-Dernière modification (dateUpdate)
+Laatste wijziging (dateUpdate)
 
-Description (description)
+Beschrijving (description)
 
 
 
-#### Invitation à compléter une violation :&#x20;
+#### Uitnodiging om een overtreding te voltooien:&#x20;
 
-Nom (label)
+Naam (label)
 
 ID (id)
 
-Localisation des données (location)
+Locatie van gegevens (location)
 
-Perte de confidentialité (access)
+Verlies van vertrouwelijkheid (access)
 
-Perte d'intégrité (integrity)
+Verlies van integriteit (integrity)
 
-Perte de disponibilité (availability)
+Verlies van beschikbaarheid (availability)
 
-Cause (reason)
+Oorzaak (reason)
 
-Source (source)
+Bron (source)
 
-Sous-traitants impliqués (processorInvolved)
+Betrokken onderaannemers (processorInvolved)
 
-Processors (processors)
+Verwerkers (processors)
 
-Données sensibles (sensitiveData)
+Gevoelige gegevens (sensitiveData)
 
-Score de probabilité (probabilityScore)
+Waarschijnlijkheidsscore (probabilityScore)
 
-Niveau d'impact (impactScore)
+Impact score (impactScore)
 
 Score (score)
 
-Niveau de risque (riskLevel)
+RisicoLevel (riskLevel)
 
-Volume d'enregistrements de données (dataVolume)
+Volume gegevensrecords (dataVolume)
 
-Support des données (dataSupport)
+Gegevensondersteuning (dataSupport)
 
-Communication effectuée ? (communicationDone)
+Communicatie uitgevoerd (communicationDone)
 
-Raison de l'absence de communication (noCommunicationReason)
+Reden voor geen communicatie (noCommunicationReason)
 
-Période (period)
+Periode (period)
 
-Date de début (startDate)
+Begindatum (startDate)
 
-Date de fin (endDate)
+Einddatum (endDate)
 
-Date de constatation (constatationDate)
+Datum bevinding (findingDate)
 
-Délai de notification à l'autorité contrôle (notificationDueTime)
+Uiterste datum voor kennisgeving aan de toezichthoudende autoriteit (notificationDueTime)
 
-Opérateur (operator)
+Exploitant (operator)
 
-Etape (workFlowStep)
+Stap (workFlowStep)
 
-Unité organisationnelle (area)
+Organisatorische eenheid (area)
 
-Créé le (dateCreation)
+Gemaakt op (dateCreation)
 
-Mis à jour le (dateUpdate)
+Bijgewerkt op (dateUpdate)
 
-Post-mortem effectué (postMortemDone)
+Post-mortem gedaan (postMortemDone)
 
 Tags (tags)
 
-Remarques (complementaryInformations)
+Opmerkingen (complementaryInformations)
 
-Date de fermeture (dateClosed)
+Datum gesloten (dateClosed)
 
-Date d'archivage (dateArchived)
+Datum gearchiveerd (dateArchived)
 
-Créé par (creator)
+Gemaakt door (creator)
