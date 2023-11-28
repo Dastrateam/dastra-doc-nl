@@ -1,2 +1,0 @@
-# Kwaliteit van onze diensten
-

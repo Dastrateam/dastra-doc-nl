@@ -73,6 +73,5 @@ Hier is de procedure:&#x20;
 2. Opslagmenu / lokale opslag
 3. Klik met de rechtermuisknop: "alles verwijderen
 4. Pagina verversen (F5)
-*** Vertaald met www.DeepL.com/Translator (gratis versie) ***
 
 

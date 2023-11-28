@@ -1,40 +1,37 @@
 ---
-description: Dastra vous permet d'activer l'authentification forte des utilisateurs
+description: Met Dastra kunt u sterke gebruikersauthenticatie activeren
 ---
 
-# Authentification forte
+# Sterke authenticatie
 
-## Introduction
+## Introductie
 
-Dastra utilise la technologie [TOTP ](https://en.wikipedia.org/wiki/Time-based\_One-time\_Password\_algorithm)pour gérer l'[authentification multi-facteurs](https://fr.wikipedia.org/wiki/Double\_authentification) des utilisateur.\
-Les utilisateurs pourront ainsi se logger à la fois avec leur mot de passe habituel et un code à 6 chiffres fournie par une application de stockage de secrets telles que Microsoft Authenticator ou Google Authenticator (Ou autres...)
+Dastra gebruikt [TOTP](https://en.wikipedia.org/wiki/Time-based_Eén_Voor_Gebruikers_Wachtwoord_algoritme)-technologie om [multi-factor authenticatie](https://en.wikipedia.org/wiki/Multi-factor_authentication) te beheren.
+Gebruikers kunnen inloggen met zowel hun gebruikelijke wachtwoord als een 6-cijferige code geleverd door een applicatie voor geheime opslag zoals Microsoft Authenticator of Google Authenticator (of anderen...).
 
-## Comment activer l'authentification forte ?
+## Hoe activeer ik sterke authenticatie?
 
-* Rendez-vous dans https://app.dastra.eu/general-settings/two-factor
-* Cliquez sur "**activer l'authentification forte**"
-* Télécharger une application d'authentification à 2 facteurs
-* **Scannez le qr code** avec l'appli que vous avez choisi
+* Ga naar https://app.dastra.eu/general-settings/two-factor
+* Klik op "**sterke authenticatie inschakelen**".
+* Download een applicatie voor 2-factor authenticatie
+* Scan de **QR-code** met de toepassing die u hebt gekozen
 
 ![](<../.gitbook/assets/image (103).png>)
 
-* Stocker le code de récupération quelque part.&#x20;
-* Connectez vous en utilisant le code à 6 chiffres fourni par votre application d'authentification
+* Bewaar de herstelcode ergens;
+* Log in met de 6-cijferige code die door je authenticatie applicatie is verstrekt.
 
-![Exemple d'application d'authentification](<../.gitbook/assets/image (104).png>)
+![Voorbeeld authenticatie applicatie](<../.gitbook/assets/image (104).png>)
 
 {% hint style="warning" %}
-Conservez précieusement le code de récupération ! Celui-ci vous permettra de récupérer votre compte si vous égarez votre application d'authentification. Votre compte sera verrouillé définitivement si vous ne pouvez fournir ce code. Il faudra alors vous rapprocher de le propriétaire de votre organisation pour qu'il réinitialise l'authentification à 2 facteurs de votre compte.
+Bewaar de herstelcode veilig! Hiermee kun je je account herstellen als je je authenticatie applicatie kwijtraakt. Je account wordt permanent vergrendeld als je deze code niet kunt geven. U moet dan contact opnemen met de eigenaar van uw organisatie zodat zij de 2-factor authenticatie van uw account kunnen resetten.
 {% endhint %}
 
-## Comment forcer tous les utilisateurs à utiliser l'authentification forte ?
+## Hoe kan ik alle gebruikers dwingen om sterke authenticatie te gebruiken?
 
-* Rendez-vous sur https://app.dastra.eu/general-settings/security
-* Cocher la case d'activation forcée de l'authentification à 2 facteurs.
+* Ga naar https://app.dastra.eu/general-settings/security
+* Schakel het selectievakje in voor geforceerde activering van 2-factor authenticatie.
 
 {% hint style="info" %}
-L'ensemble des utilisateurs qui se connecteront ne pourrons pas accéder à l'application sans avoir configuré l'authentification à 2 facteurs sur leur compte. Veillez à ce que votre équipe soit bien avertie des bonnes pratiques de stockage des clés secrètes TOTP.
+Alle gebruikers die inloggen zullen geen toegang krijgen tot de applicatie zonder dat 2-factor authenticatie is geconfigureerd op hun account. Zorg ervoor dat uw team op de hoogte is van de best practices voor het opslaan van TOTP geheime sleutels.
 {% endhint %}
-
-
-

@@ -24,7 +24,7 @@ de autorisatie fase wordt uitgevoerd door de volgende url aan te roepen:
 
 ```
 https://account.dastra.eu/connect/authorize?
-    antwoord_type=code&
+    response_type=code&
     client_id={YOUR_CLIENT_ID}&
     redirect_uri=https://YOUR_APP/callback&
     scope=api1+offline_access&
@@ -33,8 +33,7 @@ https://account.dastra.eu/connect/authorize?
 
 **Parameters**
 
-<table><thead><tr><th width="272.5595168190588">Parameternaam</th><th width="470. 9578998488362">Beschrijving</th></tr></thead><tbody><tr><td><code>response_type</code></td><td>code</td></tr><tr><td><code>client_id</code></td><td>De openbare sleutel van uw api-sleutel die is geconfigureerd in uw Dastra-account</td></tr><tr><td><code>redirect_uri</code></td><td><td>De url die is geconfigureerd in de Dastra API-sleutel. U wordt automatisch doorgestuurd naar deze pagina aan het einde van het autorisatieproces</td></tr><tr><td><code><scope</code></td><td><p>api1 => mandatory</p><p>offline_access <em>=></em> om een refresh_token op te halen (lange sessies)</p></td></tr><td><code><state</code></td><td>Een willekeurige sleutel die wordt gegenereerd door uw applicatie om cross- site request forgery (CSRF)-aanvallen voorkomt, lees <a href="https: //auth0. com/docs/protocols/oauth2/mitigate-csrf-attacks">Mitigate CSRF Attacks With State Parameters</a>. Clientbibliotheken kunnen dit snel afhandelen</td></tr></tbody></table>.
-
+<table><thead><tr><th width="272.5595168190588">Parameter Name</th><th width="470.9578998488362">Beschrijving</th></tr></thead><tbody><tr><td><code>response_type</code></td><td>code</td></tr><tr><td><code>client_id</code></td><td>De openbare sleutel van uw api-sleutel die is geconfigureerd in uw Dastra-account</td></tr><tr><td><code>redirect_uri</code></td><td>De url die is geconfigureerd in de Dastra API-sleutel. U wordt automatisch doorgestuurd naar deze pagina aan het einde van het autorisatieproces</td></tr><tr><td><code>scope</code></td><td><p>api1 => mandatory</p><p>offline_access <em>=></em> om een refresh_token op te halen (lange sessies)</p></td></tr><tr><td><code>state</code></td><td>Een willekeurige sleutel die wordt gegenereerd door uw applicatie om cross- site request forgery (CSRF)-aanvallen voorkomt, lees <a href="https://auth0.com/docs/protocols/oauth2/mitigate-csrf-attacks">Mitigate CSRF Attacks With State Parameters</a>. Clientbibliotheken kunnen dit snel afhandelen</td></tr></tbody></table>
 
 
 ## OAuth2 "Client credential" stroom
@@ -65,6 +64,7 @@ Basic {base64("{PublicKey}:{PrivateKey}")}
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Het toegangs_token dat nodig is om bewerkingen op de REST API uit te voeren" %}
+
 ```javascript
 {
   "access_token":"tNQoqsSePv0DnSSNVJv1aDxzSFh9H2z3YBKtuBKqWAU",
@@ -132,6 +132,6 @@ Bearer {access_token}
 
 
 
-Alle verzoeken moeten worden gedaan via [HTTPS] (http://en.wikipedia.org/wiki/HTTP_Secure) en altijd aan de serverkant. Verzoeken zonder authenticatie zullen mislukken met foutcode 401.
+Alle verzoeken moeten worden gedaan via [HTTPS](http://en.wikipedia.org/wiki/HTTP_Secure) en altijd aan de serverkant. Verzoeken zonder authenticatie zullen mislukken met foutcode 401.
 
 Zie de API referenties hier: [https://api.dastra.eu/swagger/index.html](https://api.dastra.eu/swagger/index.html)^.

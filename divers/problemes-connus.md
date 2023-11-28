@@ -36,7 +36,7 @@ Om deze problemen op te lossen bieden we verschillende oplossingen: &#x20;
 
 Om dit te activeren, gaat u naar het tabblad 'profiel' in uw persoonlijke instellingen:&#x20;
 
-(<../.gitbook/assets/image (3) (1) (4).png>)
+![](<../.gitbook/assets/image (3) (1) (4).png>)
 
 {% hint style="info" %}
 Het selecteren van deze optie zal je kolom instellingen in alle Dastra tabellen verliezen en de weergave van tutorials in alle modules opnieuw activeren.&#x20;
@@ -51,7 +51,7 @@ Hebben deze twee acties uw probleem niet opgelost? Neem dan rechtstreeks contact
 **Scenario**: u maakt verbinding met Dastra via de url https://app.dastra.eu, u voert uw identifiers in en u komt op een foutpagina "**Access denied (401)**".
 
 Pagina voorbeeld :\
-(<../.gitbook/assets/image (1) (1) (1) (2) (4) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (2) (4) (1).png>)
 
 **Oplossingen** :&#x20;
 

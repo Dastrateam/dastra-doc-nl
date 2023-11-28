@@ -6,7 +6,7 @@ beschrijving: Dastra integreert met het automatiseringsplatform Zapier
 
 Stel connectoren in tussen Dastra en uw andere favoriete applicaties om uw workflows te automatiseren en tijd te besparen.
 
-(<../.gitbook/assets/connectors (1).svg>)
+![](<../.gitbook/assets/connectors (1).svg>)
 
 {% hint style="info" %}
 [Ga naar de Dastra pagina in de Zapier catalogus](https://zapier.com/apps/dastra/integrations)
@@ -73,8 +73,5 @@ Zie de [Zapier documentatie](https://zapier.com/help) voor meer informatie over 
 
 Je bent nu klaar om jezelf in de wereld van automatisering te lanceren en je eerste connector &#x20 in te stellen;
 
-Volg onze stapsgewijze handleiding voor het automatiseren van je rechtenaanvragen:&#x20;
-
-{% embed url="https://www.dastra.eu/fr/article/automatisation-exercice-de-droits/51571" %}
 
 
