@@ -183,4 +183,4 @@
 
 * [Veelgestelde vragen](divers/faq-registre.md)
 * [Bekende problemen](divers/problemes-connus.md)
-* [Release-opmerkingen](https://www.dastra.eu/en/category/release/10)
+* [Release-opmerkingen](https://www.dastra.eu/en/articles/category/release/10)
