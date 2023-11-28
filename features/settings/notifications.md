@@ -1,62 +1,62 @@
 ---
-description: Apprenez à gérer les notifications dans Dastra.
+descriptin: Leer meldingen beheren in Dastra.
 ---
 
-# Notifications
+# Meldingen
 
-## Introduction
+## Introductie
 
-Dans Dastra, il est possible de personnaliser les notifications que vous recevez de l'application sur votre boîte mail, selon leur catégorie ou leur nature.
+In Dastra kunt u de meldingen die u ontvangt van de applicatie in uw mailbox aanpassen op basis van hun categorie of aard.
 
-## Gérer les notifications
+## Meldingen beheren
 
-Pour cela, cliquez sur votre profil en haut à droite une fois dans l'application, puis sur le bouton "Notifications". Vous accéderez ainsi au centre des notifications.
+Om dit te doen, klikt u op uw profiel in de rechterbovenhoek van de applicatie en vervolgens op de knop "Meldingen". Dit brengt je naar het meldingencentrum.
 
-La gestion des notifications est personnelle à chaque utilisateur.&#x20;
+Het beheer van meldingen is persoonlijk voor elke gebruiker &#x20;
 
-![Bouton "Notifications"](<../../.gitbook/assets/image (242).png>)
+![Meldingen knop](<../../.gitbook/assets/image (242).png>)
 
-Une fois dans le centre, vous avez la possibilité d'activer ou de désactiver les notifications reçues.
+Eenmaal in het centrum, heb je de optie om ontvangen meldingen in of uit te schakelen.
 
-Les différentes catégories de notifications possibles sont les suivantes :
+De verschillende categorieën meldingen zijn als volgt:
 
-* Notifications push
+* Pushmeldingen
 * Marketing
-* Activités sur les traitements de données
-* Activités sur les demandes d'exercice de droits
-* Activités sur les violation de données
-* Activités sur les tâches
-* Activités sur le consentement des cookies
-* Activités sur les commentaires
-* Activités sur les audits
-* Activités sur les modèles d'audit
-* Activités sur les rapports d'analyse
+* Activiteiten voor gegevensverwerking
+* Activiteiten met betrekking tot verzoeken om rechten uit te oefenen
+* Activiteiten met betrekking tot datalekken
+* Activiteiten met betrekking tot taken
+* Activiteiten met betrekking tot cookietoestemming
+* Activiteiten met betrekking tot opmerkingen
+* Activiteiten met betrekking tot audits
+* Activiteiten met betrekking tot auditmodellen
+* Activiteiten met betrekking tot analyserapporten
 
-Par fonctionnalité, vous aurez la possibilité de choisir de laisser activer ou non différents types de notifications :&#x20;
+Per functionaliteit kunt u kiezen of u verschillende soorten meldingen wel of niet wilt activeren:&#x20;
 
-#### Dans le cadre des traitements par exemple :
+#### In het kader van verwerking, bijvoorbeeld:
 
-* Modification d'un traitement
-* Changement de statut d'un traitement
-* Suppression d'une relation à un traitement
+* Wijziging van een behandeling
+* Wijzigen van de status van een behandeling
+* Verwijderen van een relatie met een behandeling
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2022-11-10 à 15.11.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-10 at 15.11.24.png" alt=""><figcaption></figcaption></figure>
 
-#### En ce qui concerne les audits :&#x20;
+#### Met betrekking tot audits:&#x20;
 
-* Réponse à un audit refusée
-* Réponse à un audit validée
-* Invitation à répondre à l'audit
-* Annotation de l'audit ajouté
+* Auditantwoord geweigerd
+* Auditantwoord gevalideerd
+* Uitnodiging om op audit te reageren
+* Audit annotatie toegevoegd
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2022-11-10 à 15.11.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-10 at 15.11.59.png" alt=""><figcaption></figcaption></figure>
 
-## Les notifications hors champ du centre de gestion&#x20;
+## Out-of-scope meldingen van het beheercentrum&#x20;
 
-Dans le cadre des audits, certains types de notifications sont hors champ du centre de gestion des notifications.&#x20;
+In de context van audits vallen bepaalde soorten meldingen buiten het bereik van het meldingsbeheercentrum &#x20;
 
-En effet, lorsque vous planifiez un audit et sélectionnez "_envoyer les invitations immédiatement_", l'invitation à l'audit par e-mail sera reçue malgré avoir déselectionné la notification "_Invitation à répondre à l'audit_".&#x20;
+In feite, wanneer je een audit plant en "_Uitnodigingen onmiddellijk versturen_" selecteert, wordt de uitnodiging voor de audit per e-mail ontvangen ondanks dat je de "_Uitnodiging om op de audit te reageren_"-melding hebt gedeselecteerd &#x20;
 
-Tout simplement car l'on vous **soumet explicitement cet audit**, ce qui **ne rentre pas dans les considérations du centre de gestion des notifications**.
+Dit komt simpelweg doordat je **expliciet bent uitgenodigd voor deze audit**, die **niet binnen de overwegingen van het notificatiebeheercentrum** valt.
 
-Le meme type d'exception existe en ce qui concerne les "_invitations à compléter le registre_", fonctionnalité que vous retrouvez dans vos fiches de traitement afin de **soumettre une invitation**, personnalisable, à un **utilisateur** pour lui demander de **remplir telle ou telle étape de la fiche de traitement**.
+Hetzelfde type uitzondering bestaat met betrekking tot "uitnodigingen om het register in te vullen", een functie die u in uw behandelingsformulieren vindt om **een uitnodiging**, die u kunt aanpassen, naar een **gebruiker** te sturen om hem te vragen **een bepaalde fase van het behandelingsformulier** in te vullen.

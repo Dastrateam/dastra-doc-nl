@@ -1,25 +1,25 @@
 ---
-description: Cette page vous explique comment créer des clés d'APIs dans Dastr
+description: Deze pagina legt uit hoe je API-sleutels aanmaakt in Dastr
 ---
 
 # API-sleutelbeheer
 
-### A quoi servent les clés d'API ?
+### Waar worden API-sleutels voor gebruikt?
 
-* **Créer un client de l'API** de Dastra pour récupérer ou modifier les données en dehors de l'application. Ce client peut être de serveur à serveur (Client credential) ou javascript (Authorization code). Pour en savoir plus, vous pouvez [lire la documentation relative à l'authentification de l'API Dastra](broken-reference).
-* **Configurer un widget d'exercice de droit** (clé publique uniquement). [Lire la documentation relative à la mise en place du widget d'exercice de droit](broken-reference)
-* **Configurer un widget de consentement cookies** (clé publique uniquement). [Lire la documentation de mise en place du consentement aux cookies](broken-reference)
+* Maak een Dastra API** client om data op te halen of te wijzigen buiten de applicatie. Deze client kan server-to-server (Client credential) of javascript (Autorisatie code) zijn. Voor meer informatie kunt u [de Dastra API authenticatie documentatie lezen](../../api-references/authentification.md).
+* Een widget voor het uitoefenen van rechten** configureren (alleen openbare sleutel). [Lees de documentatie over het instellen van de widget voor het uitoefenen van rechten](broken-reference).
+* Een cookie toestemmingswidget** configureren (alleen openbare sleutel). [Lees de documentatie over het instellen van de cookie toestemmingswidget](../gerer-le-consentement-aux-cookies/)
 
-### Comment générer une clé d'API ?
+### Hoe maak ik een API-sleutel aan?
 
-1. [Accédez au gestionnaire](https://app.dastra.eu/general-settings/api) de clé de Dastra (Seuls les propriétaires de compte ont accès à cette partie)
-2. Cliquez sur "**créer une clé d'API**"
-3. Renseignez le nom de la clé et les urls de redirection et cors (si vous souhaitez utiliser l'API en javascript en OAuth2)
-4. Cliquez sur "**enregistrer**"
-5. Une fois votre clé d'API créée, vous pouvez la copier et la coller directement depuis le gestionnaire (clé privée ou publique)
+1. [Krijg toegang tot de Dastra sleutelbeheerder](https://app.dastra.eu/general-settings/api) (Alleen accounteigenaren hebben toegang tot dit gedeelte)
+2. Klik op "**maak een API-sleutel**".
+3. Voer de naam van de sleutel en de redirection en cors urls in (als u de API in javascript wilt gebruiken in OAuth2)
+4. Klik op "**registreer**".
+5. Zodra uw API-sleutel is aangemaakt, kunt u deze rechtstreeks uit de manager kopiëren en plakken (private of public key)
 
 {% hint style="warning" %}
-**Conservez précieusement vos clés d'APIs ! La clé privée ne doit être en aucun cas diffusée publiquement !**
+**Veilig uw API-sleutels! Onder geen enkele omstandigheid mag de privésleutel openbaar worden gemaakt!
 
-**Si la sécurité de votre clé d'API est compromise**, vous pouvez la supprimer du gestionnaire et en générer une nouvelle
+**Als de veiligheid van je API sleutel in gevaar komt**, kun je deze verwijderen uit de manager en een nieuwe genereren.
 {% endhint %}

@@ -1,102 +1,101 @@
 ---
 description: >-
-  Cette page vous explique comment mettre en place la configuration SCIM de
-  Dastra avec un annuaire d'entreprise du type Azure Active Directory (Cloud)
+  Deze pagina legt uit hoe u de SCIM-configuratie van Dastra met een ondernemingsdirectory zoals Azure Active Directory (Cloud)
 ---
 
 # SCIM
 
-### Principe de fonctionnement
+### Hoe het werkt
 
-[Le SCIM](http://www.simplecloud.info/), acronyme anglais de System for Cross-domain Identity Management (comprenez « Système de gestion des identités interdomaines ») est une norme ouverte prenant en charge l'automatisation du provisioning des utilisateurs. Le protocole SCIM est un intermédiaire, il collecte les données relatives à l'identité des utilisateurs auprès des fournisseurs d'identité (Azure AD, Google Workspace, Okta...) et les communique aux prestataires de service ayant besoin de ces informations d'identification (comme Dastra).
+[SCIM](http://www.simplecloud.info/), wat staat voor System for Cross-domain Identity Management, is een open standaard die de automatisering van de gebruikersvoorziening ondersteunt. Het SCIM-protocol is een tussenpersoon die identiteitsgegevens van gebruikers verzamelt van identiteitsproviders (Azure AD, Google Workspace, Okta, enz.) en deze doorgeeft aan serviceproviders die deze identificatiegegevens nodig hebben (zoals Dastra).
 
 
 
 {% hint style="warning" %}
-La fonctionnalité de SCIM est réservée aux clients avec un **plan Entreprise.**
+De SCIM-functionaliteit is voorbehouden aan klanten met een **Enterprise plan**.
 
-[Consultez notre page tarif](https://www.dastra.eu/pricing)
+[Zie onze prijspagina](https://www.dastra.eu/pricing)
 {% endhint %}
 
 {% hint style="info" %}
-Nous vous recommandons fortement d'effectuer préalablement [la mise en place du SSO ](single-sign-on-sso/)**avec l'option "Forcer pour tous les utilisateurs" activée**.&#x20;
+We raden sterk aan dat u eerst [SSO instelt](single-sign-on-sso/)**met de optie "Forceer voor alle gebruikers" geactiveerd**.&#x20;
 {% endhint %}
 
-### Comment configurer SCIM avec Azure Active Directory ?
+### Hoe configureer ik SCIM met Azure Active Directory?
 
-Les utilisateurs de Dastra peuvent être ajoutés, supprimés et modifiés à l'aide de SCIM 2.0.&#x20;
+Dastra-gebruikers kunnen worden toegevoegd, verwijderd en gewijzigd met SCIM 2.0.&#x20;
 
-Vous définissez des groupes dans votre Azure Directory et Dastra peut synchroniser ces utilisateurs. C'est un moyen idéal de gagner du temps et d'éviter les tracas liés à la gestion des comptes d'utilisateurs. Il s'agit également d'une mise en œuvre idéale de la sécurité.
+U definieert groepen in uw Azure Directory en Dastra kan deze gebruikers synchroniseren. Het is een geweldige manier om tijd en moeite te besparen bij het beheren van gebruikersaccounts. Het is ook een ideale beveiligingsimplementatie.
 
-#### 1. Connectez vous à Azure et cliquez sur Azure Active Directory
+#### 1. Log in op Azure en klik op Azure Active Directory
 
 <figure><img src="https://www.reftab.com/img/faq/01-azure.png" alt="01-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 2. Allez dans "Entreprise applications"
+#### 2. Ga naar "Bedrijfstoepassingen
 
 <figure><img src="https://www.reftab.com/img/faq/02-azure.png" alt="01-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 3. Cliquez sur "New application,"
+#### 3. Klik op "Nieuwe toepassing".
 
 <figure><img src="https://www.reftab.com/img/faq/03-azure.png" alt="03-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 4. Cliquez sur "Create your own application"
+#### 4. Klik op "Maak uw eigen toepassing".
 
 <figure><img src="https://www.reftab.com/img/faq/04-azure.png" alt="04-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 5. Nommez votre application
+#### 5. Geef je toepassing een naam
 
 <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 6. Dans l'application nouvellement créée, cliquez sur le bouton "Provision User Accounts"
+#### 6. Klik in de nieuw aangemaakte applicatie op de knop "Provision User Accounts".
 
 <figure><img src="https://www.reftab.com/img/faq/06-azure.png" alt="06-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 7. Cliquez sur "Get Started"
+#### 7. Klik op "Aan de slag".
 
 <figure><img src="https://www.reftab.com/img/faq/07-azure.png" alt="07-Azure-SCIM"><figcaption></figcaption></figure>
 
-#### 8. Réglez le mode de provisionnement sur automatique. Remplissez l'URL du locataire et le jeton secret à partir des informations contenues dans votre compte Dastra.
+#### 8. Stel de provisioningmodus in op automatisch. Vul de URL van de huurder en het geheime token in van uw Dastra-accountgegevens.
 
-**Connectez vous à Dastra** en tant qu'administrateur. **Allez dans la configuration de l'organisation** > **cliquez sur Sécurité / SCIM**
+**Log in op Dastra** als beheerder. **Ga naar de organisatieconfiguratie** > **klik op Beveiliging / SCIM**.
 
 ![](<../../.gitbook/assets/image (14) (1).png>)
 
 
 
-Cliquez sur le bouton **configurer**
+Klik op de **configureer** knop
 
 <figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
 
-Configurez votre SCIM. Sélectionnez l'espace de travail que vous souhaitez synchroniser (les équipes et utilisateurs seront automatiquement provisionés dans cet espace).
+Configureer je SCIM. Selecteer de werkruimte die u wilt synchroniseren (teams en gebruikers worden automatisch in deze werkruimte ingesteld).
 
-Choisissez ensuite le rôle par défaut que vous souhaitez donner aux nouveaux utilisateurs. A noter que les rôles seront managés en local par l'administrateur du compte Dastra.
+Kies vervolgens de standaardrol die u aan nieuwe gebruikers wilt geven. De rollen worden lokaal beheerd door de Dastra-accountbeheerder.
 
-Cliquez sur **Enregistrer**
+Klik op **Registreren**.
 
-**Copiez le jeton d'authentification et l'Url SCIM**
+**Kopieer het authenticatietoken en de SCIM Url**.
 
 {% hint style="info" %}
-Aujourd'hui, Dastra vous permet de synchroniser en SCIM (équipes + utilisateurs) **un seul espace de travail par organisation**.&#x20;
+Vandaag kunt u met Dastra in SCIM (teams + gebruikers) **alleen één werkruimte per organisatie** synchroniseren.&#x20;
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-Cliquez sur "**Tester la connection**" et "**Enregistrer**". Si vous rencontrez une erreur lors du test de connexion, cela peut provenir d'une absence de fonctionnalité activé au niveau de votre souscription. [Contactez alors le support](../../commencer/le-support/faire-une-demande-de-support.md)
+Klik op "**Test verbinding**" en "**Opslaan**". Als er een fout optreedt tijdens de verbindingstest, kan dit te wijten zijn aan een gebrek aan geactiveerde functionaliteit in uw abonnement. [Neem contact op met support](../../start/support/request-support.md)
 
-#### 9. Activez le provisioning de l'application
+#### 9. Applicatieprovisioning inschakelen
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-#### 10. Ajoutez des utilisateurs et/ou des groupes à l'application créée&#x20;
+#### 10. Voeg gebruikers en/of groepen toe aan de gemaakte applicatie&#x20;
 
 <figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Laissez vos utilisateurs se connecter
+### Laat je gebruikers verbinden
 
-Vous devriez voir les comptes utilisateurs de votre AD se synchroniser automatiquement dans Dastra. Si ils se connectent à Dastra via [la page de connexion](https://app.dastra.eu/login), ils devraient pouvoir se connecter avec leur e-mail. Si le SSO n'est pas configuré et forcé pour tous les utilisateurs, les utilisateurs devront faire une réinitialisation de mot de passe pour se connecter. Si le SSO est actif et qu'il est forcé pour tous les utilisateurs, ceux-ci seront automatiquement redirigés vers le formulaire de connexion de votre fournisseur d'identité (Azure AD, Google Workspace, Okta...)
+Uw AD gebruikersaccounts worden automatisch gesynchroniseerd in Dastra. Als ze inloggen in Dastra via [de inlogpagina](https://app.dastra.eu/login), zouden ze moeten kunnen inloggen met hun e-mail. Als SSO niet is geconfigureerd en geforceerd voor alle gebruikers, moeten gebruikers een wachtwoord resetten om in te loggen. Als SSO actief en geforceerd is voor alle gebruikers, worden ze automatisch doorgestuurd naar het inlogformulier van je identity provider (Azure AD, Google Workspace, Okta, etc.).
 
 
 
