@@ -1,59 +1,57 @@
 ---
 description: >-
-  Cette page vous expliquera comment configurer un fournisseur d'identification
-  Okta dans Dastra.
+  Deze pagina legt uit hoe u een Okta ID-provider configureert in Dastra.
 ---
 
 # Okta
 
-Voici comment configurer le login Okta en SSO dans Dastra en utilisant le protocole **OpenId Connect**. A noter, qu'il est également de le faire en utilisant SAML.
+Hier wordt uitgelegd hoe u de Okta login in SSO in Dastra kunt configureren met behulp van het **OpenId Connect** protocol. Merk op dat het ook mogelijk is om dit te doen met behulp van SAML.
 
-**Etape 1**: se rendre dans **le back-office administrateur Okta**
+**Stap 1: ga naar **Okta administrator backoffice**.
 
-**Etape 2:** se rendre dans le menu **"Applications" > "Applications".** Cliquez sur le bouton **"Create App Integration"**
+**Stap 2:** ga naar het menu **"Applications" > "Applications".** Klik op de knop **"Create App Integration"**.
 
-![](../../../.gitbook/assets/okta-home.png)
+![](../../..gitbook/assets/okta-home.png)
 
-**Etape 3** : Sélectionnez "**OIDC - OpenID Connect**"
+**Stap 3**: Selecteer "**OIDC - OpenID Connect**".
 
 ![](../../../.gitbook/assets/okta-select.png)
 
-**Etape 3** : Sélectionnez le type d'application "**Web application**"
+**Stap 3**: Selecteer het toepassingstype "**Webtoepassing**".
 
 ![](../../../.gitbook/assets/okta-app-type.png)
 
-**Etape 4** : Configurez l'application de la manière suivante en cochant bien la case "**Implicite**"
+**Stap 4: Configureer de applicatie als volgt, vink het vakje "**Impliciet**" aan.
 
-Pour le logo de l'application, vous pouvez [utiliser celui-ci](https://www.dastra.eu/images/logo-dastra-dark.png)
+Voor het applicatie logo, kunt u [deze gebruiken](https://www.dastra.eu/images/logo-dastra-dark.png)
 
-![](../../../.gitbook/assets/okta-config.png)
+![](../../..gitbook/assets/okta-config.png)
 
-**Etape 5** : A ce stade, vous allez avoir besoin de configurer une url de redirection de _Dastra_ dans votre application _Okta_. Pour cela, retournez dans l'application _Dastra_, [dans la page de gestion du SSO](https://app.dastra.eu/general-settings/sso). Cliquez sur "**Nouveau login SSO**", et vers le bas du formulaire, vous avez une url de redirection qui s'affiche que vous devez copier.
+**Stap 5** : In dit stadium moet je een _Dastra_ omleiding instellen in je _Okta_ applicatie. Ga hiervoor terug naar de _Dastra_ applicatie, [in de SSO beheerpagina](https://app.dastra.eu/general-settings/sso). Klik op "**Nieuwe SSO login**", en onderaan het formulier ziet u een redirection url die u moet kopiëren.
 
-![](../../../.gitbook/assets/okta-redirecturi.png)
+![](../../..gitbook/assets/okta-redirecturi.png)
 
-**Etape 6** : Retournez dans Okta, et collez l'url de redirection dans le champ approprié, sélectionnez les utilisateurs Okta à qui vous souhaitez octroyer l'accès à Dastra (par défaut, vous pouvez cocher "Allow everyone") puis cliquez sur "**Save**"
+**Stap 6**: Ga terug naar Okta, en plak de omleidingsurl in het juiste veld, selecteer de Okta-gebruikers aan wie u toegang wilt verlenen tot Dastra (standaard kunt u "Iedereen toestaan" aanvinken) en klik dan op "**Opslaan**".
 
-![](../../../.gitbook/assets/okta-redirecturi-config.png)
+![](../../..gitbook/assets/okta-redirecturi-config.png)
 
-**Etape 7** : Vous y êtes presque ! Vous êtes redirigé sur une page avec l'ensemble des settings de la nouvelle app SSO : Client Id, Clé secrète et domaine/autorité.
+**Stap 7**: Je bent er bijna! Je wordt doorgestuurd naar een pagina met alle instellingen voor de nieuwe SSO app: Client Id, Secret Key en Domain/Authority.
 
 ![](../../../.gitbook/assets/okta-client-settings.png)
 
-![Attention de prendre le domaine avec le protocole https://](../../../.gitbook/assets/okta-domain.png)
+Let op dat je het domein gebruikt met het [https:// protocol](../../../.gitbook/assets/okta-domain.png)
 
-**Etape 8** : Retournez dans **Dastra**, vous pouvez ainsi renseigner les champs de formulaire de la façon suivante :&#x20;
+**Stap 8: Ga terug naar **Dastra** en vul de formuliervelden als volgt in:&#x20;
 
-* **Id du client** : copier l'id du client de Okta&#x20;
-* **Authority/Domain** : **Attention !** mettre le domaine avec le protocole (https://\*\*\*.okta.com).
-* **Issuer** : laisser vide !&#x20;
-* **Clé secrète** : Copier la clé secrète de Okta
-* **Scope** : openid profile email &#x20;
-* **Type de réponse** : id\_token
+* **Klant-ID**: kopieer de klant-ID uit Okta &#x20;
+* **Autoriteit/Domein** : **Vul het domein in met het protocol (https://.okta.com).
+* Issuer**: leeg laten &#x20;
+* Geheime sleutel**: Kopieer de geheime sleutel van Okta.
+* Scope**: openid profiel e-mail &#x20;
+* **Response type**: id_token
 
 
 
-![](../../../.gitbook/assets/okta-dastra-settings.png)
+![](../../..gitbook/assets/okta-dastra-settings.png)
 
-**Etape 8** : Cliquez sur "**Enregistrer**" => Puis lancez un test en cliquant sur le bouton "Tester" ! Si vous êtes bien redirigé vers Dastra ! Vous avez réussi ! :tada:
-
+**Stap 8**: Klik op "Opslaan" => Voer dan een test uit door op de "Test" knop te klikken! Als je succesvol wordt doorgestuurd naar Dastra! Het is je gelukt!

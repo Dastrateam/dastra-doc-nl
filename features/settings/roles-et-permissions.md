@@ -1,26 +1,25 @@
 ---
 description: >-
-  Chaque organisation est différente, c'est pourquoi, les rôles et les
-  permissions sont extrêmement souples dans Dastra.
+  Elke organisatie is anders en daarom zijn rollen en rechten zeer flexibel in Dastra.
 ---
 
-# Rôles et permissions
+# Rollen en rechten
 
-## Fonctionnement général
+## Algemene werking
 
-Chaque utilisateur peut être associé à 1 ou plusieurs rôles. Les rôles sont eux mêmes associés à une liste de permissions (Ex: écrire dans le registre, poster une demande d'exercice de droit...). Il existe deux manières d'administrer les rôles associés aux utilisateurs.&#x20;
+Elke gebruiker kan 1 of meer rollen toegewezen krijgen. Rollen zijn zelf geassocieerd met een lijst van rechten (bijv. schrijven naar het register, een verzoek plaatsen om een recht uit te oefenen, enz.) Er zijn twee manieren om de rollen van gebruikers te beheren &#x20;
 
-* Si vous êtes propriétaire, vous pouvez utiliser[ cette interface de gestion de comptes](https://app.dastra.eu/general-settings/users)
-* Si vous avez le rôle d'administrateur d'entité, vous pouvez gérer les rôles et permissions des utilisateurs appartenant à votre entité en utilisant [cette interface](https://app.dastra.eu/general-settings/roles).&#x20;
+* Als je een eigenaar bent, kun je [deze accountbeheerinterface] gebruiken (https://app.dastra.eu/general-settings/users)
+* Als u de rol van entiteitsbeheerder heeft, kunt u de rollen en rechten van gebruikers die bij uw entiteit horen beheren met [deze interface](https://app.dastra.eu/general-settings/roles). &#x20;
 
-## Créez vos propres rôles
+## Uw eigen rollen maken
 
-Pour créez vos propres rôles associés aux permissions, rendez-vous sur [cette page](https://app.dastra.eu/general-settings/roles) :
+Ga naar [deze pagina](https://app.dastra.eu/general-settings/roles) om uw eigen rollen met machtigingen te maken:
 
-Vous pouvez créer un "nouveau rôle" personnalisé en cliquant sur le bouton "Nouveau rôle"
+U kunt een aangepaste "nieuwe rol" maken door te klikken op de knop "Nieuwe rol"
 
 ![](<../../.gitbook/assets/image (89).png>)
 
-![](<../../.gitbook/assets/image (90).png>)
+![](<../../.gitbook/assets/afbeelding (90).png>)
 
-Une fois votre rôle personnalisé créé, vous pouvez l'affecter à n'importe quel utilisateur de l'entité ou de l'organisation.
+Zodra je aangepaste rol is gemaakt, kun je deze toewijzen aan elke gebruiker in de entiteit of organisatie.

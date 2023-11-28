@@ -1,65 +1,66 @@
 ---
-description: Détails de la configuration de SAML 2
+description: SAML 2 configuratiedetails
 ---
 
 # SAML 2
 
-La configuration du SSO avec SAML 2 se fait en trois étapes&#x20;
+Er zijn drie stappen voor het configureren van SSO met SAML 2&#x20;
 
-* Configuration du fournisseur d'authentification (**Identity Provider - IdP**) : Active Directory, Google Workspace...
-* Configuration du fournisseur de service (**Service Provider - SP**) : Dastra
-* Tests de l'authentification
+* Configureren van de authenticatie provider (**Identity Provider - IdP**) : Active Directory, Google Workspace...
+* Configuratie van de dienstverlener (**Service Provider - SP**): Dastra
+* Authenticatietests
 
-Dans le cas spécifique **des serveurs ADFS**, consultez notre documentation spécifique :&#x20;
+In het specifieke geval **van ADFS-servers**, raadpleeg onze specifieke documentatie:&#x20;
 
 {% content-ref url="adfs.md" %}
 [adfs.md](adfs.md)
 {% endcontent-ref %}
 
-## 1. Configuration du fournisseur d'authentification
+## 1. authenticatie provider configuratie
 
-Vous devez mettre en place une configuration SAML dans votre fournisseur d'authentification.
+U moet een SAML-configuratie instellen in uw authenticatieprovider.
 
-Pour AD FS : [https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings](https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings)
+Voor AD FS: [https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings](https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings)
 
-Pour Azure AD : [https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings-azure-ad](https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings-azure-ad)
+Voor Azure AD: [https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings-azure-ad](https://docs.microsoft.com/fr-fr/powerapps/maker/portals/configure/configure-saml2-settings-azure-ad)
 
-Pour Google : [https://support.google.com/a/answer/6087519?hl=fr](https://support.google.com/a/answer/6087519?hl=fr)
+Voor Google: [https://support.google.com/a/answer/6087519?hl=fr](https://support.google.com/a/answer/6087519?hl=fr)
 
-Pour faire le rapprochement entre les comptes locaux (ceux hébergés dans Dastra), vous avez besoin de fournir une propriété contenant l'email de l'utilisateur (par défaut, Dastra va chercher la propriété nommée  [http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress](http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)).
+Om lokale accounts (die gehost worden in Dastra) te reconciliëren, moet je een eigenschap opgeven die het e-mailadres van de gebruiker bevat (standaard zoekt Dastra naar de eigenschap met de naam [http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress](http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)).
 
-Voici les informations dont vous avez besoin pour configurer le service provider :&#x20;
+Hier is de informatie die u nodig hebt om de serviceprovider te configureren:&#x20;
 
-* **Identity Provider's Entity id** (issuer)
-* **Single sign on url**
-* **Le certificat au format RAW** (Encodé base64)
+* **Identity Provider's Entity id** (uitgever)
+* **Single sign on url** (uitgever)
+* Het certificaat in **RAW-formaat** (base64-gecodeerd)
 
-Pour configurer votre fournisseur d'authentification, vous allez avoir besoin des informations suivantes :
+Om je authenticatie provider te configureren, heb je de volgende informatie nodig:
 
-* **Issuer** : par défaut "https://www.dastra.eu"
-* **SP Redirect URI** : par défaut [https://account.dastra.eu/Saml2/Acs](https://localhost:44375/Saml2/Acs)
+* **Issuer**: standaard "https://www.dastra.eu".
+* **SP Redirect URI**: standaard [https://account.dastra.eu/Saml2/Acs](https://localhost:44375/Saml2/Acs)
 
-## 2. Configuration du fournisseur de service
+## 2. Configuratie serviceprovider
 
-Dans dastra.eu, rendez-vous su[r la page d'administration du SSO](https://app.dastra.eu/general-settings/sso) et cliquez sur "ajouter un login SSO"
+Ga in dastra.eu naar de SSO-administratiepagina (https://app.dastra.eu/general-settings/sso) en klik op "add an SSO login".
 
-![](<../../../.gitbook/assets/image (116).png>)
+![](<../../..gitbook/assets/image (116).png>)
 
-Renseignez les champs du formulaire à l'aide des infos de la configuration de l'entité :
+Vul de formuliervelden in met de informatie uit de entiteitconfiguratie:
 
 ![](<../../../.gitbook/assets/image (117).png>)
 
 {% hint style="danger" %}
-Il est possible de forcer tous les utilisateurs du compte d'abonnement à utiliser un SSO particulier (en cochant la case "forcer les utilisateurs à utiliser ce SSO"). Il faut faire attention avant d'activer cette option. Car si le SSO dysfonctionne, vous ne pourrez plus accéder à votre compte en tant qu'administrateur. Il est préférable de gérer le SSO par utilisateur.
+Het is mogelijk om alle gebruikers van het abonnementenaccount te dwingen om een bepaalde SSO te gebruiken (door het vakje "Force users to use this SSO" aan te vinken). Wees voorzichtig voordat je deze optie activeert. Als de SSO mislukt, hebt u geen toegang meer tot uw account als beheerder. Het is beter om SSO per gebruiker te beheren.
 {% endhint %}
 
 {% hint style="warning" %}
-**Cas particuliers des utilisateurs externes**\
-Seuls les comptes qui sont internes à un abonnement seront soumis au SSO. Les comptes d'utilisateurs externes (qui ont un autre abonnement supplémentaire) ne seront pas soumis au SSO.
+**Speciale gevallen voor externe gebruikers**
+
+Alleen accounts die intern zijn aan een abonnement worden onderworpen aan SSO. De accounts van externe gebruikers (die een ander aanvullend abonnement hebben) worden niet onderworpen aan SSO.
 {% endhint %}
 
-## 3. Tester le SSO
+## 3. SSO testen
 
-Une fois que la configuration est terminée, vous pouvez tester l'authentification en cliquant sur le bouton tester en bas à droite. Si vous rencontrez un problème lors de la configuration du SSO, n'hésitez pas à vous rapprocher du support en vous rendant sur la page de [gestion des tickets support](https://app.dastra.eu/general-settings/support).
+Zodra de configuratie is voltooid, kunt u de verificatie testen door op de testknop rechtsonder te klikken. Als u problemen ondervindt bij het configureren van SSO, neem dan contact op met support via de pagina [support ticket management](https://app.dastra.eu/general-settings/support).
 
 ![](<../../../.gitbook/assets/image (121).png>)

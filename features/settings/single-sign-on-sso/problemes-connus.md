@@ -1,22 +1,21 @@
-# Problèmes connus
+# Bekende problemen
 
-## L'utilisateur n'est pas reconnu par le SSO
+## Gebruiker niet herkend door SSO
 
-Plusieurs raisons peuvent provoquer des erreurs dans la connexion SSO d'un utilisateur.&#x20;
+Er zijn een aantal redenen waarom de SSO-verbinding van een gebruiker kan mislukken &#x20;
 
-Si une erreur indique que l'utilisateur ne peut pas accéder à l'application, assurez vous des choses suivantes :&#x20;
+Als een fout aangeeft dat de gebruiker geen toegang kan krijgen tot de applicatie, controleer dan het volgende:&#x20;
 
-* Avez vous vérifié que la configuration du SSO ne présente pas d'erreur ? Vous pouvez vous en assurer en appuyant sur le bouton Tester sur la connexion. Si cela fonctionne, c'est que la configuration est bonne. Sinon, c'est qu'une erreur s'est glissée dans la configuration.&#x20;
-* Est ce que l'utilisateur est bien attaché à l'organisation ? Il est nécessaire que l'utilisateur soit présent dans la liste des utilisateurs de l'organisation. En effet, le SSO est associé à l'organisation.&#x20;
-* Si l'utilisateur a déjà créé un compte utilisateur (par exemple dans une autre organisation ou dans le cadre d'un compte de test), assurez vous que l'organisation dans laquelle vous avez configuré le SSO est bien son organisation principale (pour cela, il faut aller dans la [liste des utilisateurs de l'organisation](https://app.dastra.eu/general-settings/users)). L'utilisateur doit figurer en tant qu'utilisateur interne. Si ce n'est pas le cas, cela signifie qu'une organisation gère sa connexion à Dastra (son organisation principale), il sera alors indiqué comme utilisateur externe.&#x20;
-* Si l'utilisateur n'a jamais créé de compte&#x20;
+* Hebt u gecontroleerd of de SSO-configuratie geen fouten bevat? U kunt dit controleren door op de knop Test van de verbinding te drukken. Als het werkt, dan is de configuratie correct. Zo niet, dan is er een fout in de configuratie geslopen &#x20;
+* Is de gebruiker goed gekoppeld aan de organisatie? De gebruiker moet aanwezig zijn in de gebruikerslijst van de organisatie. SSO is namelijk gekoppeld aan de organisatie &#x20;
+* Als de gebruiker al een gebruikersaccount heeft aangemaakt (bijvoorbeeld in een andere organisatie of als onderdeel van een testaccount), controleer dan of de organisatie waarin u SSO hebt geconfigureerd ook daadwerkelijk hun hoofdorganisatie is (ga hiervoor naar de [lijst met organisatiegebruikers](https://app.dastra.eu/general-settings/users)). De gebruiker moet verschijnen als een interne gebruiker. Als dit niet het geval is, betekent dit dat een organisatie zijn verbinding met Dastra (zijn hoofdorganisatie) beheert, in welk geval het als een externe gebruiker wordt weergegeven &#x20;
+* Als de gebruiker nooit een account heeft aangemaakt &#x20;
 
-## Message d'erreur
+## Foutmelding
 
-Vous rencontrez un message d'erreur de ce type  :
+Je krijgt een foutmelding van dit type:
 
-<figure><img src="../../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../..gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
 
-1. Assurez d'avoir un certificat valide.
-2. Vérifiez que le copier/coller du certificat n'a pas inclus de saut de ligne ou de création d'espace
-
+1. Zorg ervoor dat je een geldig certificaat hebt.
+2. Controleer of de kopie/paste van het certificaat geen regeleinden of spaties bevat.

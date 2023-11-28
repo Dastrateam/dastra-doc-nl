@@ -1,64 +1,63 @@
 ---
-description: Configuration d'une connexion SSO utilisant le protocole OpenId
+description: Een SSO-verbinding configureren met het OpenId-protocol
 ---
 
 # OpenId
 
-## Principe de fonctionnement
+## Hoe het werkt
 
-Les spécification de OpenId se trouve [ici](https://openid.net/connect/)
+De OpenId specificatie kan [hier](https://openid.net/connect/) gevonden worden.
 
 ![](<../../../.gitbook/assets/image (119).png>)
 
 
+Er zijn drie stappen voor het configureren van SSO met OpenID&#x20;
 
-La configuration du SSO avec OpenID se fait en trois étapes&#x20;
+* Configureren van de authenticatie provider: Active Directory, Google Workspace, etc.
+* Configuratie van de serviceprovider: Dastra
+* Authenticatietests
 
-* Configuration du fournisseur d'authentification : Active Directory, Google Workspace...
-* Configuration du fournisseur de service : Dastra
-* Tests de l'authentification
+## 1. de authenticatieprovider configureren
 
-## 1. Configuration du fournisseur d'authentification
+U moet een OpenId-configuratie instellen in uw authenticatieprovider.
 
-Vous devez mettre en place une configuration OpenId dans votre fournisseur d'authentification.
+Voor active directory: [https://docs.microsoft.com/fr-fr/azure/active-directory/develop/v2-protocols-oidc](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/v2-protocols-oidc)
 
-Pour active directory : [https://docs.microsoft.com/fr-fr/azure/active-directory/develop/v2-protocols-oidc](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/v2-protocols-oidc)
+Om lokale accounts (die gehost worden in Dastra) te reconciliëren, moet je een eigenschap opgeven die het e-mailadres van de gebruiker bevat (standaard zoekt Dastra naar de eigenschap met de naam [http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress](http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)).
 
-Pour faire le rapprochement entre les comptes locaux (ceux hébergés dans Dastra), vous avez besoin de fournir une propriété contenant l'email de l'utilisateur (par défaut, Dastra va chercher la propriété nommée  [http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress](http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)).
+Hier is de informatie die u nodig hebt om de serviceprovider te configureren:&#x20;
 
-Voici les informations dont vous avez besoin pour configurer le service provider :&#x20;
+* **Autoriteit/domein (ex: https://account.oauth.sso.com)**
+* Client-ID: ClientId**&#x20;
+* **Geheim sleutel**
+* **Response Type, standaard id_token**
+* Scope: standaard is "openid profile email"**.
 
-* **Authority/domain (ex: https://account.oauth.sso.com)**
-* **Id du client : ClientId**&#x20;
-* **Secret key**
-* **Response Type, par défaut id\_token**
-* **Scope : par défaut "openid profile email"**
+Om uw authenticatieprovider te configureren, hebt u de volgende informatie nodig:
 
-Pour configurer votre fournisseur d'authentification, vous allez avoir besoin des informations suivantes :
+* **De opgegeven Redirect URI in dit formaat: https://account.dastra.eu/signin-{schemeId}**
 
-* **The provided Redirect URI in this format : https://account.dastra.eu/signin-{schemeId}**
+## 2. De serviceprovider configureren
 
-## 2. Configuration du fournisseur de service
-
-Dans dastra.eu, rendez-vous su[r la page d'administration du SSO](https://app.dastra.eu/general-settings/sso) et cliquez sur "ajouter un login SSO"
+Ga in dastra.eu naar de [SSO administratiepagina](https://app.dastra.eu/general-settings/sso) en klik op "voeg een SSO login toe".
 
 ![](<../../../.gitbook/assets/image (116).png>)
 
-Renseignez les champs du formulaire à l'aide des infos de la configuration de l'entité :
+Vul de formuliervelden in met de informatie uit de entiteitconfiguratie:
 
 ![](<../../../.gitbook/assets/image (123).png>)
 
 {% hint style="danger" %}
-Il est possible de forcer tous les utilisateurs du compte d'abonnement à utiliser un SSO particulier (en cochant la case "forcer les utilisateurs à utiliser ce SSO"). Il faut faire attention avant d'activer cette option. Car si le SSO dysfonctionne, vous ne pourrez plus accéder à votre compte en tant qu'administrateur. Il est préférable de gérer le SSO par utilisateur.
+Het is mogelijk om alle gebruikers van het abonnementsaccount te dwingen om een bepaalde SSO te gebruiken (door het vakje "dwingen gebruikers om deze SSO te gebruiken" aan te vinken). Wees voorzichtig voordat je deze optie activeert. Als de SSO mislukt, hebt u geen toegang meer tot uw account als beheerder. Het is beter om SSO per gebruiker te beheren.
 {% endhint %}
 
 {% hint style="warning" %}
-**Cas particuliers des utilisateurs externes**\
-Seuls les comptes qui sont internes à un abonnement seront soumis au SSO. Les comptes d'utilisateurs externes (qui ont un autre abonnement supplémentaire) ne seront pas soumis au SSO.
+**Speciale gevallen voor externe gebruikers**
+Alleen accounts die intern zijn aan een abonnement worden onderworpen aan SSO. De accounts van externe gebruikers (die een ander aanvullend abonnement hebben) worden niet onderworpen aan SSO.
 {% endhint %}
 
-## 3. Tester le SSO avec OpenId
+## 3. SSO testen met OpenId
 
-Une fois que la configuration est terminée, vous pouvez tester l'authentification en cliquant sur le bouton tester en bas à droite. Si vous rencontrez un problème lors de la configuration du SSO, n'hésitez pas à vous rapprocher du support en vous rendant sur la page de [gestion des tickets support](https://app.dastra.eu/general-settings/support).
+Zodra de configuratie voltooid is, kunt u de authenticatie testen door op de testknop rechtsonder te klikken. Als u problemen ondervindt bij het configureren van SSO, neem dan contact op met support door de [support ticket management](https://app.dastra.eu/general-settings/support) pagina te bezoeken.
 
 ![](<../../../.gitbook/assets/image (122).png>)

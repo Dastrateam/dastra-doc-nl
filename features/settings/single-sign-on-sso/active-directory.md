@@ -1,86 +1,86 @@
 ---
 description: >-
-  Cette page vous explique comment mettre en place le SSO de Dastra avec
-  l'Active Directory de Microsoft en utilisant le protocole Saml2P
+  Deze pagina legt uit hoe u Dastra SSO instelt met de Microsoft
+  Microsoft Active Directory met behulp van het Saml2P protocol
 ---
 
 # Active Directory
 
-## **Configuration de l'application dans le portail azure**
+## De applicatie configureren in de azure portal*** * Ga naar de Microsoft Azure portal.
 
-* Rendez-vous dans le portail Microsoft Azure : [https://portal.azure.com](https://portal.azure.com)
-* Cliquez sur **Active Directory**
-* Dans la navigation à gauche, cliquez sur Entreprise Applications
-* Cliquez sur le bouton **New application**
-* Cliquez ensuite sur **Create your own application**
-* Renseigner le nom de l'application, vous pouvez mettre tout simplement "Dastra"
-* Sélectionnez la case "**Integrate any other application you don't find in the gallery (Non-gallery)**"
-* Votre application est créée !
-* Cliquez sur **Single-Sign-On** et sélectionnez **SAML**
-* **Vous arrivez sur cette page**
+* Ga naar het Microsoft Azure-portaal: [https://portal.azure.com](https://portal.azure.com)
+* Klik op **Active Directory**.
+* Klik in de linkernavigatie op Enterprise Applications
+* Klik op de knop **Nieuwe toepassing**.
+* Klik vervolgens op **Eigen toepassing maken**.
+* Voer de naam van de applicatie in, u kunt gewoon "Dastra" invoeren.
+* Selecteer het vakje "**Integreer elke andere applicatie die u niet in de galerij vindt (Non-gallery)**".
+* Uw toepassing is gemaakt!
+* Klik op **Single-Sign-On** en selecteer **SAML**.
+* U bevindt zich nu op deze pagina**!
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
-## **Configuration du client SSO dans Dastra**
+## **De SSO-client configureren in Dastra**
 
-**Etape 1 : Créez un login SSO OpenId dans Dastra.**
+**Stap 1: Maak een OpenId SSO login in Dastra***.
 
-* Allez sur la [page de configuration du SSO de Dastra](https://app.dastra.eu/general-settings/sso)
-* Cliquez sur "Ajouter un login SSO"
-* Sélectionnez **SAML** en type de "**Protocole du SSO**"
-* Saisissez un label de connexion. Par exemple "Active Directory"
+* Ga naar de [Dastra SSO-configuratiepagina](https://app.dastra.eu/general-settings/sso)
+* Klik op "Een SSO login toevoegen".
+* Selecteer **SAML** als het type "**SSO Protocol**".
+* Voer een aanmeldingslabel in. Bijvoorbeeld "Active Directory".
 
-**Etape 2 : Configurez le login SSO dans Active Directory**
+**Stap 2: Configureer de SSO login in Active Directory** * Keer terug naar de configuratiepagina.
 
-* Retournez sur la page de configuration SAML de l'Active Directory
-* **Cliquez sur le bouton "Edit"** de la première partie.
-* Saisissez les informations de connexion (**Entity ID et Url ACS**) de la manière suivante :
+* Ga terug naar de SAML Active Directory configuratiepagina.
+* Klik op de knop "Bewerken"** in het eerste deel.
+* Voer de verbindingsgegevens (**Entity ID en ACS Url**) als volgt in:
 
 ![](<../../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
-* Cliquez sur **Enregistrer**
-* Allez directement dans la partie 3 afin de **télécharger le certificat au format base64**
+* Klik op **Opslaan**.
+* Ga direct naar deel 3 om **het certificaat in base64 formaat** te downloaden.
 * ![](<../../../.gitbook/assets/image (5) (1).png>)
-* **Ouvrez le fichier CER avec votre éditeur de texte préféré** (par exemple le bloc note) et copiez le contenu (CTRL + C)
+* Open het CER bestand met je favoriete teksteditor** (bijv. Kladblok) en kopieer de inhoud (CTRL + C)
 * ![](<../../../.gitbook/assets/image (4) (1).png>)
 
-**Etape 3 : Ajouter le certificat au client Dastra**
+**Stap 3: Voeg het certificaat toe aan de Dastra-client**
 
-* Retournez dans l'écran de création de connexion SAML dans Dastra
-* **Collez le texte du certificat** dans le champ "Identity Provider Certificate (RAW)" (CTRL + V)
+* Keer terug naar het SAML connectie creatie scherm in Dastra.
+* Plak de tekst van het certificaat** in het veld "Identity Provider Certificate (RAW)" (CTRL + V).
 
-**Etape 4 : Configurez les url de l'IdP dans Dastra**
+**Stap 4: Configureer de IdP URL's in Dastra** * Kopieer de drie Entity links naar de Dastra server
 
-* Copiez les 3 liens Entity Id, SSO Url et Logout Url depuis l'étape 4 de Active Directory
+* Kopieer de 3 links Entity Id, SSO Url en Logout Url van stap 4 van Active Directory
 * ![](<../../../.gitbook/assets/image (7) (1) (1).png>)
-* Copiez les urls en respectant le schéma suivant :\
-  **Login URL => Single sign on url**\
-  **Azure AD Identifier => Identity provider's Entity Id**\
-  **Logout Url => Identity provider Signout url**
-* Votre formulaire de configuration du SSO dans Dastra devrait ressembler à ceci :
+Kopieer de urls volgens het volgende schema:* **Login URL => Single on one.
+  **Login URL => Single sign on url.
+  **Azure AD Identifier => Identity Id van de Identity provider**.
+  **Logout Url => Identity provider Signout url** * Uw SSO-configuratieformulier
+* Uw SSO-configuratieformulier in Dastra moet er als volgt uitzien:
 * ![](<../../../.gitbook/assets/image (2) (1) (1) (1).png>)
-* Vous pouvez cocher la case "Utilisateur créé si l'utilisateur n'a jamais été invité dans Dastra" . Si vous activez cette option, les comptes de votre organisation AD qui ne sont pas présents dans Dastra seront provisionnés à la volée au moment du login si ils n'existent pas localement dans Dastra.
+* Je kunt het vakje "Gebruiker aangemaakt als de gebruiker nog nooit is uitgenodigd bij Dastra" aanvinken. Als u deze optie activeert, zullen de accounts van uw AD-organisatie die niet aanwezig zijn in Dastra tijdens het inloggen worden aangemaakt als ze niet lokaal in Dastra bestaan.
 
 ![](<../../../.gitbook/assets/image (6).png>)
 
-* **Enregistrez vos changements** dans Dastra
+* Sla uw wijzigingen** op in Dastra
 
 {% hint style="info" %}
-Avant de lancer le test de la connexion assurez vous qu'un utilisateur est bien assigné à la nouvelle application.
+Voordat je de verbindingstest start, moet je ervoor zorgen dat er een gebruiker is toegewezen aan de nieuwe applicatie.
 {% endhint %}
 
-### Testez votre connexion SSO
+### Test uw SSO-verbinding
 
-Cliquez ensuite sur le bouton "Test" au pied du formulaire dans l'active directory. Si tout fonctionne correctement vous devriez être redirigé vers l'application Dastra.
+Klik vervolgens op de knop "Test" onderaan het formulier in de actieve map. Als alles correct werkt, wordt u doorgestuurd naar de Dastra-toepassing.
 
 {% hint style="info" %}
-Si vous n'avez pas activé **le provisionnement automatique** des comptes, l'accès sera refusé du côté de Dastra si le compte local n'a pas été créé via une invitation
+Als u **automatic provisioning** van accounts niet hebt geactiveerd, wordt de toegang geweigerd aan de Dastra-kant als het lokale account niet is aangemaakt via een uitnodiging.
 {% endhint %}
 
-### Pour aller plus loin
+### Om verder te gaan
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="problemes-connus.md" %}
+[problemes-connus.md](problemes-connus.md)
 {% endcontent-ref %}
 
 {% content-ref url="saml-2.md" %}
