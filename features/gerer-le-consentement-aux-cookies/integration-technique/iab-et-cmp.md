@@ -8,11 +8,11 @@ Het [consent management platform (CMP) framework](https://github.com/Interactive
 
 Zodra het vakje is aangevinkt, kun je de veranderingen zien in de interface van de widget:
 
-![](<../../..gitbook/assets/image (69).png>)
+![](<../../../.gitbook/assets/image (69).png>)
 
 Automatisch, wanneer de IAB optin wordt uitgevoerd, wordt de cookie met de gecodeerde informatie over de toestemming van de gebruiker voor IAB-verkopers automatisch aangemaakt in de browser:
 
-![](<../../..gitbook/assets/image (71).png>)
+![](<../../../.gitbook/assets/image (71).png>)
 
 {% hint style="info" %}
 Deze cookie heeft een standaard levensduur van 180 dagen en heet "eupubconsent".
@@ -22,7 +22,7 @@ Deze cookie heeft een standaard levensduur van 180 dagen en heet "eupubconsent".
 
 Wanneer de gebruiker toestemming geeft, is het mogelijk om de toestemmingsstring direct vast te leggen met de volgende event listener:
 
-Javascript
+```javascript
 document.addEventListener('dastra:consentstring',function(consentString){
     console.log(consentString); // BOybBVKOybbNhABABBENCoAAAAAq6AAA
 });

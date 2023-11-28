@@ -27,9 +27,9 @@ De geleverde openbare api-sleutel
 {% swagger-response status="200" description="Cake succesvol opgehaald." %}
 ```
 {
-  "vertaling": {
+  "translation": {
     "id": "35dddc1a-3ceb-49a8-a8d2-fc343fdb56a3",
-    "lang": "fr",
+    "lang": "nl",
     "order": 0,
     "buttonBackLabel": "Retour",
     "buttonAcceptLabel": "Alles accepteren",
@@ -72,13 +72,13 @@ De geleverde openbare api-sleutel
     {
       "label": "Marketing",
       "excerpt": "Marketingcookies worden gebruikt om bezoekers van verschillende websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
-      "doel": 3,
+      "purpose": 3,
       "services": [
         {
           "id": "e213aca4-79b7-4b93-2bad-08d897969898",
-          "naam": "yrdy",
+          "name": "yrdy",
           "slug": "yrdy",
-          "domein": "www.dastra.eu",
+          "domain": "www.dastra.eu",
           "logoUrl": "https://api.dastra.eu/v1/favicon/www.dastra.eu",
           "privacyPolicyUrl": null,
           "defaultConsent": false,
@@ -89,7 +89,7 @@ De geleverde openbare api-sleutel
             {
               "id": "de529978-3ae0-496d-bf25-daac9d7230c7",
               "serviceId": null,
-              "naam": "yrdy",
+              "name": "yrdy",
               "description": null,
               "value": null,
               "path": null,
@@ -97,7 +97,7 @@ De geleverde openbare api-sleutel
               "expiryDays": null
             }
           ],
-          "lang": "fr"
+          "lang": "nl"
         }
       ],
       "description": "Marketingcookies worden gebruikt om bezoekers van verschillende websites te volgen. Het doel is om advertenties weer te geven die relevant en interessant zijn voor de individuele gebruiker en daardoor waardevoller voor externe uitgevers en adverteerders.",
@@ -105,7 +105,7 @@ De geleverde openbare api-sleutel
       "defaultConsent": false
     }
   ],
-  "lang": "fr",
+  "lang": "nl",
   "versionKey": "36df80ee-235c-4485-b9e2-f28f5568f572",
   "lastVersionGeneration": "2020-12-03T14:28:55.5450603",
   "buttonLogoUrl": null,
@@ -167,12 +167,12 @@ cookieConsents":`
 &#x20; `"toestemming":true, // True als toegestaan, false als geweigerd``.
 &#x20; `"id":"e213aca4-79b7-4b93-2bad-08d897969898", // Cookies id`.
 &#x20; `"date":"2021-03-15T14:00:04.133Z",`\
-&#x20; `"naam":"yrdy",`
+&#x20; `"name":"yrdy",`
 &#x20; `"slug":"yrdy",`
-&#x20; `"doel":3``
+&#x20; `"purpose":3``
 &#x20; `}`\
 `],`\
-`"lang":"fr-FR",`
+`"lang":"nl-NL",`
 `"consentId":"6f47576e-5a0c-4219-8efe-331e72bab73a",`\
 `"date":1615809009744`\
 `}`\

@@ -20,41 +20,41 @@ Hiervoor moet je een variabele kiezen die je naar de widget wilt overbrengen. Je
 
 ## Stap 2: Pas de integratiecode aan
 
-markup
-<div id="cookie-toestemming"></div>
-<script src="https://cdn.dastra.eu/sdk/dastra.js?key={UW OPENBARE KEY HIER}" async></script>
+```markup
+<div id="cookie-consent"></div>
+<script src="https://cdn.dastra.eu/sdk/dastra.js?key={YOUR PUBLIC KEY HERE}" async></script>
 <script>
 
-// Dastra's array's initialisatie
+// Dastra's array's initialization
 window.dastra = window.dastra || [];
 
-// Laad de cookie-toestemming in de pagina
+// Load the cookie consent in page
 dastra.push(['loadCookieConsent', {
-    widgetId: {Plak hier uw widgetId (cijfer)},
-    selector: '#cookie-toestemming',
-    userId: {De variabele van de userId (e-mail 64bits hash of wat dan ook...)}).
+    widgetId: {Paste your widgetId here (digit)},
+    selector: '#cookie-consent',
+    userId: {The userId's variable (email 64bits hash or whatever...)}
 }]);
 </script>
 ```
 
 Je kunt ook de "set"-methode gebruiken
 
-```opmaak
+```markup
 <div id="cookie-consent"></div>
-<script src="https://cdn.dastra.eu/sdk/dastra.js?key={UW OPENBARE KEY HIER}" async></script>
+<script src="https://cdn.dastra.eu/sdk/dastra.js?key={YOUR PUBLIC KEY HERE}" async></script>
 <script>
 
-// Dastra's array's initialisatie
+// Dastra's array's initialization
 window.dastra = window.dastra || [];
 
-// Laad de cookie-toestemming in de pagina
+// Load the cookie consent in page
 dastra.push(['loadCookieConsent', {
-    widgetId: {Plak hier uw widgetId (cijfer)},
-    selector: '#cookie-toestemming'.
+    widgetId: {Paste your widgetId here (digit)},
+    selector: '#cookie-consent'
 }]);
 
-// Stuur de userId naar de cookies van dastra
-// Het moet gepushed worden na de loadCookieConsent methode
-dastra.push(['set','cookie:userId',{De variabele van de userId (e-mail 64bits hash of wat dan ook...)}])
+// Push the userId to dastra's cookies
+// It must be pushed after the loadCookieConsent method
+dastra.push(['set','cookie:userId',{The userId's variable (email 64bits hash or whatever...)}])
 </script>
 ```

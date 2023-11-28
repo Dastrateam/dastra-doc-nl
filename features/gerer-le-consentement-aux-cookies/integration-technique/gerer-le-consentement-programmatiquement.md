@@ -59,12 +59,12 @@ De bovenstaande methode retourneert een lijst met alle toestemmingen van de gebr
 [
   {
     "id":"000000-0000000-000000",
-    "naam":"Servicenaam",
-    "doel": 1,
-    "logoUrl":"https://logo-url/img.jpg",
-    "privacyPolicyUrl":""
-    "description":"Korte beschrijving",
-    "defaultConsent":true,
+    "name": "Service name",
+    "purpose": 1,
+    "logoUrl": "https://logo-url/img.jpg",
+    "privacyPolicyUrl":"",
+    "description": "Short description",
+    "defaultConsent": true,
     "requiredConsent":true
   },
   ...
@@ -75,13 +75,13 @@ De bovenstaande methode retourneert een lijst met alle toestemmingen van de gebr
 
 Cookiecategorieën worden vertegenwoordigd door de volgende id's:
 
-| Type | Id |
+| Type        | Id |
 | ----------- | -- |
-| Noodzakelijk | 0 |
-| Voorkeuren 1
-| Analytisch 2
-| Marketing | | 3 |
-| Andere | 4 |
+| Noodzakelijk | 0  |
+| Voorkeuren | 1  |
+| Analytisch | 2  |
+| Marketing   | 3  |
+| Andere     | 4  |
 
 ```Javascript
 <script>
@@ -104,7 +104,7 @@ Om toestemmingen per service te manipuleren, heb je de vereenvoudigde servicenaa
 Ga naar de servicebeheerinterface en bewerk een service. De vereenvoudigde naam (slug) van de service verschijnt onder de naam van de cookie.
 {% endhint %}
 
-Locatie van vereenvoudigde cookienaam](<../../..gitbook/assets/image (67).png>)
+![Locatie van vereenvoudigde cookienaam](<../../..gitbook/assets/image (67).png>)
 
 ```javascript
 <script> 
